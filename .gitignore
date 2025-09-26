@@ -1,0 +1,8 @@
+
+.DS_Store
+
+src/SharpValhalla/obj/
+
+src/SharpValhalla/bin/
+
+src/SharpValhalla/.idea/
