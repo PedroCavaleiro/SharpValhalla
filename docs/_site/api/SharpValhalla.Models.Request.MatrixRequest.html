@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MatrixRequest | SharpValhalla </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MatrixRequest | SharpValhalla ">
+      
+      <meta name="description" content="A request structure for calculating travel time and distance matrices between multiple locations. Use MatrixRequest to compute one-to-many, many-to-one, or many-to-many matrices that provide travel times and distances between locations. Useful for route optimization, delivery planning, location analysis, and travel time calculations.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/PedroCavaleiro/SharpValhalla/new/dev/apiSpec/new?filename=SharpValhalla_Models_Request_MatrixRequest.md&amp;value=---%0Auid%3A%20SharpValhalla.Models.Request.MatrixRequest%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SharpValhalla">
+            SharpValhalla
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SharpValhalla.Models.Request.MatrixRequest">
+
+
+
+  <h1 id="SharpValhalla_Models_Request_MatrixRequest" data-uid="SharpValhalla.Models.Request.MatrixRequest" class="text-break">
+Class MatrixRequest  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Request/MatrixRequest.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SharpValhalla.html">SharpValhalla</a>.<a class="xref" href="SharpValhalla.Models.html">Models</a>.<a class="xref" href="SharpValhalla.Models.Request.html">Request</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SharpValhalla.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A request structure for calculating travel time and distance matrices between multiple locations.
+Use MatrixRequest to compute one-to-many, many-to-one, or many-to-many matrices that provide
+travel times and distances between locations. Useful for route optimization, delivery planning, location analysis, and travel time calculations.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class MatrixRequest</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">MatrixRequest</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SharpValhalla_Models_Request_MatrixRequest__ctor_" data-uid="SharpValhalla.Models.Request.MatrixRequest.#ctor*"></a>
+
+  <h3 id="SharpValhalla_Models_Request_MatrixRequest__ctor_System_Collections_Generic_IEnumerable_SharpValhalla_Interfaces_ILocation__System_Collections_Generic_IEnumerable_SharpValhalla_Interfaces_ILocation__SharpValhalla_Enums_CostingModel_SharpValhalla_Models_Common_CostingOptions_System_Nullable_SharpValhalla_Enums_Unit__System_Nullable_System_Boolean__System_Nullable_System_Int32__System_Nullable_SharpValhalla_Enums_ShapeFormat__SharpValhalla_Models_Request_TraceAttributesFilter_System_Nullable_SharpValhalla_Enums_PriorityType__System_Collections_Generic_List_System_Int32__" data-uid="SharpValhalla.Models.Request.MatrixRequest.#ctor(System.Collections.Generic.IEnumerable{SharpValhalla.Interfaces.ILocation},System.Collections.Generic.IEnumerable{SharpValhalla.Interfaces.ILocation},SharpValhalla.Enums.CostingModel,SharpValhalla.Models.Common.CostingOptions,System.Nullable{SharpValhalla.Enums.Unit},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.ShapeFormat},SharpValhalla.Models.Request.TraceAttributesFilter,System.Nullable{SharpValhalla.Enums.PriorityType},System.Collections.Generic.List{System.Int32})">
+  MatrixRequest(IEnumerable&lt;ILocation&gt;, IEnumerable&lt;ILocation&gt;?, CostingModel, CostingOptions?, Unit?, bool?, int?, ShapeFormat?, TraceAttributesFilter?, PriorityType?, List&lt;int&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Request/MatrixRequest.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a matrix request from objects conforming to ILocationProtocol.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MatrixRequest(IEnumerable&lt;ILocation&gt; sources, IEnumerable&lt;ILocation&gt;? targets = null, CostingModel costing = CostingModel.Auto, CostingOptions? costingOptions = null, Unit? units = null, bool? verbose = null, int? matrixLocations = null, ShapeFormat? shape = null, TraceAttributesFilter? filters = null, PriorityType? prioritizeBy = null, List&lt;int&gt;? excludeLocations = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sources</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="SharpValhalla.Interfaces.ILocation.html">ILocation</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>targets</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="SharpValhalla.Interfaces.ILocation.html">ILocation</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>costing</code> <a class="xref" href="SharpValhalla.Enums.CostingModel.html">CostingModel</a></dt>
+    <dd></dd>
+    <dt><code>costingOptions</code> <a class="xref" href="SharpValhalla.Models.Common.CostingOptions.html">CostingOptions</a></dt>
+    <dd></dd>
+    <dt><code>units</code> <a class="xref" href="SharpValhalla.Enums.Unit.html">Unit</a>?</dt>
+    <dd></dd>
+    <dt><code>verbose</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+    <dt><code>matrixLocations</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>shape</code> <a class="xref" href="SharpValhalla.Enums.ShapeFormat.html">ShapeFormat</a>?</dt>
+    <dd></dd>
+    <dt><code>filters</code> <a class="xref" href="SharpValhalla.Models.Request.TraceAttributesFilter.html">TraceAttributesFilter</a></dt>
+    <dd></dd>
+    <dt><code>prioritizeBy</code> <a class="xref" href="SharpValhalla.Enums.PriorityType.html">PriorityType</a>?</dt>
+    <dd></dd>
+    <dt><code>excludeLocations</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Request_MatrixRequest__ctor_" data-uid="SharpValhalla.Models.Request.MatrixRequest.#ctor*"></a>
+
+  <h3 id="SharpValhalla_Models_Request_MatrixRequest__ctor_System_Collections_Generic_IEnumerable_SharpValhalla_Models_Common_LocationCoordinate2D__System_Collections_Generic_IEnumerable_SharpValhalla_Models_Common_LocationCoordinate2D__SharpValhalla_Enums_CostingModel_SharpValhalla_Models_Common_CostingOptions_System_Nullable_SharpValhalla_Enums_Unit__System_Nullable_System_Boolean__System_Nullable_System_Int32__System_Nullable_SharpValhalla_Enums_ShapeFormat__SharpValhalla_Models_Request_TraceAttributesFilter_System_Nullable_SharpValhalla_Enums_PriorityType__System_Collections_Generic_List_System_Int32__" data-uid="SharpValhalla.Models.Request.MatrixRequest.#ctor(System.Collections.Generic.IEnumerable{SharpValhalla.Models.Common.LocationCoordinate2D},System.Collections.Generic.IEnumerable{SharpValhalla.Models.Common.LocationCoordinate2D},SharpValhalla.Enums.CostingModel,SharpValhalla.Models.Common.CostingOptions,System.Nullable{SharpValhalla.Enums.Unit},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.ShapeFormat},SharpValhalla.Models.Request.TraceAttributesFilter,System.Nullable{SharpValhalla.Enums.PriorityType},System.Collections.Generic.List{System.Int32})">
+  MatrixRequest(IEnumerable&lt;LocationCoordinate2D&gt;, IEnumerable&lt;LocationCoordinate2D&gt;?, CostingModel, CostingOptions?, Unit?, bool?, int?, ShapeFormat?, TraceAttributesFilter?, PriorityType?, List&lt;int&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Request/MatrixRequest.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a matrix request from arrays of coordinates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MatrixRequest(IEnumerable&lt;LocationCoordinate2D&gt; sources, IEnumerable&lt;LocationCoordinate2D&gt;? targets = null, CostingModel costing = CostingModel.Auto, CostingOptions? costingOptions = null, Unit? units = null, bool? verbose = null, int? matrixLocations = null, ShapeFormat? shape = null, TraceAttributesFilter? filters = null, PriorityType? prioritizeBy = null, List&lt;int&gt;? excludeLocations = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sources</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="SharpValhalla.Models.Common.LocationCoordinate2D.html">LocationCoordinate2D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>targets</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="SharpValhalla.Models.Common.LocationCoordinate2D.html">LocationCoordinate2D</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>costing</code> <a class="xref" href="SharpValhalla.Enums.CostingModel.html">CostingModel</a></dt>
+    <dd></dd>
+    <dt><code>costingOptions</code> <a class="xref" href="SharpValhalla.Models.Common.CostingOptions.html">CostingOptions</a></dt>
+    <dd></dd>
+    <dt><code>units</code> <a class="xref" href="SharpValhalla.Enums.Unit.html">Unit</a>?</dt>
+    <dd></dd>
+    <dt><code>verbose</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+    <dt><code>matrixLocations</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>shape</code> <a class="xref" href="SharpValhalla.Enums.ShapeFormat.html">ShapeFormat</a>?</dt>
+    <dd></dd>
+    <dt><code>filters</code> <a class="xref" href="SharpValhalla.Models.Request.TraceAttributesFilter.html">TraceAttributesFilter</a></dt>
+    <dd></dd>
+    <dt><code>prioritizeBy</code> <a class="xref" href="SharpValhalla.Enums.PriorityType.html">PriorityType</a>?</dt>
+    <dd></dd>
+    <dt><code>excludeLocations</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Request_MatrixRequest__ctor_" data-uid="SharpValhalla.Models.Request.MatrixRequest.#ctor*"></a>
+
+  <h3 id="SharpValhalla_Models_Request_MatrixRequest__ctor_System_Collections_Generic_List_SharpValhalla_Models_Common_Location__System_Collections_Generic_List_SharpValhalla_Models_Common_Location__SharpValhalla_Enums_CostingModel_SharpValhalla_Models_Common_CostingOptions_System_Nullable_SharpValhalla_Enums_Unit__System_Nullable_System_Boolean__System_Nullable_System_Int32__System_Nullable_SharpValhalla_Enums_ShapeFormat__SharpValhalla_Models_Request_TraceAttributesFilter_System_Nullable_SharpValhalla_Enums_PriorityType__System_Collections_Generic_List_System_Int32__" data-uid="SharpValhalla.Models.Request.MatrixRequest.#ctor(System.Collections.Generic.List{SharpValhalla.Models.Common.Location},System.Collections.Generic.List{SharpValhalla.Models.Common.Location},SharpValhalla.Enums.CostingModel,SharpValhalla.Models.Common.CostingOptions,System.Nullable{SharpValhalla.Enums.Unit},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.ShapeFormat},SharpValhalla.Models.Request.TraceAttributesFilter,System.Nullable{SharpValhalla.Enums.PriorityType},System.Collections.Generic.List{System.Int32})">
+  MatrixRequest(List&lt;Location&gt;, List&lt;Location&gt;?, CostingModel, CostingOptions?, Unit?, bool?, int?, ShapeFormat?, TraceAttributesFilter?, PriorityType?, List&lt;int&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Request/MatrixRequest.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a matrix request with the specified parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MatrixRequest(List&lt;Location&gt; sources, List&lt;Location&gt;? targets = null, CostingModel costing = CostingModel.Auto, CostingOptions? costingOptions = null, Unit? units = null, bool? verbose = null, int? matrixLocations = null, ShapeFormat? shape = null, TraceAttributesFilter? filters = null, PriorityType? prioritizeBy = null, List&lt;int&gt;? excludeLocations = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sources</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SharpValhalla.Models.Common.Location.html">Location</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>targets</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SharpValhalla.Models.Common.Location.html">Location</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>costing</code> <a class="xref" href="SharpValhalla.Enums.CostingModel.html">CostingModel</a></dt>
+    <dd></dd>
+    <dt><code>costingOptions</code> <a class="xref" href="SharpValhalla.Models.Common.CostingOptions.html">CostingOptions</a></dt>
+    <dd></dd>
+    <dt><code>units</code> <a class="xref" href="SharpValhalla.Enums.Unit.html">Unit</a>?</dt>
+    <dd></dd>
+    <dt><code>verbose</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+    <dt><code>matrixLocations</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>shape</code> <a class="xref" href="SharpValhalla.Enums.ShapeFormat.html">ShapeFormat</a>?</dt>
+    <dd></dd>
+    <dt><code>filters</code> <a class="xref" href="SharpValhalla.Models.Request.TraceAttributesFilter.html">TraceAttributesFilter</a></dt>
+    <dd></dd>
+    <dt><code>prioritizeBy</code> <a class="xref" href="SharpValhalla.Enums.PriorityType.html">PriorityType</a>?</dt>
+    <dd></dd>
+    <dt><code>excludeLocations</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SharpValhalla_Models_Request_MatrixRequest_Costing_" data-uid="SharpValhalla.Models.Request.MatrixRequest.Costing*"></a>
+
+  <h3 id="SharpValhalla_Models_Request_MatrixRequest_Costing" data-uid="SharpValhalla.Models.Request.MatrixRequest.Costing">
+  Costing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Request/MatrixRequest.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The costing model to use for route calculations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;costing&quot;)]
+public CostingModel Costing { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SharpValhalla.Enums.CostingModel.html">CostingModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Request_MatrixRequest_CostingOptions_" data-uid="SharpValhalla.Models.Request.MatrixRequest.CostingOptions*"></a>
+
+  <h3 id="SharpValhalla_Models_Request_MatrixRequest_CostingOptions" data-uid="SharpValhalla.Models.Request.MatrixRequest.CostingOptions">
+  CostingOptions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Request/MatrixRequest.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Additional options specific to the chosen costing model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;costing_options&quot;)]
+public CostingOptions? CostingOptions { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SharpValhalla.Models.Common.CostingOptions.html">CostingOptions</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Request_MatrixRequest_ExcludeLocations_" data-uid="SharpValhalla.Models.Request.MatrixRequest.ExcludeLocations*"></a>
+
+  <h3 id="SharpValhalla_Models_Request_MatrixRequest_ExcludeLocations" data-uid="SharpValhalla.Models.Request.MatrixRequest.ExcludeLocations">
+  ExcludeLocations
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Request/MatrixRequest.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Indices of locations to exclude from the matrix calculation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;exclude_locations&quot;)]
+public List&lt;int&gt;? ExcludeLocations { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Request_MatrixRequest_Filters_" data-uid="SharpValhalla.Models.Request.MatrixRequest.Filters*"></a>
+
+  <h3 id="SharpValhalla_Models_Request_MatrixRequest_Filters" data-uid="SharpValhalla.Models.Request.MatrixRequest.Filters">
+  Filters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Request/MatrixRequest.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Filters to apply to the response attributes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;filters&quot;)]
+public TraceAttributesFilter? Filters { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SharpValhalla.Models.Request.TraceAttributesFilter.html">TraceAttributesFilter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Request_MatrixRequest_MatrixLocations_" data-uid="SharpValhalla.Models.Request.MatrixRequest.MatrixLocations*"></a>
+
+  <h3 id="SharpValhalla_Models_Request_MatrixRequest_MatrixLocations" data-uid="SharpValhalla.Models.Request.MatrixRequest.MatrixLocations">
+  MatrixLocations
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Request/MatrixRequest.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum number of locations allowed in the matrix calculation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;matrix_locations&quot;)]
+public int? MatrixLocations { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Request_MatrixRequest_PrioritizeBy_" data-uid="SharpValhalla.Models.Request.MatrixRequest.PrioritizeBy*"></a>
+
+  <h3 id="SharpValhalla_Models_Request_MatrixRequest_PrioritizeBy" data-uid="SharpValhalla.Models.Request.MatrixRequest.PrioritizeBy">
+  PrioritizeBy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Request/MatrixRequest.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether to prioritize calculations by time or distance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;prioritize_by&quot;)]
+public PriorityType? PrioritizeBy { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SharpValhalla.Enums.PriorityType.html">PriorityType</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Request_MatrixRequest_Shape_" data-uid="SharpValhalla.Models.Request.MatrixRequest.Shape*"></a>
+
+  <h3 id="SharpValhalla_Models_Request_MatrixRequest_Shape" data-uid="SharpValhalla.Models.Request.MatrixRequest.Shape">
+  Shape
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Request/MatrixRequest.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Coordinate encoding format for any returned route shapes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;shape&quot;)]
+public ShapeFormat? Shape { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SharpValhalla.Enums.ShapeFormat.html">ShapeFormat</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Request_MatrixRequest_Sources_" data-uid="SharpValhalla.Models.Request.MatrixRequest.Sources*"></a>
+
+  <h3 id="SharpValhalla_Models_Request_MatrixRequest_Sources" data-uid="SharpValhalla.Models.Request.MatrixRequest.Sources">
+  Sources
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Request/MatrixRequest.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Array of source locations for the matrix calculation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;sources&quot;)]
+public List&lt;Location&gt; Sources { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SharpValhalla.Models.Common.Location.html">Location</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Request_MatrixRequest_Targets_" data-uid="SharpValhalla.Models.Request.MatrixRequest.Targets*"></a>
+
+  <h3 id="SharpValhalla_Models_Request_MatrixRequest_Targets" data-uid="SharpValhalla.Models.Request.MatrixRequest.Targets">
+  Targets
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Request/MatrixRequest.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Array of target locations for the matrix calculation. If null, sources are used as targets.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;targets&quot;)]
+public List&lt;Location&gt;? Targets { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SharpValhalla.Models.Common.Location.html">Location</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Request_MatrixRequest_Units_" data-uid="SharpValhalla.Models.Request.MatrixRequest.Units*"></a>
+
+  <h3 id="SharpValhalla_Models_Request_MatrixRequest_Units" data-uid="SharpValhalla.Models.Request.MatrixRequest.Units">
+  Units
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Request/MatrixRequest.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Distance units for the response output. Defaults to kilometers if null.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;units&quot;)]
+public Unit? Units { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SharpValhalla.Enums.Unit.html">Unit</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Request_MatrixRequest_Verbose_" data-uid="SharpValhalla.Models.Request.MatrixRequest.Verbose*"></a>
+
+  <h3 id="SharpValhalla_Models_Request_MatrixRequest_Verbose" data-uid="SharpValhalla.Models.Request.MatrixRequest.Verbose">
+  Verbose
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Request/MatrixRequest.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether to return verbose output with additional information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;verbose&quot;)]
+public bool? Verbose { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Request/MatrixRequest.cs/#L17" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

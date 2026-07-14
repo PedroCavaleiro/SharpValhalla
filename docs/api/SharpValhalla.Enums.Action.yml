@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.Action
+  commentId: T:SharpValhalla.Enums.Action
+  id: Action
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.Action.Exclude
+  - SharpValhalla.Enums.Action.Include
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: Action
+  fullName: SharpValhalla.Enums.Action
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Action.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Action
+    path: ../src/SharpValhalla/Enums/Action.cs
+    startLine: 8
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    Indicates whether an item should be included or excluded when applying
+
+    filters or similar operations.
+  example: []
+  syntax:
+    content: public enum Action
+    content.vb: Public Enum Action
+- uid: SharpValhalla.Enums.Action.Include
+  commentId: F:SharpValhalla.Enums.Action.Include
+  id: Include
+  parent: SharpValhalla.Enums.Action
+  langs:
+  - csharp
+  - vb
+  name: Include
+  nameWithType: Action.Include
+  fullName: SharpValhalla.Enums.Action.Include
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Action.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Include
+    path: ../src/SharpValhalla/Enums/Action.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Include the item when applying the filter.
+  example: []
+  syntax:
+    content: Include = 0
+    return:
+      type: SharpValhalla.Enums.Action
+- uid: SharpValhalla.Enums.Action.Exclude
+  commentId: F:SharpValhalla.Enums.Action.Exclude
+  id: Exclude
+  parent: SharpValhalla.Enums.Action
+  langs:
+  - csharp
+  - vb
+  name: Exclude
+  nameWithType: Action.Exclude
+  fullName: SharpValhalla.Enums.Action.Exclude
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Action.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Exclude
+    path: ../src/SharpValhalla/Enums/Action.cs
+    startLine: 17
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Exclude the item when applying the filter.
+  example: []
+  syntax:
+    content: Exclude = 1
+    return:
+      type: SharpValhalla.Enums.Action
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.Action
+  commentId: T:SharpValhalla.Enums.Action
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Action.html
+  name: Action
+  nameWithType: Action
+  fullName: SharpValhalla.Enums.Action

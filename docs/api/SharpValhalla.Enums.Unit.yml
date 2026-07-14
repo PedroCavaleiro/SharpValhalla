@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.Unit
+  commentId: T:SharpValhalla.Enums.Unit
+  id: Unit
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.Unit.Kilometers
+  - SharpValhalla.Enums.Unit.Miles
+  langs:
+  - csharp
+  - vb
+  name: Unit
+  nameWithType: Unit
+  fullName: SharpValhalla.Enums.Unit
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Unit.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Unit
+    path: ../src/SharpValhalla/Enums/Unit.cs
+    startLine: 7
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Distance units for output. Allowable unit types are miles (or mi) and kilometers (or km). If no unit type is specified, the units default to kilometers.
+  example: []
+  syntax:
+    content: public enum Unit
+    content.vb: Public Enum Unit
+- uid: SharpValhalla.Enums.Unit.Miles
+  commentId: F:SharpValhalla.Enums.Unit.Miles
+  id: Miles
+  parent: SharpValhalla.Enums.Unit
+  langs:
+  - csharp
+  - vb
+  name: Miles
+  nameWithType: Unit.Miles
+  fullName: SharpValhalla.Enums.Unit.Miles
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Unit.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Miles
+    path: ../src/SharpValhalla/Enums/Unit.cs
+    startLine: 9
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Miles (mi).
+  example: []
+  syntax:
+    content: Miles = 0
+    return:
+      type: SharpValhalla.Enums.Unit
+- uid: SharpValhalla.Enums.Unit.Kilometers
+  commentId: F:SharpValhalla.Enums.Unit.Kilometers
+  id: Kilometers
+  parent: SharpValhalla.Enums.Unit
+  langs:
+  - csharp
+  - vb
+  name: Kilometers
+  nameWithType: Unit.Kilometers
+  fullName: SharpValhalla.Enums.Unit.Kilometers
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Unit.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Kilometers
+    path: ../src/SharpValhalla/Enums/Unit.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Kilometers (km).
+  example: []
+  syntax:
+    content: Kilometers = 1
+    return:
+      type: SharpValhalla.Enums.Unit
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.Unit
+  commentId: T:SharpValhalla.Enums.Unit
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Unit.html
+  name: Unit
+  nameWithType: Unit
+  fullName: SharpValhalla.Enums.Unit

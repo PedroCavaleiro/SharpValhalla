@@ -1,0 +1,409 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  id: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.Action
+  - SharpValhalla.Enums.BicycleType
+  - SharpValhalla.Enums.CostingModel
+  - SharpValhalla.Enums.Cyclability
+  - SharpValhalla.Enums.DirectionType
+  - SharpValhalla.Enums.Driveability
+  - SharpValhalla.Enums.Filter
+  - SharpValhalla.Enums.FlowSpeeds
+  - SharpValhalla.Enums.Format
+  - SharpValhalla.Enums.LaneDirection
+  - SharpValhalla.Enums.LaneDirectionHelper
+  - SharpValhalla.Enums.Language
+  - SharpValhalla.Enums.ManeuverType
+  - SharpValhalla.Enums.MatchedType
+  - SharpValhalla.Enums.NodeType
+  - SharpValhalla.Enums.PedestrianType
+  - SharpValhalla.Enums.PreferredSide
+  - SharpValhalla.Enums.PriorityType
+  - SharpValhalla.Enums.RoadClass
+  - SharpValhalla.Enums.SacScale
+  - SharpValhalla.Enums.ShapeFormat
+  - SharpValhalla.Enums.ShapeMatch
+  - SharpValhalla.Enums.SideOfStreet
+  - SharpValhalla.Enums.Sidewalk
+  - SharpValhalla.Enums.Surface
+  - SharpValhalla.Enums.TraceType
+  - SharpValhalla.Enums.TransitStopType
+  - SharpValhalla.Enums.TransitType
+  - SharpValhalla.Enums.TravelMode
+  - SharpValhalla.Enums.TravelType
+  - SharpValhalla.Enums.TravelType.Bicycle
+  - SharpValhalla.Enums.TravelType.Drive
+  - SharpValhalla.Enums.TravelType.Pedestrian
+  - SharpValhalla.Enums.TravelType.Transit
+  - SharpValhalla.Enums.Traversability
+  - SharpValhalla.Enums.Unit
+  - SharpValhalla.Enums.Use
+  - SharpValhalla.Enums.VehicleType
+  - SharpValhalla.Enums.Walkability
+  langs:
+  - csharp
+  - vb
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  type: Namespace
+  assemblies:
+  - SharpValhalla
+references:
+- uid: SharpValhalla.Enums.Action
+  commentId: T:SharpValhalla.Enums.Action
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Action.html
+  name: Action
+  nameWithType: Action
+  fullName: SharpValhalla.Enums.Action
+- uid: SharpValhalla.Enums.BicycleType
+  commentId: T:SharpValhalla.Enums.BicycleType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.BicycleType.html
+  name: BicycleType
+  nameWithType: BicycleType
+  fullName: SharpValhalla.Enums.BicycleType
+- uid: SharpValhalla.Enums.CostingModel
+  commentId: T:SharpValhalla.Enums.CostingModel
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.CostingModel.html
+  name: CostingModel
+  nameWithType: CostingModel
+  fullName: SharpValhalla.Enums.CostingModel
+- uid: SharpValhalla.Enums.DirectionType
+  commentId: T:SharpValhalla.Enums.DirectionType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.DirectionType.html
+  name: DirectionType
+  nameWithType: DirectionType
+  fullName: SharpValhalla.Enums.DirectionType
+- uid: SharpValhalla.Enums.Driveability
+  commentId: T:SharpValhalla.Enums.Driveability
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Driveability.html
+  name: Driveability
+  nameWithType: Driveability
+  fullName: SharpValhalla.Enums.Driveability
+- uid: SharpValhalla.Enums.Traversability
+  commentId: T:SharpValhalla.Enums.Traversability
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Traversability.html
+  name: Traversability
+  nameWithType: Traversability
+  fullName: SharpValhalla.Enums.Traversability
+- uid: SharpValhalla.Enums.Cyclability
+  commentId: T:SharpValhalla.Enums.Cyclability
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Cyclability.html
+  name: Cyclability
+  nameWithType: Cyclability
+  fullName: SharpValhalla.Enums.Cyclability
+- uid: SharpValhalla.Enums.Walkability
+  commentId: T:SharpValhalla.Enums.Walkability
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Walkability.html
+  name: Walkability
+  nameWithType: Walkability
+  fullName: SharpValhalla.Enums.Walkability
+- uid: SharpValhalla.Enums.Filter
+  commentId: T:SharpValhalla.Enums.Filter
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Filter.html
+  name: Filter
+  nameWithType: Filter
+  fullName: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.FlowSpeeds
+  commentId: T:SharpValhalla.Enums.FlowSpeeds
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.FlowSpeeds.html
+  name: FlowSpeeds
+  nameWithType: FlowSpeeds
+  fullName: SharpValhalla.Enums.FlowSpeeds
+- uid: SharpValhalla.Enums.Format
+  commentId: T:SharpValhalla.Enums.Format
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Format.html
+  name: Format
+  nameWithType: Format
+  fullName: SharpValhalla.Enums.Format
+- uid: SharpValhalla.Enums.LaneDirection
+  commentId: T:SharpValhalla.Enums.LaneDirection
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.LaneDirection.html
+  name: LaneDirection
+  nameWithType: LaneDirection
+  fullName: SharpValhalla.Enums.LaneDirection
+- uid: SharpValhalla.Enums.LaneDirectionHelper
+  commentId: T:SharpValhalla.Enums.LaneDirectionHelper
+  href: SharpValhalla.Enums.LaneDirectionHelper.html
+  name: LaneDirectionHelper
+  nameWithType: LaneDirectionHelper
+  fullName: SharpValhalla.Enums.LaneDirectionHelper
+- uid: SharpValhalla.Enums.Language
+  commentId: T:SharpValhalla.Enums.Language
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Language.html
+  name: Language
+  nameWithType: Language
+  fullName: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.ManeuverType
+  commentId: T:SharpValhalla.Enums.ManeuverType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.ManeuverType.html
+  name: ManeuverType
+  nameWithType: ManeuverType
+  fullName: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.MatchedType
+  commentId: T:SharpValhalla.Enums.MatchedType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.MatchedType.html
+  name: MatchedType
+  nameWithType: MatchedType
+  fullName: SharpValhalla.Enums.MatchedType
+- uid: SharpValhalla.Enums.NodeType
+  commentId: T:SharpValhalla.Enums.NodeType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.NodeType.html
+  name: NodeType
+  nameWithType: NodeType
+  fullName: SharpValhalla.Enums.NodeType
+- uid: SharpValhalla.Enums.PedestrianType
+  commentId: T:SharpValhalla.Enums.PedestrianType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.PedestrianType.html
+  name: PedestrianType
+  nameWithType: PedestrianType
+  fullName: SharpValhalla.Enums.PedestrianType
+- uid: SharpValhalla.Enums.PreferredSide
+  commentId: T:SharpValhalla.Enums.PreferredSide
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.PreferredSide.html
+  name: PreferredSide
+  nameWithType: PreferredSide
+  fullName: SharpValhalla.Enums.PreferredSide
+- uid: SharpValhalla.Enums.PriorityType
+  commentId: T:SharpValhalla.Enums.PriorityType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.PriorityType.html
+  name: PriorityType
+  nameWithType: PriorityType
+  fullName: SharpValhalla.Enums.PriorityType
+- uid: SharpValhalla.Enums.RoadClass
+  commentId: T:SharpValhalla.Enums.RoadClass
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.RoadClass.html
+  name: RoadClass
+  nameWithType: RoadClass
+  fullName: SharpValhalla.Enums.RoadClass
+- uid: SharpValhalla.Enums.SacScale
+  commentId: T:SharpValhalla.Enums.SacScale
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.SacScale.html
+  name: SacScale
+  nameWithType: SacScale
+  fullName: SharpValhalla.Enums.SacScale
+- uid: SharpValhalla.Enums.ShapeFormat
+  commentId: T:SharpValhalla.Enums.ShapeFormat
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.ShapeFormat.html
+  name: ShapeFormat
+  nameWithType: ShapeFormat
+  fullName: SharpValhalla.Enums.ShapeFormat
+- uid: SharpValhalla.Enums.ShapeMatch
+  commentId: T:SharpValhalla.Enums.ShapeMatch
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.ShapeMatch.html
+  name: ShapeMatch
+  nameWithType: ShapeMatch
+  fullName: SharpValhalla.Enums.ShapeMatch
+- uid: SharpValhalla.Enums.Sidewalk
+  commentId: T:SharpValhalla.Enums.Sidewalk
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Sidewalk.html
+  name: Sidewalk
+  nameWithType: Sidewalk
+  fullName: SharpValhalla.Enums.Sidewalk
+- uid: SharpValhalla.Enums.SideOfStreet
+  commentId: T:SharpValhalla.Enums.SideOfStreet
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.SideOfStreet.html
+  name: SideOfStreet
+  nameWithType: SideOfStreet
+  fullName: SharpValhalla.Enums.SideOfStreet
+- uid: SharpValhalla.Enums.Surface
+  commentId: T:SharpValhalla.Enums.Surface
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Surface.html
+  name: Surface
+  nameWithType: Surface
+  fullName: SharpValhalla.Enums.Surface
+- uid: SharpValhalla.Enums.TraceType
+  commentId: T:SharpValhalla.Enums.TraceType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.TraceType.html
+  name: TraceType
+  nameWithType: TraceType
+  fullName: SharpValhalla.Enums.TraceType
+- uid: SharpValhalla.Enums.TransitStopType
+  commentId: T:SharpValhalla.Enums.TransitStopType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.TransitStopType.html
+  name: TransitStopType
+  nameWithType: TransitStopType
+  fullName: SharpValhalla.Enums.TransitStopType
+- uid: SharpValhalla.Enums.TransitType
+  commentId: T:SharpValhalla.Enums.TransitType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.TransitType.html
+  name: TransitType
+  nameWithType: TransitType
+  fullName: SharpValhalla.Enums.TransitType
+- uid: SharpValhalla.Enums.TravelMode
+  commentId: T:SharpValhalla.Enums.TravelMode
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.TravelMode.html
+  name: TravelMode
+  nameWithType: TravelMode
+  fullName: SharpValhalla.Enums.TravelMode
+- uid: SharpValhalla.Enums.TravelType
+  commentId: T:SharpValhalla.Enums.TravelType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.TravelType.html
+  name: TravelType
+  nameWithType: TravelType
+  fullName: SharpValhalla.Enums.TravelType
+- uid: SharpValhalla.Enums.TravelType.Drive
+  commentId: T:SharpValhalla.Enums.TravelType.Drive
+  href: SharpValhalla.Enums.TravelType.html
+  name: TravelType.Drive
+  nameWithType: TravelType.Drive
+  fullName: SharpValhalla.Enums.TravelType.Drive
+  spec.csharp:
+  - uid: SharpValhalla.Enums.TravelType
+    name: TravelType
+    href: SharpValhalla.Enums.TravelType.html
+  - name: .
+  - uid: SharpValhalla.Enums.TravelType.Drive
+    name: Drive
+    href: SharpValhalla.Enums.TravelType.Drive.html
+  spec.vb:
+  - uid: SharpValhalla.Enums.TravelType
+    name: TravelType
+    href: SharpValhalla.Enums.TravelType.html
+  - name: .
+  - uid: SharpValhalla.Enums.TravelType.Drive
+    name: Drive
+    href: SharpValhalla.Enums.TravelType.Drive.html
+- uid: SharpValhalla.Enums.TravelType.Pedestrian
+  commentId: T:SharpValhalla.Enums.TravelType.Pedestrian
+  href: SharpValhalla.Enums.TravelType.html
+  name: TravelType.Pedestrian
+  nameWithType: TravelType.Pedestrian
+  fullName: SharpValhalla.Enums.TravelType.Pedestrian
+  spec.csharp:
+  - uid: SharpValhalla.Enums.TravelType
+    name: TravelType
+    href: SharpValhalla.Enums.TravelType.html
+  - name: .
+  - uid: SharpValhalla.Enums.TravelType.Pedestrian
+    name: Pedestrian
+    href: SharpValhalla.Enums.TravelType.Pedestrian.html
+  spec.vb:
+  - uid: SharpValhalla.Enums.TravelType
+    name: TravelType
+    href: SharpValhalla.Enums.TravelType.html
+  - name: .
+  - uid: SharpValhalla.Enums.TravelType.Pedestrian
+    name: Pedestrian
+    href: SharpValhalla.Enums.TravelType.Pedestrian.html
+- uid: SharpValhalla.Enums.TravelType.Bicycle
+  commentId: T:SharpValhalla.Enums.TravelType.Bicycle
+  href: SharpValhalla.Enums.TravelType.html
+  name: TravelType.Bicycle
+  nameWithType: TravelType.Bicycle
+  fullName: SharpValhalla.Enums.TravelType.Bicycle
+  spec.csharp:
+  - uid: SharpValhalla.Enums.TravelType
+    name: TravelType
+    href: SharpValhalla.Enums.TravelType.html
+  - name: .
+  - uid: SharpValhalla.Enums.TravelType.Bicycle
+    name: Bicycle
+    href: SharpValhalla.Enums.TravelType.Bicycle.html
+  spec.vb:
+  - uid: SharpValhalla.Enums.TravelType
+    name: TravelType
+    href: SharpValhalla.Enums.TravelType.html
+  - name: .
+  - uid: SharpValhalla.Enums.TravelType.Bicycle
+    name: Bicycle
+    href: SharpValhalla.Enums.TravelType.Bicycle.html
+- uid: SharpValhalla.Enums.TravelType.Transit
+  commentId: T:SharpValhalla.Enums.TravelType.Transit
+  href: SharpValhalla.Enums.TravelType.html
+  name: TravelType.Transit
+  nameWithType: TravelType.Transit
+  fullName: SharpValhalla.Enums.TravelType.Transit
+  spec.csharp:
+  - uid: SharpValhalla.Enums.TravelType
+    name: TravelType
+    href: SharpValhalla.Enums.TravelType.html
+  - name: .
+  - uid: SharpValhalla.Enums.TravelType.Transit
+    name: Transit
+    href: SharpValhalla.Enums.TravelType.Transit.html
+  spec.vb:
+  - uid: SharpValhalla.Enums.TravelType
+    name: TravelType
+    href: SharpValhalla.Enums.TravelType.html
+  - name: .
+  - uid: SharpValhalla.Enums.TravelType.Transit
+    name: Transit
+    href: SharpValhalla.Enums.TravelType.Transit.html
+- uid: SharpValhalla.Enums.Unit
+  commentId: T:SharpValhalla.Enums.Unit
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Unit.html
+  name: Unit
+  nameWithType: Unit
+  fullName: SharpValhalla.Enums.Unit
+- uid: SharpValhalla.Enums.Use
+  commentId: T:SharpValhalla.Enums.Use
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Use.html
+  name: Use
+  nameWithType: Use
+  fullName: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.VehicleType
+  commentId: T:SharpValhalla.Enums.VehicleType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.VehicleType.html
+  name: VehicleType
+  nameWithType: VehicleType
+  fullName: SharpValhalla.Enums.VehicleType
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Interfaces
+  commentId: N:SharpValhalla.Interfaces
+  id: SharpValhalla.Interfaces
+  children:
+  - SharpValhalla.Interfaces.ILocation
+  langs:
+  - csharp
+  - vb
+  name: SharpValhalla.Interfaces
+  nameWithType: SharpValhalla.Interfaces
+  fullName: SharpValhalla.Interfaces
+  type: Namespace
+  assemblies:
+  - SharpValhalla
+references:
+- uid: SharpValhalla.Interfaces.ILocation
+  commentId: T:SharpValhalla.Interfaces.ILocation
+  href: SharpValhalla.Interfaces.ILocation.html
+  name: ILocation
+  nameWithType: ILocation
+  fullName: SharpValhalla.Interfaces.ILocation

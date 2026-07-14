@@ -1,0 +1,1134 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Models.Request.MapMatchingRequest
+  commentId: T:SharpValhalla.Models.Request.MapMatchingRequest
+  id: MapMatchingRequest
+  parent: SharpValhalla.Models.Request
+  children:
+  - SharpValhalla.Models.Request.MapMatchingRequest.#ctor(System.Collections.Generic.List{SharpValhalla.Models.Common.Location},System.String,SharpValhalla.Enums.ShapeMatch,SharpValhalla.Enums.CostingModel,System.Boolean,SharpValhalla.Models.Request.DirectionsOptions,SharpValhalla.Models.Request.TraceOptions,System.Nullable{System.Int32},System.Collections.Generic.List{System.Int32},SharpValhalla.Models.Request.TraceAttributesFilter)
+  - SharpValhalla.Models.Request.MapMatchingRequest.BeginTime
+  - SharpValhalla.Models.Request.MapMatchingRequest.Costing
+  - SharpValhalla.Models.Request.MapMatchingRequest.DirectionsOptions
+  - SharpValhalla.Models.Request.MapMatchingRequest.Durations
+  - SharpValhalla.Models.Request.MapMatchingRequest.EncodedPolyline
+  - SharpValhalla.Models.Request.MapMatchingRequest.Filters
+  - SharpValhalla.Models.Request.MapMatchingRequest.Shape
+  - SharpValhalla.Models.Request.MapMatchingRequest.ShapeMatch
+  - SharpValhalla.Models.Request.MapMatchingRequest.TraceOptions
+  - SharpValhalla.Models.Request.MapMatchingRequest.UseTimestamps
+  langs:
+  - csharp
+  - vb
+  name: MapMatchingRequest
+  nameWithType: MapMatchingRequest
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest
+  type: Class
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MapMatchingRequest
+    path: ../src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: The structure for the Map Matching request.
+  example: []
+  syntax:
+    content: public class MapMatchingRequest
+    content.vb: Public Class MapMatchingRequest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.Shape
+  commentId: P:SharpValhalla.Models.Request.MapMatchingRequest.Shape
+  id: Shape
+  parent: SharpValhalla.Models.Request.MapMatchingRequest
+  langs:
+  - csharp
+  - vb
+  name: Shape
+  nameWithType: MapMatchingRequest.Shape
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.Shape
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Shape
+    path: ../src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+    startLine: 13
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("shape")]
+
+      public List<Location>? Shape { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SharpValhalla.Models.Common.Location}
+    content.vb: >-
+      <JsonPropertyName("shape")>
+
+      Public Property Shape As List(Of Location)
+  overload: SharpValhalla.Models.Request.MapMatchingRequest.Shape*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: shape
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.EncodedPolyline
+  commentId: P:SharpValhalla.Models.Request.MapMatchingRequest.EncodedPolyline
+  id: EncodedPolyline
+  parent: SharpValhalla.Models.Request.MapMatchingRequest
+  langs:
+  - csharp
+  - vb
+  name: EncodedPolyline
+  nameWithType: MapMatchingRequest.EncodedPolyline
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.EncodedPolyline
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EncodedPolyline
+    path: ../src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+    startLine: 15
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("encoded_polyline")]
+
+      public string? EncodedPolyline { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("encoded_polyline")>
+
+      Public Property EncodedPolyline As String
+  overload: SharpValhalla.Models.Request.MapMatchingRequest.EncodedPolyline*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: encoded_polyline
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.ShapeMatch
+  commentId: P:SharpValhalla.Models.Request.MapMatchingRequest.ShapeMatch
+  id: ShapeMatch
+  parent: SharpValhalla.Models.Request.MapMatchingRequest
+  langs:
+  - csharp
+  - vb
+  name: ShapeMatch
+  nameWithType: MapMatchingRequest.ShapeMatch
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.ShapeMatch
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ShapeMatch
+    path: ../src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+    startLine: 17
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("shape_match")]
+
+      public ShapeMatch ShapeMatch { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Enums.ShapeMatch
+    content.vb: >-
+      <JsonPropertyName("shape_match")>
+
+      Public Property ShapeMatch As ShapeMatch
+  overload: SharpValhalla.Models.Request.MapMatchingRequest.ShapeMatch*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: shape_match
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.Costing
+  commentId: P:SharpValhalla.Models.Request.MapMatchingRequest.Costing
+  id: Costing
+  parent: SharpValhalla.Models.Request.MapMatchingRequest
+  langs:
+  - csharp
+  - vb
+  name: Costing
+  nameWithType: MapMatchingRequest.Costing
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.Costing
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Costing
+    path: ../src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+    startLine: 19
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("costing")]
+
+      public CostingModel Costing { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Enums.CostingModel
+    content.vb: >-
+      <JsonPropertyName("costing")>
+
+      Public Property Costing As CostingModel
+  overload: SharpValhalla.Models.Request.MapMatchingRequest.Costing*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: costing
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.UseTimestamps
+  commentId: P:SharpValhalla.Models.Request.MapMatchingRequest.UseTimestamps
+  id: UseTimestamps
+  parent: SharpValhalla.Models.Request.MapMatchingRequest
+  langs:
+  - csharp
+  - vb
+  name: UseTimestamps
+  nameWithType: MapMatchingRequest.UseTimestamps
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.UseTimestamps
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: UseTimestamps
+    path: ../src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("use_timestamps")]
+
+      public bool UseTimestamps { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonPropertyName("use_timestamps")>
+
+      Public Property UseTimestamps As Boolean
+  overload: SharpValhalla.Models.Request.MapMatchingRequest.UseTimestamps*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: use_timestamps
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.DirectionsOptions
+  commentId: P:SharpValhalla.Models.Request.MapMatchingRequest.DirectionsOptions
+  id: DirectionsOptions
+  parent: SharpValhalla.Models.Request.MapMatchingRequest
+  langs:
+  - csharp
+  - vb
+  name: DirectionsOptions
+  nameWithType: MapMatchingRequest.DirectionsOptions
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.DirectionsOptions
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: DirectionsOptions
+    path: ../src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+    startLine: 23
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("directions_options")]
+
+      public DirectionsOptions? DirectionsOptions { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Models.Request.DirectionsOptions
+    content.vb: >-
+      <JsonPropertyName("directions_options")>
+
+      Public Property DirectionsOptions As DirectionsOptions
+  overload: SharpValhalla.Models.Request.MapMatchingRequest.DirectionsOptions*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: directions_options
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.TraceOptions
+  commentId: P:SharpValhalla.Models.Request.MapMatchingRequest.TraceOptions
+  id: TraceOptions
+  parent: SharpValhalla.Models.Request.MapMatchingRequest
+  langs:
+  - csharp
+  - vb
+  name: TraceOptions
+  nameWithType: MapMatchingRequest.TraceOptions
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.TraceOptions
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TraceOptions
+    path: ../src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+    startLine: 25
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("trace_options")]
+
+      public TraceOptions? TraceOptions { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Models.Request.TraceOptions
+    content.vb: >-
+      <JsonPropertyName("trace_options")>
+
+      Public Property TraceOptions As TraceOptions
+  overload: SharpValhalla.Models.Request.MapMatchingRequest.TraceOptions*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: trace_options
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.BeginTime
+  commentId: P:SharpValhalla.Models.Request.MapMatchingRequest.BeginTime
+  id: BeginTime
+  parent: SharpValhalla.Models.Request.MapMatchingRequest
+  langs:
+  - csharp
+  - vb
+  name: BeginTime
+  nameWithType: MapMatchingRequest.BeginTime
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.BeginTime
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: BeginTime
+    path: ../src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+    startLine: 27
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("begin_time")]
+
+      public int? BeginTime { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("begin_time")>
+
+      Public Property BeginTime As Integer?
+  overload: SharpValhalla.Models.Request.MapMatchingRequest.BeginTime*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: begin_time
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.Durations
+  commentId: P:SharpValhalla.Models.Request.MapMatchingRequest.Durations
+  id: Durations
+  parent: SharpValhalla.Models.Request.MapMatchingRequest
+  langs:
+  - csharp
+  - vb
+  name: Durations
+  nameWithType: MapMatchingRequest.Durations
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.Durations
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Durations
+    path: ../src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+    startLine: 29
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("durations")]
+
+      public List<int>? Durations { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("durations")>
+
+      Public Property Durations As List(Of Integer)
+  overload: SharpValhalla.Models.Request.MapMatchingRequest.Durations*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: durations
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.Filters
+  commentId: P:SharpValhalla.Models.Request.MapMatchingRequest.Filters
+  id: Filters
+  parent: SharpValhalla.Models.Request.MapMatchingRequest
+  langs:
+  - csharp
+  - vb
+  name: Filters
+  nameWithType: MapMatchingRequest.Filters
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.Filters
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Filters
+    path: ../src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+    startLine: 31
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("filters")]
+
+      public TraceAttributesFilter? Filters { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Models.Request.TraceAttributesFilter
+    content.vb: >-
+      <JsonPropertyName("filters")>
+
+      Public Property Filters As TraceAttributesFilter
+  overload: SharpValhalla.Models.Request.MapMatchingRequest.Filters*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: filters
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.#ctor(System.Collections.Generic.List{SharpValhalla.Models.Common.Location},System.String,SharpValhalla.Enums.ShapeMatch,SharpValhalla.Enums.CostingModel,System.Boolean,SharpValhalla.Models.Request.DirectionsOptions,SharpValhalla.Models.Request.TraceOptions,System.Nullable{System.Int32},System.Collections.Generic.List{System.Int32},SharpValhalla.Models.Request.TraceAttributesFilter)
+  commentId: M:SharpValhalla.Models.Request.MapMatchingRequest.#ctor(System.Collections.Generic.List{SharpValhalla.Models.Common.Location},System.String,SharpValhalla.Enums.ShapeMatch,SharpValhalla.Enums.CostingModel,System.Boolean,SharpValhalla.Models.Request.DirectionsOptions,SharpValhalla.Models.Request.TraceOptions,System.Nullable{System.Int32},System.Collections.Generic.List{System.Int32},SharpValhalla.Models.Request.TraceAttributesFilter)
+  id: '#ctor(System.Collections.Generic.List{SharpValhalla.Models.Common.Location},System.String,SharpValhalla.Enums.ShapeMatch,SharpValhalla.Enums.CostingModel,System.Boolean,SharpValhalla.Models.Request.DirectionsOptions,SharpValhalla.Models.Request.TraceOptions,System.Nullable{System.Int32},System.Collections.Generic.List{System.Int32},SharpValhalla.Models.Request.TraceAttributesFilter)'
+  parent: SharpValhalla.Models.Request.MapMatchingRequest
+  langs:
+  - csharp
+  - vb
+  name: MapMatchingRequest(List<Location>?, string?, ShapeMatch, CostingModel, bool, DirectionsOptions?, TraceOptions?, int?, List<int>?, TraceAttributesFilter?)
+  nameWithType: MapMatchingRequest.MapMatchingRequest(List<Location>?, string?, ShapeMatch, CostingModel, bool, DirectionsOptions?, TraceOptions?, int?, List<int>?, TraceAttributesFilter?)
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.MapMatchingRequest(System.Collections.Generic.List<SharpValhalla.Models.Common.Location>?, string?, SharpValhalla.Enums.ShapeMatch, SharpValhalla.Enums.CostingModel, bool, SharpValhalla.Models.Request.DirectionsOptions?, SharpValhalla.Models.Request.TraceOptions?, int?, System.Collections.Generic.List<int>?, SharpValhalla.Models.Request.TraceAttributesFilter?)
+  type: Constructor
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: .ctor
+    path: ../src/SharpValhalla/Models/Request/MapMatchingRequest.cs
+    startLine: 48
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: The structure for the Map Matching request.
+  example: []
+  syntax:
+    content: public MapMatchingRequest(List<Location>? shape = null, string? encodedPolyline = null, ShapeMatch shapeMatch = ShapeMatch.WalkOrSnap, CostingModel costing = CostingModel.Auto, bool useTimestamps = false, DirectionsOptions? directionsOptions = null, TraceOptions? traceOptions = null, int? beginTime = null, List<int>? durations = null, TraceAttributesFilter? filters = null)
+    parameters:
+    - id: shape
+      type: System.Collections.Generic.List{SharpValhalla.Models.Common.Location}
+      description: The shape to match
+    - id: encodedPolyline
+      type: System.String
+      description: The polyline to match
+    - id: shapeMatch
+      type: SharpValhalla.Enums.ShapeMatch
+      description: Allows some control of the matching algorithm based on the type of input.
+    - id: costing
+      type: SharpValhalla.Enums.CostingModel
+      description: Valhalla Map Matching can use any costing model available in the Valhalla route service
+    - id: useTimestamps
+      type: System.Boolean
+      description: A boolean value indicating whether the input timestamps or durations should be used when computing elapsed time at each edge along the matched path. If true, timestamps are used. If false (default), internal costing is applied to compute elapsed times.
+    - id: directionsOptions
+      type: SharpValhalla.Models.Request.DirectionsOptions
+      description: Specify units, language, and whether or not to return directions in a narrative form.
+    - id: traceOptions
+      type: SharpValhalla.Models.Request.TraceOptions
+      description: Trace options to improve results
+    - id: beginTime
+      type: System.Nullable{System.Int32}
+      description: Begin timestamp for the trace. This is used along with the durations so that timestamps can be specified for a trace that is specified using an encoded polyline.
+    - id: durations
+      type: System.Collections.Generic.List{System.Int32}
+      description: List of durations (seconds) between each successive pair of input trace points. This allows trace points to be supplied as an encoded polyline and timestamps to be created by using this list of "delta" times along with the beginTime of the trace.
+    - id: filters
+      type: SharpValhalla.Models.Request.TraceAttributesFilter
+      description: The trace attributes filters for this request
+    content.vb: Public Sub New(shape As List(Of Location) = Nothing, encodedPolyline As String = Nothing, shapeMatch As ShapeMatch = ShapeMatch.WalkOrSnap, costing As CostingModel = CostingModel.Auto, useTimestamps As Boolean = False, directionsOptions As DirectionsOptions = Nothing, traceOptions As TraceOptions = Nothing, beginTime As Integer? = Nothing, durations As List(Of Integer) = Nothing, filters As TraceAttributesFilter = Nothing)
+  overload: SharpValhalla.Models.Request.MapMatchingRequest.#ctor*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: Thrown if neither shape nor encodedPolyline is provided.
+  nameWithType.vb: MapMatchingRequest.New(List(Of Location), String, ShapeMatch, CostingModel, Boolean, DirectionsOptions, TraceOptions, Integer?, List(Of Integer), TraceAttributesFilter)
+  fullName.vb: SharpValhalla.Models.Request.MapMatchingRequest.New(System.Collections.Generic.List(Of SharpValhalla.Models.Common.Location), String, SharpValhalla.Enums.ShapeMatch, SharpValhalla.Enums.CostingModel, Boolean, SharpValhalla.Models.Request.DirectionsOptions, SharpValhalla.Models.Request.TraceOptions, Integer?, System.Collections.Generic.List(Of Integer), SharpValhalla.Models.Request.TraceAttributesFilter)
+  name.vb: New(List(Of Location), String, ShapeMatch, CostingModel, Boolean, DirectionsOptions, TraceOptions, Integer?, List(Of Integer), TraceAttributesFilter)
+references:
+- uid: SharpValhalla.Models.Request
+  commentId: N:SharpValhalla.Models.Request
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Request
+  nameWithType: SharpValhalla.Models.Request
+  fullName: SharpValhalla.Models.Request
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Request
+    name: Request
+    href: SharpValhalla.Models.Request.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Request
+    name: Request
+    href: SharpValhalla.Models.Request.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.Shape*
+  commentId: Overload:SharpValhalla.Models.Request.MapMatchingRequest.Shape
+  href: SharpValhalla.Models.Request.MapMatchingRequest.html#SharpValhalla_Models_Request_MapMatchingRequest_Shape
+  name: Shape
+  nameWithType: MapMatchingRequest.Shape
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.Shape
+- uid: System.Collections.Generic.List{SharpValhalla.Models.Common.Location}
+  commentId: T:System.Collections.Generic.List{SharpValhalla.Models.Common.Location}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Location>
+  nameWithType: List<Location>
+  fullName: System.Collections.Generic.List<SharpValhalla.Models.Common.Location>
+  nameWithType.vb: List(Of Location)
+  fullName.vb: System.Collections.Generic.List(Of SharpValhalla.Models.Common.Location)
+  name.vb: List(Of Location)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SharpValhalla.Models.Common.Location
+    name: Location
+    href: SharpValhalla.Models.Common.Location.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SharpValhalla.Models.Common.Location
+    name: Location
+    href: SharpValhalla.Models.Common.Location.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.EncodedPolyline*
+  commentId: Overload:SharpValhalla.Models.Request.MapMatchingRequest.EncodedPolyline
+  href: SharpValhalla.Models.Request.MapMatchingRequest.html#SharpValhalla_Models_Request_MapMatchingRequest_EncodedPolyline
+  name: EncodedPolyline
+  nameWithType: MapMatchingRequest.EncodedPolyline
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.EncodedPolyline
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.ShapeMatch*
+  commentId: Overload:SharpValhalla.Models.Request.MapMatchingRequest.ShapeMatch
+  href: SharpValhalla.Models.Request.MapMatchingRequest.html#SharpValhalla_Models_Request_MapMatchingRequest_ShapeMatch
+  name: ShapeMatch
+  nameWithType: MapMatchingRequest.ShapeMatch
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.ShapeMatch
+- uid: SharpValhalla.Enums.ShapeMatch
+  commentId: T:SharpValhalla.Enums.ShapeMatch
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.ShapeMatch.html
+  name: ShapeMatch
+  nameWithType: ShapeMatch
+  fullName: SharpValhalla.Enums.ShapeMatch
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.Costing*
+  commentId: Overload:SharpValhalla.Models.Request.MapMatchingRequest.Costing
+  href: SharpValhalla.Models.Request.MapMatchingRequest.html#SharpValhalla_Models_Request_MapMatchingRequest_Costing
+  name: Costing
+  nameWithType: MapMatchingRequest.Costing
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.Costing
+- uid: SharpValhalla.Enums.CostingModel
+  commentId: T:SharpValhalla.Enums.CostingModel
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.CostingModel.html
+  name: CostingModel
+  nameWithType: CostingModel
+  fullName: SharpValhalla.Enums.CostingModel
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.UseTimestamps*
+  commentId: Overload:SharpValhalla.Models.Request.MapMatchingRequest.UseTimestamps
+  href: SharpValhalla.Models.Request.MapMatchingRequest.html#SharpValhalla_Models_Request_MapMatchingRequest_UseTimestamps
+  name: UseTimestamps
+  nameWithType: MapMatchingRequest.UseTimestamps
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.UseTimestamps
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.DirectionsOptions*
+  commentId: Overload:SharpValhalla.Models.Request.MapMatchingRequest.DirectionsOptions
+  href: SharpValhalla.Models.Request.MapMatchingRequest.html#SharpValhalla_Models_Request_MapMatchingRequest_DirectionsOptions
+  name: DirectionsOptions
+  nameWithType: MapMatchingRequest.DirectionsOptions
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.DirectionsOptions
+- uid: SharpValhalla.Models.Request.DirectionsOptions
+  commentId: T:SharpValhalla.Models.Request.DirectionsOptions
+  parent: SharpValhalla.Models.Request
+  href: SharpValhalla.Models.Request.DirectionsOptions.html
+  name: DirectionsOptions
+  nameWithType: DirectionsOptions
+  fullName: SharpValhalla.Models.Request.DirectionsOptions
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.TraceOptions*
+  commentId: Overload:SharpValhalla.Models.Request.MapMatchingRequest.TraceOptions
+  href: SharpValhalla.Models.Request.MapMatchingRequest.html#SharpValhalla_Models_Request_MapMatchingRequest_TraceOptions
+  name: TraceOptions
+  nameWithType: MapMatchingRequest.TraceOptions
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.TraceOptions
+- uid: SharpValhalla.Models.Request.TraceOptions
+  commentId: T:SharpValhalla.Models.Request.TraceOptions
+  parent: SharpValhalla.Models.Request
+  href: SharpValhalla.Models.Request.TraceOptions.html
+  name: TraceOptions
+  nameWithType: TraceOptions
+  fullName: SharpValhalla.Models.Request.TraceOptions
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.BeginTime*
+  commentId: Overload:SharpValhalla.Models.Request.MapMatchingRequest.BeginTime
+  href: SharpValhalla.Models.Request.MapMatchingRequest.html#SharpValhalla_Models_Request_MapMatchingRequest_BeginTime
+  name: BeginTime
+  nameWithType: MapMatchingRequest.BeginTime
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.BeginTime
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.Durations*
+  commentId: Overload:SharpValhalla.Models.Request.MapMatchingRequest.Durations
+  href: SharpValhalla.Models.Request.MapMatchingRequest.html#SharpValhalla_Models_Request_MapMatchingRequest_Durations
+  name: Durations
+  nameWithType: MapMatchingRequest.Durations
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.Durations
+- uid: System.Collections.Generic.List{System.Int32}
+  commentId: T:System.Collections.Generic.List{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<int>
+  nameWithType: List<int>
+  fullName: System.Collections.Generic.List<int>
+  nameWithType.vb: List(Of Integer)
+  fullName.vb: System.Collections.Generic.List(Of Integer)
+  name.vb: List(Of Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.Filters*
+  commentId: Overload:SharpValhalla.Models.Request.MapMatchingRequest.Filters
+  href: SharpValhalla.Models.Request.MapMatchingRequest.html#SharpValhalla_Models_Request_MapMatchingRequest_Filters
+  name: Filters
+  nameWithType: MapMatchingRequest.Filters
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.Filters
+- uid: SharpValhalla.Models.Request.TraceAttributesFilter
+  commentId: T:SharpValhalla.Models.Request.TraceAttributesFilter
+  parent: SharpValhalla.Models.Request
+  href: SharpValhalla.Models.Request.TraceAttributesFilter.html
+  name: TraceAttributesFilter
+  nameWithType: TraceAttributesFilter
+  fullName: SharpValhalla.Models.Request.TraceAttributesFilter
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentexception
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: SharpValhalla.Models.Request.MapMatchingRequest.#ctor*
+  commentId: Overload:SharpValhalla.Models.Request.MapMatchingRequest.#ctor
+  href: SharpValhalla.Models.Request.MapMatchingRequest.html#SharpValhalla_Models_Request_MapMatchingRequest__ctor_System_Collections_Generic_List_SharpValhalla_Models_Common_Location__System_String_SharpValhalla_Enums_ShapeMatch_SharpValhalla_Enums_CostingModel_System_Boolean_SharpValhalla_Models_Request_DirectionsOptions_SharpValhalla_Models_Request_TraceOptions_System_Nullable_System_Int32__System_Collections_Generic_List_System_Int32__SharpValhalla_Models_Request_TraceAttributesFilter_
+  name: MapMatchingRequest
+  nameWithType: MapMatchingRequest.MapMatchingRequest
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest.MapMatchingRequest
+  nameWithType.vb: MapMatchingRequest.New
+  fullName.vb: SharpValhalla.Models.Request.MapMatchingRequest.New
+  name.vb: New

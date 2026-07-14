@@ -1,0 +1,613 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Models.Request.TraceOptions
+  commentId: T:SharpValhalla.Models.Request.TraceOptions
+  id: TraceOptions
+  parent: SharpValhalla.Models.Request
+  children:
+  - SharpValhalla.Models.Request.TraceOptions.#ctor(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32})
+  - SharpValhalla.Models.Request.TraceOptions.BreakageDistance
+  - SharpValhalla.Models.Request.TraceOptions.GpsAccuracy
+  - SharpValhalla.Models.Request.TraceOptions.InterpolationDistance
+  - SharpValhalla.Models.Request.TraceOptions.SearchRadius
+  langs:
+  - csharp
+  - vb
+  name: TraceOptions
+  nameWithType: TraceOptions
+  fullName: SharpValhalla.Models.Request.TraceOptions
+  type: Class
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/TraceOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TraceOptions
+    path: ../src/SharpValhalla/Models/Request/TraceOptions.cs
+    startLine: 9
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Additional options to the trace.
+  example: []
+  syntax:
+    content: public class TraceOptions
+    content.vb: Public Class TraceOptions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SharpValhalla.Models.Request.TraceOptions.SearchRadius
+  commentId: P:SharpValhalla.Models.Request.TraceOptions.SearchRadius
+  id: SearchRadius
+  parent: SharpValhalla.Models.Request.TraceOptions
+  langs:
+  - csharp
+  - vb
+  name: SearchRadius
+  nameWithType: TraceOptions.SearchRadius
+  fullName: SharpValhalla.Models.Request.TraceOptions.SearchRadius
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/TraceOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SearchRadius
+    path: ../src/SharpValhalla/Models/Request/TraceOptions.cs
+    startLine: 13
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Search radius in meters associated with supplied trace points.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("search_radius")]
+
+      public int? SearchRadius { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("search_radius")>
+
+      Public Property SearchRadius As Integer?
+  overload: SharpValhalla.Models.Request.TraceOptions.SearchRadius*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: search_radius
+- uid: SharpValhalla.Models.Request.TraceOptions.GpsAccuracy
+  commentId: P:SharpValhalla.Models.Request.TraceOptions.GpsAccuracy
+  id: GpsAccuracy
+  parent: SharpValhalla.Models.Request.TraceOptions
+  langs:
+  - csharp
+  - vb
+  name: GpsAccuracy
+  nameWithType: TraceOptions.GpsAccuracy
+  fullName: SharpValhalla.Models.Request.TraceOptions.GpsAccuracy
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/TraceOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: GpsAccuracy
+    path: ../src/SharpValhalla/Models/Request/TraceOptions.cs
+    startLine: 19
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: GPS accuracy in meters associated with supplied trace points.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("gps_accuracy")]
+
+      public int? GpsAccuracy { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("gps_accuracy")>
+
+      Public Property GpsAccuracy As Integer?
+  overload: SharpValhalla.Models.Request.TraceOptions.GpsAccuracy*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: gps_accuracy
+- uid: SharpValhalla.Models.Request.TraceOptions.BreakageDistance
+  commentId: P:SharpValhalla.Models.Request.TraceOptions.BreakageDistance
+  id: BreakageDistance
+  parent: SharpValhalla.Models.Request.TraceOptions
+  langs:
+  - csharp
+  - vb
+  name: BreakageDistance
+  nameWithType: TraceOptions.BreakageDistance
+  fullName: SharpValhalla.Models.Request.TraceOptions.BreakageDistance
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/TraceOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: BreakageDistance
+    path: ../src/SharpValhalla/Models/Request/TraceOptions.cs
+    startLine: 25
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Breaking distance in meters between trace points.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("breakage_distance")]
+
+      public int? BreakageDistance { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("breakage_distance")>
+
+      Public Property BreakageDistance As Integer?
+  overload: SharpValhalla.Models.Request.TraceOptions.BreakageDistance*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: breakage_distance
+- uid: SharpValhalla.Models.Request.TraceOptions.InterpolationDistance
+  commentId: P:SharpValhalla.Models.Request.TraceOptions.InterpolationDistance
+  id: InterpolationDistance
+  parent: SharpValhalla.Models.Request.TraceOptions
+  langs:
+  - csharp
+  - vb
+  name: InterpolationDistance
+  nameWithType: TraceOptions.InterpolationDistance
+  fullName: SharpValhalla.Models.Request.TraceOptions.InterpolationDistance
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/TraceOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: InterpolationDistance
+    path: ../src/SharpValhalla/Models/Request/TraceOptions.cs
+    startLine: 31
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Interpolation distance in meters beyond which trace points are merged together.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("interpolation_distance")]
+
+      public int? InterpolationDistance { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("interpolation_distance")>
+
+      Public Property InterpolationDistance As Integer?
+  overload: SharpValhalla.Models.Request.TraceOptions.InterpolationDistance*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: interpolation_distance
+- uid: SharpValhalla.Models.Request.TraceOptions.#ctor(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32})
+  commentId: M:SharpValhalla.Models.Request.TraceOptions.#ctor(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32})
+  id: '#ctor(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32})'
+  parent: SharpValhalla.Models.Request.TraceOptions
+  langs:
+  - csharp
+  - vb
+  name: TraceOptions(int?, int?, int?, int?)
+  nameWithType: TraceOptions.TraceOptions(int?, int?, int?, int?)
+  fullName: SharpValhalla.Models.Request.TraceOptions.TraceOptions(int?, int?, int?, int?)
+  type: Constructor
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/TraceOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: .ctor
+    path: ../src/SharpValhalla/Models/Request/TraceOptions.cs
+    startLine: 41
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Initializer for TraceOptions.
+  example: []
+  syntax:
+    content: public TraceOptions(int? searchRadius = null, int? gpsAccuracy = null, int? breakageDistance = null, int? interpolationDistance = null)
+    parameters:
+    - id: searchRadius
+      type: System.Nullable{System.Int32}
+      description: Search radius in meters associated with supplied trace points.
+    - id: gpsAccuracy
+      type: System.Nullable{System.Int32}
+      description: GPS accuracy in meters associated with supplied trace points.
+    - id: breakageDistance
+      type: System.Nullable{System.Int32}
+      description: Breaking distance in meters between trace points.
+    - id: interpolationDistance
+      type: System.Nullable{System.Int32}
+      description: Interpolation distance in meters beyond which trace points are merged together.
+    content.vb: Public Sub New(searchRadius As Integer? = Nothing, gpsAccuracy As Integer? = Nothing, breakageDistance As Integer? = Nothing, interpolationDistance As Integer? = Nothing)
+  overload: SharpValhalla.Models.Request.TraceOptions.#ctor*
+  nameWithType.vb: TraceOptions.New(Integer?, Integer?, Integer?, Integer?)
+  fullName.vb: SharpValhalla.Models.Request.TraceOptions.New(Integer?, Integer?, Integer?, Integer?)
+  name.vb: New(Integer?, Integer?, Integer?, Integer?)
+references:
+- uid: SharpValhalla.Models.Request
+  commentId: N:SharpValhalla.Models.Request
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Request
+  nameWithType: SharpValhalla.Models.Request
+  fullName: SharpValhalla.Models.Request
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Request
+    name: Request
+    href: SharpValhalla.Models.Request.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Request
+    name: Request
+    href: SharpValhalla.Models.Request.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SharpValhalla.Models.Request.TraceOptions.SearchRadius*
+  commentId: Overload:SharpValhalla.Models.Request.TraceOptions.SearchRadius
+  href: SharpValhalla.Models.Request.TraceOptions.html#SharpValhalla_Models_Request_TraceOptions_SearchRadius
+  name: SearchRadius
+  nameWithType: TraceOptions.SearchRadius
+  fullName: SharpValhalla.Models.Request.TraceOptions.SearchRadius
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SharpValhalla.Models.Request.TraceOptions.GpsAccuracy*
+  commentId: Overload:SharpValhalla.Models.Request.TraceOptions.GpsAccuracy
+  href: SharpValhalla.Models.Request.TraceOptions.html#SharpValhalla_Models_Request_TraceOptions_GpsAccuracy
+  name: GpsAccuracy
+  nameWithType: TraceOptions.GpsAccuracy
+  fullName: SharpValhalla.Models.Request.TraceOptions.GpsAccuracy
+- uid: SharpValhalla.Models.Request.TraceOptions.BreakageDistance*
+  commentId: Overload:SharpValhalla.Models.Request.TraceOptions.BreakageDistance
+  href: SharpValhalla.Models.Request.TraceOptions.html#SharpValhalla_Models_Request_TraceOptions_BreakageDistance
+  name: BreakageDistance
+  nameWithType: TraceOptions.BreakageDistance
+  fullName: SharpValhalla.Models.Request.TraceOptions.BreakageDistance
+- uid: SharpValhalla.Models.Request.TraceOptions.InterpolationDistance*
+  commentId: Overload:SharpValhalla.Models.Request.TraceOptions.InterpolationDistance
+  href: SharpValhalla.Models.Request.TraceOptions.html#SharpValhalla_Models_Request_TraceOptions_InterpolationDistance
+  name: InterpolationDistance
+  nameWithType: TraceOptions.InterpolationDistance
+  fullName: SharpValhalla.Models.Request.TraceOptions.InterpolationDistance
+- uid: SharpValhalla.Models.Request.TraceOptions.#ctor*
+  commentId: Overload:SharpValhalla.Models.Request.TraceOptions.#ctor
+  href: SharpValhalla.Models.Request.TraceOptions.html#SharpValhalla_Models_Request_TraceOptions__ctor_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__
+  name: TraceOptions
+  nameWithType: TraceOptions.TraceOptions
+  fullName: SharpValhalla.Models.Request.TraceOptions.TraceOptions
+  nameWithType.vb: TraceOptions.New
+  fullName.vb: SharpValhalla.Models.Request.TraceOptions.New
+  name.vb: New

@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Models.Request
+  commentId: N:SharpValhalla.Models.Request
+  id: SharpValhalla.Models.Request
+  children:
+  - SharpValhalla.Models.Request.DirectionsOptions
+  - SharpValhalla.Models.Request.MapMatchingRequest
+  - SharpValhalla.Models.Request.MatrixRequest
+  - SharpValhalla.Models.Request.SearchFilter
+  - SharpValhalla.Models.Request.TraceAttributesFilter
+  - SharpValhalla.Models.Request.TraceOptions
+  langs:
+  - csharp
+  - vb
+  name: SharpValhalla.Models.Request
+  nameWithType: SharpValhalla.Models.Request
+  fullName: SharpValhalla.Models.Request
+  type: Namespace
+  assemblies:
+  - SharpValhalla
+references:
+- uid: SharpValhalla.Models.Request.DirectionsOptions
+  commentId: T:SharpValhalla.Models.Request.DirectionsOptions
+  parent: SharpValhalla.Models.Request
+  href: SharpValhalla.Models.Request.DirectionsOptions.html
+  name: DirectionsOptions
+  nameWithType: DirectionsOptions
+  fullName: SharpValhalla.Models.Request.DirectionsOptions
+- uid: SharpValhalla.Models.Request.MapMatchingRequest
+  commentId: T:SharpValhalla.Models.Request.MapMatchingRequest
+  parent: SharpValhalla.Models.Request
+  href: SharpValhalla.Models.Request.MapMatchingRequest.html
+  name: MapMatchingRequest
+  nameWithType: MapMatchingRequest
+  fullName: SharpValhalla.Models.Request.MapMatchingRequest
+- uid: SharpValhalla.Models.Request.MatrixRequest
+  commentId: T:SharpValhalla.Models.Request.MatrixRequest
+  parent: SharpValhalla.Models.Request
+  href: SharpValhalla.Models.Request.MatrixRequest.html
+  name: MatrixRequest
+  nameWithType: MatrixRequest
+  fullName: SharpValhalla.Models.Request.MatrixRequest
+- uid: SharpValhalla.Models.Request.SearchFilter
+  commentId: T:SharpValhalla.Models.Request.SearchFilter
+  parent: SharpValhalla.Models.Request
+  href: SharpValhalla.Models.Request.SearchFilter.html
+  name: SearchFilter
+  nameWithType: SearchFilter
+  fullName: SharpValhalla.Models.Request.SearchFilter
+- uid: SharpValhalla.Models.Request.TraceAttributesFilter
+  commentId: T:SharpValhalla.Models.Request.TraceAttributesFilter
+  parent: SharpValhalla.Models.Request
+  href: SharpValhalla.Models.Request.TraceAttributesFilter.html
+  name: TraceAttributesFilter
+  nameWithType: TraceAttributesFilter
+  fullName: SharpValhalla.Models.Request.TraceAttributesFilter
+- uid: SharpValhalla.Models.Request.TraceOptions
+  commentId: T:SharpValhalla.Models.Request.TraceOptions
+  parent: SharpValhalla.Models.Request
+  href: SharpValhalla.Models.Request.TraceOptions.html
+  name: TraceOptions
+  nameWithType: TraceOptions
+  fullName: SharpValhalla.Models.Request.TraceOptions
+- uid: SharpValhalla.Models.Request
+  commentId: N:SharpValhalla.Models.Request
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Request
+  nameWithType: SharpValhalla.Models.Request
+  fullName: SharpValhalla.Models.Request
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Request
+    name: Request
+    href: SharpValhalla.Models.Request.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Request
+    name: Request
+    href: SharpValhalla.Models.Request.html

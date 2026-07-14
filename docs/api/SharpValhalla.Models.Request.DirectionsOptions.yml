@@ -1,0 +1,880 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Models.Request.DirectionsOptions
+  commentId: T:SharpValhalla.Models.Request.DirectionsOptions
+  id: DirectionsOptions
+  parent: SharpValhalla.Models.Request
+  children:
+  - SharpValhalla.Models.Request.DirectionsOptions.#ctor(SharpValhalla.Enums.Unit,SharpValhalla.Enums.Language,SharpValhalla.Enums.DirectionType,SharpValhalla.Enums.Format,System.Nullable{SharpValhalla.Enums.ShapeFormat},System.Boolean,System.Boolean,System.Nullable{System.Int32})
+  - SharpValhalla.Models.Request.DirectionsOptions.Alternates
+  - SharpValhalla.Models.Request.DirectionsOptions.BannerInstructions
+  - SharpValhalla.Models.Request.DirectionsOptions.DirectionsType
+  - SharpValhalla.Models.Request.DirectionsOptions.Format
+  - SharpValhalla.Models.Request.DirectionsOptions.Language
+  - SharpValhalla.Models.Request.DirectionsOptions.ShapeFormat
+  - SharpValhalla.Models.Request.DirectionsOptions.Units
+  - SharpValhalla.Models.Request.DirectionsOptions.VoiceInstructions
+  langs:
+  - csharp
+  - vb
+  name: DirectionsOptions
+  nameWithType: DirectionsOptions
+  fullName: SharpValhalla.Models.Request.DirectionsOptions
+  type: Class
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/DirectionsOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: DirectionsOptions
+    path: ../src/SharpValhalla/Models/Request/DirectionsOptions.cs
+    startLine: 11
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Directions options structure
+  example: []
+  syntax:
+    content: public class DirectionsOptions
+    content.vb: Public Class DirectionsOptions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SharpValhalla.Models.Request.DirectionsOptions.Units
+  commentId: P:SharpValhalla.Models.Request.DirectionsOptions.Units
+  id: Units
+  parent: SharpValhalla.Models.Request.DirectionsOptions
+  langs:
+  - csharp
+  - vb
+  name: Units
+  nameWithType: DirectionsOptions.Units
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.Units
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/DirectionsOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Units
+    path: ../src/SharpValhalla/Models/Request/DirectionsOptions.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("units")]
+
+      public Unit Units { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Enums.Unit
+    content.vb: >-
+      <JsonPropertyName("units")>
+
+      Public Property Units As Unit
+  overload: SharpValhalla.Models.Request.DirectionsOptions.Units*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: units
+- uid: SharpValhalla.Models.Request.DirectionsOptions.Language
+  commentId: P:SharpValhalla.Models.Request.DirectionsOptions.Language
+  id: Language
+  parent: SharpValhalla.Models.Request.DirectionsOptions
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: DirectionsOptions.Language
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.Language
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/DirectionsOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Language
+    path: ../src/SharpValhalla/Models/Request/DirectionsOptions.cs
+    startLine: 14
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("language")]
+
+      public Language Language { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Enums.Language
+    content.vb: >-
+      <JsonPropertyName("language")>
+
+      Public Property Language As Language
+  overload: SharpValhalla.Models.Request.DirectionsOptions.Language*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: language
+- uid: SharpValhalla.Models.Request.DirectionsOptions.DirectionsType
+  commentId: P:SharpValhalla.Models.Request.DirectionsOptions.DirectionsType
+  id: DirectionsType
+  parent: SharpValhalla.Models.Request.DirectionsOptions
+  langs:
+  - csharp
+  - vb
+  name: DirectionsType
+  nameWithType: DirectionsOptions.DirectionsType
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.DirectionsType
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/DirectionsOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: DirectionsType
+    path: ../src/SharpValhalla/Models/Request/DirectionsOptions.cs
+    startLine: 16
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("directions_type")]
+
+      public DirectionType DirectionsType { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Enums.DirectionType
+    content.vb: >-
+      <JsonPropertyName("directions_type")>
+
+      Public Property DirectionsType As DirectionType
+  overload: SharpValhalla.Models.Request.DirectionsOptions.DirectionsType*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: directions_type
+- uid: SharpValhalla.Models.Request.DirectionsOptions.Format
+  commentId: P:SharpValhalla.Models.Request.DirectionsOptions.Format
+  id: Format
+  parent: SharpValhalla.Models.Request.DirectionsOptions
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: DirectionsOptions.Format
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.Format
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/DirectionsOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Format
+    path: ../src/SharpValhalla/Models/Request/DirectionsOptions.cs
+    startLine: 18
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("format")]
+
+      public Format Format { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Enums.Format
+    content.vb: >-
+      <JsonPropertyName("format")>
+
+      Public Property Format As Format
+  overload: SharpValhalla.Models.Request.DirectionsOptions.Format*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: format
+- uid: SharpValhalla.Models.Request.DirectionsOptions.ShapeFormat
+  commentId: P:SharpValhalla.Models.Request.DirectionsOptions.ShapeFormat
+  id: ShapeFormat
+  parent: SharpValhalla.Models.Request.DirectionsOptions
+  langs:
+  - csharp
+  - vb
+  name: ShapeFormat
+  nameWithType: DirectionsOptions.ShapeFormat
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.ShapeFormat
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/DirectionsOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ShapeFormat
+    path: ../src/SharpValhalla/Models/Request/DirectionsOptions.cs
+    startLine: 20
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("shape_format")]
+
+      public ShapeFormat? ShapeFormat { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SharpValhalla.Enums.ShapeFormat}
+    content.vb: >-
+      <JsonPropertyName("shape_format")>
+
+      Public Property ShapeFormat As ShapeFormat?
+  overload: SharpValhalla.Models.Request.DirectionsOptions.ShapeFormat*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: shape_format
+- uid: SharpValhalla.Models.Request.DirectionsOptions.BannerInstructions
+  commentId: P:SharpValhalla.Models.Request.DirectionsOptions.BannerInstructions
+  id: BannerInstructions
+  parent: SharpValhalla.Models.Request.DirectionsOptions
+  langs:
+  - csharp
+  - vb
+  name: BannerInstructions
+  nameWithType: DirectionsOptions.BannerInstructions
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.BannerInstructions
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/DirectionsOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: BannerInstructions
+    path: ../src/SharpValhalla/Models/Request/DirectionsOptions.cs
+    startLine: 22
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("banner_instructions")]
+
+      public bool BannerInstructions { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonPropertyName("banner_instructions")>
+
+      Public Property BannerInstructions As Boolean
+  overload: SharpValhalla.Models.Request.DirectionsOptions.BannerInstructions*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: banner_instructions
+- uid: SharpValhalla.Models.Request.DirectionsOptions.VoiceInstructions
+  commentId: P:SharpValhalla.Models.Request.DirectionsOptions.VoiceInstructions
+  id: VoiceInstructions
+  parent: SharpValhalla.Models.Request.DirectionsOptions
+  langs:
+  - csharp
+  - vb
+  name: VoiceInstructions
+  nameWithType: DirectionsOptions.VoiceInstructions
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.VoiceInstructions
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/DirectionsOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: VoiceInstructions
+    path: ../src/SharpValhalla/Models/Request/DirectionsOptions.cs
+    startLine: 24
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("voice_instructions")]
+
+      public bool VoiceInstructions { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonPropertyName("voice_instructions")>
+
+      Public Property VoiceInstructions As Boolean
+  overload: SharpValhalla.Models.Request.DirectionsOptions.VoiceInstructions*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: voice_instructions
+- uid: SharpValhalla.Models.Request.DirectionsOptions.Alternates
+  commentId: P:SharpValhalla.Models.Request.DirectionsOptions.Alternates
+  id: Alternates
+  parent: SharpValhalla.Models.Request.DirectionsOptions
+  langs:
+  - csharp
+  - vb
+  name: Alternates
+  nameWithType: DirectionsOptions.Alternates
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.Alternates
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/DirectionsOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Alternates
+    path: ../src/SharpValhalla/Models/Request/DirectionsOptions.cs
+    startLine: 26
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("alternates")]
+
+      public int? Alternates { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("alternates")>
+
+      Public Property Alternates As Integer?
+  overload: SharpValhalla.Models.Request.DirectionsOptions.Alternates*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: alternates
+- uid: SharpValhalla.Models.Request.DirectionsOptions.#ctor(SharpValhalla.Enums.Unit,SharpValhalla.Enums.Language,SharpValhalla.Enums.DirectionType,SharpValhalla.Enums.Format,System.Nullable{SharpValhalla.Enums.ShapeFormat},System.Boolean,System.Boolean,System.Nullable{System.Int32})
+  commentId: M:SharpValhalla.Models.Request.DirectionsOptions.#ctor(SharpValhalla.Enums.Unit,SharpValhalla.Enums.Language,SharpValhalla.Enums.DirectionType,SharpValhalla.Enums.Format,System.Nullable{SharpValhalla.Enums.ShapeFormat},System.Boolean,System.Boolean,System.Nullable{System.Int32})
+  id: '#ctor(SharpValhalla.Enums.Unit,SharpValhalla.Enums.Language,SharpValhalla.Enums.DirectionType,SharpValhalla.Enums.Format,System.Nullable{SharpValhalla.Enums.ShapeFormat},System.Boolean,System.Boolean,System.Nullable{System.Int32})'
+  parent: SharpValhalla.Models.Request.DirectionsOptions
+  langs:
+  - csharp
+  - vb
+  name: DirectionsOptions(Unit, Language, DirectionType, Format, ShapeFormat?, bool, bool, int?)
+  nameWithType: DirectionsOptions.DirectionsOptions(Unit, Language, DirectionType, Format, ShapeFormat?, bool, bool, int?)
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.DirectionsOptions(SharpValhalla.Enums.Unit, SharpValhalla.Enums.Language, SharpValhalla.Enums.DirectionType, SharpValhalla.Enums.Format, SharpValhalla.Enums.ShapeFormat?, bool, bool, int?)
+  type: Constructor
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/DirectionsOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: .ctor
+    path: ../src/SharpValhalla/Models/Request/DirectionsOptions.cs
+    startLine: 32
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Initializer for DirectionsOptions.
+  example: []
+  syntax:
+    content: public DirectionsOptions(Unit units = Unit.Kilometers, Language language = Language.EnglishUnitedStates, DirectionType directionsType = DirectionType.None, Format format = Format.Json, ShapeFormat? shapeFormat = null, bool bannerInstructions = true, bool voiceInstructions = true, int? alternates = null)
+    parameters:
+    - id: units
+      type: SharpValhalla.Enums.Unit
+    - id: language
+      type: SharpValhalla.Enums.Language
+    - id: directionsType
+      type: SharpValhalla.Enums.DirectionType
+    - id: format
+      type: SharpValhalla.Enums.Format
+    - id: shapeFormat
+      type: System.Nullable{SharpValhalla.Enums.ShapeFormat}
+    - id: bannerInstructions
+      type: System.Boolean
+    - id: voiceInstructions
+      type: System.Boolean
+    - id: alternates
+      type: System.Nullable{System.Int32}
+    content.vb: Public Sub New(units As Unit = Unit.Kilometers, language As Language = Language.EnglishUnitedStates, directionsType As DirectionType = DirectionType.None, format As Format = Format.Json, shapeFormat As ShapeFormat? = Nothing, bannerInstructions As Boolean = True, voiceInstructions As Boolean = True, alternates As Integer? = Nothing)
+  overload: SharpValhalla.Models.Request.DirectionsOptions.#ctor*
+  nameWithType.vb: DirectionsOptions.New(Unit, Language, DirectionType, Format, ShapeFormat?, Boolean, Boolean, Integer?)
+  fullName.vb: SharpValhalla.Models.Request.DirectionsOptions.New(SharpValhalla.Enums.Unit, SharpValhalla.Enums.Language, SharpValhalla.Enums.DirectionType, SharpValhalla.Enums.Format, SharpValhalla.Enums.ShapeFormat?, Boolean, Boolean, Integer?)
+  name.vb: New(Unit, Language, DirectionType, Format, ShapeFormat?, Boolean, Boolean, Integer?)
+references:
+- uid: SharpValhalla.Models.Request
+  commentId: N:SharpValhalla.Models.Request
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Request
+  nameWithType: SharpValhalla.Models.Request
+  fullName: SharpValhalla.Models.Request
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Request
+    name: Request
+    href: SharpValhalla.Models.Request.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Request
+    name: Request
+    href: SharpValhalla.Models.Request.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SharpValhalla.Models.Request.DirectionsOptions.Units*
+  commentId: Overload:SharpValhalla.Models.Request.DirectionsOptions.Units
+  href: SharpValhalla.Models.Request.DirectionsOptions.html#SharpValhalla_Models_Request_DirectionsOptions_Units
+  name: Units
+  nameWithType: DirectionsOptions.Units
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.Units
+- uid: SharpValhalla.Enums.Unit
+  commentId: T:SharpValhalla.Enums.Unit
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Unit.html
+  name: Unit
+  nameWithType: Unit
+  fullName: SharpValhalla.Enums.Unit
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Models.Request.DirectionsOptions.Language*
+  commentId: Overload:SharpValhalla.Models.Request.DirectionsOptions.Language
+  href: SharpValhalla.Models.Request.DirectionsOptions.html#SharpValhalla_Models_Request_DirectionsOptions_Language
+  name: Language
+  nameWithType: DirectionsOptions.Language
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.Language
+- uid: SharpValhalla.Enums.Language
+  commentId: T:SharpValhalla.Enums.Language
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Language.html
+  name: Language
+  nameWithType: Language
+  fullName: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Models.Request.DirectionsOptions.DirectionsType*
+  commentId: Overload:SharpValhalla.Models.Request.DirectionsOptions.DirectionsType
+  href: SharpValhalla.Models.Request.DirectionsOptions.html#SharpValhalla_Models_Request_DirectionsOptions_DirectionsType
+  name: DirectionsType
+  nameWithType: DirectionsOptions.DirectionsType
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.DirectionsType
+- uid: SharpValhalla.Enums.DirectionType
+  commentId: T:SharpValhalla.Enums.DirectionType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.DirectionType.html
+  name: DirectionType
+  nameWithType: DirectionType
+  fullName: SharpValhalla.Enums.DirectionType
+- uid: SharpValhalla.Models.Request.DirectionsOptions.Format*
+  commentId: Overload:SharpValhalla.Models.Request.DirectionsOptions.Format
+  href: SharpValhalla.Models.Request.DirectionsOptions.html#SharpValhalla_Models_Request_DirectionsOptions_Format
+  name: Format
+  nameWithType: DirectionsOptions.Format
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.Format
+- uid: SharpValhalla.Enums.Format
+  commentId: T:SharpValhalla.Enums.Format
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Format.html
+  name: Format
+  nameWithType: Format
+  fullName: SharpValhalla.Enums.Format
+- uid: SharpValhalla.Models.Request.DirectionsOptions.ShapeFormat*
+  commentId: Overload:SharpValhalla.Models.Request.DirectionsOptions.ShapeFormat
+  href: SharpValhalla.Models.Request.DirectionsOptions.html#SharpValhalla_Models_Request_DirectionsOptions_ShapeFormat
+  name: ShapeFormat
+  nameWithType: DirectionsOptions.ShapeFormat
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.ShapeFormat
+- uid: System.Nullable{SharpValhalla.Enums.ShapeFormat}
+  commentId: T:System.Nullable{SharpValhalla.Enums.ShapeFormat}
+  parent: System
+  definition: System.Nullable`1
+  href: SharpValhalla.Enums.ShapeFormat.html
+  name: ShapeFormat?
+  nameWithType: ShapeFormat?
+  fullName: SharpValhalla.Enums.ShapeFormat?
+  spec.csharp:
+  - uid: SharpValhalla.Enums.ShapeFormat
+    name: ShapeFormat
+    href: SharpValhalla.Enums.ShapeFormat.html
+  - name: '?'
+  spec.vb:
+  - uid: SharpValhalla.Enums.ShapeFormat
+    name: ShapeFormat
+    href: SharpValhalla.Enums.ShapeFormat.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SharpValhalla.Models.Request.DirectionsOptions.BannerInstructions*
+  commentId: Overload:SharpValhalla.Models.Request.DirectionsOptions.BannerInstructions
+  href: SharpValhalla.Models.Request.DirectionsOptions.html#SharpValhalla_Models_Request_DirectionsOptions_BannerInstructions
+  name: BannerInstructions
+  nameWithType: DirectionsOptions.BannerInstructions
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.BannerInstructions
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SharpValhalla.Models.Request.DirectionsOptions.VoiceInstructions*
+  commentId: Overload:SharpValhalla.Models.Request.DirectionsOptions.VoiceInstructions
+  href: SharpValhalla.Models.Request.DirectionsOptions.html#SharpValhalla_Models_Request_DirectionsOptions_VoiceInstructions
+  name: VoiceInstructions
+  nameWithType: DirectionsOptions.VoiceInstructions
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.VoiceInstructions
+- uid: SharpValhalla.Models.Request.DirectionsOptions.Alternates*
+  commentId: Overload:SharpValhalla.Models.Request.DirectionsOptions.Alternates
+  href: SharpValhalla.Models.Request.DirectionsOptions.html#SharpValhalla_Models_Request_DirectionsOptions_Alternates
+  name: Alternates
+  nameWithType: DirectionsOptions.Alternates
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.Alternates
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: SharpValhalla.Models.Request.DirectionsOptions.#ctor*
+  commentId: Overload:SharpValhalla.Models.Request.DirectionsOptions.#ctor
+  href: SharpValhalla.Models.Request.DirectionsOptions.html#SharpValhalla_Models_Request_DirectionsOptions__ctor_SharpValhalla_Enums_Unit_SharpValhalla_Enums_Language_SharpValhalla_Enums_DirectionType_SharpValhalla_Enums_Format_System_Nullable_SharpValhalla_Enums_ShapeFormat__System_Boolean_System_Boolean_System_Nullable_System_Int32__
+  name: DirectionsOptions
+  nameWithType: DirectionsOptions.DirectionsOptions
+  fullName: SharpValhalla.Models.Request.DirectionsOptions.DirectionsOptions
+  nameWithType.vb: DirectionsOptions.New
+  fullName.vb: SharpValhalla.Models.Request.DirectionsOptions.New
+  name.vb: New

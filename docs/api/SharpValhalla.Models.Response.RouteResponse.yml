@@ -1,0 +1,818 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Models.Response.RouteResponse
+  commentId: T:SharpValhalla.Models.Response.RouteResponse
+  id: RouteResponse
+  parent: SharpValhalla.Models.Response
+  children:
+  - SharpValhalla.Models.Response.RouteResponse.Language
+  - SharpValhalla.Models.Response.RouteResponse.Legs
+  - SharpValhalla.Models.Response.RouteResponse.Locations
+  - SharpValhalla.Models.Response.RouteResponse.Status
+  - SharpValhalla.Models.Response.RouteResponse.StatusMessage
+  - SharpValhalla.Models.Response.RouteResponse.Summary
+  - SharpValhalla.Models.Response.RouteResponse.Units
+  langs:
+  - csharp
+  - vb
+  name: RouteResponse
+  nameWithType: RouteResponse
+  fullName: SharpValhalla.Models.Response.RouteResponse
+  type: Class
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/RouteResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: RouteResponse
+    path: ../src/SharpValhalla/Models/Response/RouteResponse.cs
+    startLine: 8
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response
+  summary: Represents a route/trip response returned by a routing service, including status, language/units, and optional summary/legs/locations.
+  example: []
+  syntax:
+    content: public class RouteResponse
+    content.vb: Public Class RouteResponse
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SharpValhalla.Models.Response.RouteResponse.Status
+  commentId: P:SharpValhalla.Models.Response.RouteResponse.Status
+  id: Status
+  parent: SharpValhalla.Models.Response.RouteResponse
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: RouteResponse.Status
+  fullName: SharpValhalla.Models.Response.RouteResponse.Status
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/RouteResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Status
+    path: ../src/SharpValhalla/Models/Response/RouteResponse.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response
+  summary: Numeric status code for the response.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("status")]
+
+      public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <JsonPropertyName("status")>
+
+      Public Property Status As Integer
+  overload: SharpValhalla.Models.Response.RouteResponse.Status*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: status
+- uid: SharpValhalla.Models.Response.RouteResponse.StatusMessage
+  commentId: P:SharpValhalla.Models.Response.RouteResponse.StatusMessage
+  id: StatusMessage
+  parent: SharpValhalla.Models.Response.RouteResponse
+  langs:
+  - csharp
+  - vb
+  name: StatusMessage
+  nameWithType: RouteResponse.StatusMessage
+  fullName: SharpValhalla.Models.Response.RouteResponse.StatusMessage
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/RouteResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: StatusMessage
+    path: ../src/SharpValhalla/Models/Response/RouteResponse.cs
+    startLine: 18
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response
+  summary: Human-readable status message.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("status_message")]
+
+      public string StatusMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("status_message")>
+
+      Public Property StatusMessage As String
+  overload: SharpValhalla.Models.Response.RouteResponse.StatusMessage*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: status_message
+- uid: SharpValhalla.Models.Response.RouteResponse.Units
+  commentId: P:SharpValhalla.Models.Response.RouteResponse.Units
+  id: Units
+  parent: SharpValhalla.Models.Response.RouteResponse
+  langs:
+  - csharp
+  - vb
+  name: Units
+  nameWithType: RouteResponse.Units
+  fullName: SharpValhalla.Models.Response.RouteResponse.Units
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/RouteResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Units
+    path: ../src/SharpValhalla/Models/Response/RouteResponse.cs
+    startLine: 24
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response
+  summary: Units used in the response (e.g., metric/imperial).
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("units")]
+
+      public string Units { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("units")>
+
+      Public Property Units As String
+  overload: SharpValhalla.Models.Response.RouteResponse.Units*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: units
+- uid: SharpValhalla.Models.Response.RouteResponse.Language
+  commentId: P:SharpValhalla.Models.Response.RouteResponse.Language
+  id: Language
+  parent: SharpValhalla.Models.Response.RouteResponse
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: RouteResponse.Language
+  fullName: SharpValhalla.Models.Response.RouteResponse.Language
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/RouteResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Language
+    path: ../src/SharpValhalla/Models/Response/RouteResponse.cs
+    startLine: 30
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response
+  summary: Language code used for textual responses.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("language")]
+
+      public string Language { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("language")>
+
+      Public Property Language As String
+  overload: SharpValhalla.Models.Response.RouteResponse.Language*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: language
+- uid: SharpValhalla.Models.Response.RouteResponse.Summary
+  commentId: P:SharpValhalla.Models.Response.RouteResponse.Summary
+  id: Summary
+  parent: SharpValhalla.Models.Response.RouteResponse
+  langs:
+  - csharp
+  - vb
+  name: Summary
+  nameWithType: RouteResponse.Summary
+  fullName: SharpValhalla.Models.Response.RouteResponse.Summary
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/RouteResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Summary
+    path: ../src/SharpValhalla/Models/Response/RouteResponse.cs
+    startLine: 36
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response
+  summary: Optional overall route summary.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("summary")]
+
+      public SummaryResponse? Summary { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Models.Response.SummaryResponse
+    content.vb: >-
+      <JsonPropertyName("summary")>
+
+      Public Property Summary As SummaryResponse
+  overload: SharpValhalla.Models.Response.RouteResponse.Summary*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: summary
+- uid: SharpValhalla.Models.Response.RouteResponse.Legs
+  commentId: P:SharpValhalla.Models.Response.RouteResponse.Legs
+  id: Legs
+  parent: SharpValhalla.Models.Response.RouteResponse
+  langs:
+  - csharp
+  - vb
+  name: Legs
+  nameWithType: RouteResponse.Legs
+  fullName: SharpValhalla.Models.Response.RouteResponse.Legs
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/RouteResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Legs
+    path: ../src/SharpValhalla/Models/Response/RouteResponse.cs
+    startLine: 42
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response
+  summary: Optional array of legs for the route.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("legs")]
+
+      public List<LegResponse>? Legs { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SharpValhalla.Models.Response.LegResponse}
+    content.vb: >-
+      <JsonPropertyName("legs")>
+
+      Public Property Legs As List(Of LegResponse)
+  overload: SharpValhalla.Models.Response.RouteResponse.Legs*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: legs
+- uid: SharpValhalla.Models.Response.RouteResponse.Locations
+  commentId: P:SharpValhalla.Models.Response.RouteResponse.Locations
+  id: Locations
+  parent: SharpValhalla.Models.Response.RouteResponse
+  langs:
+  - csharp
+  - vb
+  name: Locations
+  nameWithType: RouteResponse.Locations
+  fullName: SharpValhalla.Models.Response.RouteResponse.Locations
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/RouteResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Locations
+    path: ../src/SharpValhalla/Models/Response/RouteResponse.cs
+    startLine: 48
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response
+  summary: Optional array of locations associated with the route.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("locations")]
+
+      public List<Location>? Locations { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SharpValhalla.Models.Common.Location}
+    content.vb: >-
+      <JsonPropertyName("locations")>
+
+      Public Property Locations As List(Of Location)
+  overload: SharpValhalla.Models.Response.RouteResponse.Locations*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: locations
+references:
+- uid: SharpValhalla.Models.Response
+  commentId: N:SharpValhalla.Models.Response
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Response
+  nameWithType: SharpValhalla.Models.Response
+  fullName: SharpValhalla.Models.Response
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Response
+    name: Response
+    href: SharpValhalla.Models.Response.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Response
+    name: Response
+    href: SharpValhalla.Models.Response.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SharpValhalla.Models.Response.RouteResponse.Status*
+  commentId: Overload:SharpValhalla.Models.Response.RouteResponse.Status
+  href: SharpValhalla.Models.Response.RouteResponse.html#SharpValhalla_Models_Response_RouteResponse_Status
+  name: Status
+  nameWithType: RouteResponse.Status
+  fullName: SharpValhalla.Models.Response.RouteResponse.Status
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SharpValhalla.Models.Response.RouteResponse.StatusMessage*
+  commentId: Overload:SharpValhalla.Models.Response.RouteResponse.StatusMessage
+  href: SharpValhalla.Models.Response.RouteResponse.html#SharpValhalla_Models_Response_RouteResponse_StatusMessage
+  name: StatusMessage
+  nameWithType: RouteResponse.StatusMessage
+  fullName: SharpValhalla.Models.Response.RouteResponse.StatusMessage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SharpValhalla.Models.Response.RouteResponse.Units*
+  commentId: Overload:SharpValhalla.Models.Response.RouteResponse.Units
+  href: SharpValhalla.Models.Response.RouteResponse.html#SharpValhalla_Models_Response_RouteResponse_Units
+  name: Units
+  nameWithType: RouteResponse.Units
+  fullName: SharpValhalla.Models.Response.RouteResponse.Units
+- uid: SharpValhalla.Models.Response.RouteResponse.Language*
+  commentId: Overload:SharpValhalla.Models.Response.RouteResponse.Language
+  href: SharpValhalla.Models.Response.RouteResponse.html#SharpValhalla_Models_Response_RouteResponse_Language
+  name: Language
+  nameWithType: RouteResponse.Language
+  fullName: SharpValhalla.Models.Response.RouteResponse.Language
+- uid: SharpValhalla.Models.Response.RouteResponse.Summary*
+  commentId: Overload:SharpValhalla.Models.Response.RouteResponse.Summary
+  href: SharpValhalla.Models.Response.RouteResponse.html#SharpValhalla_Models_Response_RouteResponse_Summary
+  name: Summary
+  nameWithType: RouteResponse.Summary
+  fullName: SharpValhalla.Models.Response.RouteResponse.Summary
+- uid: SharpValhalla.Models.Response.SummaryResponse
+  commentId: T:SharpValhalla.Models.Response.SummaryResponse
+  parent: SharpValhalla.Models.Response
+  href: SharpValhalla.Models.Response.SummaryResponse.html
+  name: SummaryResponse
+  nameWithType: SummaryResponse
+  fullName: SharpValhalla.Models.Response.SummaryResponse
+- uid: SharpValhalla.Models.Response.RouteResponse.Legs*
+  commentId: Overload:SharpValhalla.Models.Response.RouteResponse.Legs
+  href: SharpValhalla.Models.Response.RouteResponse.html#SharpValhalla_Models_Response_RouteResponse_Legs
+  name: Legs
+  nameWithType: RouteResponse.Legs
+  fullName: SharpValhalla.Models.Response.RouteResponse.Legs
+- uid: System.Collections.Generic.List{SharpValhalla.Models.Response.LegResponse}
+  commentId: T:System.Collections.Generic.List{SharpValhalla.Models.Response.LegResponse}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<LegResponse>
+  nameWithType: List<LegResponse>
+  fullName: System.Collections.Generic.List<SharpValhalla.Models.Response.LegResponse>
+  nameWithType.vb: List(Of LegResponse)
+  fullName.vb: System.Collections.Generic.List(Of SharpValhalla.Models.Response.LegResponse)
+  name.vb: List(Of LegResponse)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SharpValhalla.Models.Response.LegResponse
+    name: LegResponse
+    href: SharpValhalla.Models.Response.LegResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SharpValhalla.Models.Response.LegResponse
+    name: LegResponse
+    href: SharpValhalla.Models.Response.LegResponse.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SharpValhalla.Models.Response.RouteResponse.Locations*
+  commentId: Overload:SharpValhalla.Models.Response.RouteResponse.Locations
+  href: SharpValhalla.Models.Response.RouteResponse.html#SharpValhalla_Models_Response_RouteResponse_Locations
+  name: Locations
+  nameWithType: RouteResponse.Locations
+  fullName: SharpValhalla.Models.Response.RouteResponse.Locations
+- uid: System.Collections.Generic.List{SharpValhalla.Models.Common.Location}
+  commentId: T:System.Collections.Generic.List{SharpValhalla.Models.Common.Location}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Location>
+  nameWithType: List<Location>
+  fullName: System.Collections.Generic.List<SharpValhalla.Models.Common.Location>
+  nameWithType.vb: List(Of Location)
+  fullName.vb: System.Collections.Generic.List(Of SharpValhalla.Models.Common.Location)
+  name.vb: List(Of Location)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SharpValhalla.Models.Common.Location
+    name: Location
+    href: SharpValhalla.Models.Common.Location.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SharpValhalla.Models.Common.Location
+    name: Location
+    href: SharpValhalla.Models.Common.Location.html
+  - name: )

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Utils
+  commentId: N:SharpValhalla.Utils
+  id: SharpValhalla.Utils
+  children:
+  - SharpValhalla.Utils.ShapeDecoding
+  langs:
+  - csharp
+  - vb
+  name: SharpValhalla.Utils
+  nameWithType: SharpValhalla.Utils
+  fullName: SharpValhalla.Utils
+  type: Namespace
+  assemblies:
+  - SharpValhalla
+references:
+- uid: SharpValhalla.Utils.ShapeDecoding
+  commentId: T:SharpValhalla.Utils.ShapeDecoding
+  href: SharpValhalla.Utils.ShapeDecoding.html
+  name: ShapeDecoding
+  nameWithType: ShapeDecoding
+  fullName: SharpValhalla.Utils.ShapeDecoding

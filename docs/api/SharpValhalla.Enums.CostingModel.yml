@@ -1,0 +1,385 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.CostingModel
+  commentId: T:SharpValhalla.Enums.CostingModel
+  id: CostingModel
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.CostingModel.Auto
+  - SharpValhalla.Enums.CostingModel.Bicycle
+  - SharpValhalla.Enums.CostingModel.Bikeshare
+  - SharpValhalla.Enums.CostingModel.Bus
+  - SharpValhalla.Enums.CostingModel.Hov
+  - SharpValhalla.Enums.CostingModel.MotorScooter
+  - SharpValhalla.Enums.CostingModel.Motorcycle
+  - SharpValhalla.Enums.CostingModel.MultiModal
+  - SharpValhalla.Enums.CostingModel.Pedestrian
+  - SharpValhalla.Enums.CostingModel.Taxi
+  - SharpValhalla.Enums.CostingModel.Truck
+  langs:
+  - csharp
+  - vb
+  name: CostingModel
+  nameWithType: CostingModel
+  fullName: SharpValhalla.Enums.CostingModel
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/CostingModel.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: CostingModel
+    path: ../src/SharpValhalla/Enums/CostingModel.cs
+    startLine: 7
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Run-time costing model for route path generation.
+  example: []
+  syntax:
+    content: public enum CostingModel
+    content.vb: Public Enum CostingModel
+- uid: SharpValhalla.Enums.CostingModel.Auto
+  commentId: F:SharpValhalla.Enums.CostingModel.Auto
+  id: Auto
+  parent: SharpValhalla.Enums.CostingModel
+  langs:
+  - csharp
+  - vb
+  name: Auto
+  nameWithType: CostingModel.Auto
+  fullName: SharpValhalla.Enums.CostingModel.Auto
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/CostingModel.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Auto
+    path: ../src/SharpValhalla/Enums/CostingModel.cs
+    startLine: 11
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Standard costing for driving routes by car, motorcycle, truck, and so on that obeys automobile driving rules, such as access and turn restrictions. Auto provides a short time path (though not guaranteed to be shortest time) and uses intersection costing to minimize turns and maneuvers or road name changes. Routes also tend to favor highways and higher classification roads, such as motorways and trunks.
+  example: []
+  syntax:
+    content: Auto = 0
+    return:
+      type: SharpValhalla.Enums.CostingModel
+- uid: SharpValhalla.Enums.CostingModel.Bicycle
+  commentId: F:SharpValhalla.Enums.CostingModel.Bicycle
+  id: Bicycle
+  parent: SharpValhalla.Enums.CostingModel
+  langs:
+  - csharp
+  - vb
+  name: Bicycle
+  nameWithType: CostingModel.Bicycle
+  fullName: SharpValhalla.Enums.CostingModel.Bicycle
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/CostingModel.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Bicycle
+    path: ../src/SharpValhalla/Enums/CostingModel.cs
+    startLine: 16
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Standard costing for travel by bicycle, with a slight preference for using cycleways or roads with bicycle lanes. Bicycle routes follow regular roads when needed, but avoid roads without bicycle access.
+  example: []
+  syntax:
+    content: Bicycle = 1
+    return:
+      type: SharpValhalla.Enums.CostingModel
+- uid: SharpValhalla.Enums.CostingModel.Pedestrian
+  commentId: F:SharpValhalla.Enums.CostingModel.Pedestrian
+  id: Pedestrian
+  parent: SharpValhalla.Enums.CostingModel
+  langs:
+  - csharp
+  - vb
+  name: Pedestrian
+  nameWithType: CostingModel.Pedestrian
+  fullName: SharpValhalla.Enums.CostingModel.Pedestrian
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/CostingModel.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Pedestrian
+    path: ../src/SharpValhalla/Enums/CostingModel.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: 'Standard walking route that excludes roads without pedestrian access. In general, pedestrian routes are shortest distance with the following exceptions: walkways and footpaths are slightly favored, while steps or stairs and alleys are slightly avoided.'
+  example: []
+  syntax:
+    content: Pedestrian = 2
+    return:
+      type: SharpValhalla.Enums.CostingModel
+- uid: SharpValhalla.Enums.CostingModel.Bus
+  commentId: F:SharpValhalla.Enums.CostingModel.Bus
+  id: Bus
+  parent: SharpValhalla.Enums.CostingModel
+  langs:
+  - csharp
+  - vb
+  name: Bus
+  nameWithType: CostingModel.Bus
+  fullName: SharpValhalla.Enums.CostingModel.Bus
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/CostingModel.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Bus
+    path: ../src/SharpValhalla/Enums/CostingModel.cs
+    startLine: 26
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Standard costing for bus routes. Bus costing inherits the auto costing behaviors, but checks for bus access on the roads.
+  example: []
+  syntax:
+    content: Bus = 3
+    return:
+      type: SharpValhalla.Enums.CostingModel
+- uid: SharpValhalla.Enums.CostingModel.Bikeshare
+  commentId: F:SharpValhalla.Enums.CostingModel.Bikeshare
+  id: Bikeshare
+  parent: SharpValhalla.Enums.CostingModel
+  langs:
+  - csharp
+  - vb
+  name: Bikeshare
+  nameWithType: CostingModel.Bikeshare
+  fullName: SharpValhalla.Enums.CostingModel.Bikeshare
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/CostingModel.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Bikeshare
+    path: ../src/SharpValhalla/Enums/CostingModel.cs
+    startLine: 32
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    A combination of pedestrian and bicycle. Use bike share station(amenity:bicycle_rental) to change the travel mode
+
+    Note: This model is still in BETA
+  example: []
+  syntax:
+    content: Bikeshare = 4
+    return:
+      type: SharpValhalla.Enums.CostingModel
+- uid: SharpValhalla.Enums.CostingModel.Truck
+  commentId: F:SharpValhalla.Enums.CostingModel.Truck
+  id: Truck
+  parent: SharpValhalla.Enums.CostingModel
+  langs:
+  - csharp
+  - vb
+  name: Truck
+  nameWithType: CostingModel.Truck
+  fullName: SharpValhalla.Enums.CostingModel.Truck
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/CostingModel.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Truck
+    path: ../src/SharpValhalla/Enums/CostingModel.cs
+    startLine: 37
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Standard costing for trucks. Truck costing inherits the auto costing behaviors, but checks for truck access, width and height restrictions, and weight limits on the roads.
+  example: []
+  syntax:
+    content: Truck = 5
+    return:
+      type: SharpValhalla.Enums.CostingModel
+- uid: SharpValhalla.Enums.CostingModel.Hov
+  commentId: F:SharpValhalla.Enums.CostingModel.Hov
+  id: Hov
+  parent: SharpValhalla.Enums.CostingModel
+  langs:
+  - csharp
+  - vb
+  name: Hov
+  nameWithType: CostingModel.Hov
+  fullName: SharpValhalla.Enums.CostingModel.Hov
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/CostingModel.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Hov
+    path: ../src/SharpValhalla/Enums/CostingModel.cs
+    startLine: 42
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Deprecated. Use Auto instead.
+  example: []
+  syntax:
+    content: Hov = 6
+    return:
+      type: SharpValhalla.Enums.CostingModel
+- uid: SharpValhalla.Enums.CostingModel.Taxi
+  commentId: F:SharpValhalla.Enums.CostingModel.Taxi
+  id: Taxi
+  parent: SharpValhalla.Enums.CostingModel
+  langs:
+  - csharp
+  - vb
+  name: Taxi
+  nameWithType: CostingModel.Taxi
+  fullName: SharpValhalla.Enums.CostingModel.Taxi
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/CostingModel.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Taxi
+    path: ../src/SharpValhalla/Enums/CostingModel.cs
+    startLine: 47
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Standard costing for taxi routes. Taxi costing inherits the auto costing behaviors, but checks for taxi lane access on the roads and favors those roads.
+  example: []
+  syntax:
+    content: Taxi = 7
+    return:
+      type: SharpValhalla.Enums.CostingModel
+- uid: SharpValhalla.Enums.CostingModel.MotorScooter
+  commentId: F:SharpValhalla.Enums.CostingModel.MotorScooter
+  id: MotorScooter
+  parent: SharpValhalla.Enums.CostingModel
+  langs:
+  - csharp
+  - vb
+  name: MotorScooter
+  nameWithType: CostingModel.MotorScooter
+  fullName: SharpValhalla.Enums.CostingModel.MotorScooter
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/CostingModel.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MotorScooter
+    path: ../src/SharpValhalla/Enums/CostingModel.cs
+    startLine: 52
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Standard costing for travel by motor scooter or moped. By default, motor_scooter costing will avoid higher class roads unless the country overrides allows motor scooters on these roads. Motor scooter routes follow regular roads when needed, but avoid roads without motor_scooter, moped, or mofa access.
+  example: []
+  syntax:
+    content: MotorScooter = 8
+    return:
+      type: SharpValhalla.Enums.CostingModel
+- uid: SharpValhalla.Enums.CostingModel.Motorcycle
+  commentId: F:SharpValhalla.Enums.CostingModel.Motorcycle
+  id: Motorcycle
+  parent: SharpValhalla.Enums.CostingModel
+  langs:
+  - csharp
+  - vb
+  name: Motorcycle
+  nameWithType: CostingModel.Motorcycle
+  fullName: SharpValhalla.Enums.CostingModel.Motorcycle
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/CostingModel.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Motorcycle
+    path: ../src/SharpValhalla/Enums/CostingModel.cs
+    startLine: 58
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    Standard costing for travel by motorcycle. This costing model provides options to tune the route to take roadways (road touring) vs. tracks and trails (adventure motorcycling).
+
+    Note: This model is still in BETA
+  example: []
+  syntax:
+    content: Motorcycle = 9
+    return:
+      type: SharpValhalla.Enums.CostingModel
+- uid: SharpValhalla.Enums.CostingModel.MultiModal
+  commentId: F:SharpValhalla.Enums.CostingModel.MultiModal
+  id: MultiModal
+  parent: SharpValhalla.Enums.CostingModel
+  langs:
+  - csharp
+  - vb
+  name: MultiModal
+  nameWithType: CostingModel.MultiModal
+  fullName: SharpValhalla.Enums.CostingModel.MultiModal
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/CostingModel.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MultiModal
+    path: ../src/SharpValhalla/Enums/CostingModel.cs
+    startLine: 63
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Currently supports pedestrian and transit. In the future, multimodal will support a combination of all of the above.
+  example: []
+  syntax:
+    content: MultiModal = 10
+    return:
+      type: SharpValhalla.Enums.CostingModel
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.CostingModel
+  commentId: T:SharpValhalla.Enums.CostingModel
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.CostingModel.html
+  name: CostingModel
+  nameWithType: CostingModel
+  fullName: SharpValhalla.Enums.CostingModel

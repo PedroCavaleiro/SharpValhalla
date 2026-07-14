@@ -1,0 +1,1465 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Models.Request.MatrixRequest
+  commentId: T:SharpValhalla.Models.Request.MatrixRequest
+  id: MatrixRequest
+  parent: SharpValhalla.Models.Request
+  children:
+  - SharpValhalla.Models.Request.MatrixRequest.#ctor(System.Collections.Generic.IEnumerable{SharpValhalla.Interfaces.ILocation},System.Collections.Generic.IEnumerable{SharpValhalla.Interfaces.ILocation},SharpValhalla.Enums.CostingModel,SharpValhalla.Models.Common.CostingOptions,System.Nullable{SharpValhalla.Enums.Unit},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.ShapeFormat},SharpValhalla.Models.Request.TraceAttributesFilter,System.Nullable{SharpValhalla.Enums.PriorityType},System.Collections.Generic.List{System.Int32})
+  - SharpValhalla.Models.Request.MatrixRequest.#ctor(System.Collections.Generic.IEnumerable{SharpValhalla.Models.Common.LocationCoordinate2D},System.Collections.Generic.IEnumerable{SharpValhalla.Models.Common.LocationCoordinate2D},SharpValhalla.Enums.CostingModel,SharpValhalla.Models.Common.CostingOptions,System.Nullable{SharpValhalla.Enums.Unit},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.ShapeFormat},SharpValhalla.Models.Request.TraceAttributesFilter,System.Nullable{SharpValhalla.Enums.PriorityType},System.Collections.Generic.List{System.Int32})
+  - SharpValhalla.Models.Request.MatrixRequest.#ctor(System.Collections.Generic.List{SharpValhalla.Models.Common.Location},System.Collections.Generic.List{SharpValhalla.Models.Common.Location},SharpValhalla.Enums.CostingModel,SharpValhalla.Models.Common.CostingOptions,System.Nullable{SharpValhalla.Enums.Unit},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.ShapeFormat},SharpValhalla.Models.Request.TraceAttributesFilter,System.Nullable{SharpValhalla.Enums.PriorityType},System.Collections.Generic.List{System.Int32})
+  - SharpValhalla.Models.Request.MatrixRequest.Costing
+  - SharpValhalla.Models.Request.MatrixRequest.CostingOptions
+  - SharpValhalla.Models.Request.MatrixRequest.ExcludeLocations
+  - SharpValhalla.Models.Request.MatrixRequest.Filters
+  - SharpValhalla.Models.Request.MatrixRequest.MatrixLocations
+  - SharpValhalla.Models.Request.MatrixRequest.PrioritizeBy
+  - SharpValhalla.Models.Request.MatrixRequest.Shape
+  - SharpValhalla.Models.Request.MatrixRequest.Sources
+  - SharpValhalla.Models.Request.MatrixRequest.Targets
+  - SharpValhalla.Models.Request.MatrixRequest.Units
+  - SharpValhalla.Models.Request.MatrixRequest.Verbose
+  langs:
+  - csharp
+  - vb
+  name: MatrixRequest
+  nameWithType: MatrixRequest
+  fullName: SharpValhalla.Models.Request.MatrixRequest
+  type: Class
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MatrixRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MatrixRequest
+    path: ../src/SharpValhalla/Models/Request/MatrixRequest.cs
+    startLine: 16
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: >-
+    A request structure for calculating travel time and distance matrices between multiple locations.
+
+    Use MatrixRequest to compute one-to-many, many-to-one, or many-to-many matrices that provide
+
+    travel times and distances between locations. Useful for route optimization, delivery planning, location analysis, and travel time calculations.
+  example: []
+  syntax:
+    content: public class MatrixRequest
+    content.vb: Public Class MatrixRequest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SharpValhalla.Models.Request.MatrixRequest.Sources
+  commentId: P:SharpValhalla.Models.Request.MatrixRequest.Sources
+  id: Sources
+  parent: SharpValhalla.Models.Request.MatrixRequest
+  langs:
+  - csharp
+  - vb
+  name: Sources
+  nameWithType: MatrixRequest.Sources
+  fullName: SharpValhalla.Models.Request.MatrixRequest.Sources
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MatrixRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Sources
+    path: ../src/SharpValhalla/Models/Request/MatrixRequest.cs
+    startLine: 20
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Array of source locations for the matrix calculation.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("sources")]
+
+      public List<Location> Sources { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SharpValhalla.Models.Common.Location}
+    content.vb: >-
+      <JsonPropertyName("sources")>
+
+      Public Property Sources As List(Of Location)
+  overload: SharpValhalla.Models.Request.MatrixRequest.Sources*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: sources
+- uid: SharpValhalla.Models.Request.MatrixRequest.Targets
+  commentId: P:SharpValhalla.Models.Request.MatrixRequest.Targets
+  id: Targets
+  parent: SharpValhalla.Models.Request.MatrixRequest
+  langs:
+  - csharp
+  - vb
+  name: Targets
+  nameWithType: MatrixRequest.Targets
+  fullName: SharpValhalla.Models.Request.MatrixRequest.Targets
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MatrixRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Targets
+    path: ../src/SharpValhalla/Models/Request/MatrixRequest.cs
+    startLine: 26
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Array of target locations for the matrix calculation. If null, sources are used as targets.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("targets")]
+
+      public List<Location>? Targets { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SharpValhalla.Models.Common.Location}
+    content.vb: >-
+      <JsonPropertyName("targets")>
+
+      Public Property Targets As List(Of Location)
+  overload: SharpValhalla.Models.Request.MatrixRequest.Targets*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: targets
+- uid: SharpValhalla.Models.Request.MatrixRequest.Costing
+  commentId: P:SharpValhalla.Models.Request.MatrixRequest.Costing
+  id: Costing
+  parent: SharpValhalla.Models.Request.MatrixRequest
+  langs:
+  - csharp
+  - vb
+  name: Costing
+  nameWithType: MatrixRequest.Costing
+  fullName: SharpValhalla.Models.Request.MatrixRequest.Costing
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MatrixRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Costing
+    path: ../src/SharpValhalla/Models/Request/MatrixRequest.cs
+    startLine: 32
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: The costing model to use for route calculations.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("costing")]
+
+      public CostingModel Costing { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Enums.CostingModel
+    content.vb: >-
+      <JsonPropertyName("costing")>
+
+      Public Property Costing As CostingModel
+  overload: SharpValhalla.Models.Request.MatrixRequest.Costing*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: costing
+- uid: SharpValhalla.Models.Request.MatrixRequest.CostingOptions
+  commentId: P:SharpValhalla.Models.Request.MatrixRequest.CostingOptions
+  id: CostingOptions
+  parent: SharpValhalla.Models.Request.MatrixRequest
+  langs:
+  - csharp
+  - vb
+  name: CostingOptions
+  nameWithType: MatrixRequest.CostingOptions
+  fullName: SharpValhalla.Models.Request.MatrixRequest.CostingOptions
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MatrixRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: CostingOptions
+    path: ../src/SharpValhalla/Models/Request/MatrixRequest.cs
+    startLine: 38
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Additional options specific to the chosen costing model.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("costing_options")]
+
+      public CostingOptions? CostingOptions { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Models.Common.CostingOptions
+    content.vb: >-
+      <JsonPropertyName("costing_options")>
+
+      Public Property CostingOptions As CostingOptions
+  overload: SharpValhalla.Models.Request.MatrixRequest.CostingOptions*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: costing_options
+- uid: SharpValhalla.Models.Request.MatrixRequest.Units
+  commentId: P:SharpValhalla.Models.Request.MatrixRequest.Units
+  id: Units
+  parent: SharpValhalla.Models.Request.MatrixRequest
+  langs:
+  - csharp
+  - vb
+  name: Units
+  nameWithType: MatrixRequest.Units
+  fullName: SharpValhalla.Models.Request.MatrixRequest.Units
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MatrixRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Units
+    path: ../src/SharpValhalla/Models/Request/MatrixRequest.cs
+    startLine: 44
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Distance units for the response output. Defaults to kilometers if null.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("units")]
+
+      public Unit? Units { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SharpValhalla.Enums.Unit}
+    content.vb: >-
+      <JsonPropertyName("units")>
+
+      Public Property Units As Unit?
+  overload: SharpValhalla.Models.Request.MatrixRequest.Units*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: units
+- uid: SharpValhalla.Models.Request.MatrixRequest.Verbose
+  commentId: P:SharpValhalla.Models.Request.MatrixRequest.Verbose
+  id: Verbose
+  parent: SharpValhalla.Models.Request.MatrixRequest
+  langs:
+  - csharp
+  - vb
+  name: Verbose
+  nameWithType: MatrixRequest.Verbose
+  fullName: SharpValhalla.Models.Request.MatrixRequest.Verbose
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MatrixRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Verbose
+    path: ../src/SharpValhalla/Models/Request/MatrixRequest.cs
+    startLine: 50
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Whether to return verbose output with additional information.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("verbose")]
+
+      public bool? Verbose { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <JsonPropertyName("verbose")>
+
+      Public Property Verbose As Boolean?
+  overload: SharpValhalla.Models.Request.MatrixRequest.Verbose*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: verbose
+- uid: SharpValhalla.Models.Request.MatrixRequest.MatrixLocations
+  commentId: P:SharpValhalla.Models.Request.MatrixRequest.MatrixLocations
+  id: MatrixLocations
+  parent: SharpValhalla.Models.Request.MatrixRequest
+  langs:
+  - csharp
+  - vb
+  name: MatrixLocations
+  nameWithType: MatrixRequest.MatrixLocations
+  fullName: SharpValhalla.Models.Request.MatrixRequest.MatrixLocations
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MatrixRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MatrixLocations
+    path: ../src/SharpValhalla/Models/Request/MatrixRequest.cs
+    startLine: 56
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Maximum number of locations allowed in the matrix calculation.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("matrix_locations")]
+
+      public int? MatrixLocations { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("matrix_locations")>
+
+      Public Property MatrixLocations As Integer?
+  overload: SharpValhalla.Models.Request.MatrixRequest.MatrixLocations*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: matrix_locations
+- uid: SharpValhalla.Models.Request.MatrixRequest.Shape
+  commentId: P:SharpValhalla.Models.Request.MatrixRequest.Shape
+  id: Shape
+  parent: SharpValhalla.Models.Request.MatrixRequest
+  langs:
+  - csharp
+  - vb
+  name: Shape
+  nameWithType: MatrixRequest.Shape
+  fullName: SharpValhalla.Models.Request.MatrixRequest.Shape
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MatrixRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Shape
+    path: ../src/SharpValhalla/Models/Request/MatrixRequest.cs
+    startLine: 62
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Coordinate encoding format for any returned route shapes.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("shape")]
+
+      public ShapeFormat? Shape { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SharpValhalla.Enums.ShapeFormat}
+    content.vb: >-
+      <JsonPropertyName("shape")>
+
+      Public Property Shape As ShapeFormat?
+  overload: SharpValhalla.Models.Request.MatrixRequest.Shape*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: shape
+- uid: SharpValhalla.Models.Request.MatrixRequest.Filters
+  commentId: P:SharpValhalla.Models.Request.MatrixRequest.Filters
+  id: Filters
+  parent: SharpValhalla.Models.Request.MatrixRequest
+  langs:
+  - csharp
+  - vb
+  name: Filters
+  nameWithType: MatrixRequest.Filters
+  fullName: SharpValhalla.Models.Request.MatrixRequest.Filters
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MatrixRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Filters
+    path: ../src/SharpValhalla/Models/Request/MatrixRequest.cs
+    startLine: 68
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Filters to apply to the response attributes.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("filters")]
+
+      public TraceAttributesFilter? Filters { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Models.Request.TraceAttributesFilter
+    content.vb: >-
+      <JsonPropertyName("filters")>
+
+      Public Property Filters As TraceAttributesFilter
+  overload: SharpValhalla.Models.Request.MatrixRequest.Filters*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: filters
+- uid: SharpValhalla.Models.Request.MatrixRequest.PrioritizeBy
+  commentId: P:SharpValhalla.Models.Request.MatrixRequest.PrioritizeBy
+  id: PrioritizeBy
+  parent: SharpValhalla.Models.Request.MatrixRequest
+  langs:
+  - csharp
+  - vb
+  name: PrioritizeBy
+  nameWithType: MatrixRequest.PrioritizeBy
+  fullName: SharpValhalla.Models.Request.MatrixRequest.PrioritizeBy
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MatrixRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: PrioritizeBy
+    path: ../src/SharpValhalla/Models/Request/MatrixRequest.cs
+    startLine: 74
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Whether to prioritize calculations by time or distance.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("prioritize_by")]
+
+      public PriorityType? PrioritizeBy { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SharpValhalla.Enums.PriorityType}
+    content.vb: >-
+      <JsonPropertyName("prioritize_by")>
+
+      Public Property PrioritizeBy As PriorityType?
+  overload: SharpValhalla.Models.Request.MatrixRequest.PrioritizeBy*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: prioritize_by
+- uid: SharpValhalla.Models.Request.MatrixRequest.ExcludeLocations
+  commentId: P:SharpValhalla.Models.Request.MatrixRequest.ExcludeLocations
+  id: ExcludeLocations
+  parent: SharpValhalla.Models.Request.MatrixRequest
+  langs:
+  - csharp
+  - vb
+  name: ExcludeLocations
+  nameWithType: MatrixRequest.ExcludeLocations
+  fullName: SharpValhalla.Models.Request.MatrixRequest.ExcludeLocations
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MatrixRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ExcludeLocations
+    path: ../src/SharpValhalla/Models/Request/MatrixRequest.cs
+    startLine: 80
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Indices of locations to exclude from the matrix calculation.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("exclude_locations")]
+
+      public List<int>? ExcludeLocations { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("exclude_locations")>
+
+      Public Property ExcludeLocations As List(Of Integer)
+  overload: SharpValhalla.Models.Request.MatrixRequest.ExcludeLocations*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: exclude_locations
+- uid: SharpValhalla.Models.Request.MatrixRequest.#ctor(System.Collections.Generic.List{SharpValhalla.Models.Common.Location},System.Collections.Generic.List{SharpValhalla.Models.Common.Location},SharpValhalla.Enums.CostingModel,SharpValhalla.Models.Common.CostingOptions,System.Nullable{SharpValhalla.Enums.Unit},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.ShapeFormat},SharpValhalla.Models.Request.TraceAttributesFilter,System.Nullable{SharpValhalla.Enums.PriorityType},System.Collections.Generic.List{System.Int32})
+  commentId: M:SharpValhalla.Models.Request.MatrixRequest.#ctor(System.Collections.Generic.List{SharpValhalla.Models.Common.Location},System.Collections.Generic.List{SharpValhalla.Models.Common.Location},SharpValhalla.Enums.CostingModel,SharpValhalla.Models.Common.CostingOptions,System.Nullable{SharpValhalla.Enums.Unit},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.ShapeFormat},SharpValhalla.Models.Request.TraceAttributesFilter,System.Nullable{SharpValhalla.Enums.PriorityType},System.Collections.Generic.List{System.Int32})
+  id: '#ctor(System.Collections.Generic.List{SharpValhalla.Models.Common.Location},System.Collections.Generic.List{SharpValhalla.Models.Common.Location},SharpValhalla.Enums.CostingModel,SharpValhalla.Models.Common.CostingOptions,System.Nullable{SharpValhalla.Enums.Unit},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.ShapeFormat},SharpValhalla.Models.Request.TraceAttributesFilter,System.Nullable{SharpValhalla.Enums.PriorityType},System.Collections.Generic.List{System.Int32})'
+  parent: SharpValhalla.Models.Request.MatrixRequest
+  langs:
+  - csharp
+  - vb
+  name: MatrixRequest(List<Location>, List<Location>?, CostingModel, CostingOptions?, Unit?, bool?, int?, ShapeFormat?, TraceAttributesFilter?, PriorityType?, List<int>?)
+  nameWithType: MatrixRequest.MatrixRequest(List<Location>, List<Location>?, CostingModel, CostingOptions?, Unit?, bool?, int?, ShapeFormat?, TraceAttributesFilter?, PriorityType?, List<int>?)
+  fullName: SharpValhalla.Models.Request.MatrixRequest.MatrixRequest(System.Collections.Generic.List<SharpValhalla.Models.Common.Location>, System.Collections.Generic.List<SharpValhalla.Models.Common.Location>?, SharpValhalla.Enums.CostingModel, SharpValhalla.Models.Common.CostingOptions?, SharpValhalla.Enums.Unit?, bool?, int?, SharpValhalla.Enums.ShapeFormat?, SharpValhalla.Models.Request.TraceAttributesFilter?, SharpValhalla.Enums.PriorityType?, System.Collections.Generic.List<int>?)
+  type: Constructor
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MatrixRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: .ctor
+    path: ../src/SharpValhalla/Models/Request/MatrixRequest.cs
+    startLine: 86
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Creates a matrix request with the specified parameters.
+  example: []
+  syntax:
+    content: public MatrixRequest(List<Location> sources, List<Location>? targets = null, CostingModel costing = CostingModel.Auto, CostingOptions? costingOptions = null, Unit? units = null, bool? verbose = null, int? matrixLocations = null, ShapeFormat? shape = null, TraceAttributesFilter? filters = null, PriorityType? prioritizeBy = null, List<int>? excludeLocations = null)
+    parameters:
+    - id: sources
+      type: System.Collections.Generic.List{SharpValhalla.Models.Common.Location}
+    - id: targets
+      type: System.Collections.Generic.List{SharpValhalla.Models.Common.Location}
+    - id: costing
+      type: SharpValhalla.Enums.CostingModel
+    - id: costingOptions
+      type: SharpValhalla.Models.Common.CostingOptions
+    - id: units
+      type: System.Nullable{SharpValhalla.Enums.Unit}
+    - id: verbose
+      type: System.Nullable{System.Boolean}
+    - id: matrixLocations
+      type: System.Nullable{System.Int32}
+    - id: shape
+      type: System.Nullable{SharpValhalla.Enums.ShapeFormat}
+    - id: filters
+      type: SharpValhalla.Models.Request.TraceAttributesFilter
+    - id: prioritizeBy
+      type: System.Nullable{SharpValhalla.Enums.PriorityType}
+    - id: excludeLocations
+      type: System.Collections.Generic.List{System.Int32}
+    content.vb: Public Sub New(sources As List(Of Location), targets As List(Of Location) = Nothing, costing As CostingModel = CostingModel.Auto, costingOptions As CostingOptions = Nothing, units As Unit? = Nothing, verbose As Boolean? = Nothing, matrixLocations As Integer? = Nothing, shape As ShapeFormat? = Nothing, filters As TraceAttributesFilter = Nothing, prioritizeBy As PriorityType? = Nothing, excludeLocations As List(Of Integer) = Nothing)
+  overload: SharpValhalla.Models.Request.MatrixRequest.#ctor*
+  nameWithType.vb: MatrixRequest.New(List(Of Location), List(Of Location), CostingModel, CostingOptions, Unit?, Boolean?, Integer?, ShapeFormat?, TraceAttributesFilter, PriorityType?, List(Of Integer))
+  fullName.vb: SharpValhalla.Models.Request.MatrixRequest.New(System.Collections.Generic.List(Of SharpValhalla.Models.Common.Location), System.Collections.Generic.List(Of SharpValhalla.Models.Common.Location), SharpValhalla.Enums.CostingModel, SharpValhalla.Models.Common.CostingOptions, SharpValhalla.Enums.Unit?, Boolean?, Integer?, SharpValhalla.Enums.ShapeFormat?, SharpValhalla.Models.Request.TraceAttributesFilter, SharpValhalla.Enums.PriorityType?, System.Collections.Generic.List(Of Integer))
+  name.vb: New(List(Of Location), List(Of Location), CostingModel, CostingOptions, Unit?, Boolean?, Integer?, ShapeFormat?, TraceAttributesFilter, PriorityType?, List(Of Integer))
+- uid: SharpValhalla.Models.Request.MatrixRequest.#ctor(System.Collections.Generic.IEnumerable{SharpValhalla.Interfaces.ILocation},System.Collections.Generic.IEnumerable{SharpValhalla.Interfaces.ILocation},SharpValhalla.Enums.CostingModel,SharpValhalla.Models.Common.CostingOptions,System.Nullable{SharpValhalla.Enums.Unit},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.ShapeFormat},SharpValhalla.Models.Request.TraceAttributesFilter,System.Nullable{SharpValhalla.Enums.PriorityType},System.Collections.Generic.List{System.Int32})
+  commentId: M:SharpValhalla.Models.Request.MatrixRequest.#ctor(System.Collections.Generic.IEnumerable{SharpValhalla.Interfaces.ILocation},System.Collections.Generic.IEnumerable{SharpValhalla.Interfaces.ILocation},SharpValhalla.Enums.CostingModel,SharpValhalla.Models.Common.CostingOptions,System.Nullable{SharpValhalla.Enums.Unit},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.ShapeFormat},SharpValhalla.Models.Request.TraceAttributesFilter,System.Nullable{SharpValhalla.Enums.PriorityType},System.Collections.Generic.List{System.Int32})
+  id: '#ctor(System.Collections.Generic.IEnumerable{SharpValhalla.Interfaces.ILocation},System.Collections.Generic.IEnumerable{SharpValhalla.Interfaces.ILocation},SharpValhalla.Enums.CostingModel,SharpValhalla.Models.Common.CostingOptions,System.Nullable{SharpValhalla.Enums.Unit},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.ShapeFormat},SharpValhalla.Models.Request.TraceAttributesFilter,System.Nullable{SharpValhalla.Enums.PriorityType},System.Collections.Generic.List{System.Int32})'
+  parent: SharpValhalla.Models.Request.MatrixRequest
+  langs:
+  - csharp
+  - vb
+  name: MatrixRequest(IEnumerable<ILocation>, IEnumerable<ILocation>?, CostingModel, CostingOptions?, Unit?, bool?, int?, ShapeFormat?, TraceAttributesFilter?, PriorityType?, List<int>?)
+  nameWithType: MatrixRequest.MatrixRequest(IEnumerable<ILocation>, IEnumerable<ILocation>?, CostingModel, CostingOptions?, Unit?, bool?, int?, ShapeFormat?, TraceAttributesFilter?, PriorityType?, List<int>?)
+  fullName: SharpValhalla.Models.Request.MatrixRequest.MatrixRequest(System.Collections.Generic.IEnumerable<SharpValhalla.Interfaces.ILocation>, System.Collections.Generic.IEnumerable<SharpValhalla.Interfaces.ILocation>?, SharpValhalla.Enums.CostingModel, SharpValhalla.Models.Common.CostingOptions?, SharpValhalla.Enums.Unit?, bool?, int?, SharpValhalla.Enums.ShapeFormat?, SharpValhalla.Models.Request.TraceAttributesFilter?, SharpValhalla.Enums.PriorityType?, System.Collections.Generic.List<int>?)
+  type: Constructor
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MatrixRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: .ctor
+    path: ../src/SharpValhalla/Models/Request/MatrixRequest.cs
+    startLine: 115
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Creates a matrix request from objects conforming to ILocationProtocol.
+  example: []
+  syntax:
+    content: public MatrixRequest(IEnumerable<ILocation> sources, IEnumerable<ILocation>? targets = null, CostingModel costing = CostingModel.Auto, CostingOptions? costingOptions = null, Unit? units = null, bool? verbose = null, int? matrixLocations = null, ShapeFormat? shape = null, TraceAttributesFilter? filters = null, PriorityType? prioritizeBy = null, List<int>? excludeLocations = null)
+    parameters:
+    - id: sources
+      type: System.Collections.Generic.IEnumerable{SharpValhalla.Interfaces.ILocation}
+    - id: targets
+      type: System.Collections.Generic.IEnumerable{SharpValhalla.Interfaces.ILocation}
+    - id: costing
+      type: SharpValhalla.Enums.CostingModel
+    - id: costingOptions
+      type: SharpValhalla.Models.Common.CostingOptions
+    - id: units
+      type: System.Nullable{SharpValhalla.Enums.Unit}
+    - id: verbose
+      type: System.Nullable{System.Boolean}
+    - id: matrixLocations
+      type: System.Nullable{System.Int32}
+    - id: shape
+      type: System.Nullable{SharpValhalla.Enums.ShapeFormat}
+    - id: filters
+      type: SharpValhalla.Models.Request.TraceAttributesFilter
+    - id: prioritizeBy
+      type: System.Nullable{SharpValhalla.Enums.PriorityType}
+    - id: excludeLocations
+      type: System.Collections.Generic.List{System.Int32}
+    content.vb: Public Sub New(sources As IEnumerable(Of ILocation), targets As IEnumerable(Of ILocation) = Nothing, costing As CostingModel = CostingModel.Auto, costingOptions As CostingOptions = Nothing, units As Unit? = Nothing, verbose As Boolean? = Nothing, matrixLocations As Integer? = Nothing, shape As ShapeFormat? = Nothing, filters As TraceAttributesFilter = Nothing, prioritizeBy As PriorityType? = Nothing, excludeLocations As List(Of Integer) = Nothing)
+  overload: SharpValhalla.Models.Request.MatrixRequest.#ctor*
+  nameWithType.vb: MatrixRequest.New(IEnumerable(Of ILocation), IEnumerable(Of ILocation), CostingModel, CostingOptions, Unit?, Boolean?, Integer?, ShapeFormat?, TraceAttributesFilter, PriorityType?, List(Of Integer))
+  fullName.vb: SharpValhalla.Models.Request.MatrixRequest.New(System.Collections.Generic.IEnumerable(Of SharpValhalla.Interfaces.ILocation), System.Collections.Generic.IEnumerable(Of SharpValhalla.Interfaces.ILocation), SharpValhalla.Enums.CostingModel, SharpValhalla.Models.Common.CostingOptions, SharpValhalla.Enums.Unit?, Boolean?, Integer?, SharpValhalla.Enums.ShapeFormat?, SharpValhalla.Models.Request.TraceAttributesFilter, SharpValhalla.Enums.PriorityType?, System.Collections.Generic.List(Of Integer))
+  name.vb: New(IEnumerable(Of ILocation), IEnumerable(Of ILocation), CostingModel, CostingOptions, Unit?, Boolean?, Integer?, ShapeFormat?, TraceAttributesFilter, PriorityType?, List(Of Integer))
+- uid: SharpValhalla.Models.Request.MatrixRequest.#ctor(System.Collections.Generic.IEnumerable{SharpValhalla.Models.Common.LocationCoordinate2D},System.Collections.Generic.IEnumerable{SharpValhalla.Models.Common.LocationCoordinate2D},SharpValhalla.Enums.CostingModel,SharpValhalla.Models.Common.CostingOptions,System.Nullable{SharpValhalla.Enums.Unit},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.ShapeFormat},SharpValhalla.Models.Request.TraceAttributesFilter,System.Nullable{SharpValhalla.Enums.PriorityType},System.Collections.Generic.List{System.Int32})
+  commentId: M:SharpValhalla.Models.Request.MatrixRequest.#ctor(System.Collections.Generic.IEnumerable{SharpValhalla.Models.Common.LocationCoordinate2D},System.Collections.Generic.IEnumerable{SharpValhalla.Models.Common.LocationCoordinate2D},SharpValhalla.Enums.CostingModel,SharpValhalla.Models.Common.CostingOptions,System.Nullable{SharpValhalla.Enums.Unit},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.ShapeFormat},SharpValhalla.Models.Request.TraceAttributesFilter,System.Nullable{SharpValhalla.Enums.PriorityType},System.Collections.Generic.List{System.Int32})
+  id: '#ctor(System.Collections.Generic.IEnumerable{SharpValhalla.Models.Common.LocationCoordinate2D},System.Collections.Generic.IEnumerable{SharpValhalla.Models.Common.LocationCoordinate2D},SharpValhalla.Enums.CostingModel,SharpValhalla.Models.Common.CostingOptions,System.Nullable{SharpValhalla.Enums.Unit},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.ShapeFormat},SharpValhalla.Models.Request.TraceAttributesFilter,System.Nullable{SharpValhalla.Enums.PriorityType},System.Collections.Generic.List{System.Int32})'
+  parent: SharpValhalla.Models.Request.MatrixRequest
+  langs:
+  - csharp
+  - vb
+  name: MatrixRequest(IEnumerable<LocationCoordinate2D>, IEnumerable<LocationCoordinate2D>?, CostingModel, CostingOptions?, Unit?, bool?, int?, ShapeFormat?, TraceAttributesFilter?, PriorityType?, List<int>?)
+  nameWithType: MatrixRequest.MatrixRequest(IEnumerable<LocationCoordinate2D>, IEnumerable<LocationCoordinate2D>?, CostingModel, CostingOptions?, Unit?, bool?, int?, ShapeFormat?, TraceAttributesFilter?, PriorityType?, List<int>?)
+  fullName: SharpValhalla.Models.Request.MatrixRequest.MatrixRequest(System.Collections.Generic.IEnumerable<SharpValhalla.Models.Common.LocationCoordinate2D>, System.Collections.Generic.IEnumerable<SharpValhalla.Models.Common.LocationCoordinate2D>?, SharpValhalla.Enums.CostingModel, SharpValhalla.Models.Common.CostingOptions?, SharpValhalla.Enums.Unit?, bool?, int?, SharpValhalla.Enums.ShapeFormat?, SharpValhalla.Models.Request.TraceAttributesFilter?, SharpValhalla.Enums.PriorityType?, System.Collections.Generic.List<int>?)
+  type: Constructor
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/MatrixRequest.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: .ctor
+    path: ../src/SharpValhalla/Models/Request/MatrixRequest.cs
+    startLine: 146
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Creates a matrix request from arrays of coordinates.
+  example: []
+  syntax:
+    content: public MatrixRequest(IEnumerable<LocationCoordinate2D> sources, IEnumerable<LocationCoordinate2D>? targets = null, CostingModel costing = CostingModel.Auto, CostingOptions? costingOptions = null, Unit? units = null, bool? verbose = null, int? matrixLocations = null, ShapeFormat? shape = null, TraceAttributesFilter? filters = null, PriorityType? prioritizeBy = null, List<int>? excludeLocations = null)
+    parameters:
+    - id: sources
+      type: System.Collections.Generic.IEnumerable{SharpValhalla.Models.Common.LocationCoordinate2D}
+    - id: targets
+      type: System.Collections.Generic.IEnumerable{SharpValhalla.Models.Common.LocationCoordinate2D}
+    - id: costing
+      type: SharpValhalla.Enums.CostingModel
+    - id: costingOptions
+      type: SharpValhalla.Models.Common.CostingOptions
+    - id: units
+      type: System.Nullable{SharpValhalla.Enums.Unit}
+    - id: verbose
+      type: System.Nullable{System.Boolean}
+    - id: matrixLocations
+      type: System.Nullable{System.Int32}
+    - id: shape
+      type: System.Nullable{SharpValhalla.Enums.ShapeFormat}
+    - id: filters
+      type: SharpValhalla.Models.Request.TraceAttributesFilter
+    - id: prioritizeBy
+      type: System.Nullable{SharpValhalla.Enums.PriorityType}
+    - id: excludeLocations
+      type: System.Collections.Generic.List{System.Int32}
+    content.vb: Public Sub New(sources As IEnumerable(Of LocationCoordinate2D), targets As IEnumerable(Of LocationCoordinate2D) = Nothing, costing As CostingModel = CostingModel.Auto, costingOptions As CostingOptions = Nothing, units As Unit? = Nothing, verbose As Boolean? = Nothing, matrixLocations As Integer? = Nothing, shape As ShapeFormat? = Nothing, filters As TraceAttributesFilter = Nothing, prioritizeBy As PriorityType? = Nothing, excludeLocations As List(Of Integer) = Nothing)
+  overload: SharpValhalla.Models.Request.MatrixRequest.#ctor*
+  nameWithType.vb: MatrixRequest.New(IEnumerable(Of LocationCoordinate2D), IEnumerable(Of LocationCoordinate2D), CostingModel, CostingOptions, Unit?, Boolean?, Integer?, ShapeFormat?, TraceAttributesFilter, PriorityType?, List(Of Integer))
+  fullName.vb: SharpValhalla.Models.Request.MatrixRequest.New(System.Collections.Generic.IEnumerable(Of SharpValhalla.Models.Common.LocationCoordinate2D), System.Collections.Generic.IEnumerable(Of SharpValhalla.Models.Common.LocationCoordinate2D), SharpValhalla.Enums.CostingModel, SharpValhalla.Models.Common.CostingOptions, SharpValhalla.Enums.Unit?, Boolean?, Integer?, SharpValhalla.Enums.ShapeFormat?, SharpValhalla.Models.Request.TraceAttributesFilter, SharpValhalla.Enums.PriorityType?, System.Collections.Generic.List(Of Integer))
+  name.vb: New(IEnumerable(Of LocationCoordinate2D), IEnumerable(Of LocationCoordinate2D), CostingModel, CostingOptions, Unit?, Boolean?, Integer?, ShapeFormat?, TraceAttributesFilter, PriorityType?, List(Of Integer))
+references:
+- uid: SharpValhalla.Models.Request
+  commentId: N:SharpValhalla.Models.Request
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Request
+  nameWithType: SharpValhalla.Models.Request
+  fullName: SharpValhalla.Models.Request
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Request
+    name: Request
+    href: SharpValhalla.Models.Request.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Request
+    name: Request
+    href: SharpValhalla.Models.Request.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SharpValhalla.Models.Request.MatrixRequest.Sources*
+  commentId: Overload:SharpValhalla.Models.Request.MatrixRequest.Sources
+  href: SharpValhalla.Models.Request.MatrixRequest.html#SharpValhalla_Models_Request_MatrixRequest_Sources
+  name: Sources
+  nameWithType: MatrixRequest.Sources
+  fullName: SharpValhalla.Models.Request.MatrixRequest.Sources
+- uid: System.Collections.Generic.List{SharpValhalla.Models.Common.Location}
+  commentId: T:System.Collections.Generic.List{SharpValhalla.Models.Common.Location}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Location>
+  nameWithType: List<Location>
+  fullName: System.Collections.Generic.List<SharpValhalla.Models.Common.Location>
+  nameWithType.vb: List(Of Location)
+  fullName.vb: System.Collections.Generic.List(Of SharpValhalla.Models.Common.Location)
+  name.vb: List(Of Location)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SharpValhalla.Models.Common.Location
+    name: Location
+    href: SharpValhalla.Models.Common.Location.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SharpValhalla.Models.Common.Location
+    name: Location
+    href: SharpValhalla.Models.Common.Location.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SharpValhalla.Models.Request.MatrixRequest.Targets*
+  commentId: Overload:SharpValhalla.Models.Request.MatrixRequest.Targets
+  href: SharpValhalla.Models.Request.MatrixRequest.html#SharpValhalla_Models_Request_MatrixRequest_Targets
+  name: Targets
+  nameWithType: MatrixRequest.Targets
+  fullName: SharpValhalla.Models.Request.MatrixRequest.Targets
+- uid: SharpValhalla.Models.Request.MatrixRequest.Costing*
+  commentId: Overload:SharpValhalla.Models.Request.MatrixRequest.Costing
+  href: SharpValhalla.Models.Request.MatrixRequest.html#SharpValhalla_Models_Request_MatrixRequest_Costing
+  name: Costing
+  nameWithType: MatrixRequest.Costing
+  fullName: SharpValhalla.Models.Request.MatrixRequest.Costing
+- uid: SharpValhalla.Enums.CostingModel
+  commentId: T:SharpValhalla.Enums.CostingModel
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.CostingModel.html
+  name: CostingModel
+  nameWithType: CostingModel
+  fullName: SharpValhalla.Enums.CostingModel
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Models.Request.MatrixRequest.CostingOptions*
+  commentId: Overload:SharpValhalla.Models.Request.MatrixRequest.CostingOptions
+  href: SharpValhalla.Models.Request.MatrixRequest.html#SharpValhalla_Models_Request_MatrixRequest_CostingOptions
+  name: CostingOptions
+  nameWithType: MatrixRequest.CostingOptions
+  fullName: SharpValhalla.Models.Request.MatrixRequest.CostingOptions
+- uid: SharpValhalla.Models.Common.CostingOptions
+  commentId: T:SharpValhalla.Models.Common.CostingOptions
+  parent: SharpValhalla.Models.Common
+  href: SharpValhalla.Models.Common.CostingOptions.html
+  name: CostingOptions
+  nameWithType: CostingOptions
+  fullName: SharpValhalla.Models.Common.CostingOptions
+- uid: SharpValhalla.Models.Common
+  commentId: N:SharpValhalla.Models.Common
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Common
+  nameWithType: SharpValhalla.Models.Common
+  fullName: SharpValhalla.Models.Common
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Common
+    name: Common
+    href: SharpValhalla.Models.Common.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Common
+    name: Common
+    href: SharpValhalla.Models.Common.html
+- uid: SharpValhalla.Models.Request.MatrixRequest.Units*
+  commentId: Overload:SharpValhalla.Models.Request.MatrixRequest.Units
+  href: SharpValhalla.Models.Request.MatrixRequest.html#SharpValhalla_Models_Request_MatrixRequest_Units
+  name: Units
+  nameWithType: MatrixRequest.Units
+  fullName: SharpValhalla.Models.Request.MatrixRequest.Units
+- uid: System.Nullable{SharpValhalla.Enums.Unit}
+  commentId: T:System.Nullable{SharpValhalla.Enums.Unit}
+  parent: System
+  definition: System.Nullable`1
+  href: SharpValhalla.Enums.Unit.html
+  name: Unit?
+  nameWithType: Unit?
+  fullName: SharpValhalla.Enums.Unit?
+  spec.csharp:
+  - uid: SharpValhalla.Enums.Unit
+    name: Unit
+    href: SharpValhalla.Enums.Unit.html
+  - name: '?'
+  spec.vb:
+  - uid: SharpValhalla.Enums.Unit
+    name: Unit
+    href: SharpValhalla.Enums.Unit.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SharpValhalla.Models.Request.MatrixRequest.Verbose*
+  commentId: Overload:SharpValhalla.Models.Request.MatrixRequest.Verbose
+  href: SharpValhalla.Models.Request.MatrixRequest.html#SharpValhalla_Models_Request_MatrixRequest_Verbose
+  name: Verbose
+  nameWithType: MatrixRequest.Verbose
+  fullName: SharpValhalla.Models.Request.MatrixRequest.Verbose
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+- uid: SharpValhalla.Models.Request.MatrixRequest.MatrixLocations*
+  commentId: Overload:SharpValhalla.Models.Request.MatrixRequest.MatrixLocations
+  href: SharpValhalla.Models.Request.MatrixRequest.html#SharpValhalla_Models_Request_MatrixRequest_MatrixLocations
+  name: MatrixLocations
+  nameWithType: MatrixRequest.MatrixLocations
+  fullName: SharpValhalla.Models.Request.MatrixRequest.MatrixLocations
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: SharpValhalla.Models.Request.MatrixRequest.Shape*
+  commentId: Overload:SharpValhalla.Models.Request.MatrixRequest.Shape
+  href: SharpValhalla.Models.Request.MatrixRequest.html#SharpValhalla_Models_Request_MatrixRequest_Shape
+  name: Shape
+  nameWithType: MatrixRequest.Shape
+  fullName: SharpValhalla.Models.Request.MatrixRequest.Shape
+- uid: System.Nullable{SharpValhalla.Enums.ShapeFormat}
+  commentId: T:System.Nullable{SharpValhalla.Enums.ShapeFormat}
+  parent: System
+  definition: System.Nullable`1
+  href: SharpValhalla.Enums.ShapeFormat.html
+  name: ShapeFormat?
+  nameWithType: ShapeFormat?
+  fullName: SharpValhalla.Enums.ShapeFormat?
+  spec.csharp:
+  - uid: SharpValhalla.Enums.ShapeFormat
+    name: ShapeFormat
+    href: SharpValhalla.Enums.ShapeFormat.html
+  - name: '?'
+  spec.vb:
+  - uid: SharpValhalla.Enums.ShapeFormat
+    name: ShapeFormat
+    href: SharpValhalla.Enums.ShapeFormat.html
+  - name: '?'
+- uid: SharpValhalla.Models.Request.MatrixRequest.Filters*
+  commentId: Overload:SharpValhalla.Models.Request.MatrixRequest.Filters
+  href: SharpValhalla.Models.Request.MatrixRequest.html#SharpValhalla_Models_Request_MatrixRequest_Filters
+  name: Filters
+  nameWithType: MatrixRequest.Filters
+  fullName: SharpValhalla.Models.Request.MatrixRequest.Filters
+- uid: SharpValhalla.Models.Request.TraceAttributesFilter
+  commentId: T:SharpValhalla.Models.Request.TraceAttributesFilter
+  parent: SharpValhalla.Models.Request
+  href: SharpValhalla.Models.Request.TraceAttributesFilter.html
+  name: TraceAttributesFilter
+  nameWithType: TraceAttributesFilter
+  fullName: SharpValhalla.Models.Request.TraceAttributesFilter
+- uid: SharpValhalla.Models.Request.MatrixRequest.PrioritizeBy*
+  commentId: Overload:SharpValhalla.Models.Request.MatrixRequest.PrioritizeBy
+  href: SharpValhalla.Models.Request.MatrixRequest.html#SharpValhalla_Models_Request_MatrixRequest_PrioritizeBy
+  name: PrioritizeBy
+  nameWithType: MatrixRequest.PrioritizeBy
+  fullName: SharpValhalla.Models.Request.MatrixRequest.PrioritizeBy
+- uid: System.Nullable{SharpValhalla.Enums.PriorityType}
+  commentId: T:System.Nullable{SharpValhalla.Enums.PriorityType}
+  parent: System
+  definition: System.Nullable`1
+  href: SharpValhalla.Enums.PriorityType.html
+  name: PriorityType?
+  nameWithType: PriorityType?
+  fullName: SharpValhalla.Enums.PriorityType?
+  spec.csharp:
+  - uid: SharpValhalla.Enums.PriorityType
+    name: PriorityType
+    href: SharpValhalla.Enums.PriorityType.html
+  - name: '?'
+  spec.vb:
+  - uid: SharpValhalla.Enums.PriorityType
+    name: PriorityType
+    href: SharpValhalla.Enums.PriorityType.html
+  - name: '?'
+- uid: SharpValhalla.Models.Request.MatrixRequest.ExcludeLocations*
+  commentId: Overload:SharpValhalla.Models.Request.MatrixRequest.ExcludeLocations
+  href: SharpValhalla.Models.Request.MatrixRequest.html#SharpValhalla_Models_Request_MatrixRequest_ExcludeLocations
+  name: ExcludeLocations
+  nameWithType: MatrixRequest.ExcludeLocations
+  fullName: SharpValhalla.Models.Request.MatrixRequest.ExcludeLocations
+- uid: System.Collections.Generic.List{System.Int32}
+  commentId: T:System.Collections.Generic.List{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<int>
+  nameWithType: List<int>
+  fullName: System.Collections.Generic.List<int>
+  nameWithType.vb: List(Of Integer)
+  fullName.vb: System.Collections.Generic.List(Of Integer)
+  name.vb: List(Of Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SharpValhalla.Models.Request.MatrixRequest.#ctor*
+  commentId: Overload:SharpValhalla.Models.Request.MatrixRequest.#ctor
+  href: SharpValhalla.Models.Request.MatrixRequest.html#SharpValhalla_Models_Request_MatrixRequest__ctor_System_Collections_Generic_List_SharpValhalla_Models_Common_Location__System_Collections_Generic_List_SharpValhalla_Models_Common_Location__SharpValhalla_Enums_CostingModel_SharpValhalla_Models_Common_CostingOptions_System_Nullable_SharpValhalla_Enums_Unit__System_Nullable_System_Boolean__System_Nullable_System_Int32__System_Nullable_SharpValhalla_Enums_ShapeFormat__SharpValhalla_Models_Request_TraceAttributesFilter_System_Nullable_SharpValhalla_Enums_PriorityType__System_Collections_Generic_List_System_Int32__
+  name: MatrixRequest
+  nameWithType: MatrixRequest.MatrixRequest
+  fullName: SharpValhalla.Models.Request.MatrixRequest.MatrixRequest
+  nameWithType.vb: MatrixRequest.New
+  fullName.vb: SharpValhalla.Models.Request.MatrixRequest.New
+  name.vb: New
+- uid: System.Collections.Generic.IEnumerable{SharpValhalla.Interfaces.ILocation}
+  commentId: T:System.Collections.Generic.IEnumerable{SharpValhalla.Interfaces.ILocation}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<ILocation>
+  nameWithType: IEnumerable<ILocation>
+  fullName: System.Collections.Generic.IEnumerable<SharpValhalla.Interfaces.ILocation>
+  nameWithType.vb: IEnumerable(Of ILocation)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SharpValhalla.Interfaces.ILocation)
+  name.vb: IEnumerable(Of ILocation)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SharpValhalla.Interfaces.ILocation
+    name: ILocation
+    href: SharpValhalla.Interfaces.ILocation.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SharpValhalla.Interfaces.ILocation
+    name: ILocation
+    href: SharpValhalla.Interfaces.ILocation.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{SharpValhalla.Models.Common.LocationCoordinate2D}
+  commentId: T:System.Collections.Generic.IEnumerable{SharpValhalla.Models.Common.LocationCoordinate2D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<LocationCoordinate2D>
+  nameWithType: IEnumerable<LocationCoordinate2D>
+  fullName: System.Collections.Generic.IEnumerable<SharpValhalla.Models.Common.LocationCoordinate2D>
+  nameWithType.vb: IEnumerable(Of LocationCoordinate2D)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SharpValhalla.Models.Common.LocationCoordinate2D)
+  name.vb: IEnumerable(Of LocationCoordinate2D)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SharpValhalla.Models.Common.LocationCoordinate2D
+    name: LocationCoordinate2D
+    href: SharpValhalla.Models.Common.LocationCoordinate2D.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SharpValhalla.Models.Common.LocationCoordinate2D
+    name: LocationCoordinate2D
+    href: SharpValhalla.Models.Common.LocationCoordinate2D.html
+  - name: )

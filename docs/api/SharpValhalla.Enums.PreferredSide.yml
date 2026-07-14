@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.PreferredSide
+  commentId: T:SharpValhalla.Enums.PreferredSide
+  id: PreferredSide
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.PreferredSide.Either
+  - SharpValhalla.Enums.PreferredSide.Opposite
+  - SharpValhalla.Enums.PreferredSide.Same
+  langs:
+  - csharp
+  - vb
+  name: PreferredSide
+  nameWithType: PreferredSide
+  fullName: SharpValhalla.Enums.PreferredSide
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/PreferredSide.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: PreferredSide
+    path: ../src/SharpValhalla/Enums/PreferredSide.cs
+    startLine: 8
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    Indicates the preferred side relative to a reference (for example,
+
+    which side of the road a route or asset prefers).
+  example: []
+  syntax:
+    content: public enum PreferredSide
+    content.vb: Public Enum PreferredSide
+- uid: SharpValhalla.Enums.PreferredSide.Same
+  commentId: F:SharpValhalla.Enums.PreferredSide.Same
+  id: Same
+  parent: SharpValhalla.Enums.PreferredSide
+  langs:
+  - csharp
+  - vb
+  name: Same
+  nameWithType: PreferredSide.Same
+  fullName: SharpValhalla.Enums.PreferredSide.Same
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/PreferredSide.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Same
+    path: ../src/SharpValhalla/Enums/PreferredSide.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Prefer the same side as the reference.
+  example: []
+  syntax:
+    content: Same = 0
+    return:
+      type: SharpValhalla.Enums.PreferredSide
+- uid: SharpValhalla.Enums.PreferredSide.Opposite
+  commentId: F:SharpValhalla.Enums.PreferredSide.Opposite
+  id: Opposite
+  parent: SharpValhalla.Enums.PreferredSide
+  langs:
+  - csharp
+  - vb
+  name: Opposite
+  nameWithType: PreferredSide.Opposite
+  fullName: SharpValhalla.Enums.PreferredSide.Opposite
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/PreferredSide.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Opposite
+    path: ../src/SharpValhalla/Enums/PreferredSide.cs
+    startLine: 17
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Prefer the opposite side from the reference.
+  example: []
+  syntax:
+    content: Opposite = 1
+    return:
+      type: SharpValhalla.Enums.PreferredSide
+- uid: SharpValhalla.Enums.PreferredSide.Either
+  commentId: F:SharpValhalla.Enums.PreferredSide.Either
+  id: Either
+  parent: SharpValhalla.Enums.PreferredSide
+  langs:
+  - csharp
+  - vb
+  name: Either
+  nameWithType: PreferredSide.Either
+  fullName: SharpValhalla.Enums.PreferredSide.Either
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/PreferredSide.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Either
+    path: ../src/SharpValhalla/Enums/PreferredSide.cs
+    startLine: 22
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Either side is acceptable.
+  example: []
+  syntax:
+    content: Either = 2
+    return:
+      type: SharpValhalla.Enums.PreferredSide
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.PreferredSide
+  commentId: T:SharpValhalla.Enums.PreferredSide
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.PreferredSide.html
+  name: PreferredSide
+  nameWithType: PreferredSide
+  fullName: SharpValhalla.Enums.PreferredSide

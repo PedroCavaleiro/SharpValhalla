@@ -1,0 +1,176 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.Format
+  commentId: T:SharpValhalla.Enums.Format
+  id: Format
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.Format.Gpx
+  - SharpValhalla.Enums.Format.Json
+  - SharpValhalla.Enums.Format.Osrm
+  - SharpValhalla.Enums.Format.Pbf
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: Format
+  fullName: SharpValhalla.Enums.Format
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Format.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Format
+    path: ../src/SharpValhalla/Enums/Format.cs
+    startLine: 7
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Directions response format.
+  example: []
+  syntax:
+    content: public enum Format
+    content.vb: Public Enum Format
+- uid: SharpValhalla.Enums.Format.Json
+  commentId: F:SharpValhalla.Enums.Format.Json
+  id: Json
+  parent: SharpValhalla.Enums.Format
+  langs:
+  - csharp
+  - vb
+  name: Json
+  nameWithType: Format.Json
+  fullName: SharpValhalla.Enums.Format.Json
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Format.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Json
+    path: ../src/SharpValhalla/Enums/Format.cs
+    startLine: 11
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Is default Valhalla routing directions JSON format.
+  example: []
+  syntax:
+    content: Json = 0
+    return:
+      type: SharpValhalla.Enums.Format
+- uid: SharpValhalla.Enums.Format.Gpx
+  commentId: F:SharpValhalla.Enums.Format.Gpx
+  id: Gpx
+  parent: SharpValhalla.Enums.Format
+  langs:
+  - csharp
+  - vb
+  name: Gpx
+  nameWithType: Format.Gpx
+  fullName: SharpValhalla.Enums.Format.Gpx
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Format.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Gpx
+    path: ../src/SharpValhalla/Enums/Format.cs
+    startLine: 16
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Returns the route as a GPX (GPS exchange format) XML track.
+  example: []
+  syntax:
+    content: Gpx = 1
+    return:
+      type: SharpValhalla.Enums.Format
+- uid: SharpValhalla.Enums.Format.Osrm
+  commentId: F:SharpValhalla.Enums.Format.Osrm
+  id: Osrm
+  parent: SharpValhalla.Enums.Format
+  langs:
+  - csharp
+  - vb
+  name: Osrm
+  nameWithType: Format.Osrm
+  fullName: SharpValhalla.Enums.Format.Osrm
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Format.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Osrm
+    path: ../src/SharpValhalla/Enums/Format.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Creates an OSRM compatible route directions JSON.
+  example: []
+  syntax:
+    content: Osrm = 2
+    return:
+      type: SharpValhalla.Enums.Format
+- uid: SharpValhalla.Enums.Format.Pbf
+  commentId: F:SharpValhalla.Enums.Format.Pbf
+  id: Pbf
+  parent: SharpValhalla.Enums.Format
+  langs:
+  - csharp
+  - vb
+  name: Pbf
+  nameWithType: Format.Pbf
+  fullName: SharpValhalla.Enums.Format.Pbf
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Format.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Pbf
+    path: ../src/SharpValhalla/Enums/Format.cs
+    startLine: 26
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Formats the result using protocol buffers.
+  example: []
+  syntax:
+    content: Pbf = 3
+    return:
+      type: SharpValhalla.Enums.Format
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.Format
+  commentId: T:SharpValhalla.Enums.Format
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Format.html
+  name: Format
+  nameWithType: Format
+  fullName: SharpValhalla.Enums.Format

@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Interfaces.ILocation
+  commentId: T:SharpValhalla.Interfaces.ILocation
+  id: ILocation
+  parent: SharpValhalla.Interfaces
+  children:
+  - SharpValhalla.Interfaces.ILocation.Location
+  langs:
+  - csharp
+  - vb
+  name: ILocation
+  nameWithType: ILocation
+  fullName: SharpValhalla.Interfaces.ILocation
+  type: Interface
+  source:
+    remote:
+      path: src/SharpValhalla/Interfaces/ILocation.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ILocation
+    path: ../src/SharpValhalla/Interfaces/ILocation.cs
+    startLine: 8
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Interfaces
+  summary: >-
+    An interface for types that expose a geographic location.
+
+    Conforming types provide a Location property, typically representing the entity’s current or canonical position on Earth.
+  example: []
+  syntax:
+    content: public interface ILocation
+    content.vb: Public Interface ILocation
+- uid: SharpValhalla.Interfaces.ILocation.Location
+  commentId: P:SharpValhalla.Interfaces.ILocation.Location
+  id: Location
+  parent: SharpValhalla.Interfaces.ILocation
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: ILocation.Location
+  fullName: SharpValhalla.Interfaces.ILocation.Location
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Interfaces/ILocation.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Location
+    path: ../src/SharpValhalla/Interfaces/ILocation.cs
+    startLine: 13
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Interfaces
+  summary: >-
+    The geographic coordinate of the instance.
+
+    The coordinate uses the WGS 84 datum and represents latitude and longitude in degrees.
+  example: []
+  syntax:
+    content: LocationCoordinate2D Location { get; }
+    parameters: []
+    return:
+      type: SharpValhalla.Models.Common.LocationCoordinate2D
+    content.vb: ReadOnly Property Location As LocationCoordinate2D
+  overload: SharpValhalla.Interfaces.ILocation.Location*
+references:
+- uid: SharpValhalla.Interfaces
+  commentId: N:SharpValhalla.Interfaces
+  href: SharpValhalla.html
+  name: SharpValhalla.Interfaces
+  nameWithType: SharpValhalla.Interfaces
+  fullName: SharpValhalla.Interfaces
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Interfaces
+    name: Interfaces
+    href: SharpValhalla.Interfaces.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Interfaces
+    name: Interfaces
+    href: SharpValhalla.Interfaces.html
+- uid: SharpValhalla.Interfaces.ILocation.Location*
+  commentId: Overload:SharpValhalla.Interfaces.ILocation.Location
+  href: SharpValhalla.Interfaces.ILocation.html#SharpValhalla_Interfaces_ILocation_Location
+  name: Location
+  nameWithType: ILocation.Location
+  fullName: SharpValhalla.Interfaces.ILocation.Location
+- uid: SharpValhalla.Models.Common.LocationCoordinate2D
+  commentId: T:SharpValhalla.Models.Common.LocationCoordinate2D
+  parent: SharpValhalla.Models.Common
+  href: SharpValhalla.Models.Common.LocationCoordinate2D.html
+  name: LocationCoordinate2D
+  nameWithType: LocationCoordinate2D
+  fullName: SharpValhalla.Models.Common.LocationCoordinate2D
+- uid: SharpValhalla.Models.Common
+  commentId: N:SharpValhalla.Models.Common
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Common
+  nameWithType: SharpValhalla.Models.Common
+  fullName: SharpValhalla.Models.Common
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Common
+    name: Common
+    href: SharpValhalla.Models.Common.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Common
+    name: Common
+    href: SharpValhalla.Models.Common.html

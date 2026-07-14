@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.PriorityType
+  commentId: T:SharpValhalla.Enums.PriorityType
+  id: PriorityType
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.PriorityType.Distance
+  - SharpValhalla.Enums.PriorityType.Time
+  langs:
+  - csharp
+  - vb
+  name: PriorityType
+  nameWithType: PriorityType
+  fullName: SharpValhalla.Enums.PriorityType
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/PriorityType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: PriorityType
+    path: ../src/SharpValhalla/Enums/PriorityType.cs
+    startLine: 7
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Priority type for matrix calculations.
+  example: []
+  syntax:
+    content: public enum PriorityType
+    content.vb: Public Enum PriorityType
+- uid: SharpValhalla.Enums.PriorityType.Time
+  commentId: F:SharpValhalla.Enums.PriorityType.Time
+  id: Time
+  parent: SharpValhalla.Enums.PriorityType
+  langs:
+  - csharp
+  - vb
+  name: Time
+  nameWithType: PriorityType.Time
+  fullName: SharpValhalla.Enums.PriorityType.Time
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/PriorityType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Time
+    path: ../src/SharpValhalla/Enums/PriorityType.cs
+    startLine: 11
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Prioritize by travel time.
+  example: []
+  syntax:
+    content: Time = 0
+    return:
+      type: SharpValhalla.Enums.PriorityType
+- uid: SharpValhalla.Enums.PriorityType.Distance
+  commentId: F:SharpValhalla.Enums.PriorityType.Distance
+  id: Distance
+  parent: SharpValhalla.Enums.PriorityType
+  langs:
+  - csharp
+  - vb
+  name: Distance
+  nameWithType: PriorityType.Distance
+  fullName: SharpValhalla.Enums.PriorityType.Distance
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/PriorityType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Distance
+    path: ../src/SharpValhalla/Enums/PriorityType.cs
+    startLine: 16
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Prioritize by distance.
+  example: []
+  syntax:
+    content: Distance = 1
+    return:
+      type: SharpValhalla.Enums.PriorityType
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.PriorityType
+  commentId: T:SharpValhalla.Enums.PriorityType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.PriorityType.html
+  name: PriorityType
+  nameWithType: PriorityType
+  fullName: SharpValhalla.Enums.PriorityType

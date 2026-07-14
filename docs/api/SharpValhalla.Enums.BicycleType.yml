@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.BicycleType
+  commentId: T:SharpValhalla.Enums.BicycleType
+  id: BicycleType
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.BicycleType.Cross
+  - SharpValhalla.Enums.BicycleType.Hybrid
+  - SharpValhalla.Enums.BicycleType.Mountain
+  - SharpValhalla.Enums.BicycleType.Road
+  langs:
+  - csharp
+  - vb
+  name: BicycleType
+  nameWithType: BicycleType
+  fullName: SharpValhalla.Enums.BicycleType
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/BicycleType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: BicycleType
+    path: ../src/SharpValhalla/Enums/BicycleType.cs
+    startLine: 10
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    Represents different bicycle types for edges in Valhalla routing.
+
+
+    Each case corresponds to a specific type of bicycle or cycling preference.
+
+    The raw value matches the exact key string used in Valhalla.
+  example: []
+  syntax:
+    content: public enum BicycleType
+    content.vb: Public Enum BicycleType
+- uid: SharpValhalla.Enums.BicycleType.Road
+  commentId: F:SharpValhalla.Enums.BicycleType.Road
+  id: Road
+  parent: SharpValhalla.Enums.BicycleType
+  langs:
+  - csharp
+  - vb
+  name: Road
+  nameWithType: BicycleType.Road
+  fullName: SharpValhalla.Enums.BicycleType.Road
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/BicycleType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Road
+    path: ../src/SharpValhalla/Enums/BicycleType.cs
+    startLine: 14
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Road bicycle type.
+  example: []
+  syntax:
+    content: Road = 0
+    return:
+      type: SharpValhalla.Enums.BicycleType
+- uid: SharpValhalla.Enums.BicycleType.Cross
+  commentId: F:SharpValhalla.Enums.BicycleType.Cross
+  id: Cross
+  parent: SharpValhalla.Enums.BicycleType
+  langs:
+  - csharp
+  - vb
+  name: Cross
+  nameWithType: BicycleType.Cross
+  fullName: SharpValhalla.Enums.BicycleType.Cross
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/BicycleType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Cross
+    path: ../src/SharpValhalla/Enums/BicycleType.cs
+    startLine: 19
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Cross bicycle type.
+  example: []
+  syntax:
+    content: Cross = 1
+    return:
+      type: SharpValhalla.Enums.BicycleType
+- uid: SharpValhalla.Enums.BicycleType.Hybrid
+  commentId: F:SharpValhalla.Enums.BicycleType.Hybrid
+  id: Hybrid
+  parent: SharpValhalla.Enums.BicycleType
+  langs:
+  - csharp
+  - vb
+  name: Hybrid
+  nameWithType: BicycleType.Hybrid
+  fullName: SharpValhalla.Enums.BicycleType.Hybrid
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/BicycleType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Hybrid
+    path: ../src/SharpValhalla/Enums/BicycleType.cs
+    startLine: 24
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Hybrid bicycle type.
+  example: []
+  syntax:
+    content: Hybrid = 2
+    return:
+      type: SharpValhalla.Enums.BicycleType
+- uid: SharpValhalla.Enums.BicycleType.Mountain
+  commentId: F:SharpValhalla.Enums.BicycleType.Mountain
+  id: Mountain
+  parent: SharpValhalla.Enums.BicycleType
+  langs:
+  - csharp
+  - vb
+  name: Mountain
+  nameWithType: BicycleType.Mountain
+  fullName: SharpValhalla.Enums.BicycleType.Mountain
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/BicycleType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Mountain
+    path: ../src/SharpValhalla/Enums/BicycleType.cs
+    startLine: 29
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Mountain bicycle type.
+  example: []
+  syntax:
+    content: Mountain = 3
+    return:
+      type: SharpValhalla.Enums.BicycleType
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.BicycleType
+  commentId: T:SharpValhalla.Enums.BicycleType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.BicycleType.html
+  name: BicycleType
+  nameWithType: BicycleType
+  fullName: SharpValhalla.Enums.BicycleType

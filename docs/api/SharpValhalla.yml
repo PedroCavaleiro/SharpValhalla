@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla
+  commentId: N:SharpValhalla
+  id: SharpValhalla
+  children:
+  - SharpValhalla.SharpValhalla
+  langs:
+  - csharp
+  - vb
+  name: SharpValhalla
+  nameWithType: SharpValhalla
+  fullName: SharpValhalla
+  type: Namespace
+  assemblies:
+  - SharpValhalla
+references:
+- uid: SharpValhalla.SharpValhalla
+  commentId: T:SharpValhalla.SharpValhalla
+  href: SharpValhalla.SharpValhalla.html
+  name: SharpValhalla
+  nameWithType: SharpValhalla
+  fullName: SharpValhalla.SharpValhalla

@@ -1,0 +1,548 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.LaneDirection
+  commentId: T:SharpValhalla.Enums.LaneDirection
+  id: LaneDirection
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.LaneDirection.Empty
+  - SharpValhalla.Enums.LaneDirection.Left
+  - SharpValhalla.Enums.LaneDirection.MergeToLeft
+  - SharpValhalla.Enums.LaneDirection.MergeToRight
+  - SharpValhalla.Enums.LaneDirection.None
+  - SharpValhalla.Enums.LaneDirection.Reverse
+  - SharpValhalla.Enums.LaneDirection.Right
+  - SharpValhalla.Enums.LaneDirection.SharpLeft
+  - SharpValhalla.Enums.LaneDirection.SharpRight
+  - SharpValhalla.Enums.LaneDirection.SlightLeft
+  - SharpValhalla.Enums.LaneDirection.SlightRight
+  - SharpValhalla.Enums.LaneDirection.Through
+  langs:
+  - csharp
+  - vb
+  name: LaneDirection
+  nameWithType: LaneDirection
+  fullName: SharpValhalla.Enums.LaneDirection
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/LaneDirection.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: LaneDirection
+    path: ../src/SharpValhalla/Enums/LaneDirection.cs
+    startLine: 27
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum LaneDirection
+    content.vb: >-
+      <Flags>
+
+      Public Enum LaneDirection
+  extensionMethods:
+  - SharpValhalla.Enums.LaneDirection.SharpValhalla.Extensions.LaneDirectionExtensions.Components
+  - SharpValhalla.Enums.LaneDirection.SharpValhalla.Extensions.LaneDirectionExtensions.Description
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: SharpValhalla.Enums.LaneDirection.Empty
+  commentId: F:SharpValhalla.Enums.LaneDirection.Empty
+  id: Empty
+  parent: SharpValhalla.Enums.LaneDirection
+  langs:
+  - csharp
+  - vb
+  name: Empty
+  nameWithType: LaneDirection.Empty
+  fullName: SharpValhalla.Enums.LaneDirection.Empty
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/LaneDirection.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Empty
+    path: ../src/SharpValhalla/Enums/LaneDirection.cs
+    startLine: 32
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Empty - No turn lane or undefined
+  example: []
+  syntax:
+    content: Empty = 0
+    return:
+      type: SharpValhalla.Enums.LaneDirection
+- uid: SharpValhalla.Enums.LaneDirection.None
+  commentId: F:SharpValhalla.Enums.LaneDirection.None
+  id: None
+  parent: SharpValhalla.Enums.LaneDirection
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: LaneDirection.None
+  fullName: SharpValhalla.Enums.LaneDirection.None
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/LaneDirection.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: None
+    path: ../src/SharpValhalla/Enums/LaneDirection.cs
+    startLine: 37
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: None - No specific direction
+  example: []
+  syntax:
+    content: None = 1
+    return:
+      type: SharpValhalla.Enums.LaneDirection
+- uid: SharpValhalla.Enums.LaneDirection.Through
+  commentId: F:SharpValhalla.Enums.LaneDirection.Through
+  id: Through
+  parent: SharpValhalla.Enums.LaneDirection
+  langs:
+  - csharp
+  - vb
+  name: Through
+  nameWithType: LaneDirection.Through
+  fullName: SharpValhalla.Enums.LaneDirection.Through
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/LaneDirection.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Through
+    path: ../src/SharpValhalla/Enums/LaneDirection.cs
+    startLine: 42
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Through - Goes straight
+  example: []
+  syntax:
+    content: Through = 2
+    return:
+      type: SharpValhalla.Enums.LaneDirection
+- uid: SharpValhalla.Enums.LaneDirection.SharpLeft
+  commentId: F:SharpValhalla.Enums.LaneDirection.SharpLeft
+  id: SharpLeft
+  parent: SharpValhalla.Enums.LaneDirection
+  langs:
+  - csharp
+  - vb
+  name: SharpLeft
+  nameWithType: LaneDirection.SharpLeft
+  fullName: SharpValhalla.Enums.LaneDirection.SharpLeft
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/LaneDirection.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SharpLeft
+    path: ../src/SharpValhalla/Enums/LaneDirection.cs
+    startLine: 47
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: SharpLeft - Turns sharply to the left
+  example: []
+  syntax:
+    content: SharpLeft = 4
+    return:
+      type: SharpValhalla.Enums.LaneDirection
+- uid: SharpValhalla.Enums.LaneDirection.Left
+  commentId: F:SharpValhalla.Enums.LaneDirection.Left
+  id: Left
+  parent: SharpValhalla.Enums.LaneDirection
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: LaneDirection.Left
+  fullName: SharpValhalla.Enums.LaneDirection.Left
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/LaneDirection.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Left
+    path: ../src/SharpValhalla/Enums/LaneDirection.cs
+    startLine: 52
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Left - Turns left
+  example: []
+  syntax:
+    content: Left = 8
+    return:
+      type: SharpValhalla.Enums.LaneDirection
+- uid: SharpValhalla.Enums.LaneDirection.SlightLeft
+  commentId: F:SharpValhalla.Enums.LaneDirection.SlightLeft
+  id: SlightLeft
+  parent: SharpValhalla.Enums.LaneDirection
+  langs:
+  - csharp
+  - vb
+  name: SlightLeft
+  nameWithType: LaneDirection.SlightLeft
+  fullName: SharpValhalla.Enums.LaneDirection.SlightLeft
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/LaneDirection.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SlightLeft
+    path: ../src/SharpValhalla/Enums/LaneDirection.cs
+    startLine: 57
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: SlightLeft - Turns slightly to the left
+  example: []
+  syntax:
+    content: SlightLeft = 16
+    return:
+      type: SharpValhalla.Enums.LaneDirection
+- uid: SharpValhalla.Enums.LaneDirection.SlightRight
+  commentId: F:SharpValhalla.Enums.LaneDirection.SlightRight
+  id: SlightRight
+  parent: SharpValhalla.Enums.LaneDirection
+  langs:
+  - csharp
+  - vb
+  name: SlightRight
+  nameWithType: LaneDirection.SlightRight
+  fullName: SharpValhalla.Enums.LaneDirection.SlightRight
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/LaneDirection.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SlightRight
+    path: ../src/SharpValhalla/Enums/LaneDirection.cs
+    startLine: 62
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: SlightRight - Turns slightly to the right
+  example: []
+  syntax:
+    content: SlightRight = 32
+    return:
+      type: SharpValhalla.Enums.LaneDirection
+- uid: SharpValhalla.Enums.LaneDirection.Right
+  commentId: F:SharpValhalla.Enums.LaneDirection.Right
+  id: Right
+  parent: SharpValhalla.Enums.LaneDirection
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: LaneDirection.Right
+  fullName: SharpValhalla.Enums.LaneDirection.Right
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/LaneDirection.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Right
+    path: ../src/SharpValhalla/Enums/LaneDirection.cs
+    startLine: 67
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Right - Turns right
+  example: []
+  syntax:
+    content: Right = 64
+    return:
+      type: SharpValhalla.Enums.LaneDirection
+- uid: SharpValhalla.Enums.LaneDirection.SharpRight
+  commentId: F:SharpValhalla.Enums.LaneDirection.SharpRight
+  id: SharpRight
+  parent: SharpValhalla.Enums.LaneDirection
+  langs:
+  - csharp
+  - vb
+  name: SharpRight
+  nameWithType: LaneDirection.SharpRight
+  fullName: SharpValhalla.Enums.LaneDirection.SharpRight
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/LaneDirection.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SharpRight
+    path: ../src/SharpValhalla/Enums/LaneDirection.cs
+    startLine: 72
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: SharpRight - Turns sharply to the right
+  example: []
+  syntax:
+    content: SharpRight = 128
+    return:
+      type: SharpValhalla.Enums.LaneDirection
+- uid: SharpValhalla.Enums.LaneDirection.Reverse
+  commentId: F:SharpValhalla.Enums.LaneDirection.Reverse
+  id: Reverse
+  parent: SharpValhalla.Enums.LaneDirection
+  langs:
+  - csharp
+  - vb
+  name: Reverse
+  nameWithType: LaneDirection.Reverse
+  fullName: SharpValhalla.Enums.LaneDirection.Reverse
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/LaneDirection.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Reverse
+    path: ../src/SharpValhalla/Enums/LaneDirection.cs
+    startLine: 77
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Reverse - U-turn
+  example: []
+  syntax:
+    content: Reverse = 256
+    return:
+      type: SharpValhalla.Enums.LaneDirection
+- uid: SharpValhalla.Enums.LaneDirection.MergeToLeft
+  commentId: F:SharpValhalla.Enums.LaneDirection.MergeToLeft
+  id: MergeToLeft
+  parent: SharpValhalla.Enums.LaneDirection
+  langs:
+  - csharp
+  - vb
+  name: MergeToLeft
+  nameWithType: LaneDirection.MergeToLeft
+  fullName: SharpValhalla.Enums.LaneDirection.MergeToLeft
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/LaneDirection.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MergeToLeft
+    path: ../src/SharpValhalla/Enums/LaneDirection.cs
+    startLine: 82
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: MergeToLeft - Lane merges to the left
+  example: []
+  syntax:
+    content: MergeToLeft = 512
+    return:
+      type: SharpValhalla.Enums.LaneDirection
+- uid: SharpValhalla.Enums.LaneDirection.MergeToRight
+  commentId: F:SharpValhalla.Enums.LaneDirection.MergeToRight
+  id: MergeToRight
+  parent: SharpValhalla.Enums.LaneDirection
+  langs:
+  - csharp
+  - vb
+  name: MergeToRight
+  nameWithType: LaneDirection.MergeToRight
+  fullName: SharpValhalla.Enums.LaneDirection.MergeToRight
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/LaneDirection.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MergeToRight
+    path: ../src/SharpValhalla/Enums/LaneDirection.cs
+    startLine: 87
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: MergeToRight - Lane merges to the right
+  example: []
+  syntax:
+    content: MergeToRight = 1024
+    return:
+      type: SharpValhalla.Enums.LaneDirection
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.LaneDirection.SharpValhalla.Extensions.LaneDirectionExtensions.Components
+  commentId: M:SharpValhalla.Extensions.LaneDirectionExtensions.Components(SharpValhalla.Enums.LaneDirection)
+  parent: SharpValhalla.Extensions.LaneDirectionExtensions
+  definition: SharpValhalla.Extensions.LaneDirectionExtensions.Components(SharpValhalla.Enums.LaneDirection)
+  href: SharpValhalla.Extensions.LaneDirectionExtensions.html#SharpValhalla_Extensions_LaneDirectionExtensions_Components_SharpValhalla_Enums_LaneDirection_
+  name: Components(LaneDirection)
+  nameWithType: LaneDirectionExtensions.Components(LaneDirection)
+  fullName: SharpValhalla.Extensions.LaneDirectionExtensions.Components(SharpValhalla.Enums.LaneDirection)
+  spec.csharp:
+  - uid: SharpValhalla.Extensions.LaneDirectionExtensions.Components(SharpValhalla.Enums.LaneDirection)
+    name: Components
+    href: SharpValhalla.Extensions.LaneDirectionExtensions.html#SharpValhalla_Extensions_LaneDirectionExtensions_Components_SharpValhalla_Enums_LaneDirection_
+  - name: (
+  - uid: SharpValhalla.Enums.LaneDirection
+    name: LaneDirection
+    href: SharpValhalla.Enums.LaneDirection.html
+  - name: )
+  spec.vb:
+  - uid: SharpValhalla.Extensions.LaneDirectionExtensions.Components(SharpValhalla.Enums.LaneDirection)
+    name: Components
+    href: SharpValhalla.Extensions.LaneDirectionExtensions.html#SharpValhalla_Extensions_LaneDirectionExtensions_Components_SharpValhalla_Enums_LaneDirection_
+  - name: (
+  - uid: SharpValhalla.Enums.LaneDirection
+    name: LaneDirection
+    href: SharpValhalla.Enums.LaneDirection.html
+  - name: )
+- uid: SharpValhalla.Enums.LaneDirection.SharpValhalla.Extensions.LaneDirectionExtensions.Description
+  commentId: M:SharpValhalla.Extensions.LaneDirectionExtensions.Description(SharpValhalla.Enums.LaneDirection)
+  parent: SharpValhalla.Extensions.LaneDirectionExtensions
+  definition: SharpValhalla.Extensions.LaneDirectionExtensions.Description(SharpValhalla.Enums.LaneDirection)
+  href: SharpValhalla.Extensions.LaneDirectionExtensions.html#SharpValhalla_Extensions_LaneDirectionExtensions_Description_SharpValhalla_Enums_LaneDirection_
+  name: Description(LaneDirection)
+  nameWithType: LaneDirectionExtensions.Description(LaneDirection)
+  fullName: SharpValhalla.Extensions.LaneDirectionExtensions.Description(SharpValhalla.Enums.LaneDirection)
+  spec.csharp:
+  - uid: SharpValhalla.Extensions.LaneDirectionExtensions.Description(SharpValhalla.Enums.LaneDirection)
+    name: Description
+    href: SharpValhalla.Extensions.LaneDirectionExtensions.html#SharpValhalla_Extensions_LaneDirectionExtensions_Description_SharpValhalla_Enums_LaneDirection_
+  - name: (
+  - uid: SharpValhalla.Enums.LaneDirection
+    name: LaneDirection
+    href: SharpValhalla.Enums.LaneDirection.html
+  - name: )
+  spec.vb:
+  - uid: SharpValhalla.Extensions.LaneDirectionExtensions.Description(SharpValhalla.Enums.LaneDirection)
+    name: Description
+    href: SharpValhalla.Extensions.LaneDirectionExtensions.html#SharpValhalla_Extensions_LaneDirectionExtensions_Description_SharpValhalla_Enums_LaneDirection_
+  - name: (
+  - uid: SharpValhalla.Enums.LaneDirection
+    name: LaneDirection
+    href: SharpValhalla.Enums.LaneDirection.html
+  - name: )
+- uid: SharpValhalla.Extensions.LaneDirectionExtensions.Components(SharpValhalla.Enums.LaneDirection)
+  commentId: M:SharpValhalla.Extensions.LaneDirectionExtensions.Components(SharpValhalla.Enums.LaneDirection)
+  href: SharpValhalla.Extensions.LaneDirectionExtensions.html#SharpValhalla_Extensions_LaneDirectionExtensions_Components_SharpValhalla_Enums_LaneDirection_
+  name: Components(LaneDirection)
+  nameWithType: LaneDirectionExtensions.Components(LaneDirection)
+  fullName: SharpValhalla.Extensions.LaneDirectionExtensions.Components(SharpValhalla.Enums.LaneDirection)
+  spec.csharp:
+  - uid: SharpValhalla.Extensions.LaneDirectionExtensions.Components(SharpValhalla.Enums.LaneDirection)
+    name: Components
+    href: SharpValhalla.Extensions.LaneDirectionExtensions.html#SharpValhalla_Extensions_LaneDirectionExtensions_Components_SharpValhalla_Enums_LaneDirection_
+  - name: (
+  - uid: SharpValhalla.Enums.LaneDirection
+    name: LaneDirection
+    href: SharpValhalla.Enums.LaneDirection.html
+  - name: )
+  spec.vb:
+  - uid: SharpValhalla.Extensions.LaneDirectionExtensions.Components(SharpValhalla.Enums.LaneDirection)
+    name: Components
+    href: SharpValhalla.Extensions.LaneDirectionExtensions.html#SharpValhalla_Extensions_LaneDirectionExtensions_Components_SharpValhalla_Enums_LaneDirection_
+  - name: (
+  - uid: SharpValhalla.Enums.LaneDirection
+    name: LaneDirection
+    href: SharpValhalla.Enums.LaneDirection.html
+  - name: )
+- uid: SharpValhalla.Extensions.LaneDirectionExtensions
+  commentId: T:SharpValhalla.Extensions.LaneDirectionExtensions
+  parent: SharpValhalla.Extensions
+  href: SharpValhalla.Extensions.LaneDirectionExtensions.html
+  name: LaneDirectionExtensions
+  nameWithType: LaneDirectionExtensions
+  fullName: SharpValhalla.Extensions.LaneDirectionExtensions
+- uid: SharpValhalla.Extensions.LaneDirectionExtensions.Description(SharpValhalla.Enums.LaneDirection)
+  commentId: M:SharpValhalla.Extensions.LaneDirectionExtensions.Description(SharpValhalla.Enums.LaneDirection)
+  href: SharpValhalla.Extensions.LaneDirectionExtensions.html#SharpValhalla_Extensions_LaneDirectionExtensions_Description_SharpValhalla_Enums_LaneDirection_
+  name: Description(LaneDirection)
+  nameWithType: LaneDirectionExtensions.Description(LaneDirection)
+  fullName: SharpValhalla.Extensions.LaneDirectionExtensions.Description(SharpValhalla.Enums.LaneDirection)
+  spec.csharp:
+  - uid: SharpValhalla.Extensions.LaneDirectionExtensions.Description(SharpValhalla.Enums.LaneDirection)
+    name: Description
+    href: SharpValhalla.Extensions.LaneDirectionExtensions.html#SharpValhalla_Extensions_LaneDirectionExtensions_Description_SharpValhalla_Enums_LaneDirection_
+  - name: (
+  - uid: SharpValhalla.Enums.LaneDirection
+    name: LaneDirection
+    href: SharpValhalla.Enums.LaneDirection.html
+  - name: )
+  spec.vb:
+  - uid: SharpValhalla.Extensions.LaneDirectionExtensions.Description(SharpValhalla.Enums.LaneDirection)
+    name: Description
+    href: SharpValhalla.Extensions.LaneDirectionExtensions.html#SharpValhalla_Extensions_LaneDirectionExtensions_Description_SharpValhalla_Enums_LaneDirection_
+  - name: (
+  - uid: SharpValhalla.Enums.LaneDirection
+    name: LaneDirection
+    href: SharpValhalla.Enums.LaneDirection.html
+  - name: )
+- uid: SharpValhalla.Extensions
+  commentId: N:SharpValhalla.Extensions
+  href: SharpValhalla.html
+  name: SharpValhalla.Extensions
+  nameWithType: SharpValhalla.Extensions
+  fullName: SharpValhalla.Extensions
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Extensions
+    name: Extensions
+    href: SharpValhalla.Extensions.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Extensions
+    name: Extensions
+    href: SharpValhalla.Extensions.html
+- uid: SharpValhalla.Enums.LaneDirection
+  commentId: T:SharpValhalla.Enums.LaneDirection
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.LaneDirection.html
+  name: LaneDirection
+  nameWithType: LaneDirection
+  fullName: SharpValhalla.Enums.LaneDirection

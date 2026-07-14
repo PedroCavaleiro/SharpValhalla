@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.Driveability
+  commentId: T:SharpValhalla.Enums.Driveability
+  id: Driveability
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.Driveability.Backward
+  - SharpValhalla.Enums.Driveability.Both
+  - SharpValhalla.Enums.Driveability.Forward
+  langs:
+  - csharp
+  - vb
+  name: Driveability
+  nameWithType: Driveability
+  fullName: SharpValhalla.Enums.Driveability
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Driveability.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Driveability
+    path: ../src/SharpValhalla/Enums/Driveability.cs
+    startLine: 10
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    Represents the allowed driving directions for an edge in Valhalla routing.
+
+    Each case corresponds to the permitted direction(s) of travel along an edge.
+
+
+    The raw value matches the exact key string used in Valhalla.
+  example: []
+  syntax:
+    content: public enum Driveability
+    content.vb: Public Enum Driveability
+- uid: SharpValhalla.Enums.Driveability.Forward
+  commentId: F:SharpValhalla.Enums.Driveability.Forward
+  id: Forward
+  parent: SharpValhalla.Enums.Driveability
+  langs:
+  - csharp
+  - vb
+  name: Forward
+  nameWithType: Driveability.Forward
+  fullName: SharpValhalla.Enums.Driveability.Forward
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Driveability.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Forward
+    path: ../src/SharpValhalla/Enums/Driveability.cs
+    startLine: 14
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Travel is allowed only in the forward direction.
+  example: []
+  syntax:
+    content: Forward = 0
+    return:
+      type: SharpValhalla.Enums.Driveability
+- uid: SharpValhalla.Enums.Driveability.Backward
+  commentId: F:SharpValhalla.Enums.Driveability.Backward
+  id: Backward
+  parent: SharpValhalla.Enums.Driveability
+  langs:
+  - csharp
+  - vb
+  name: Backward
+  nameWithType: Driveability.Backward
+  fullName: SharpValhalla.Enums.Driveability.Backward
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Driveability.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Backward
+    path: ../src/SharpValhalla/Enums/Driveability.cs
+    startLine: 19
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Travel is allowed only in the backward direction.
+  example: []
+  syntax:
+    content: Backward = 1
+    return:
+      type: SharpValhalla.Enums.Driveability
+- uid: SharpValhalla.Enums.Driveability.Both
+  commentId: F:SharpValhalla.Enums.Driveability.Both
+  id: Both
+  parent: SharpValhalla.Enums.Driveability
+  langs:
+  - csharp
+  - vb
+  name: Both
+  nameWithType: Driveability.Both
+  fullName: SharpValhalla.Enums.Driveability.Both
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Driveability.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Both
+    path: ../src/SharpValhalla/Enums/Driveability.cs
+    startLine: 24
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Travel is allowed in both directions.
+  example: []
+  syntax:
+    content: Both = 2
+    return:
+      type: SharpValhalla.Enums.Driveability
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.Driveability
+  commentId: T:SharpValhalla.Enums.Driveability
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Driveability.html
+  name: Driveability
+  nameWithType: Driveability
+  fullName: SharpValhalla.Enums.Driveability

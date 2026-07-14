@@ -1,0 +1,2303 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.Filter
+  commentId: T:SharpValhalla.Enums.Filter
+  id: Filter
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.Filter.AdminCountryCode
+  - SharpValhalla.Enums.Filter.AdminCountryText
+  - SharpValhalla.Enums.Filter.AdminStateCode
+  - SharpValhalla.Enums.Filter.AdminStateText
+  - SharpValhalla.Enums.Filter.EdgeBeginHeading
+  - SharpValhalla.Enums.Filter.EdgeBeginShapeIndex
+  - SharpValhalla.Enums.Filter.EdgeBicycleNetwork
+  - SharpValhalla.Enums.Filter.EdgeBicycleType
+  - SharpValhalla.Enums.Filter.EdgeBridge
+  - SharpValhalla.Enums.Filter.EdgeCountryCrossing
+  - SharpValhalla.Enums.Filter.EdgeCycleLane
+  - SharpValhalla.Enums.Filter.EdgeDensity
+  - SharpValhalla.Enums.Filter.EdgeDriveOnRight
+  - SharpValhalla.Enums.Filter.EdgeEndHeading
+  - SharpValhalla.Enums.Filter.EdgeEndShapeIndex
+  - SharpValhalla.Enums.Filter.EdgeForward
+  - SharpValhalla.Enums.Filter.EdgeId
+  - SharpValhalla.Enums.Filter.EdgeIndoor
+  - SharpValhalla.Enums.Filter.EdgeInternalIntersection
+  - SharpValhalla.Enums.Filter.EdgeLaneCount
+  - SharpValhalla.Enums.Filter.EdgeLength
+  - SharpValhalla.Enums.Filter.EdgeMaxDownwardGrade
+  - SharpValhalla.Enums.Filter.EdgeMaxUpwardGrade
+  - SharpValhalla.Enums.Filter.EdgeMeanElevation
+  - SharpValhalla.Enums.Filter.EdgeNames
+  - SharpValhalla.Enums.Filter.EdgePedestrianType
+  - SharpValhalla.Enums.Filter.EdgeRoadClass
+  - SharpValhalla.Enums.Filter.EdgeRoundabout
+  - SharpValhalla.Enums.Filter.EdgeSacScale
+  - SharpValhalla.Enums.Filter.EdgeShoulder
+  - SharpValhalla.Enums.Filter.EdgeSidewalk
+  - SharpValhalla.Enums.Filter.EdgeSignExitBranch
+  - SharpValhalla.Enums.Filter.EdgeSignExitName
+  - SharpValhalla.Enums.Filter.EdgeSignExitNumber
+  - SharpValhalla.Enums.Filter.EdgeSignExitToward
+  - SharpValhalla.Enums.Filter.EdgeSpeed
+  - SharpValhalla.Enums.Filter.EdgeSpeedLimit
+  - SharpValhalla.Enums.Filter.EdgeSpeedsFaded
+  - SharpValhalla.Enums.Filter.EdgeSpeedsNonFaded
+  - SharpValhalla.Enums.Filter.EdgeSurface
+  - SharpValhalla.Enums.Filter.EdgeToll
+  - SharpValhalla.Enums.Filter.EdgeTrafficSignal
+  - SharpValhalla.Enums.Filter.EdgeTransitType
+  - SharpValhalla.Enums.Filter.EdgeTravelMode
+  - SharpValhalla.Enums.Filter.EdgeTraversability
+  - SharpValhalla.Enums.Filter.EdgeTruckRoute
+  - SharpValhalla.Enums.Filter.EdgeTruckSpeed
+  - SharpValhalla.Enums.Filter.EdgeTunnel
+  - SharpValhalla.Enums.Filter.EdgeUnpaved
+  - SharpValhalla.Enums.Filter.EdgeUse
+  - SharpValhalla.Enums.Filter.EdgeVehicleType
+  - SharpValhalla.Enums.Filter.EdgeWayId
+  - SharpValhalla.Enums.Filter.EdgeWeightedGrade
+  - SharpValhalla.Enums.Filter.MatchedBeginRouteDiscontinuity
+  - SharpValhalla.Enums.Filter.MatchedDistanceAlongEdge
+  - SharpValhalla.Enums.Filter.MatchedDistanceFromTracePoint
+  - SharpValhalla.Enums.Filter.MatchedEdgeIndex
+  - SharpValhalla.Enums.Filter.MatchedEndRouteDiscontinuity
+  - SharpValhalla.Enums.Filter.MatchedPoint
+  - SharpValhalla.Enums.Filter.MatchedType
+  - SharpValhalla.Enums.Filter.NodeAdminIndex
+  - SharpValhalla.Enums.Filter.NodeElapsedTime
+  - SharpValhalla.Enums.Filter.NodeFork
+  - SharpValhalla.Enums.Filter.NodeIntersectingEdgeBeginHeading
+  - SharpValhalla.Enums.Filter.NodeIntersectingEdgeCyclability
+  - SharpValhalla.Enums.Filter.NodeIntersectingEdgeDriveability
+  - SharpValhalla.Enums.Filter.NodeIntersectingEdgeFromEdgeNameConsistency
+  - SharpValhalla.Enums.Filter.NodeIntersectingEdgeLaneCount
+  - SharpValhalla.Enums.Filter.NodeIntersectingEdgeRoadClass
+  - SharpValhalla.Enums.Filter.NodeIntersectingEdgeToEdgeNameConsistency
+  - SharpValhalla.Enums.Filter.NodeIntersectingEdgeUse
+  - SharpValhalla.Enums.Filter.NodeIntersectingEdgeWalkability
+  - SharpValhalla.Enums.Filter.NodeTimeZone
+  - SharpValhalla.Enums.Filter.NodeTrafficSignal
+  - SharpValhalla.Enums.Filter.NodeType
+  - SharpValhalla.Enums.Filter.OsmChangeset
+  - SharpValhalla.Enums.Filter.Shape
+  langs:
+  - csharp
+  - vb
+  name: Filter
+  nameWithType: Filter
+  fullName: SharpValhalla.Enums.Filter
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Filter
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    Represents all available filter keys that can be applied when working with
+
+    Valhalla routing and map-matching data.
+
+
+    Each case corresponds to a specific field in the Valhalla API, grouped by
+
+    category (edge, node, admin, matched, etc.).
+
+    The raw value matches the exact key string expected by Valhalla.
+  example: []
+  syntax:
+    content: public enum Filter
+    content.vb: Public Enum Filter
+- uid: SharpValhalla.Enums.Filter.EdgeNames
+  commentId: F:SharpValhalla.Enums.Filter.EdgeNames
+  id: EdgeNames
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeNames
+  nameWithType: Filter.EdgeNames
+  fullName: SharpValhalla.Enums.Filter.EdgeNames
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeNames
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 14
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: List of names
+  example: []
+  syntax:
+    content: EdgeNames = 0
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeLength
+  commentId: F:SharpValhalla.Enums.Filter.EdgeLength
+  id: EdgeLength
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeLength
+  nameWithType: Filter.EdgeLength
+  fullName: SharpValhalla.Enums.Filter.EdgeLength
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeLength
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 17
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The matched edge length in the units specified (default is kilometers). If source_percent_along and/or target_percent_along are present, this represents the partially matched edge length, otherwise the full edge length.
+  example: []
+  syntax:
+    content: EdgeLength = 1
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeSpeed
+  commentId: F:SharpValhalla.Enums.Filter.EdgeSpeed
+  id: EdgeSpeed
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeSpeed
+  nameWithType: Filter.EdgeSpeed
+  fullName: SharpValhalla.Enums.Filter.EdgeSpeed
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeSpeed
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 20
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Edge speed in the units specified. The default is kilometers per hour.
+  example: []
+  syntax:
+    content: EdgeSpeed = 2
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeSpeedsFaded
+  commentId: F:SharpValhalla.Enums.Filter.EdgeSpeedsFaded
+  id: EdgeSpeedsFaded
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeSpeedsFaded
+  nameWithType: Filter.EdgeSpeedsFaded
+  fullName: SharpValhalla.Enums.Filter.EdgeSpeedsFaded
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeSpeedsFaded
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 23
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: 'Contains all flow speeds available for that edge in the units specified (default is kilometers per hour). Note: These speeds are faded with the current flow (if available). The current_flow fades with the flow_mask that was passed to the request.'
+  example: []
+  syntax:
+    content: EdgeSpeedsFaded = 3
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeSpeedsNonFaded
+  commentId: F:SharpValhalla.Enums.Filter.EdgeSpeedsNonFaded
+  id: EdgeSpeedsNonFaded
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeSpeedsNonFaded
+  nameWithType: Filter.EdgeSpeedsNonFaded
+  fullName: SharpValhalla.Enums.Filter.EdgeSpeedsNonFaded
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeSpeedsNonFaded
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 26
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Contains all raw flow speeds available for that edge in the units specified (default is kilometers per hour).
+  example: []
+  syntax:
+    content: EdgeSpeedsNonFaded = 4
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeRoadClass
+  commentId: F:SharpValhalla.Enums.Filter.EdgeRoadClass
+  id: EdgeRoadClass
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeRoadClass
+  nameWithType: Filter.EdgeRoadClass
+  fullName: SharpValhalla.Enums.Filter.EdgeRoadClass
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeRoadClass
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 29
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Road class values
+  example: []
+  syntax:
+    content: EdgeRoadClass = 5
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeBeginHeading
+  commentId: F:SharpValhalla.Enums.Filter.EdgeBeginHeading
+  id: EdgeBeginHeading
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeBeginHeading
+  nameWithType: Filter.EdgeBeginHeading
+  fullName: SharpValhalla.Enums.Filter.EdgeBeginHeading
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeBeginHeading
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 32
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The direction at the beginning of an edge. The units are degrees from north in a clockwise direction.
+  example: []
+  syntax:
+    content: EdgeBeginHeading = 6
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeEndHeading
+  commentId: F:SharpValhalla.Enums.Filter.EdgeEndHeading
+  id: EdgeEndHeading
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeEndHeading
+  nameWithType: Filter.EdgeEndHeading
+  fullName: SharpValhalla.Enums.Filter.EdgeEndHeading
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeEndHeading
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 35
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The direction at the end of an edge. The units are degrees from north in a clockwise direction.
+  example: []
+  syntax:
+    content: EdgeEndHeading = 7
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeBeginShapeIndex
+  commentId: F:SharpValhalla.Enums.Filter.EdgeBeginShapeIndex
+  id: EdgeBeginShapeIndex
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeBeginShapeIndex
+  nameWithType: Filter.EdgeBeginShapeIndex
+  fullName: SharpValhalla.Enums.Filter.EdgeBeginShapeIndex
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeBeginShapeIndex
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 38
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Index into the list of shape points for the start of the edge.
+  example: []
+  syntax:
+    content: EdgeBeginShapeIndex = 8
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeEndShapeIndex
+  commentId: F:SharpValhalla.Enums.Filter.EdgeEndShapeIndex
+  id: EdgeEndShapeIndex
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeEndShapeIndex
+  nameWithType: Filter.EdgeEndShapeIndex
+  fullName: SharpValhalla.Enums.Filter.EdgeEndShapeIndex
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeEndShapeIndex
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 41
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Index into the list of shape points for the end of the edge.
+  example: []
+  syntax:
+    content: EdgeEndShapeIndex = 9
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeTraversability
+  commentId: F:SharpValhalla.Enums.Filter.EdgeTraversability
+  id: EdgeTraversability
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeTraversability
+  nameWithType: Filter.EdgeTraversability
+  fullName: SharpValhalla.Enums.Filter.EdgeTraversability
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeTraversability
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 44
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Traversability values, if available
+  example: []
+  syntax:
+    content: EdgeTraversability = 10
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeUse
+  commentId: F:SharpValhalla.Enums.Filter.EdgeUse
+  id: EdgeUse
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeUse
+  nameWithType: Filter.EdgeUse
+  fullName: SharpValhalla.Enums.Filter.EdgeUse
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeUse
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 47
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Use values
+  example: []
+  syntax:
+    content: EdgeUse = 11
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeToll
+  commentId: F:SharpValhalla.Enums.Filter.EdgeToll
+  id: EdgeToll
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeToll
+  nameWithType: Filter.EdgeToll
+  fullName: SharpValhalla.Enums.Filter.EdgeToll
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeToll
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 50
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: If the edge has any toll.
+  example: []
+  syntax:
+    content: EdgeToll = 12
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeUnpaved
+  commentId: F:SharpValhalla.Enums.Filter.EdgeUnpaved
+  id: EdgeUnpaved
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeUnpaved
+  nameWithType: Filter.EdgeUnpaved
+  fullName: SharpValhalla.Enums.Filter.EdgeUnpaved
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeUnpaved
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 53
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: If the edge is unpaved or rough pavement.
+  example: []
+  syntax:
+    content: EdgeUnpaved = 13
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeTunnel
+  commentId: F:SharpValhalla.Enums.Filter.EdgeTunnel
+  id: EdgeTunnel
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeTunnel
+  nameWithType: Filter.EdgeTunnel
+  fullName: SharpValhalla.Enums.Filter.EdgeTunnel
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeTunnel
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 56
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: If the edge is a tunnel.
+  example: []
+  syntax:
+    content: EdgeTunnel = 14
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeBridge
+  commentId: F:SharpValhalla.Enums.Filter.EdgeBridge
+  id: EdgeBridge
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeBridge
+  nameWithType: Filter.EdgeBridge
+  fullName: SharpValhalla.Enums.Filter.EdgeBridge
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeBridge
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 59
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: If the edge is a bridge.
+  example: []
+  syntax:
+    content: EdgeBridge = 15
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeRoundabout
+  commentId: F:SharpValhalla.Enums.Filter.EdgeRoundabout
+  id: EdgeRoundabout
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeRoundabout
+  nameWithType: Filter.EdgeRoundabout
+  fullName: SharpValhalla.Enums.Filter.EdgeRoundabout
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeRoundabout
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 62
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: If the edge is a roundabout.
+  example: []
+  syntax:
+    content: EdgeRoundabout = 16
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeInternalIntersection
+  commentId: F:SharpValhalla.Enums.Filter.EdgeInternalIntersection
+  id: EdgeInternalIntersection
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeInternalIntersection
+  nameWithType: Filter.EdgeInternalIntersection
+  fullName: SharpValhalla.Enums.Filter.EdgeInternalIntersection
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeInternalIntersection
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 65
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: If the edge is an internal intersection.
+  example: []
+  syntax:
+    content: EdgeInternalIntersection = 17
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeDriveOnRight
+  commentId: F:SharpValhalla.Enums.Filter.EdgeDriveOnRight
+  id: EdgeDriveOnRight
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeDriveOnRight
+  nameWithType: Filter.EdgeDriveOnRight
+  fullName: SharpValhalla.Enums.Filter.EdgeDriveOnRight
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeDriveOnRight
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 68
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: If the flag is enabled for driving on the right side of the street.
+  example: []
+  syntax:
+    content: EdgeDriveOnRight = 18
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeSurface
+  commentId: F:SharpValhalla.Enums.Filter.EdgeSurface
+  id: EdgeSurface
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeSurface
+  nameWithType: Filter.EdgeSurface
+  fullName: SharpValhalla.Enums.Filter.EdgeSurface
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeSurface
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 71
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Surface values
+  example: []
+  syntax:
+    content: EdgeSurface = 19
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeSignExitNumber
+  commentId: F:SharpValhalla.Enums.Filter.EdgeSignExitNumber
+  id: EdgeSignExitNumber
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeSignExitNumber
+  nameWithType: Filter.EdgeSignExitNumber
+  fullName: SharpValhalla.Enums.Filter.EdgeSignExitNumber
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeSignExitNumber
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 74
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: 'List of exit number elements. If an exit number element exists, it is typically just one value. Element example: 91B'
+  example: []
+  syntax:
+    content: EdgeSignExitNumber = 20
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeSignExitBranch
+  commentId: F:SharpValhalla.Enums.Filter.EdgeSignExitBranch
+  id: EdgeSignExitBranch
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeSignExitBranch
+  nameWithType: Filter.EdgeSignExitBranch
+  fullName: SharpValhalla.Enums.Filter.EdgeSignExitBranch
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeSignExitBranch
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 77
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: 'List of exit branch elements. An exit branch element is the subsequent road name or route number after the sign. Element example: I 95 North'
+  example: []
+  syntax:
+    content: EdgeSignExitBranch = 21
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeSignExitToward
+  commentId: F:SharpValhalla.Enums.Filter.EdgeSignExitToward
+  id: EdgeSignExitToward
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeSignExitToward
+  nameWithType: Filter.EdgeSignExitToward
+  fullName: SharpValhalla.Enums.Filter.EdgeSignExitToward
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeSignExitToward
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 80
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: 'List of exit toward elements. The exit toward element is the location where the road ahead goes; the location is typically a control city, but may also be a future road name or route number. Element example: New York'
+  example: []
+  syntax:
+    content: EdgeSignExitToward = 22
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeSignExitName
+  commentId: F:SharpValhalla.Enums.Filter.EdgeSignExitName
+  id: EdgeSignExitName
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeSignExitName
+  nameWithType: Filter.EdgeSignExitName
+  fullName: SharpValhalla.Enums.Filter.EdgeSignExitName
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeSignExitName
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 83
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: 'List of exit name elements. The exit name element is the interchange identifier, although typically not used in the United States. Element example: Gettysburg Pike'
+  example: []
+  syntax:
+    content: EdgeSignExitName = 23
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeTravelMode
+  commentId: F:SharpValhalla.Enums.Filter.EdgeTravelMode
+  id: EdgeTravelMode
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeTravelMode
+  nameWithType: Filter.EdgeTravelMode
+  fullName: SharpValhalla.Enums.Filter.EdgeTravelMode
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeTravelMode
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 86
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Travel mode values
+  example: []
+  syntax:
+    content: EdgeTravelMode = 24
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeVehicleType
+  commentId: F:SharpValhalla.Enums.Filter.EdgeVehicleType
+  id: EdgeVehicleType
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeVehicleType
+  nameWithType: Filter.EdgeVehicleType
+  fullName: SharpValhalla.Enums.Filter.EdgeVehicleType
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeVehicleType
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 89
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Vehicle type values
+  example: []
+  syntax:
+    content: EdgeVehicleType = 25
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgePedestrianType
+  commentId: F:SharpValhalla.Enums.Filter.EdgePedestrianType
+  id: EdgePedestrianType
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgePedestrianType
+  nameWithType: Filter.EdgePedestrianType
+  fullName: SharpValhalla.Enums.Filter.EdgePedestrianType
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgePedestrianType
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 92
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Pedestrian type values
+  example: []
+  syntax:
+    content: EdgePedestrianType = 26
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeBicycleType
+  commentId: F:SharpValhalla.Enums.Filter.EdgeBicycleType
+  id: EdgeBicycleType
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeBicycleType
+  nameWithType: Filter.EdgeBicycleType
+  fullName: SharpValhalla.Enums.Filter.EdgeBicycleType
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeBicycleType
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 95
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Bicycle type values
+  example: []
+  syntax:
+    content: EdgeBicycleType = 27
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeTransitType
+  commentId: F:SharpValhalla.Enums.Filter.EdgeTransitType
+  id: EdgeTransitType
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeTransitType
+  nameWithType: Filter.EdgeTransitType
+  fullName: SharpValhalla.Enums.Filter.EdgeTransitType
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeTransitType
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 98
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Transit type values
+  example: []
+  syntax:
+    content: EdgeTransitType = 28
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeId
+  commentId: F:SharpValhalla.Enums.Filter.EdgeId
+  id: EdgeId
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeId
+  nameWithType: Filter.EdgeId
+  fullName: SharpValhalla.Enums.Filter.EdgeId
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeId
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 101
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Identifier of an edge within the tiled, hierarchical graph.
+  example: []
+  syntax:
+    content: EdgeId = 29
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeIndoor
+  commentId: F:SharpValhalla.Enums.Filter.EdgeIndoor
+  id: EdgeIndoor
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeIndoor
+  nameWithType: Filter.EdgeIndoor
+  fullName: SharpValhalla.Enums.Filter.EdgeIndoor
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeIndoor
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 104
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Whether or not the edge is inside of a building or structure or not.
+  example: []
+  syntax:
+    content: EdgeIndoor = 30
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeWayId
+  commentId: F:SharpValhalla.Enums.Filter.EdgeWayId
+  id: EdgeWayId
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeWayId
+  nameWithType: Filter.EdgeWayId
+  fullName: SharpValhalla.Enums.Filter.EdgeWayId
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeWayId
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 107
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Way identifier of the OpenStreetMap base data.
+  example: []
+  syntax:
+    content: EdgeWayId = 31
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeWeightedGrade
+  commentId: F:SharpValhalla.Enums.Filter.EdgeWeightedGrade
+  id: EdgeWeightedGrade
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeWeightedGrade
+  nameWithType: Filter.EdgeWeightedGrade
+  fullName: SharpValhalla.Enums.Filter.EdgeWeightedGrade
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeWeightedGrade
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 110
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The weighted grade factor. Valhalla manufactures a weighted_grade from elevation data. It is a measure used for hill avoidance in routing - sort of a relative energy use along an edge. But since an edge in Valhalla can possibly go up and down over several hills it might not equate to what most folks think of as grade.
+  example: []
+  syntax:
+    content: EdgeWeightedGrade = 32
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeMaxUpwardGrade
+  commentId: F:SharpValhalla.Enums.Filter.EdgeMaxUpwardGrade
+  id: EdgeMaxUpwardGrade
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeMaxUpwardGrade
+  nameWithType: Filter.EdgeMaxUpwardGrade
+  fullName: SharpValhalla.Enums.Filter.EdgeMaxUpwardGrade
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeMaxUpwardGrade
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 113
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The maximum upward slope. A value of 32768 indicates no elevation data is available for this edge.
+  example: []
+  syntax:
+    content: EdgeMaxUpwardGrade = 33
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeMaxDownwardGrade
+  commentId: F:SharpValhalla.Enums.Filter.EdgeMaxDownwardGrade
+  id: EdgeMaxDownwardGrade
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeMaxDownwardGrade
+  nameWithType: Filter.EdgeMaxDownwardGrade
+  fullName: SharpValhalla.Enums.Filter.EdgeMaxDownwardGrade
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeMaxDownwardGrade
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 116
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The maximum downward slope. A value of 32768 indicates no elevation data is available for this edge.
+  example: []
+  syntax:
+    content: EdgeMaxDownwardGrade = 34
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeMeanElevation
+  commentId: F:SharpValhalla.Enums.Filter.EdgeMeanElevation
+  id: EdgeMeanElevation
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeMeanElevation
+  nameWithType: Filter.EdgeMeanElevation
+  fullName: SharpValhalla.Enums.Filter.EdgeMeanElevation
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeMeanElevation
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 119
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The mean or average elevation along the edge. Units are meters by default. If the units are specified as miles, then the mean elevation is returned in feet. A value of 32768 indicates no elevation data is available for this edge.
+  example: []
+  syntax:
+    content: EdgeMeanElevation = 35
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeLaneCount
+  commentId: F:SharpValhalla.Enums.Filter.EdgeLaneCount
+  id: EdgeLaneCount
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeLaneCount
+  nameWithType: Filter.EdgeLaneCount
+  fullName: SharpValhalla.Enums.Filter.EdgeLaneCount
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeLaneCount
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 122
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The number of lanes for this edge.
+  example: []
+  syntax:
+    content: EdgeLaneCount = 36
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeCycleLane
+  commentId: F:SharpValhalla.Enums.Filter.EdgeCycleLane
+  id: EdgeCycleLane
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeCycleLane
+  nameWithType: Filter.EdgeCycleLane
+  fullName: SharpValhalla.Enums.Filter.EdgeCycleLane
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeCycleLane
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 125
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The type (if any) of bicycle lane along this edge.
+  example: []
+  syntax:
+    content: EdgeCycleLane = 37
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeBicycleNetwork
+  commentId: F:SharpValhalla.Enums.Filter.EdgeBicycleNetwork
+  id: EdgeBicycleNetwork
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeBicycleNetwork
+  nameWithType: Filter.EdgeBicycleNetwork
+  fullName: SharpValhalla.Enums.Filter.EdgeBicycleNetwork
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeBicycleNetwork
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 128
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The bike network for this edge.
+  example: []
+  syntax:
+    content: EdgeBicycleNetwork = 38
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeSacScale
+  commentId: F:SharpValhalla.Enums.Filter.EdgeSacScale
+  id: EdgeSacScale
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeSacScale
+  nameWithType: Filter.EdgeSacScale
+  fullName: SharpValhalla.Enums.Filter.EdgeSacScale
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeSacScale
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 131
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Classification of hiking trails based on difficulty.
+  example: []
+  syntax:
+    content: EdgeSacScale = 39
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeShoulder
+  commentId: F:SharpValhalla.Enums.Filter.EdgeShoulder
+  id: EdgeShoulder
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeShoulder
+  nameWithType: Filter.EdgeShoulder
+  fullName: SharpValhalla.Enums.Filter.EdgeShoulder
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeShoulder
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 134
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: If the edge has a shoulder.
+  example: []
+  syntax:
+    content: EdgeShoulder = 40
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeSidewalk
+  commentId: F:SharpValhalla.Enums.Filter.EdgeSidewalk
+  id: EdgeSidewalk
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeSidewalk
+  nameWithType: Filter.EdgeSidewalk
+  fullName: SharpValhalla.Enums.Filter.EdgeSidewalk
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeSidewalk
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 137
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Sidewalk values
+  example: []
+  syntax:
+    content: EdgeSidewalk = 41
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeDensity
+  commentId: F:SharpValhalla.Enums.Filter.EdgeDensity
+  id: EdgeDensity
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeDensity
+  nameWithType: Filter.EdgeDensity
+  fullName: SharpValhalla.Enums.Filter.EdgeDensity
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeDensity
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 140
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The relative density along the edge.
+  example: []
+  syntax:
+    content: EdgeDensity = 42
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeSpeedLimit
+  commentId: F:SharpValhalla.Enums.Filter.EdgeSpeedLimit
+  id: EdgeSpeedLimit
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeSpeedLimit
+  nameWithType: Filter.EdgeSpeedLimit
+  fullName: SharpValhalla.Enums.Filter.EdgeSpeedLimit
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeSpeedLimit
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 143
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Edge speed limit in the units specified. The default is kilometers per hour.
+  example: []
+  syntax:
+    content: EdgeSpeedLimit = 43
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeTruckSpeed
+  commentId: F:SharpValhalla.Enums.Filter.EdgeTruckSpeed
+  id: EdgeTruckSpeed
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeTruckSpeed
+  nameWithType: Filter.EdgeTruckSpeed
+  fullName: SharpValhalla.Enums.Filter.EdgeTruckSpeed
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeTruckSpeed
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 146
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Edge truck speed in the units specified. The default is kilometers per hour.
+  example: []
+  syntax:
+    content: EdgeTruckSpeed = 44
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeTruckRoute
+  commentId: F:SharpValhalla.Enums.Filter.EdgeTruckRoute
+  id: EdgeTruckRoute
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeTruckRoute
+  nameWithType: Filter.EdgeTruckRoute
+  fullName: SharpValhalla.Enums.Filter.EdgeTruckRoute
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeTruckRoute
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 149
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: If edge is part of a truck network/route.
+  example: []
+  syntax:
+    content: EdgeTruckRoute = 45
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeCountryCrossing
+  commentId: F:SharpValhalla.Enums.Filter.EdgeCountryCrossing
+  id: EdgeCountryCrossing
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeCountryCrossing
+  nameWithType: Filter.EdgeCountryCrossing
+  fullName: SharpValhalla.Enums.Filter.EdgeCountryCrossing
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeCountryCrossing
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 152
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: If the edge is a country crossing.
+  example: []
+  syntax:
+    content: EdgeCountryCrossing = 46
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeForward
+  commentId: F:SharpValhalla.Enums.Filter.EdgeForward
+  id: EdgeForward
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeForward
+  nameWithType: Filter.EdgeForward
+  fullName: SharpValhalla.Enums.Filter.EdgeForward
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeForward
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 155
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: True if the edge is traversed forwards and False if it is traversed backwards with respect to the reference shape/geometry (ie. the direction in which it was digitized).
+  example: []
+  syntax:
+    content: EdgeForward = 47
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.EdgeTrafficSignal
+  commentId: F:SharpValhalla.Enums.Filter.EdgeTrafficSignal
+  id: EdgeTrafficSignal
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: EdgeTrafficSignal
+  nameWithType: Filter.EdgeTrafficSignal
+  fullName: SharpValhalla.Enums.Filter.EdgeTrafficSignal
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeTrafficSignal
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 158
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: If the edge contains a traffic signal in its direction.
+  example: []
+  syntax:
+    content: EdgeTrafficSignal = 48
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.NodeIntersectingEdgeBeginHeading
+  commentId: F:SharpValhalla.Enums.Filter.NodeIntersectingEdgeBeginHeading
+  id: NodeIntersectingEdgeBeginHeading
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: NodeIntersectingEdgeBeginHeading
+  nameWithType: Filter.NodeIntersectingEdgeBeginHeading
+  fullName: SharpValhalla.Enums.Filter.NodeIntersectingEdgeBeginHeading
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NodeIntersectingEdgeBeginHeading
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 161
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The direction at the beginning of this intersecting edge. The units are degrees from north in a clockwise direction.
+  example: []
+  syntax:
+    content: NodeIntersectingEdgeBeginHeading = 49
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.NodeIntersectingEdgeFromEdgeNameConsistency
+  commentId: F:SharpValhalla.Enums.Filter.NodeIntersectingEdgeFromEdgeNameConsistency
+  id: NodeIntersectingEdgeFromEdgeNameConsistency
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: NodeIntersectingEdgeFromEdgeNameConsistency
+  nameWithType: Filter.NodeIntersectingEdgeFromEdgeNameConsistency
+  fullName: SharpValhalla.Enums.Filter.NodeIntersectingEdgeFromEdgeNameConsistency
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NodeIntersectingEdgeFromEdgeNameConsistency
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 164
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: If this intersecting edge at the end node has consistent names with the path from edge.
+  example: []
+  syntax:
+    content: NodeIntersectingEdgeFromEdgeNameConsistency = 50
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.NodeIntersectingEdgeToEdgeNameConsistency
+  commentId: F:SharpValhalla.Enums.Filter.NodeIntersectingEdgeToEdgeNameConsistency
+  id: NodeIntersectingEdgeToEdgeNameConsistency
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: NodeIntersectingEdgeToEdgeNameConsistency
+  nameWithType: Filter.NodeIntersectingEdgeToEdgeNameConsistency
+  fullName: SharpValhalla.Enums.Filter.NodeIntersectingEdgeToEdgeNameConsistency
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NodeIntersectingEdgeToEdgeNameConsistency
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 167
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: If this intersecting edge at the end node has consistent names with the path to edge.
+  example: []
+  syntax:
+    content: NodeIntersectingEdgeToEdgeNameConsistency = 51
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.NodeIntersectingEdgeDriveability
+  commentId: F:SharpValhalla.Enums.Filter.NodeIntersectingEdgeDriveability
+  id: NodeIntersectingEdgeDriveability
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: NodeIntersectingEdgeDriveability
+  nameWithType: Filter.NodeIntersectingEdgeDriveability
+  fullName: SharpValhalla.Enums.Filter.NodeIntersectingEdgeDriveability
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NodeIntersectingEdgeDriveability
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 170
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Driveability values, if available
+  example: []
+  syntax:
+    content: NodeIntersectingEdgeDriveability = 52
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.NodeIntersectingEdgeCyclability
+  commentId: F:SharpValhalla.Enums.Filter.NodeIntersectingEdgeCyclability
+  id: NodeIntersectingEdgeCyclability
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: NodeIntersectingEdgeCyclability
+  nameWithType: Filter.NodeIntersectingEdgeCyclability
+  fullName: SharpValhalla.Enums.Filter.NodeIntersectingEdgeCyclability
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NodeIntersectingEdgeCyclability
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 173
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Cyclability values, if available
+  example: []
+  syntax:
+    content: NodeIntersectingEdgeCyclability = 53
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.NodeIntersectingEdgeWalkability
+  commentId: F:SharpValhalla.Enums.Filter.NodeIntersectingEdgeWalkability
+  id: NodeIntersectingEdgeWalkability
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: NodeIntersectingEdgeWalkability
+  nameWithType: Filter.NodeIntersectingEdgeWalkability
+  fullName: SharpValhalla.Enums.Filter.NodeIntersectingEdgeWalkability
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NodeIntersectingEdgeWalkability
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 176
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Walkability values, if available
+  example: []
+  syntax:
+    content: NodeIntersectingEdgeWalkability = 54
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.NodeIntersectingEdgeUse
+  commentId: F:SharpValhalla.Enums.Filter.NodeIntersectingEdgeUse
+  id: NodeIntersectingEdgeUse
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: NodeIntersectingEdgeUse
+  nameWithType: Filter.NodeIntersectingEdgeUse
+  fullName: SharpValhalla.Enums.Filter.NodeIntersectingEdgeUse
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NodeIntersectingEdgeUse
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 179
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Use values
+  example: []
+  syntax:
+    content: NodeIntersectingEdgeUse = 55
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.NodeIntersectingEdgeRoadClass
+  commentId: F:SharpValhalla.Enums.Filter.NodeIntersectingEdgeRoadClass
+  id: NodeIntersectingEdgeRoadClass
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: NodeIntersectingEdgeRoadClass
+  nameWithType: Filter.NodeIntersectingEdgeRoadClass
+  fullName: SharpValhalla.Enums.Filter.NodeIntersectingEdgeRoadClass
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NodeIntersectingEdgeRoadClass
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 182
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Road class values
+  example: []
+  syntax:
+    content: NodeIntersectingEdgeRoadClass = 56
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.NodeIntersectingEdgeLaneCount
+  commentId: F:SharpValhalla.Enums.Filter.NodeIntersectingEdgeLaneCount
+  id: NodeIntersectingEdgeLaneCount
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: NodeIntersectingEdgeLaneCount
+  nameWithType: Filter.NodeIntersectingEdgeLaneCount
+  fullName: SharpValhalla.Enums.Filter.NodeIntersectingEdgeLaneCount
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NodeIntersectingEdgeLaneCount
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 185
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The number of lanes for this edge.
+  example: []
+  syntax:
+    content: NodeIntersectingEdgeLaneCount = 57
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.NodeElapsedTime
+  commentId: F:SharpValhalla.Enums.Filter.NodeElapsedTime
+  id: NodeElapsedTime
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: NodeElapsedTime
+  nameWithType: Filter.NodeElapsedTime
+  fullName: SharpValhalla.Enums.Filter.NodeElapsedTime
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NodeElapsedTime
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 188
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Elapsed time of the path to arrive at this node.
+  example: []
+  syntax:
+    content: NodeElapsedTime = 58
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.NodeAdminIndex
+  commentId: F:SharpValhalla.Enums.Filter.NodeAdminIndex
+  id: NodeAdminIndex
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: NodeAdminIndex
+  nameWithType: Filter.NodeAdminIndex
+  fullName: SharpValhalla.Enums.Filter.NodeAdminIndex
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NodeAdminIndex
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 191
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Index value in the admin list.
+  example: []
+  syntax:
+    content: NodeAdminIndex = 59
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.NodeType
+  commentId: F:SharpValhalla.Enums.Filter.NodeType
+  id: NodeType
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: NodeType
+  nameWithType: Filter.NodeType
+  fullName: SharpValhalla.Enums.Filter.NodeType
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NodeType
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 194
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Node type values
+  example: []
+  syntax:
+    content: NodeType = 60
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.NodeTrafficSignal
+  commentId: F:SharpValhalla.Enums.Filter.NodeTrafficSignal
+  id: NodeTrafficSignal
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: NodeTrafficSignal
+  nameWithType: Filter.NodeTrafficSignal
+  fullName: SharpValhalla.Enums.Filter.NodeTrafficSignal
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NodeTrafficSignal
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 197
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: A boolean value indicating whether the node is a traffic signal (true or false)
+  example: []
+  syntax:
+    content: NodeTrafficSignal = 61
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.NodeFork
+  commentId: F:SharpValhalla.Enums.Filter.NodeFork
+  id: NodeFork
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: NodeFork
+  nameWithType: Filter.NodeFork
+  fullName: SharpValhalla.Enums.Filter.NodeFork
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NodeFork
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 200
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: If this node is a fork.
+  example: []
+  syntax:
+    content: NodeFork = 62
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.NodeTimeZone
+  commentId: F:SharpValhalla.Enums.Filter.NodeTimeZone
+  id: NodeTimeZone
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: NodeTimeZone
+  nameWithType: Filter.NodeTimeZone
+  fullName: SharpValhalla.Enums.Filter.NodeTimeZone
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NodeTimeZone
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 203
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Time zone string for this node.
+  example: []
+  syntax:
+    content: NodeTimeZone = 63
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.OsmChangeset
+  commentId: F:SharpValhalla.Enums.Filter.OsmChangeset
+  id: OsmChangeset
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: OsmChangeset
+  nameWithType: Filter.OsmChangeset
+  fullName: SharpValhalla.Enums.Filter.OsmChangeset
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: OsmChangeset
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 206
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: OSM changeset
+  example: []
+  syntax:
+    content: OsmChangeset = 64
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.Shape
+  commentId: F:SharpValhalla.Enums.Filter.Shape
+  id: Shape
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: Shape
+  nameWithType: Filter.Shape
+  fullName: SharpValhalla.Enums.Filter.Shape
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Shape
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 209
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The encoded polyline of the matched path.
+  example: []
+  syntax:
+    content: Shape = 65
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.AdminCountryCode
+  commentId: F:SharpValhalla.Enums.Filter.AdminCountryCode
+  id: AdminCountryCode
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: AdminCountryCode
+  nameWithType: Filter.AdminCountryCode
+  fullName: SharpValhalla.Enums.Filter.AdminCountryCode
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: AdminCountryCode
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 212
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Country ISO 3166-1 alpha-2 code.
+  example: []
+  syntax:
+    content: AdminCountryCode = 66
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.AdminCountryText
+  commentId: F:SharpValhalla.Enums.Filter.AdminCountryText
+  id: AdminCountryText
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: AdminCountryText
+  nameWithType: Filter.AdminCountryText
+  fullName: SharpValhalla.Enums.Filter.AdminCountryText
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: AdminCountryText
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 215
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Country name.
+  example: []
+  syntax:
+    content: AdminCountryText = 67
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.AdminStateCode
+  commentId: F:SharpValhalla.Enums.Filter.AdminStateCode
+  id: AdminStateCode
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: AdminStateCode
+  nameWithType: Filter.AdminStateCode
+  fullName: SharpValhalla.Enums.Filter.AdminStateCode
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: AdminStateCode
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 218
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: State code.
+  example: []
+  syntax:
+    content: AdminStateCode = 68
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.AdminStateText
+  commentId: F:SharpValhalla.Enums.Filter.AdminStateText
+  id: AdminStateText
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: AdminStateText
+  nameWithType: Filter.AdminStateText
+  fullName: SharpValhalla.Enums.Filter.AdminStateText
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: AdminStateText
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 221
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: State name.
+  example: []
+  syntax:
+    content: AdminStateText = 69
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.MatchedPoint
+  commentId: F:SharpValhalla.Enums.Filter.MatchedPoint
+  id: MatchedPoint
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: MatchedPoint
+  nameWithType: Filter.MatchedPoint
+  fullName: SharpValhalla.Enums.Filter.MatchedPoint
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MatchedPoint
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 224
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: List of match results when using the map_snap shape match algorithm. There is a one-to-one correspondence with the input set of latitude, longitude coordinates and this list of match results.
+  example: []
+  syntax:
+    content: MatchedPoint = 70
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.MatchedType
+  commentId: F:SharpValhalla.Enums.Filter.MatchedType
+  id: MatchedType
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: MatchedType
+  nameWithType: Filter.MatchedType
+  fullName: SharpValhalla.Enums.Filter.MatchedType
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MatchedType
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 227
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: 'Describes the type of this match result - possible values include:'
+  example: []
+  syntax:
+    content: MatchedType = 71
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.MatchedEdgeIndex
+  commentId: F:SharpValhalla.Enums.Filter.MatchedEdgeIndex
+  id: MatchedEdgeIndex
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: MatchedEdgeIndex
+  nameWithType: Filter.MatchedEdgeIndex
+  fullName: SharpValhalla.Enums.Filter.MatchedEdgeIndex
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MatchedEdgeIndex
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 230
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The index of the edge in the list of edges that this matched point is associated with. This value will not exist if this point was unmatched.
+  example: []
+  syntax:
+    content: MatchedEdgeIndex = 72
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.MatchedBeginRouteDiscontinuity
+  commentId: F:SharpValhalla.Enums.Filter.MatchedBeginRouteDiscontinuity
+  id: MatchedBeginRouteDiscontinuity
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: MatchedBeginRouteDiscontinuity
+  nameWithType: Filter.MatchedBeginRouteDiscontinuity
+  fullName: SharpValhalla.Enums.Filter.MatchedBeginRouteDiscontinuity
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MatchedBeginRouteDiscontinuity
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 233
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The boolean value is true if this match result is the begin location of a route disconnect. This value will not exist if this is false.
+  example: []
+  syntax:
+    content: MatchedBeginRouteDiscontinuity = 73
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.MatchedEndRouteDiscontinuity
+  commentId: F:SharpValhalla.Enums.Filter.MatchedEndRouteDiscontinuity
+  id: MatchedEndRouteDiscontinuity
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: MatchedEndRouteDiscontinuity
+  nameWithType: Filter.MatchedEndRouteDiscontinuity
+  fullName: SharpValhalla.Enums.Filter.MatchedEndRouteDiscontinuity
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MatchedEndRouteDiscontinuity
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 236
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The boolean value is true if this match result is the end location of a route disconnect. This value will not exist if this is false.
+  example: []
+  syntax:
+    content: MatchedEndRouteDiscontinuity = 74
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.MatchedDistanceAlongEdge
+  commentId: F:SharpValhalla.Enums.Filter.MatchedDistanceAlongEdge
+  id: MatchedDistanceAlongEdge
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: MatchedDistanceAlongEdge
+  nameWithType: Filter.MatchedDistanceAlongEdge
+  fullName: SharpValhalla.Enums.Filter.MatchedDistanceAlongEdge
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MatchedDistanceAlongEdge
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 239
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The distance along the associated edge for this matched point. For example, if the matched point is halfway along the edge then the value would be 0.5. This value will not exist if this point was unmatched.
+  example: []
+  syntax:
+    content: MatchedDistanceAlongEdge = 75
+    return:
+      type: SharpValhalla.Enums.Filter
+- uid: SharpValhalla.Enums.Filter.MatchedDistanceFromTracePoint
+  commentId: F:SharpValhalla.Enums.Filter.MatchedDistanceFromTracePoint
+  id: MatchedDistanceFromTracePoint
+  parent: SharpValhalla.Enums.Filter
+  langs:
+  - csharp
+  - vb
+  name: MatchedDistanceFromTracePoint
+  nameWithType: Filter.MatchedDistanceFromTracePoint
+  fullName: SharpValhalla.Enums.Filter.MatchedDistanceFromTracePoint
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Filter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MatchedDistanceFromTracePoint
+    path: ../src/SharpValhalla/Enums/Filter.cs
+    startLine: 242
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The distance in meters from the trace point to the matched point. This value will not exist if this point was unmatched.
+  example: []
+  syntax:
+    content: MatchedDistanceFromTracePoint = 76
+    return:
+      type: SharpValhalla.Enums.Filter
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.Filter
+  commentId: T:SharpValhalla.Enums.Filter
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Filter.html
+  name: Filter
+  nameWithType: Filter
+  fullName: SharpValhalla.Enums.Filter

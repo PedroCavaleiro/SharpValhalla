@@ -1,0 +1,327 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.NodeType
+  commentId: T:SharpValhalla.Enums.NodeType
+  id: NodeType
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.NodeType.BikeShare
+  - SharpValhalla.Enums.NodeType.Bollard
+  - SharpValhalla.Enums.NodeType.BorderControl
+  - SharpValhalla.Enums.NodeType.Gate
+  - SharpValhalla.Enums.NodeType.MotorWayJunction
+  - SharpValhalla.Enums.NodeType.MultiUseTransitStop
+  - SharpValhalla.Enums.NodeType.Parking
+  - SharpValhalla.Enums.NodeType.StreetIntersection
+  - SharpValhalla.Enums.NodeType.TollBooth
+  langs:
+  - csharp
+  - vb
+  name: NodeType
+  nameWithType: NodeType
+  fullName: SharpValhalla.Enums.NodeType
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/NodeType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NodeType
+    path: ../src/SharpValhalla/Enums/NodeType.cs
+    startLine: 10
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    Represents different types of nodes in Valhalla routing.
+
+
+    Each case corresponds to a specific type of node or intersection.
+
+    The raw value matches the exact key string used in Valhalla.
+  example: []
+  syntax:
+    content: public enum NodeType
+    content.vb: Public Enum NodeType
+- uid: SharpValhalla.Enums.NodeType.StreetIntersection
+  commentId: F:SharpValhalla.Enums.NodeType.StreetIntersection
+  id: StreetIntersection
+  parent: SharpValhalla.Enums.NodeType
+  langs:
+  - csharp
+  - vb
+  name: StreetIntersection
+  nameWithType: NodeType.StreetIntersection
+  fullName: SharpValhalla.Enums.NodeType.StreetIntersection
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/NodeType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: StreetIntersection
+    path: ../src/SharpValhalla/Enums/NodeType.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Street intersection node.
+  example: []
+  syntax:
+    content: StreetIntersection = 0
+    return:
+      type: SharpValhalla.Enums.NodeType
+- uid: SharpValhalla.Enums.NodeType.Gate
+  commentId: F:SharpValhalla.Enums.NodeType.Gate
+  id: Gate
+  parent: SharpValhalla.Enums.NodeType
+  langs:
+  - csharp
+  - vb
+  name: Gate
+  nameWithType: NodeType.Gate
+  fullName: SharpValhalla.Enums.NodeType.Gate
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/NodeType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Gate
+    path: ../src/SharpValhalla/Enums/NodeType.cs
+    startLine: 15
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Gate node.
+  example: []
+  syntax:
+    content: Gate = 1
+    return:
+      type: SharpValhalla.Enums.NodeType
+- uid: SharpValhalla.Enums.NodeType.Bollard
+  commentId: F:SharpValhalla.Enums.NodeType.Bollard
+  id: Bollard
+  parent: SharpValhalla.Enums.NodeType
+  langs:
+  - csharp
+  - vb
+  name: Bollard
+  nameWithType: NodeType.Bollard
+  fullName: SharpValhalla.Enums.NodeType.Bollard
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/NodeType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Bollard
+    path: ../src/SharpValhalla/Enums/NodeType.cs
+    startLine: 18
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Bollard node.
+  example: []
+  syntax:
+    content: Bollard = 2
+    return:
+      type: SharpValhalla.Enums.NodeType
+- uid: SharpValhalla.Enums.NodeType.TollBooth
+  commentId: F:SharpValhalla.Enums.NodeType.TollBooth
+  id: TollBooth
+  parent: SharpValhalla.Enums.NodeType
+  langs:
+  - csharp
+  - vb
+  name: TollBooth
+  nameWithType: NodeType.TollBooth
+  fullName: SharpValhalla.Enums.NodeType.TollBooth
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/NodeType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TollBooth
+    path: ../src/SharpValhalla/Enums/NodeType.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Toll booth node.
+  example: []
+  syntax:
+    content: TollBooth = 3
+    return:
+      type: SharpValhalla.Enums.NodeType
+- uid: SharpValhalla.Enums.NodeType.MultiUseTransitStop
+  commentId: F:SharpValhalla.Enums.NodeType.MultiUseTransitStop
+  id: MultiUseTransitStop
+  parent: SharpValhalla.Enums.NodeType
+  langs:
+  - csharp
+  - vb
+  name: MultiUseTransitStop
+  nameWithType: NodeType.MultiUseTransitStop
+  fullName: SharpValhalla.Enums.NodeType.MultiUseTransitStop
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/NodeType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MultiUseTransitStop
+    path: ../src/SharpValhalla/Enums/NodeType.cs
+    startLine: 24
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Multi-use transit stop node.
+  example: []
+  syntax:
+    content: MultiUseTransitStop = 4
+    return:
+      type: SharpValhalla.Enums.NodeType
+- uid: SharpValhalla.Enums.NodeType.BikeShare
+  commentId: F:SharpValhalla.Enums.NodeType.BikeShare
+  id: BikeShare
+  parent: SharpValhalla.Enums.NodeType
+  langs:
+  - csharp
+  - vb
+  name: BikeShare
+  nameWithType: NodeType.BikeShare
+  fullName: SharpValhalla.Enums.NodeType.BikeShare
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/NodeType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: BikeShare
+    path: ../src/SharpValhalla/Enums/NodeType.cs
+    startLine: 27
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Bike share node.
+  example: []
+  syntax:
+    content: BikeShare = 5
+    return:
+      type: SharpValhalla.Enums.NodeType
+- uid: SharpValhalla.Enums.NodeType.Parking
+  commentId: F:SharpValhalla.Enums.NodeType.Parking
+  id: Parking
+  parent: SharpValhalla.Enums.NodeType
+  langs:
+  - csharp
+  - vb
+  name: Parking
+  nameWithType: NodeType.Parking
+  fullName: SharpValhalla.Enums.NodeType.Parking
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/NodeType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Parking
+    path: ../src/SharpValhalla/Enums/NodeType.cs
+    startLine: 30
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Parking node.
+  example: []
+  syntax:
+    content: Parking = 6
+    return:
+      type: SharpValhalla.Enums.NodeType
+- uid: SharpValhalla.Enums.NodeType.MotorWayJunction
+  commentId: F:SharpValhalla.Enums.NodeType.MotorWayJunction
+  id: MotorWayJunction
+  parent: SharpValhalla.Enums.NodeType
+  langs:
+  - csharp
+  - vb
+  name: MotorWayJunction
+  nameWithType: NodeType.MotorWayJunction
+  fullName: SharpValhalla.Enums.NodeType.MotorWayJunction
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/NodeType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MotorWayJunction
+    path: ../src/SharpValhalla/Enums/NodeType.cs
+    startLine: 33
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Motorway junction node.
+  example: []
+  syntax:
+    content: MotorWayJunction = 7
+    return:
+      type: SharpValhalla.Enums.NodeType
+- uid: SharpValhalla.Enums.NodeType.BorderControl
+  commentId: F:SharpValhalla.Enums.NodeType.BorderControl
+  id: BorderControl
+  parent: SharpValhalla.Enums.NodeType
+  langs:
+  - csharp
+  - vb
+  name: BorderControl
+  nameWithType: NodeType.BorderControl
+  fullName: SharpValhalla.Enums.NodeType.BorderControl
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/NodeType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: BorderControl
+    path: ../src/SharpValhalla/Enums/NodeType.cs
+    startLine: 36
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Border control node.
+  example: []
+  syntax:
+    content: BorderControl = 8
+    return:
+      type: SharpValhalla.Enums.NodeType
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.NodeType
+  commentId: T:SharpValhalla.Enums.NodeType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.NodeType.html
+  name: NodeType
+  nameWithType: NodeType
+  fullName: SharpValhalla.Enums.NodeType

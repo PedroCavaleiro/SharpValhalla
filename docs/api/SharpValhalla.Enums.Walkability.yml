@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.Walkability
+  commentId: T:SharpValhalla.Enums.Walkability
+  id: Walkability
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.Walkability.Backward
+  - SharpValhalla.Enums.Walkability.Both
+  - SharpValhalla.Enums.Walkability.Forward
+  langs:
+  - csharp
+  - vb
+  name: Walkability
+  nameWithType: Walkability
+  fullName: SharpValhalla.Enums.Walkability
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Driveability.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Walkability
+    path: ../src/SharpValhalla/Enums/Driveability.cs
+    startLine: 46
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  syntax:
+    content: public enum Walkability
+    content.vb: Public Enum Walkability
+- uid: SharpValhalla.Enums.Walkability.Forward
+  commentId: F:SharpValhalla.Enums.Walkability.Forward
+  id: Forward
+  parent: SharpValhalla.Enums.Walkability
+  langs:
+  - csharp
+  - vb
+  name: Forward
+  nameWithType: Walkability.Forward
+  fullName: SharpValhalla.Enums.Walkability.Forward
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Driveability.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Forward
+    path: ../src/SharpValhalla/Enums/Driveability.cs
+    startLine: 47
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  syntax:
+    content: Forward = 0
+    return:
+      type: SharpValhalla.Enums.Walkability
+- uid: SharpValhalla.Enums.Walkability.Backward
+  commentId: F:SharpValhalla.Enums.Walkability.Backward
+  id: Backward
+  parent: SharpValhalla.Enums.Walkability
+  langs:
+  - csharp
+  - vb
+  name: Backward
+  nameWithType: Walkability.Backward
+  fullName: SharpValhalla.Enums.Walkability.Backward
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Driveability.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Backward
+    path: ../src/SharpValhalla/Enums/Driveability.cs
+    startLine: 48
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  syntax:
+    content: Backward = 1
+    return:
+      type: SharpValhalla.Enums.Walkability
+- uid: SharpValhalla.Enums.Walkability.Both
+  commentId: F:SharpValhalla.Enums.Walkability.Both
+  id: Both
+  parent: SharpValhalla.Enums.Walkability
+  langs:
+  - csharp
+  - vb
+  name: Both
+  nameWithType: Walkability.Both
+  fullName: SharpValhalla.Enums.Walkability.Both
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Driveability.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Both
+    path: ../src/SharpValhalla/Enums/Driveability.cs
+    startLine: 49
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  syntax:
+    content: Both = 2
+    return:
+      type: SharpValhalla.Enums.Walkability
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.Walkability
+  commentId: T:SharpValhalla.Enums.Walkability
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Walkability.html
+  name: Walkability
+  nameWithType: Walkability
+  fullName: SharpValhalla.Enums.Walkability

@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.SideOfStreet
+  commentId: T:SharpValhalla.Enums.SideOfStreet
+  id: SideOfStreet
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.SideOfStreet.Both
+  - SharpValhalla.Enums.SideOfStreet.Left
+  - SharpValhalla.Enums.SideOfStreet.Right
+  langs:
+  - csharp
+  - vb
+  name: SideOfStreet
+  nameWithType: SideOfStreet
+  fullName: SharpValhalla.Enums.SideOfStreet
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Sidewalk.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SideOfStreet
+    path: ../src/SharpValhalla/Enums/Sidewalk.cs
+    startLine: 25
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Alias for Sidewalk to represent the side of street, matching the Swift typealias.
+  example: []
+  syntax:
+    content: public enum SideOfStreet
+    content.vb: Public Enum SideOfStreet
+- uid: SharpValhalla.Enums.SideOfStreet.Left
+  commentId: F:SharpValhalla.Enums.SideOfStreet.Left
+  id: Left
+  parent: SharpValhalla.Enums.SideOfStreet
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: SideOfStreet.Left
+  fullName: SharpValhalla.Enums.SideOfStreet.Left
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Sidewalk.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Left
+    path: ../src/SharpValhalla/Enums/Sidewalk.cs
+    startLine: 26
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  syntax:
+    content: Left = 0
+    return:
+      type: SharpValhalla.Enums.SideOfStreet
+- uid: SharpValhalla.Enums.SideOfStreet.Right
+  commentId: F:SharpValhalla.Enums.SideOfStreet.Right
+  id: Right
+  parent: SharpValhalla.Enums.SideOfStreet
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: SideOfStreet.Right
+  fullName: SharpValhalla.Enums.SideOfStreet.Right
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Sidewalk.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Right
+    path: ../src/SharpValhalla/Enums/Sidewalk.cs
+    startLine: 27
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  syntax:
+    content: Right = 1
+    return:
+      type: SharpValhalla.Enums.SideOfStreet
+- uid: SharpValhalla.Enums.SideOfStreet.Both
+  commentId: F:SharpValhalla.Enums.SideOfStreet.Both
+  id: Both
+  parent: SharpValhalla.Enums.SideOfStreet
+  langs:
+  - csharp
+  - vb
+  name: Both
+  nameWithType: SideOfStreet.Both
+  fullName: SharpValhalla.Enums.SideOfStreet.Both
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Sidewalk.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Both
+    path: ../src/SharpValhalla/Enums/Sidewalk.cs
+    startLine: 28
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  syntax:
+    content: Both = 2
+    return:
+      type: SharpValhalla.Enums.SideOfStreet
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.SideOfStreet
+  commentId: T:SharpValhalla.Enums.SideOfStreet
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.SideOfStreet.html
+  name: SideOfStreet
+  nameWithType: SideOfStreet
+  fullName: SharpValhalla.Enums.SideOfStreet

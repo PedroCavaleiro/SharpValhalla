@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.ShapeFormat
+  commentId: T:SharpValhalla.Enums.ShapeFormat
+  id: ShapeFormat
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.ShapeFormat.GeoJson
+  - SharpValhalla.Enums.ShapeFormat.NoShape
+  - SharpValhalla.Enums.ShapeFormat.Polyline5
+  - SharpValhalla.Enums.ShapeFormat.Polyline6
+  langs:
+  - csharp
+  - vb
+  name: ShapeFormat
+  nameWithType: ShapeFormat
+  fullName: SharpValhalla.Enums.ShapeFormat
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ShapeFormat.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ShapeFormat
+    path: ../src/SharpValhalla/Enums/ShapeFormat.cs
+    startLine: 8
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    Specifies the optional format for the path shape of each connection.
+
+    Note: Only if format is set to osrm.
+  example: []
+  syntax:
+    content: public enum ShapeFormat
+    content.vb: Public Enum ShapeFormat
+- uid: SharpValhalla.Enums.ShapeFormat.Polyline6
+  commentId: F:SharpValhalla.Enums.ShapeFormat.Polyline6
+  id: Polyline6
+  parent: SharpValhalla.Enums.ShapeFormat
+  langs:
+  - csharp
+  - vb
+  name: Polyline6
+  nameWithType: ShapeFormat.Polyline6
+  fullName: SharpValhalla.Enums.ShapeFormat.Polyline6
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ShapeFormat.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Polyline6
+    path: ../src/SharpValhalla/Enums/ShapeFormat.cs
+    startLine: 10
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Polyline6 format.
+  example: []
+  syntax:
+    content: Polyline6 = 0
+    return:
+      type: SharpValhalla.Enums.ShapeFormat
+- uid: SharpValhalla.Enums.ShapeFormat.Polyline5
+  commentId: F:SharpValhalla.Enums.ShapeFormat.Polyline5
+  id: Polyline5
+  parent: SharpValhalla.Enums.ShapeFormat
+  langs:
+  - csharp
+  - vb
+  name: Polyline5
+  nameWithType: ShapeFormat.Polyline5
+  fullName: SharpValhalla.Enums.ShapeFormat.Polyline5
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ShapeFormat.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Polyline5
+    path: ../src/SharpValhalla/Enums/ShapeFormat.cs
+    startLine: 13
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Polyline5 format.
+  example: []
+  syntax:
+    content: Polyline5 = 1
+    return:
+      type: SharpValhalla.Enums.ShapeFormat
+- uid: SharpValhalla.Enums.ShapeFormat.GeoJson
+  commentId: F:SharpValhalla.Enums.ShapeFormat.GeoJson
+  id: GeoJson
+  parent: SharpValhalla.Enums.ShapeFormat
+  langs:
+  - csharp
+  - vb
+  name: GeoJson
+  nameWithType: ShapeFormat.GeoJson
+  fullName: SharpValhalla.Enums.ShapeFormat.GeoJson
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ShapeFormat.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: GeoJson
+    path: ../src/SharpValhalla/Enums/ShapeFormat.cs
+    startLine: 16
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: GeoJSON format.
+  example: []
+  syntax:
+    content: GeoJson = 2
+    return:
+      type: SharpValhalla.Enums.ShapeFormat
+- uid: SharpValhalla.Enums.ShapeFormat.NoShape
+  commentId: F:SharpValhalla.Enums.ShapeFormat.NoShape
+  id: NoShape
+  parent: SharpValhalla.Enums.ShapeFormat
+  langs:
+  - csharp
+  - vb
+  name: NoShape
+  nameWithType: ShapeFormat.NoShape
+  fullName: SharpValhalla.Enums.ShapeFormat.NoShape
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ShapeFormat.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NoShape
+    path: ../src/SharpValhalla/Enums/ShapeFormat.cs
+    startLine: 19
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: No shape format.
+  example: []
+  syntax:
+    content: NoShape = 3
+    return:
+      type: SharpValhalla.Enums.ShapeFormat
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.ShapeFormat
+  commentId: T:SharpValhalla.Enums.ShapeFormat
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.ShapeFormat.html
+  name: ShapeFormat
+  nameWithType: ShapeFormat
+  fullName: SharpValhalla.Enums.ShapeFormat

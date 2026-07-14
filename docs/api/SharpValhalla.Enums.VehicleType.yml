@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.VehicleType
+  commentId: T:SharpValhalla.Enums.VehicleType
+  id: VehicleType
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.VehicleType.Bus
+  - SharpValhalla.Enums.VehicleType.Car
+  - SharpValhalla.Enums.VehicleType.Motorcycle
+  - SharpValhalla.Enums.VehicleType.TractorTrailer
+  langs:
+  - csharp
+  - vb
+  name: VehicleType
+  nameWithType: VehicleType
+  fullName: SharpValhalla.Enums.VehicleType
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/VehicleType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: VehicleType
+    path: ../src/SharpValhalla/Enums/VehicleType.cs
+    startLine: 10
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    Represents the different vehicle types for edges in Valhalla routing.
+
+
+    Each case corresponds to a specific type of motorized vehicle.
+
+    The raw value matches the exact key string used in Valhalla.
+  example: []
+  syntax:
+    content: public enum VehicleType
+    content.vb: Public Enum VehicleType
+- uid: SharpValhalla.Enums.VehicleType.Car
+  commentId: F:SharpValhalla.Enums.VehicleType.Car
+  id: Car
+  parent: SharpValhalla.Enums.VehicleType
+  langs:
+  - csharp
+  - vb
+  name: Car
+  nameWithType: VehicleType.Car
+  fullName: SharpValhalla.Enums.VehicleType.Car
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/VehicleType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Car
+    path: ../src/SharpValhalla/Enums/VehicleType.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Car vehicle type.
+  example: []
+  syntax:
+    content: Car = 0
+    return:
+      type: SharpValhalla.Enums.VehicleType
+- uid: SharpValhalla.Enums.VehicleType.Motorcycle
+  commentId: F:SharpValhalla.Enums.VehicleType.Motorcycle
+  id: Motorcycle
+  parent: SharpValhalla.Enums.VehicleType
+  langs:
+  - csharp
+  - vb
+  name: Motorcycle
+  nameWithType: VehicleType.Motorcycle
+  fullName: SharpValhalla.Enums.VehicleType.Motorcycle
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/VehicleType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Motorcycle
+    path: ../src/SharpValhalla/Enums/VehicleType.cs
+    startLine: 15
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Motorcycle vehicle type.
+  example: []
+  syntax:
+    content: Motorcycle = 1
+    return:
+      type: SharpValhalla.Enums.VehicleType
+- uid: SharpValhalla.Enums.VehicleType.Bus
+  commentId: F:SharpValhalla.Enums.VehicleType.Bus
+  id: Bus
+  parent: SharpValhalla.Enums.VehicleType
+  langs:
+  - csharp
+  - vb
+  name: Bus
+  nameWithType: VehicleType.Bus
+  fullName: SharpValhalla.Enums.VehicleType.Bus
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/VehicleType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Bus
+    path: ../src/SharpValhalla/Enums/VehicleType.cs
+    startLine: 18
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Bus vehicle type.
+  example: []
+  syntax:
+    content: Bus = 2
+    return:
+      type: SharpValhalla.Enums.VehicleType
+- uid: SharpValhalla.Enums.VehicleType.TractorTrailer
+  commentId: F:SharpValhalla.Enums.VehicleType.TractorTrailer
+  id: TractorTrailer
+  parent: SharpValhalla.Enums.VehicleType
+  langs:
+  - csharp
+  - vb
+  name: TractorTrailer
+  nameWithType: VehicleType.TractorTrailer
+  fullName: SharpValhalla.Enums.VehicleType.TractorTrailer
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/VehicleType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TractorTrailer
+    path: ../src/SharpValhalla/Enums/VehicleType.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Tractor trailer vehicle type.
+  example: []
+  syntax:
+    content: TractorTrailer = 3
+    return:
+      type: SharpValhalla.Enums.VehicleType
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.VehicleType
+  commentId: T:SharpValhalla.Enums.VehicleType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.VehicleType.html
+  name: VehicleType
+  nameWithType: VehicleType
+  fullName: SharpValhalla.Enums.VehicleType

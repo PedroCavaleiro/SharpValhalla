@@ -1,0 +1,790 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Models.Request.SearchFilter
+  commentId: T:SharpValhalla.Models.Request.SearchFilter
+  id: SearchFilter
+  parent: SharpValhalla.Models.Request
+  children:
+  - SharpValhalla.Models.Request.SearchFilter.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,SharpValhalla.Enums.RoadClass,SharpValhalla.Enums.RoadClass)
+  - SharpValhalla.Models.Request.SearchFilter.ExcludeBridge
+  - SharpValhalla.Models.Request.SearchFilter.ExcludeClosures
+  - SharpValhalla.Models.Request.SearchFilter.ExcludeFerry
+  - SharpValhalla.Models.Request.SearchFilter.ExcludeRamp
+  - SharpValhalla.Models.Request.SearchFilter.ExcludeToll
+  - SharpValhalla.Models.Request.SearchFilter.ExcludeTunnel
+  - SharpValhalla.Models.Request.SearchFilter.MaxRoadClass
+  - SharpValhalla.Models.Request.SearchFilter.MinRoadClass
+  langs:
+  - csharp
+  - vb
+  name: SearchFilter
+  nameWithType: SearchFilter
+  fullName: SharpValhalla.Models.Request.SearchFilter
+  type: Class
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/SearchFilter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SearchFilter
+    path: ../src/SharpValhalla/Models/Request/SearchFilter.cs
+    startLine: 10
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: A set of optional filters to exclude candidate edges based on their attribution.
+  example: []
+  syntax:
+    content: public class SearchFilter
+    content.vb: Public Class SearchFilter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SharpValhalla.Models.Request.SearchFilter.ExcludeTunnel
+  commentId: P:SharpValhalla.Models.Request.SearchFilter.ExcludeTunnel
+  id: ExcludeTunnel
+  parent: SharpValhalla.Models.Request.SearchFilter
+  langs:
+  - csharp
+  - vb
+  name: ExcludeTunnel
+  nameWithType: SearchFilter.ExcludeTunnel
+  fullName: SharpValhalla.Models.Request.SearchFilter.ExcludeTunnel
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/SearchFilter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ExcludeTunnel
+    path: ../src/SharpValhalla/Models/Request/SearchFilter.cs
+    startLine: 11
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("exclude_tunnel")]
+
+      public bool ExcludeTunnel { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonPropertyName("exclude_tunnel")>
+
+      Public Property ExcludeTunnel As Boolean
+  overload: SharpValhalla.Models.Request.SearchFilter.ExcludeTunnel*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: exclude_tunnel
+- uid: SharpValhalla.Models.Request.SearchFilter.ExcludeBridge
+  commentId: P:SharpValhalla.Models.Request.SearchFilter.ExcludeBridge
+  id: ExcludeBridge
+  parent: SharpValhalla.Models.Request.SearchFilter
+  langs:
+  - csharp
+  - vb
+  name: ExcludeBridge
+  nameWithType: SearchFilter.ExcludeBridge
+  fullName: SharpValhalla.Models.Request.SearchFilter.ExcludeBridge
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/SearchFilter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ExcludeBridge
+    path: ../src/SharpValhalla/Models/Request/SearchFilter.cs
+    startLine: 13
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("exclude_bridge")]
+
+      public bool ExcludeBridge { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonPropertyName("exclude_bridge")>
+
+      Public Property ExcludeBridge As Boolean
+  overload: SharpValhalla.Models.Request.SearchFilter.ExcludeBridge*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: exclude_bridge
+- uid: SharpValhalla.Models.Request.SearchFilter.ExcludeToll
+  commentId: P:SharpValhalla.Models.Request.SearchFilter.ExcludeToll
+  id: ExcludeToll
+  parent: SharpValhalla.Models.Request.SearchFilter
+  langs:
+  - csharp
+  - vb
+  name: ExcludeToll
+  nameWithType: SearchFilter.ExcludeToll
+  fullName: SharpValhalla.Models.Request.SearchFilter.ExcludeToll
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/SearchFilter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ExcludeToll
+    path: ../src/SharpValhalla/Models/Request/SearchFilter.cs
+    startLine: 15
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("exclude_toll")]
+
+      public bool ExcludeToll { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonPropertyName("exclude_toll")>
+
+      Public Property ExcludeToll As Boolean
+  overload: SharpValhalla.Models.Request.SearchFilter.ExcludeToll*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: exclude_toll
+- uid: SharpValhalla.Models.Request.SearchFilter.ExcludeFerry
+  commentId: P:SharpValhalla.Models.Request.SearchFilter.ExcludeFerry
+  id: ExcludeFerry
+  parent: SharpValhalla.Models.Request.SearchFilter
+  langs:
+  - csharp
+  - vb
+  name: ExcludeFerry
+  nameWithType: SearchFilter.ExcludeFerry
+  fullName: SharpValhalla.Models.Request.SearchFilter.ExcludeFerry
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/SearchFilter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ExcludeFerry
+    path: ../src/SharpValhalla/Models/Request/SearchFilter.cs
+    startLine: 17
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("exclude_ferry")]
+
+      public bool ExcludeFerry { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonPropertyName("exclude_ferry")>
+
+      Public Property ExcludeFerry As Boolean
+  overload: SharpValhalla.Models.Request.SearchFilter.ExcludeFerry*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: exclude_ferry
+- uid: SharpValhalla.Models.Request.SearchFilter.ExcludeRamp
+  commentId: P:SharpValhalla.Models.Request.SearchFilter.ExcludeRamp
+  id: ExcludeRamp
+  parent: SharpValhalla.Models.Request.SearchFilter
+  langs:
+  - csharp
+  - vb
+  name: ExcludeRamp
+  nameWithType: SearchFilter.ExcludeRamp
+  fullName: SharpValhalla.Models.Request.SearchFilter.ExcludeRamp
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/SearchFilter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ExcludeRamp
+    path: ../src/SharpValhalla/Models/Request/SearchFilter.cs
+    startLine: 19
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("exclude_ramp")]
+
+      public bool ExcludeRamp { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonPropertyName("exclude_ramp")>
+
+      Public Property ExcludeRamp As Boolean
+  overload: SharpValhalla.Models.Request.SearchFilter.ExcludeRamp*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: exclude_ramp
+- uid: SharpValhalla.Models.Request.SearchFilter.ExcludeClosures
+  commentId: P:SharpValhalla.Models.Request.SearchFilter.ExcludeClosures
+  id: ExcludeClosures
+  parent: SharpValhalla.Models.Request.SearchFilter
+  langs:
+  - csharp
+  - vb
+  name: ExcludeClosures
+  nameWithType: SearchFilter.ExcludeClosures
+  fullName: SharpValhalla.Models.Request.SearchFilter.ExcludeClosures
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/SearchFilter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ExcludeClosures
+    path: ../src/SharpValhalla/Models/Request/SearchFilter.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("exclude_closures")]
+
+      public bool ExcludeClosures { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonPropertyName("exclude_closures")>
+
+      Public Property ExcludeClosures As Boolean
+  overload: SharpValhalla.Models.Request.SearchFilter.ExcludeClosures*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: exclude_closures
+- uid: SharpValhalla.Models.Request.SearchFilter.MinRoadClass
+  commentId: P:SharpValhalla.Models.Request.SearchFilter.MinRoadClass
+  id: MinRoadClass
+  parent: SharpValhalla.Models.Request.SearchFilter
+  langs:
+  - csharp
+  - vb
+  name: MinRoadClass
+  nameWithType: SearchFilter.MinRoadClass
+  fullName: SharpValhalla.Models.Request.SearchFilter.MinRoadClass
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/SearchFilter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MinRoadClass
+    path: ../src/SharpValhalla/Models/Request/SearchFilter.cs
+    startLine: 23
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("min_road_class")]
+
+      public RoadClass MinRoadClass { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Enums.RoadClass
+    content.vb: >-
+      <JsonPropertyName("min_road_class")>
+
+      Public Property MinRoadClass As RoadClass
+  overload: SharpValhalla.Models.Request.SearchFilter.MinRoadClass*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: min_road_class
+- uid: SharpValhalla.Models.Request.SearchFilter.MaxRoadClass
+  commentId: P:SharpValhalla.Models.Request.SearchFilter.MaxRoadClass
+  id: MaxRoadClass
+  parent: SharpValhalla.Models.Request.SearchFilter
+  langs:
+  - csharp
+  - vb
+  name: MaxRoadClass
+  nameWithType: SearchFilter.MaxRoadClass
+  fullName: SharpValhalla.Models.Request.SearchFilter.MaxRoadClass
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/SearchFilter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MaxRoadClass
+    path: ../src/SharpValhalla/Models/Request/SearchFilter.cs
+    startLine: 25
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  syntax:
+    content: >-
+      [JsonPropertyName("max_road_class")]
+
+      public RoadClass MaxRoadClass { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Enums.RoadClass
+    content.vb: >-
+      <JsonPropertyName("max_road_class")>
+
+      Public Property MaxRoadClass As RoadClass
+  overload: SharpValhalla.Models.Request.SearchFilter.MaxRoadClass*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: max_road_class
+- uid: SharpValhalla.Models.Request.SearchFilter.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,SharpValhalla.Enums.RoadClass,SharpValhalla.Enums.RoadClass)
+  commentId: M:SharpValhalla.Models.Request.SearchFilter.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,SharpValhalla.Enums.RoadClass,SharpValhalla.Enums.RoadClass)
+  id: '#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,SharpValhalla.Enums.RoadClass,SharpValhalla.Enums.RoadClass)'
+  parent: SharpValhalla.Models.Request.SearchFilter
+  langs:
+  - csharp
+  - vb
+  name: SearchFilter(bool, bool, bool, bool, bool, bool, RoadClass, RoadClass)
+  nameWithType: SearchFilter.SearchFilter(bool, bool, bool, bool, bool, bool, RoadClass, RoadClass)
+  fullName: SharpValhalla.Models.Request.SearchFilter.SearchFilter(bool, bool, bool, bool, bool, bool, SharpValhalla.Enums.RoadClass, SharpValhalla.Enums.RoadClass)
+  type: Constructor
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Request/SearchFilter.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: .ctor
+    path: ../src/SharpValhalla/Models/Request/SearchFilter.cs
+    startLine: 31
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Request
+  summary: Initializer with all default values.
+  example: []
+  syntax:
+    content: public SearchFilter(bool excludeTunnel = false, bool excludeBridge = false, bool excludeToll = false, bool excludeFerry = false, bool excludeRamp = false, bool excludeClosures = true, RoadClass minRoadClass = RoadClass.ServiceOther, RoadClass maxRoadClass = RoadClass.Motorway)
+    parameters:
+    - id: excludeTunnel
+      type: System.Boolean
+    - id: excludeBridge
+      type: System.Boolean
+    - id: excludeToll
+      type: System.Boolean
+    - id: excludeFerry
+      type: System.Boolean
+    - id: excludeRamp
+      type: System.Boolean
+    - id: excludeClosures
+      type: System.Boolean
+    - id: minRoadClass
+      type: SharpValhalla.Enums.RoadClass
+    - id: maxRoadClass
+      type: SharpValhalla.Enums.RoadClass
+    content.vb: Public Sub New(excludeTunnel As Boolean = False, excludeBridge As Boolean = False, excludeToll As Boolean = False, excludeFerry As Boolean = False, excludeRamp As Boolean = False, excludeClosures As Boolean = True, minRoadClass As RoadClass = RoadClass.ServiceOther, maxRoadClass As RoadClass = RoadClass.Motorway)
+  overload: SharpValhalla.Models.Request.SearchFilter.#ctor*
+  nameWithType.vb: SearchFilter.New(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, RoadClass, RoadClass)
+  fullName.vb: SharpValhalla.Models.Request.SearchFilter.New(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, SharpValhalla.Enums.RoadClass, SharpValhalla.Enums.RoadClass)
+  name.vb: New(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, RoadClass, RoadClass)
+references:
+- uid: SharpValhalla.Models.Request
+  commentId: N:SharpValhalla.Models.Request
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Request
+  nameWithType: SharpValhalla.Models.Request
+  fullName: SharpValhalla.Models.Request
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Request
+    name: Request
+    href: SharpValhalla.Models.Request.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Request
+    name: Request
+    href: SharpValhalla.Models.Request.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SharpValhalla.Models.Request.SearchFilter.ExcludeTunnel*
+  commentId: Overload:SharpValhalla.Models.Request.SearchFilter.ExcludeTunnel
+  href: SharpValhalla.Models.Request.SearchFilter.html#SharpValhalla_Models_Request_SearchFilter_ExcludeTunnel
+  name: ExcludeTunnel
+  nameWithType: SearchFilter.ExcludeTunnel
+  fullName: SharpValhalla.Models.Request.SearchFilter.ExcludeTunnel
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SharpValhalla.Models.Request.SearchFilter.ExcludeBridge*
+  commentId: Overload:SharpValhalla.Models.Request.SearchFilter.ExcludeBridge
+  href: SharpValhalla.Models.Request.SearchFilter.html#SharpValhalla_Models_Request_SearchFilter_ExcludeBridge
+  name: ExcludeBridge
+  nameWithType: SearchFilter.ExcludeBridge
+  fullName: SharpValhalla.Models.Request.SearchFilter.ExcludeBridge
+- uid: SharpValhalla.Models.Request.SearchFilter.ExcludeToll*
+  commentId: Overload:SharpValhalla.Models.Request.SearchFilter.ExcludeToll
+  href: SharpValhalla.Models.Request.SearchFilter.html#SharpValhalla_Models_Request_SearchFilter_ExcludeToll
+  name: ExcludeToll
+  nameWithType: SearchFilter.ExcludeToll
+  fullName: SharpValhalla.Models.Request.SearchFilter.ExcludeToll
+- uid: SharpValhalla.Models.Request.SearchFilter.ExcludeFerry*
+  commentId: Overload:SharpValhalla.Models.Request.SearchFilter.ExcludeFerry
+  href: SharpValhalla.Models.Request.SearchFilter.html#SharpValhalla_Models_Request_SearchFilter_ExcludeFerry
+  name: ExcludeFerry
+  nameWithType: SearchFilter.ExcludeFerry
+  fullName: SharpValhalla.Models.Request.SearchFilter.ExcludeFerry
+- uid: SharpValhalla.Models.Request.SearchFilter.ExcludeRamp*
+  commentId: Overload:SharpValhalla.Models.Request.SearchFilter.ExcludeRamp
+  href: SharpValhalla.Models.Request.SearchFilter.html#SharpValhalla_Models_Request_SearchFilter_ExcludeRamp
+  name: ExcludeRamp
+  nameWithType: SearchFilter.ExcludeRamp
+  fullName: SharpValhalla.Models.Request.SearchFilter.ExcludeRamp
+- uid: SharpValhalla.Models.Request.SearchFilter.ExcludeClosures*
+  commentId: Overload:SharpValhalla.Models.Request.SearchFilter.ExcludeClosures
+  href: SharpValhalla.Models.Request.SearchFilter.html#SharpValhalla_Models_Request_SearchFilter_ExcludeClosures
+  name: ExcludeClosures
+  nameWithType: SearchFilter.ExcludeClosures
+  fullName: SharpValhalla.Models.Request.SearchFilter.ExcludeClosures
+- uid: SharpValhalla.Models.Request.SearchFilter.MinRoadClass*
+  commentId: Overload:SharpValhalla.Models.Request.SearchFilter.MinRoadClass
+  href: SharpValhalla.Models.Request.SearchFilter.html#SharpValhalla_Models_Request_SearchFilter_MinRoadClass
+  name: MinRoadClass
+  nameWithType: SearchFilter.MinRoadClass
+  fullName: SharpValhalla.Models.Request.SearchFilter.MinRoadClass
+- uid: SharpValhalla.Enums.RoadClass
+  commentId: T:SharpValhalla.Enums.RoadClass
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.RoadClass.html
+  name: RoadClass
+  nameWithType: RoadClass
+  fullName: SharpValhalla.Enums.RoadClass
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Models.Request.SearchFilter.MaxRoadClass*
+  commentId: Overload:SharpValhalla.Models.Request.SearchFilter.MaxRoadClass
+  href: SharpValhalla.Models.Request.SearchFilter.html#SharpValhalla_Models_Request_SearchFilter_MaxRoadClass
+  name: MaxRoadClass
+  nameWithType: SearchFilter.MaxRoadClass
+  fullName: SharpValhalla.Models.Request.SearchFilter.MaxRoadClass
+- uid: SharpValhalla.Models.Request.SearchFilter.#ctor*
+  commentId: Overload:SharpValhalla.Models.Request.SearchFilter.#ctor
+  href: SharpValhalla.Models.Request.SearchFilter.html#SharpValhalla_Models_Request_SearchFilter__ctor_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_SharpValhalla_Enums_RoadClass_SharpValhalla_Enums_RoadClass_
+  name: SearchFilter
+  nameWithType: SearchFilter.SearchFilter
+  fullName: SharpValhalla.Models.Request.SearchFilter.SearchFilter
+  nameWithType.vb: SearchFilter.New
+  fullName.vb: SharpValhalla.Models.Request.SearchFilter.New
+  name.vb: New

@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.MatchedType
+  commentId: T:SharpValhalla.Enums.MatchedType
+  id: MatchedType
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.MatchedType.Interpolated
+  - SharpValhalla.Enums.MatchedType.Matched
+  - SharpValhalla.Enums.MatchedType.Unmatched
+  langs:
+  - csharp
+  - vb
+  name: MatchedType
+  nameWithType: MatchedType
+  fullName: SharpValhalla.Enums.MatchedType
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/MatchedType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MatchedType
+    path: ../src/SharpValhalla/Enums/MatchedType.cs
+    startLine: 7
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Represents the possible states of a location when aligning a trace to the road network.
+  example: []
+  syntax:
+    content: public enum MatchedType
+    content.vb: Public Enum MatchedType
+- uid: SharpValhalla.Enums.MatchedType.Unmatched
+  commentId: F:SharpValhalla.Enums.MatchedType.Unmatched
+  id: Unmatched
+  parent: SharpValhalla.Enums.MatchedType
+  langs:
+  - csharp
+  - vb
+  name: Unmatched
+  nameWithType: MatchedType.Unmatched
+  fullName: SharpValhalla.Enums.MatchedType.Unmatched
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/MatchedType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Unmatched
+    path: ../src/SharpValhalla/Enums/MatchedType.cs
+    startLine: 11
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The trace point could not be aligned to any road segment.
+  example: []
+  syntax:
+    content: Unmatched = 0
+    return:
+      type: SharpValhalla.Enums.MatchedType
+- uid: SharpValhalla.Enums.MatchedType.Interpolated
+  commentId: F:SharpValhalla.Enums.MatchedType.Interpolated
+  id: Interpolated
+  parent: SharpValhalla.Enums.MatchedType
+  langs:
+  - csharp
+  - vb
+  name: Interpolated
+  nameWithType: MatchedType.Interpolated
+  fullName: SharpValhalla.Enums.MatchedType.Interpolated
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/MatchedType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Interpolated
+    path: ../src/SharpValhalla/Enums/MatchedType.cs
+    startLine: 16
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The trace point was interpolated between known matched points.
+  example: []
+  syntax:
+    content: Interpolated = 1
+    return:
+      type: SharpValhalla.Enums.MatchedType
+- uid: SharpValhalla.Enums.MatchedType.Matched
+  commentId: F:SharpValhalla.Enums.MatchedType.Matched
+  id: Matched
+  parent: SharpValhalla.Enums.MatchedType
+  langs:
+  - csharp
+  - vb
+  name: Matched
+  nameWithType: MatchedType.Matched
+  fullName: SharpValhalla.Enums.MatchedType.Matched
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/MatchedType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Matched
+    path: ../src/SharpValhalla/Enums/MatchedType.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The trace point was successfully matched to a road segment.
+  example: []
+  syntax:
+    content: Matched = 2
+    return:
+      type: SharpValhalla.Enums.MatchedType
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.MatchedType
+  commentId: T:SharpValhalla.Enums.MatchedType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.MatchedType.html
+  name: MatchedType
+  nameWithType: MatchedType
+  fullName: SharpValhalla.Enums.MatchedType

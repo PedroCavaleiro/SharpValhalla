@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.FlowSpeeds
+  commentId: T:SharpValhalla.Enums.FlowSpeeds
+  id: FlowSpeeds
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.FlowSpeeds.ConstrainedFlow
+  - SharpValhalla.Enums.FlowSpeeds.CurrentFlow
+  - SharpValhalla.Enums.FlowSpeeds.FreeFlow
+  - SharpValhalla.Enums.FlowSpeeds.NoFlow
+  - SharpValhalla.Enums.FlowSpeeds.PredictedFlow
+  langs:
+  - csharp
+  - vb
+  name: FlowSpeeds
+  nameWithType: FlowSpeeds
+  fullName: SharpValhalla.Enums.FlowSpeeds
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/FlowSpeeds.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: FlowSpeeds
+    path: ../src/SharpValhalla/Enums/FlowSpeeds.cs
+    startLine: 10
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    Represents the different flow speed types for edges in Valhalla routing.
+
+
+    Each case corresponds to a specific traffic flow condition.
+
+    The raw value matches the exact key string used in Valhalla.
+  example: []
+  syntax:
+    content: public enum FlowSpeeds
+    content.vb: Public Enum FlowSpeeds
+- uid: SharpValhalla.Enums.FlowSpeeds.CurrentFlow
+  commentId: F:SharpValhalla.Enums.FlowSpeeds.CurrentFlow
+  id: CurrentFlow
+  parent: SharpValhalla.Enums.FlowSpeeds
+  langs:
+  - csharp
+  - vb
+  name: CurrentFlow
+  nameWithType: FlowSpeeds.CurrentFlow
+  fullName: SharpValhalla.Enums.FlowSpeeds.CurrentFlow
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/FlowSpeeds.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: CurrentFlow
+    path: ../src/SharpValhalla/Enums/FlowSpeeds.cs
+    startLine: 14
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Current traffic flow condition.
+  example: []
+  syntax:
+    content: CurrentFlow = 0
+    return:
+      type: SharpValhalla.Enums.FlowSpeeds
+- uid: SharpValhalla.Enums.FlowSpeeds.ConstrainedFlow
+  commentId: F:SharpValhalla.Enums.FlowSpeeds.ConstrainedFlow
+  id: ConstrainedFlow
+  parent: SharpValhalla.Enums.FlowSpeeds
+  langs:
+  - csharp
+  - vb
+  name: ConstrainedFlow
+  nameWithType: FlowSpeeds.ConstrainedFlow
+  fullName: SharpValhalla.Enums.FlowSpeeds.ConstrainedFlow
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/FlowSpeeds.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ConstrainedFlow
+    path: ../src/SharpValhalla/Enums/FlowSpeeds.cs
+    startLine: 19
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Constrained traffic flow condition.
+  example: []
+  syntax:
+    content: ConstrainedFlow = 1
+    return:
+      type: SharpValhalla.Enums.FlowSpeeds
+- uid: SharpValhalla.Enums.FlowSpeeds.FreeFlow
+  commentId: F:SharpValhalla.Enums.FlowSpeeds.FreeFlow
+  id: FreeFlow
+  parent: SharpValhalla.Enums.FlowSpeeds
+  langs:
+  - csharp
+  - vb
+  name: FreeFlow
+  nameWithType: FlowSpeeds.FreeFlow
+  fullName: SharpValhalla.Enums.FlowSpeeds.FreeFlow
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/FlowSpeeds.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: FreeFlow
+    path: ../src/SharpValhalla/Enums/FlowSpeeds.cs
+    startLine: 24
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Free traffic flow condition.
+  example: []
+  syntax:
+    content: FreeFlow = 2
+    return:
+      type: SharpValhalla.Enums.FlowSpeeds
+- uid: SharpValhalla.Enums.FlowSpeeds.PredictedFlow
+  commentId: F:SharpValhalla.Enums.FlowSpeeds.PredictedFlow
+  id: PredictedFlow
+  parent: SharpValhalla.Enums.FlowSpeeds
+  langs:
+  - csharp
+  - vb
+  name: PredictedFlow
+  nameWithType: FlowSpeeds.PredictedFlow
+  fullName: SharpValhalla.Enums.FlowSpeeds.PredictedFlow
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/FlowSpeeds.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: PredictedFlow
+    path: ../src/SharpValhalla/Enums/FlowSpeeds.cs
+    startLine: 29
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Predicted traffic flow condition.
+  example: []
+  syntax:
+    content: PredictedFlow = 3
+    return:
+      type: SharpValhalla.Enums.FlowSpeeds
+- uid: SharpValhalla.Enums.FlowSpeeds.NoFlow
+  commentId: F:SharpValhalla.Enums.FlowSpeeds.NoFlow
+  id: NoFlow
+  parent: SharpValhalla.Enums.FlowSpeeds
+  langs:
+  - csharp
+  - vb
+  name: NoFlow
+  nameWithType: FlowSpeeds.NoFlow
+  fullName: SharpValhalla.Enums.FlowSpeeds.NoFlow
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/FlowSpeeds.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NoFlow
+    path: ../src/SharpValhalla/Enums/FlowSpeeds.cs
+    startLine: 34
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: No traffic flow data available.
+  example: []
+  syntax:
+    content: NoFlow = 4
+    return:
+      type: SharpValhalla.Enums.FlowSpeeds
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.FlowSpeeds
+  commentId: T:SharpValhalla.Enums.FlowSpeeds
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.FlowSpeeds.html
+  name: FlowSpeeds
+  nameWithType: FlowSpeeds
+  fullName: SharpValhalla.Enums.FlowSpeeds

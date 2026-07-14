@@ -1,0 +1,551 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse
+  commentId: T:SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse
+  id: MapMatchingResponse
+  parent: SharpValhalla.Models.Response.BaseResponses
+  children:
+  - SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.Alternates
+  - SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.Trip
+  langs:
+  - csharp
+  - vb
+  name: MapMatchingResponse
+  nameWithType: MapMatchingResponse
+  fullName: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse
+  type: Class
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/BaseResponses/MapMatchingResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MapMatchingResponse
+    path: ../src/SharpValhalla/Models/Response/BaseResponses/MapMatchingResponse.cs
+    startLine: 17
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response.BaseResponses
+  summary: Represents the response for a map matching request.
+  example: []
+  syntax:
+    content: public class MapMatchingResponse
+    content.vb: Public Class MapMatchingResponse
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.Trip
+  commentId: P:SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.Trip
+  id: Trip
+  parent: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse
+  langs:
+  - csharp
+  - vb
+  name: Trip
+  nameWithType: MapMatchingResponse.Trip
+  fullName: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.Trip
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/BaseResponses/MapMatchingResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Trip
+    path: ../src/SharpValhalla/Models/Response/BaseResponses/MapMatchingResponse.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response.BaseResponses
+  summary: The main matched trip response.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("trip")]
+
+      public RouteResponse Trip { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Models.Response.RouteResponse
+    content.vb: >-
+      <JsonPropertyName("trip")>
+
+      Public Property Trip As RouteResponse
+  overload: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.Trip*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: trip
+- uid: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.Alternates
+  commentId: P:SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.Alternates
+  id: Alternates
+  parent: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse
+  langs:
+  - csharp
+  - vb
+  name: Alternates
+  nameWithType: MapMatchingResponse.Alternates
+  fullName: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.Alternates
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/BaseResponses/MapMatchingResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Alternates
+    path: ../src/SharpValhalla/Models/Response/BaseResponses/MapMatchingResponse.cs
+    startLine: 27
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response.BaseResponses
+  summary: Optional alternate trip responses.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("alternates")]
+
+      public List<AlternateResponse>? Alternates { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SharpValhalla.Models.Response.BaseResponses.AlternateResponse}
+    content.vb: >-
+      <JsonPropertyName("alternates")>
+
+      Public Property Alternates As List(Of AlternateResponse)
+  overload: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.Alternates*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: alternates
+references:
+- uid: SharpValhalla.Models.Response.BaseResponses
+  commentId: N:SharpValhalla.Models.Response.BaseResponses
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Response.BaseResponses
+  nameWithType: SharpValhalla.Models.Response.BaseResponses
+  fullName: SharpValhalla.Models.Response.BaseResponses
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Response
+    name: Response
+    href: SharpValhalla.Models.Response.html
+  - name: .
+  - uid: SharpValhalla.Models.Response.BaseResponses
+    name: BaseResponses
+    href: SharpValhalla.Models.Response.BaseResponses.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Response
+    name: Response
+    href: SharpValhalla.Models.Response.html
+  - name: .
+  - uid: SharpValhalla.Models.Response.BaseResponses
+    name: BaseResponses
+    href: SharpValhalla.Models.Response.BaseResponses.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.Trip*
+  commentId: Overload:SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.Trip
+  href: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.html#SharpValhalla_Models_Response_BaseResponses_MapMatchingResponse_Trip
+  name: Trip
+  nameWithType: MapMatchingResponse.Trip
+  fullName: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.Trip
+- uid: SharpValhalla.Models.Response.RouteResponse
+  commentId: T:SharpValhalla.Models.Response.RouteResponse
+  parent: SharpValhalla.Models.Response
+  href: SharpValhalla.Models.Response.RouteResponse.html
+  name: RouteResponse
+  nameWithType: RouteResponse
+  fullName: SharpValhalla.Models.Response.RouteResponse
+- uid: SharpValhalla.Models.Response
+  commentId: N:SharpValhalla.Models.Response
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Response
+  nameWithType: SharpValhalla.Models.Response
+  fullName: SharpValhalla.Models.Response
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Response
+    name: Response
+    href: SharpValhalla.Models.Response.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Response
+    name: Response
+    href: SharpValhalla.Models.Response.html
+- uid: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.Alternates*
+  commentId: Overload:SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.Alternates
+  href: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.html#SharpValhalla_Models_Response_BaseResponses_MapMatchingResponse_Alternates
+  name: Alternates
+  nameWithType: MapMatchingResponse.Alternates
+  fullName: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.Alternates
+- uid: System.Collections.Generic.List{SharpValhalla.Models.Response.BaseResponses.AlternateResponse}
+  commentId: T:System.Collections.Generic.List{SharpValhalla.Models.Response.BaseResponses.AlternateResponse}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<AlternateResponse>
+  nameWithType: List<AlternateResponse>
+  fullName: System.Collections.Generic.List<SharpValhalla.Models.Response.BaseResponses.AlternateResponse>
+  nameWithType.vb: List(Of AlternateResponse)
+  fullName.vb: System.Collections.Generic.List(Of SharpValhalla.Models.Response.BaseResponses.AlternateResponse)
+  name.vb: List(Of AlternateResponse)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SharpValhalla.Models.Response.BaseResponses.AlternateResponse
+    name: AlternateResponse
+    href: SharpValhalla.Models.Response.BaseResponses.AlternateResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SharpValhalla.Models.Response.BaseResponses.AlternateResponse
+    name: AlternateResponse
+    href: SharpValhalla.Models.Response.BaseResponses.AlternateResponse.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

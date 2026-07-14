@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Extensions
+  commentId: N:SharpValhalla.Extensions
+  id: SharpValhalla.Extensions
+  children:
+  - SharpValhalla.Extensions.EnumExtensions
+  - SharpValhalla.Extensions.LaneDirectionExtensions
+  - SharpValhalla.Extensions.LegResponseExtensions
+  langs:
+  - csharp
+  - vb
+  name: SharpValhalla.Extensions
+  nameWithType: SharpValhalla.Extensions
+  fullName: SharpValhalla.Extensions
+  type: Namespace
+  assemblies:
+  - SharpValhalla
+references:
+- uid: SharpValhalla.Extensions.EnumExtensions
+  commentId: T:SharpValhalla.Extensions.EnumExtensions
+  href: SharpValhalla.Extensions.EnumExtensions.html
+  name: EnumExtensions
+  nameWithType: EnumExtensions
+  fullName: SharpValhalla.Extensions.EnumExtensions
+- uid: SharpValhalla.Extensions.LaneDirectionExtensions
+  commentId: T:SharpValhalla.Extensions.LaneDirectionExtensions
+  parent: SharpValhalla.Extensions
+  href: SharpValhalla.Extensions.LaneDirectionExtensions.html
+  name: LaneDirectionExtensions
+  nameWithType: LaneDirectionExtensions
+  fullName: SharpValhalla.Extensions.LaneDirectionExtensions
+- uid: SharpValhalla.Extensions.LegResponseExtensions
+  commentId: T:SharpValhalla.Extensions.LegResponseExtensions
+  parent: SharpValhalla.Extensions
+  href: SharpValhalla.Extensions.LegResponseExtensions.html
+  name: LegResponseExtensions
+  nameWithType: LegResponseExtensions
+  fullName: SharpValhalla.Extensions.LegResponseExtensions
+- uid: SharpValhalla.Extensions
+  commentId: N:SharpValhalla.Extensions
+  href: SharpValhalla.html
+  name: SharpValhalla.Extensions
+  nameWithType: SharpValhalla.Extensions
+  fullName: SharpValhalla.Extensions
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Extensions
+    name: Extensions
+    href: SharpValhalla.Extensions.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Extensions
+    name: Extensions
+    href: SharpValhalla.Extensions.html

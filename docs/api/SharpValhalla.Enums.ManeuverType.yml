@@ -1,0 +1,1336 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.ManeuverType
+  commentId: T:SharpValhalla.Enums.ManeuverType
+  id: ManeuverType
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.ManeuverType.Becomes
+  - SharpValhalla.Enums.ManeuverType.BuildingEnter
+  - SharpValhalla.Enums.ManeuverType.BuildingExit
+  - SharpValhalla.Enums.ManeuverType.Continue
+  - SharpValhalla.Enums.ManeuverType.Destination
+  - SharpValhalla.Enums.ManeuverType.DestinationLeft
+  - SharpValhalla.Enums.ManeuverType.DestinationRight
+  - SharpValhalla.Enums.ManeuverType.ElevatorEnter
+  - SharpValhalla.Enums.ManeuverType.EscalatorEnter
+  - SharpValhalla.Enums.ManeuverType.ExitLeft
+  - SharpValhalla.Enums.ManeuverType.ExitRight
+  - SharpValhalla.Enums.ManeuverType.FerryEnter
+  - SharpValhalla.Enums.ManeuverType.FerryExit
+  - SharpValhalla.Enums.ManeuverType.Left
+  - SharpValhalla.Enums.ManeuverType.Merge
+  - SharpValhalla.Enums.ManeuverType.MergeLeft
+  - SharpValhalla.Enums.ManeuverType.MergeRight
+  - SharpValhalla.Enums.ManeuverType.None
+  - SharpValhalla.Enums.ManeuverType.PostTransitConnectionDestination
+  - SharpValhalla.Enums.ManeuverType.RampLeft
+  - SharpValhalla.Enums.ManeuverType.RampRight
+  - SharpValhalla.Enums.ManeuverType.RampStraight
+  - SharpValhalla.Enums.ManeuverType.Right
+  - SharpValhalla.Enums.ManeuverType.RoundaboutEnter
+  - SharpValhalla.Enums.ManeuverType.RoundaboutExit
+  - SharpValhalla.Enums.ManeuverType.SharpLeft
+  - SharpValhalla.Enums.ManeuverType.SharpRight
+  - SharpValhalla.Enums.ManeuverType.SlightLeft
+  - SharpValhalla.Enums.ManeuverType.SlightRight
+  - SharpValhalla.Enums.ManeuverType.Start
+  - SharpValhalla.Enums.ManeuverType.StartLeft
+  - SharpValhalla.Enums.ManeuverType.StartRight
+  - SharpValhalla.Enums.ManeuverType.StayLeft
+  - SharpValhalla.Enums.ManeuverType.StayRight
+  - SharpValhalla.Enums.ManeuverType.StayStraight
+  - SharpValhalla.Enums.ManeuverType.StepsEnter
+  - SharpValhalla.Enums.ManeuverType.Transit
+  - SharpValhalla.Enums.ManeuverType.TransitConnectionDestination
+  - SharpValhalla.Enums.ManeuverType.TransitConnectionStart
+  - SharpValhalla.Enums.ManeuverType.TransitConnectionTransfer
+  - SharpValhalla.Enums.ManeuverType.TransitRemainOn
+  - SharpValhalla.Enums.ManeuverType.TransitTransfer
+  - SharpValhalla.Enums.ManeuverType.UturnLeft
+  - SharpValhalla.Enums.ManeuverType.UturnRight
+  langs:
+  - csharp
+  - vb
+  name: ManeuverType
+  nameWithType: ManeuverType
+  fullName: SharpValhalla.Enums.ManeuverType
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ManeuverType
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 5
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Represents different types of navigation maneuvers.
+  example: []
+  syntax:
+    content: public enum ManeuverType
+    content.vb: Public Enum ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.None
+  commentId: F:SharpValhalla.Enums.ManeuverType.None
+  id: None
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ManeuverType.None
+  fullName: SharpValhalla.Enums.ManeuverType.None
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: None
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 7
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: None
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.Start
+  commentId: F:SharpValhalla.Enums.ManeuverType.Start
+  id: Start
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: Start
+  nameWithType: ManeuverType.Start
+  fullName: SharpValhalla.Enums.ManeuverType.Start
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Start
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 9
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Start
+  example: []
+  syntax:
+    content: Start = 1
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.StartRight
+  commentId: F:SharpValhalla.Enums.ManeuverType.StartRight
+  id: StartRight
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: StartRight
+  nameWithType: ManeuverType.StartRight
+  fullName: SharpValhalla.Enums.ManeuverType.StartRight
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: StartRight
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 11
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Start right
+  example: []
+  syntax:
+    content: StartRight = 2
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.StartLeft
+  commentId: F:SharpValhalla.Enums.ManeuverType.StartLeft
+  id: StartLeft
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: StartLeft
+  nameWithType: ManeuverType.StartLeft
+  fullName: SharpValhalla.Enums.ManeuverType.StartLeft
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: StartLeft
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 13
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Start left
+  example: []
+  syntax:
+    content: StartLeft = 3
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.Destination
+  commentId: F:SharpValhalla.Enums.ManeuverType.Destination
+  id: Destination
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: Destination
+  nameWithType: ManeuverType.Destination
+  fullName: SharpValhalla.Enums.ManeuverType.Destination
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Destination
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 15
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Destination
+  example: []
+  syntax:
+    content: Destination = 4
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.DestinationRight
+  commentId: F:SharpValhalla.Enums.ManeuverType.DestinationRight
+  id: DestinationRight
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: DestinationRight
+  nameWithType: ManeuverType.DestinationRight
+  fullName: SharpValhalla.Enums.ManeuverType.DestinationRight
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: DestinationRight
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 17
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Destination right
+  example: []
+  syntax:
+    content: DestinationRight = 5
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.DestinationLeft
+  commentId: F:SharpValhalla.Enums.ManeuverType.DestinationLeft
+  id: DestinationLeft
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: DestinationLeft
+  nameWithType: ManeuverType.DestinationLeft
+  fullName: SharpValhalla.Enums.ManeuverType.DestinationLeft
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: DestinationLeft
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 19
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Destination left
+  example: []
+  syntax:
+    content: DestinationLeft = 6
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.Becomes
+  commentId: F:SharpValhalla.Enums.ManeuverType.Becomes
+  id: Becomes
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: Becomes
+  nameWithType: ManeuverType.Becomes
+  fullName: SharpValhalla.Enums.ManeuverType.Becomes
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Becomes
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Becomes
+  example: []
+  syntax:
+    content: Becomes = 7
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.Continue
+  commentId: F:SharpValhalla.Enums.ManeuverType.Continue
+  id: Continue
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: Continue
+  nameWithType: ManeuverType.Continue
+  fullName: SharpValhalla.Enums.ManeuverType.Continue
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Continue
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 23
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Continue
+  example: []
+  syntax:
+    content: Continue = 8
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.SlightRight
+  commentId: F:SharpValhalla.Enums.ManeuverType.SlightRight
+  id: SlightRight
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: SlightRight
+  nameWithType: ManeuverType.SlightRight
+  fullName: SharpValhalla.Enums.ManeuverType.SlightRight
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SlightRight
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 25
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Slight right
+  example: []
+  syntax:
+    content: SlightRight = 9
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.Right
+  commentId: F:SharpValhalla.Enums.ManeuverType.Right
+  id: Right
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: ManeuverType.Right
+  fullName: SharpValhalla.Enums.ManeuverType.Right
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Right
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 27
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Right
+  example: []
+  syntax:
+    content: Right = 10
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.SharpRight
+  commentId: F:SharpValhalla.Enums.ManeuverType.SharpRight
+  id: SharpRight
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: SharpRight
+  nameWithType: ManeuverType.SharpRight
+  fullName: SharpValhalla.Enums.ManeuverType.SharpRight
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SharpRight
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 29
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Sharp right
+  example: []
+  syntax:
+    content: SharpRight = 11
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.UturnRight
+  commentId: F:SharpValhalla.Enums.ManeuverType.UturnRight
+  id: UturnRight
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: UturnRight
+  nameWithType: ManeuverType.UturnRight
+  fullName: SharpValhalla.Enums.ManeuverType.UturnRight
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: UturnRight
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 31
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: U-turn right
+  example: []
+  syntax:
+    content: UturnRight = 12
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.UturnLeft
+  commentId: F:SharpValhalla.Enums.ManeuverType.UturnLeft
+  id: UturnLeft
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: UturnLeft
+  nameWithType: ManeuverType.UturnLeft
+  fullName: SharpValhalla.Enums.ManeuverType.UturnLeft
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: UturnLeft
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 33
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: U-turn left
+  example: []
+  syntax:
+    content: UturnLeft = 13
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.SharpLeft
+  commentId: F:SharpValhalla.Enums.ManeuverType.SharpLeft
+  id: SharpLeft
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: SharpLeft
+  nameWithType: ManeuverType.SharpLeft
+  fullName: SharpValhalla.Enums.ManeuverType.SharpLeft
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SharpLeft
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 35
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Sharp left
+  example: []
+  syntax:
+    content: SharpLeft = 14
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.Left
+  commentId: F:SharpValhalla.Enums.ManeuverType.Left
+  id: Left
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: ManeuverType.Left
+  fullName: SharpValhalla.Enums.ManeuverType.Left
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Left
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 37
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Left
+  example: []
+  syntax:
+    content: Left = 15
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.SlightLeft
+  commentId: F:SharpValhalla.Enums.ManeuverType.SlightLeft
+  id: SlightLeft
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: SlightLeft
+  nameWithType: ManeuverType.SlightLeft
+  fullName: SharpValhalla.Enums.ManeuverType.SlightLeft
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SlightLeft
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 39
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Slight left
+  example: []
+  syntax:
+    content: SlightLeft = 16
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.RampStraight
+  commentId: F:SharpValhalla.Enums.ManeuverType.RampStraight
+  id: RampStraight
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: RampStraight
+  nameWithType: ManeuverType.RampStraight
+  fullName: SharpValhalla.Enums.ManeuverType.RampStraight
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: RampStraight
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 41
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Ramp straight
+  example: []
+  syntax:
+    content: RampStraight = 17
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.RampRight
+  commentId: F:SharpValhalla.Enums.ManeuverType.RampRight
+  id: RampRight
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: RampRight
+  nameWithType: ManeuverType.RampRight
+  fullName: SharpValhalla.Enums.ManeuverType.RampRight
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: RampRight
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 43
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Ramp right
+  example: []
+  syntax:
+    content: RampRight = 18
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.RampLeft
+  commentId: F:SharpValhalla.Enums.ManeuverType.RampLeft
+  id: RampLeft
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: RampLeft
+  nameWithType: ManeuverType.RampLeft
+  fullName: SharpValhalla.Enums.ManeuverType.RampLeft
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: RampLeft
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 45
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Ramp left
+  example: []
+  syntax:
+    content: RampLeft = 19
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.ExitRight
+  commentId: F:SharpValhalla.Enums.ManeuverType.ExitRight
+  id: ExitRight
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: ExitRight
+  nameWithType: ManeuverType.ExitRight
+  fullName: SharpValhalla.Enums.ManeuverType.ExitRight
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ExitRight
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 47
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Exit right
+  example: []
+  syntax:
+    content: ExitRight = 20
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.ExitLeft
+  commentId: F:SharpValhalla.Enums.ManeuverType.ExitLeft
+  id: ExitLeft
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: ExitLeft
+  nameWithType: ManeuverType.ExitLeft
+  fullName: SharpValhalla.Enums.ManeuverType.ExitLeft
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ExitLeft
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 49
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Exit left
+  example: []
+  syntax:
+    content: ExitLeft = 21
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.StayStraight
+  commentId: F:SharpValhalla.Enums.ManeuverType.StayStraight
+  id: StayStraight
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: StayStraight
+  nameWithType: ManeuverType.StayStraight
+  fullName: SharpValhalla.Enums.ManeuverType.StayStraight
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: StayStraight
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 51
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Stay straight
+  example: []
+  syntax:
+    content: StayStraight = 22
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.StayRight
+  commentId: F:SharpValhalla.Enums.ManeuverType.StayRight
+  id: StayRight
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: StayRight
+  nameWithType: ManeuverType.StayRight
+  fullName: SharpValhalla.Enums.ManeuverType.StayRight
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: StayRight
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 53
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Stay right
+  example: []
+  syntax:
+    content: StayRight = 23
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.StayLeft
+  commentId: F:SharpValhalla.Enums.ManeuverType.StayLeft
+  id: StayLeft
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: StayLeft
+  nameWithType: ManeuverType.StayLeft
+  fullName: SharpValhalla.Enums.ManeuverType.StayLeft
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: StayLeft
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 55
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Stay left
+  example: []
+  syntax:
+    content: StayLeft = 24
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.Merge
+  commentId: F:SharpValhalla.Enums.ManeuverType.Merge
+  id: Merge
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: Merge
+  nameWithType: ManeuverType.Merge
+  fullName: SharpValhalla.Enums.ManeuverType.Merge
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Merge
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 57
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Merge
+  example: []
+  syntax:
+    content: Merge = 25
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.RoundaboutEnter
+  commentId: F:SharpValhalla.Enums.ManeuverType.RoundaboutEnter
+  id: RoundaboutEnter
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: RoundaboutEnter
+  nameWithType: ManeuverType.RoundaboutEnter
+  fullName: SharpValhalla.Enums.ManeuverType.RoundaboutEnter
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: RoundaboutEnter
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 59
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Roundabout enter
+  example: []
+  syntax:
+    content: RoundaboutEnter = 26
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.RoundaboutExit
+  commentId: F:SharpValhalla.Enums.ManeuverType.RoundaboutExit
+  id: RoundaboutExit
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: RoundaboutExit
+  nameWithType: ManeuverType.RoundaboutExit
+  fullName: SharpValhalla.Enums.ManeuverType.RoundaboutExit
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: RoundaboutExit
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 61
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Roundabout exit
+  example: []
+  syntax:
+    content: RoundaboutExit = 27
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.FerryEnter
+  commentId: F:SharpValhalla.Enums.ManeuverType.FerryEnter
+  id: FerryEnter
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: FerryEnter
+  nameWithType: ManeuverType.FerryEnter
+  fullName: SharpValhalla.Enums.ManeuverType.FerryEnter
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: FerryEnter
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 63
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Ferry enter
+  example: []
+  syntax:
+    content: FerryEnter = 28
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.FerryExit
+  commentId: F:SharpValhalla.Enums.ManeuverType.FerryExit
+  id: FerryExit
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: FerryExit
+  nameWithType: ManeuverType.FerryExit
+  fullName: SharpValhalla.Enums.ManeuverType.FerryExit
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: FerryExit
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 65
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Ferry exit
+  example: []
+  syntax:
+    content: FerryExit = 29
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.Transit
+  commentId: F:SharpValhalla.Enums.ManeuverType.Transit
+  id: Transit
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: Transit
+  nameWithType: ManeuverType.Transit
+  fullName: SharpValhalla.Enums.ManeuverType.Transit
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Transit
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 67
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Transit
+  example: []
+  syntax:
+    content: Transit = 30
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.TransitTransfer
+  commentId: F:SharpValhalla.Enums.ManeuverType.TransitTransfer
+  id: TransitTransfer
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: TransitTransfer
+  nameWithType: ManeuverType.TransitTransfer
+  fullName: SharpValhalla.Enums.ManeuverType.TransitTransfer
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TransitTransfer
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 69
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Transit transfer
+  example: []
+  syntax:
+    content: TransitTransfer = 31
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.TransitRemainOn
+  commentId: F:SharpValhalla.Enums.ManeuverType.TransitRemainOn
+  id: TransitRemainOn
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: TransitRemainOn
+  nameWithType: ManeuverType.TransitRemainOn
+  fullName: SharpValhalla.Enums.ManeuverType.TransitRemainOn
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TransitRemainOn
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 71
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Transit remain on
+  example: []
+  syntax:
+    content: TransitRemainOn = 32
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.TransitConnectionStart
+  commentId: F:SharpValhalla.Enums.ManeuverType.TransitConnectionStart
+  id: TransitConnectionStart
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: TransitConnectionStart
+  nameWithType: ManeuverType.TransitConnectionStart
+  fullName: SharpValhalla.Enums.ManeuverType.TransitConnectionStart
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TransitConnectionStart
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 73
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Transit connection start
+  example: []
+  syntax:
+    content: TransitConnectionStart = 33
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.TransitConnectionTransfer
+  commentId: F:SharpValhalla.Enums.ManeuverType.TransitConnectionTransfer
+  id: TransitConnectionTransfer
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: TransitConnectionTransfer
+  nameWithType: ManeuverType.TransitConnectionTransfer
+  fullName: SharpValhalla.Enums.ManeuverType.TransitConnectionTransfer
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TransitConnectionTransfer
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 75
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Transit connection transfer
+  example: []
+  syntax:
+    content: TransitConnectionTransfer = 34
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.TransitConnectionDestination
+  commentId: F:SharpValhalla.Enums.ManeuverType.TransitConnectionDestination
+  id: TransitConnectionDestination
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: TransitConnectionDestination
+  nameWithType: ManeuverType.TransitConnectionDestination
+  fullName: SharpValhalla.Enums.ManeuverType.TransitConnectionDestination
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TransitConnectionDestination
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 77
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Transit connection destination
+  example: []
+  syntax:
+    content: TransitConnectionDestination = 35
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.PostTransitConnectionDestination
+  commentId: F:SharpValhalla.Enums.ManeuverType.PostTransitConnectionDestination
+  id: PostTransitConnectionDestination
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: PostTransitConnectionDestination
+  nameWithType: ManeuverType.PostTransitConnectionDestination
+  fullName: SharpValhalla.Enums.ManeuverType.PostTransitConnectionDestination
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: PostTransitConnectionDestination
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 79
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Post transit connection destination
+  example: []
+  syntax:
+    content: PostTransitConnectionDestination = 36
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.MergeRight
+  commentId: F:SharpValhalla.Enums.ManeuverType.MergeRight
+  id: MergeRight
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: MergeRight
+  nameWithType: ManeuverType.MergeRight
+  fullName: SharpValhalla.Enums.ManeuverType.MergeRight
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MergeRight
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 81
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Merge right
+  example: []
+  syntax:
+    content: MergeRight = 37
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.MergeLeft
+  commentId: F:SharpValhalla.Enums.ManeuverType.MergeLeft
+  id: MergeLeft
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: MergeLeft
+  nameWithType: ManeuverType.MergeLeft
+  fullName: SharpValhalla.Enums.ManeuverType.MergeLeft
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MergeLeft
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 83
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Merge left
+  example: []
+  syntax:
+    content: MergeLeft = 38
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.ElevatorEnter
+  commentId: F:SharpValhalla.Enums.ManeuverType.ElevatorEnter
+  id: ElevatorEnter
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: ElevatorEnter
+  nameWithType: ManeuverType.ElevatorEnter
+  fullName: SharpValhalla.Enums.ManeuverType.ElevatorEnter
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ElevatorEnter
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 85
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Elevator enter
+  example: []
+  syntax:
+    content: ElevatorEnter = 39
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.StepsEnter
+  commentId: F:SharpValhalla.Enums.ManeuverType.StepsEnter
+  id: StepsEnter
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: StepsEnter
+  nameWithType: ManeuverType.StepsEnter
+  fullName: SharpValhalla.Enums.ManeuverType.StepsEnter
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: StepsEnter
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 87
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Steps enter
+  example: []
+  syntax:
+    content: StepsEnter = 40
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.EscalatorEnter
+  commentId: F:SharpValhalla.Enums.ManeuverType.EscalatorEnter
+  id: EscalatorEnter
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: EscalatorEnter
+  nameWithType: ManeuverType.EscalatorEnter
+  fullName: SharpValhalla.Enums.ManeuverType.EscalatorEnter
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EscalatorEnter
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 89
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Escalator enter
+  example: []
+  syntax:
+    content: EscalatorEnter = 41
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.BuildingEnter
+  commentId: F:SharpValhalla.Enums.ManeuverType.BuildingEnter
+  id: BuildingEnter
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: BuildingEnter
+  nameWithType: ManeuverType.BuildingEnter
+  fullName: SharpValhalla.Enums.ManeuverType.BuildingEnter
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: BuildingEnter
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 91
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Building enter
+  example: []
+  syntax:
+    content: BuildingEnter = 42
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+- uid: SharpValhalla.Enums.ManeuverType.BuildingExit
+  commentId: F:SharpValhalla.Enums.ManeuverType.BuildingExit
+  id: BuildingExit
+  parent: SharpValhalla.Enums.ManeuverType
+  langs:
+  - csharp
+  - vb
+  name: BuildingExit
+  nameWithType: ManeuverType.BuildingExit
+  fullName: SharpValhalla.Enums.ManeuverType.BuildingExit
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ManeuverType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: BuildingExit
+    path: ../src/SharpValhalla/Enums/ManeuverType.cs
+    startLine: 93
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Building exit
+  example: []
+  syntax:
+    content: BuildingExit = 43
+    return:
+      type: SharpValhalla.Enums.ManeuverType
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.ManeuverType
+  commentId: T:SharpValhalla.Enums.ManeuverType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.ManeuverType.html
+  name: ManeuverType
+  nameWithType: ManeuverType
+  fullName: SharpValhalla.Enums.ManeuverType

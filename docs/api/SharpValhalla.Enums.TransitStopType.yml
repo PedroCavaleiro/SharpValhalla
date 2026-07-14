@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.TransitStopType
+  commentId: T:SharpValhalla.Enums.TransitStopType
+  id: TransitStopType
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.TransitStopType.SimpleStop
+  - SharpValhalla.Enums.TransitStopType.Station
+  langs:
+  - csharp
+  - vb
+  name: TransitStopType
+  nameWithType: TransitStopType
+  fullName: SharpValhalla.Enums.TransitStopType
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TransitStopType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TransitStopType
+    path: ../src/SharpValhalla/Enums/TransitStopType.cs
+    startLine: 5
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: 'Represents the kind of transit stop: a simple stop or a station.'
+  example: []
+  syntax:
+    content: public enum TransitStopType
+    content.vb: Public Enum TransitStopType
+- uid: SharpValhalla.Enums.TransitStopType.SimpleStop
+  commentId: F:SharpValhalla.Enums.TransitStopType.SimpleStop
+  id: SimpleStop
+  parent: SharpValhalla.Enums.TransitStopType
+  langs:
+  - csharp
+  - vb
+  name: SimpleStop
+  nameWithType: TransitStopType.SimpleStop
+  fullName: SharpValhalla.Enums.TransitStopType.SimpleStop
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TransitStopType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SimpleStop
+    path: ../src/SharpValhalla/Enums/TransitStopType.cs
+    startLine: 9
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: A simple stop (e.g., a single platform or stop sign).
+  example: []
+  syntax:
+    content: SimpleStop = 0
+    return:
+      type: SharpValhalla.Enums.TransitStopType
+- uid: SharpValhalla.Enums.TransitStopType.Station
+  commentId: F:SharpValhalla.Enums.TransitStopType.Station
+  id: Station
+  parent: SharpValhalla.Enums.TransitStopType
+  langs:
+  - csharp
+  - vb
+  name: Station
+  nameWithType: TransitStopType.Station
+  fullName: SharpValhalla.Enums.TransitStopType.Station
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TransitStopType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Station
+    path: ../src/SharpValhalla/Enums/TransitStopType.cs
+    startLine: 13
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: A station with multiple platforms or facilities.
+  example: []
+  syntax:
+    content: Station = 1
+    return:
+      type: SharpValhalla.Enums.TransitStopType
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.TransitStopType
+  commentId: T:SharpValhalla.Enums.TransitStopType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.TransitStopType.html
+  name: TransitStopType
+  nameWithType: TransitStopType
+  fullName: SharpValhalla.Enums.TransitStopType

@@ -1,0 +1,2113 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Models.Common.Location
+  commentId: T:SharpValhalla.Models.Common.Location
+  id: Location
+  parent: SharpValhalla.Models.Common
+  children:
+  - SharpValhalla.Models.Common.Location.#ctor(System.Int32)
+  - SharpValhalla.Models.Common.Location.#ctor(System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Nullable{SharpValhalla.Enums.TraceType},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{SharpValhalla.Enums.PreferredSide},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.RoadClass},SharpValhalla.Models.Request.SearchFilter,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.SideOfStreet},System.Nullable{System.Int32})
+  - SharpValhalla.Models.Common.Location.City
+  - SharpValhalla.Models.Common.Location.Country
+  - SharpValhalla.Models.Common.Location.DisplayLatitude
+  - SharpValhalla.Models.Common.Location.DisplayLongitude
+  - SharpValhalla.Models.Common.Location.Heading
+  - SharpValhalla.Models.Common.Location.HeadingTolerance
+  - SharpValhalla.Models.Common.Location.Latitude
+  - SharpValhalla.Models.Common.Location.Longitude
+  - SharpValhalla.Models.Common.Location.MinimumReachability
+  - SharpValhalla.Models.Common.Location.Name
+  - SharpValhalla.Models.Common.Location.NodeSnapTolerance
+  - SharpValhalla.Models.Common.Location.OriginalIndex
+  - SharpValhalla.Models.Common.Location.Phone
+  - SharpValhalla.Models.Common.Location.PostalCode
+  - SharpValhalla.Models.Common.Location.PreferredSide
+  - SharpValhalla.Models.Common.Location.Radius
+  - SharpValhalla.Models.Common.Location.RankCandidates
+  - SharpValhalla.Models.Common.Location.SearchCutoff
+  - SharpValhalla.Models.Common.Location.SearchFilter
+  - SharpValhalla.Models.Common.Location.SideOfStreet
+  - SharpValhalla.Models.Common.Location.State
+  - SharpValhalla.Models.Common.Location.Street
+  - SharpValhalla.Models.Common.Location.StreetSideCutOff
+  - SharpValhalla.Models.Common.Location.StreetSideMaxDistance
+  - SharpValhalla.Models.Common.Location.StreetSideTolerance
+  - SharpValhalla.Models.Common.Location.Timestamp
+  - SharpValhalla.Models.Common.Location.TraceType
+  - SharpValhalla.Models.Common.Location.Url
+  - SharpValhalla.Models.Common.Location.Waiting
+  - SharpValhalla.Models.Common.Location.WayId
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: Location
+  fullName: SharpValhalla.Models.Common.Location
+  type: Class
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Location
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 11
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  summary: This class represents the shape to be sent to the MapMatching service.
+  example: []
+  syntax:
+    content: public class Location
+    content.vb: Public Class Location
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SharpValhalla.Models.Common.Location.Latitude
+  commentId: P:SharpValhalla.Models.Common.Location.Latitude
+  id: Latitude
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: Latitude
+  nameWithType: Location.Latitude
+  fullName: SharpValhalla.Models.Common.Location.Latitude
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Latitude
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("lat")]
+
+      public double? Latitude { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("lat")>
+
+      Public Property Latitude As Double?
+  overload: SharpValhalla.Models.Common.Location.Latitude*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: lat
+- uid: SharpValhalla.Models.Common.Location.Longitude
+  commentId: P:SharpValhalla.Models.Common.Location.Longitude
+  id: Longitude
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: Longitude
+  nameWithType: Location.Longitude
+  fullName: SharpValhalla.Models.Common.Location.Longitude
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Longitude
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 14
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("lon")]
+
+      public double? Longitude { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("lon")>
+
+      Public Property Longitude As Double?
+  overload: SharpValhalla.Models.Common.Location.Longitude*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: lon
+- uid: SharpValhalla.Models.Common.Location.Timestamp
+  commentId: P:SharpValhalla.Models.Common.Location.Timestamp
+  id: Timestamp
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: Timestamp
+  nameWithType: Location.Timestamp
+  fullName: SharpValhalla.Models.Common.Location.Timestamp
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Timestamp
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 16
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("date_time")]
+
+      public string? Timestamp { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("date_time")>
+
+      Public Property Timestamp As String
+  overload: SharpValhalla.Models.Common.Location.Timestamp*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: date_time
+- uid: SharpValhalla.Models.Common.Location.TraceType
+  commentId: P:SharpValhalla.Models.Common.Location.TraceType
+  id: TraceType
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: TraceType
+  nameWithType: Location.TraceType
+  fullName: SharpValhalla.Models.Common.Location.TraceType
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TraceType
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 18
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("type")]
+
+      public TraceType? TraceType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SharpValhalla.Enums.TraceType}
+    content.vb: >-
+      <JsonPropertyName("type")>
+
+      Public Property TraceType As TraceType?
+  overload: SharpValhalla.Models.Common.Location.TraceType*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: type
+- uid: SharpValhalla.Models.Common.Location.Heading
+  commentId: P:SharpValhalla.Models.Common.Location.Heading
+  id: Heading
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: Heading
+  nameWithType: Location.Heading
+  fullName: SharpValhalla.Models.Common.Location.Heading
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Heading
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 20
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("heading")]
+
+      public int? Heading { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("heading")>
+
+      Public Property Heading As Integer?
+  overload: SharpValhalla.Models.Common.Location.Heading*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: heading
+- uid: SharpValhalla.Models.Common.Location.HeadingTolerance
+  commentId: P:SharpValhalla.Models.Common.Location.HeadingTolerance
+  id: HeadingTolerance
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: HeadingTolerance
+  nameWithType: Location.HeadingTolerance
+  fullName: SharpValhalla.Models.Common.Location.HeadingTolerance
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: HeadingTolerance
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 22
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("heading_tolerance")]
+
+      public int? HeadingTolerance { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("heading_tolerance")>
+
+      Public Property HeadingTolerance As Integer?
+  overload: SharpValhalla.Models.Common.Location.HeadingTolerance*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: heading_tolerance
+- uid: SharpValhalla.Models.Common.Location.Street
+  commentId: P:SharpValhalla.Models.Common.Location.Street
+  id: Street
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: Street
+  nameWithType: Location.Street
+  fullName: SharpValhalla.Models.Common.Location.Street
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Street
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 24
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("street")]
+
+      public int? Street { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("street")>
+
+      Public Property Street As Integer?
+  overload: SharpValhalla.Models.Common.Location.Street*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: street
+- uid: SharpValhalla.Models.Common.Location.WayId
+  commentId: P:SharpValhalla.Models.Common.Location.WayId
+  id: WayId
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: WayId
+  nameWithType: Location.WayId
+  fullName: SharpValhalla.Models.Common.Location.WayId
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: WayId
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 26
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("way_id")]
+
+      public int? WayId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("way_id")>
+
+      Public Property WayId As Integer?
+  overload: SharpValhalla.Models.Common.Location.WayId*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: way_id
+- uid: SharpValhalla.Models.Common.Location.MinimumReachability
+  commentId: P:SharpValhalla.Models.Common.Location.MinimumReachability
+  id: MinimumReachability
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: MinimumReachability
+  nameWithType: Location.MinimumReachability
+  fullName: SharpValhalla.Models.Common.Location.MinimumReachability
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MinimumReachability
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 28
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("minimum_reachability")]
+
+      public int? MinimumReachability { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("minimum_reachability")>
+
+      Public Property MinimumReachability As Integer?
+  overload: SharpValhalla.Models.Common.Location.MinimumReachability*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: minimum_reachability
+- uid: SharpValhalla.Models.Common.Location.Radius
+  commentId: P:SharpValhalla.Models.Common.Location.Radius
+  id: Radius
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: Radius
+  nameWithType: Location.Radius
+  fullName: SharpValhalla.Models.Common.Location.Radius
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Radius
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 30
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("radius")]
+
+      public int? Radius { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("radius")>
+
+      Public Property Radius As Integer?
+  overload: SharpValhalla.Models.Common.Location.Radius*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: radius
+- uid: SharpValhalla.Models.Common.Location.RankCandidates
+  commentId: P:SharpValhalla.Models.Common.Location.RankCandidates
+  id: RankCandidates
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: RankCandidates
+  nameWithType: Location.RankCandidates
+  fullName: SharpValhalla.Models.Common.Location.RankCandidates
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: RankCandidates
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 32
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("rank_candidates")]
+
+      public bool? RankCandidates { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <JsonPropertyName("rank_candidates")>
+
+      Public Property RankCandidates As Boolean?
+  overload: SharpValhalla.Models.Common.Location.RankCandidates*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: rank_candidates
+- uid: SharpValhalla.Models.Common.Location.PreferredSide
+  commentId: P:SharpValhalla.Models.Common.Location.PreferredSide
+  id: PreferredSide
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: PreferredSide
+  nameWithType: Location.PreferredSide
+  fullName: SharpValhalla.Models.Common.Location.PreferredSide
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: PreferredSide
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 34
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("preferred_side")]
+
+      public PreferredSide? PreferredSide { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SharpValhalla.Enums.PreferredSide}
+    content.vb: >-
+      <JsonPropertyName("preferred_side")>
+
+      Public Property PreferredSide As PreferredSide?
+  overload: SharpValhalla.Models.Common.Location.PreferredSide*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: preferred_side
+- uid: SharpValhalla.Models.Common.Location.DisplayLatitude
+  commentId: P:SharpValhalla.Models.Common.Location.DisplayLatitude
+  id: DisplayLatitude
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: DisplayLatitude
+  nameWithType: Location.DisplayLatitude
+  fullName: SharpValhalla.Models.Common.Location.DisplayLatitude
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: DisplayLatitude
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 36
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("display_lat")]
+
+      public double? DisplayLatitude { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("display_lat")>
+
+      Public Property DisplayLatitude As Double?
+  overload: SharpValhalla.Models.Common.Location.DisplayLatitude*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: display_lat
+- uid: SharpValhalla.Models.Common.Location.DisplayLongitude
+  commentId: P:SharpValhalla.Models.Common.Location.DisplayLongitude
+  id: DisplayLongitude
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: DisplayLongitude
+  nameWithType: Location.DisplayLongitude
+  fullName: SharpValhalla.Models.Common.Location.DisplayLongitude
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: DisplayLongitude
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 38
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("display_lon")]
+
+      public double? DisplayLongitude { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("display_lon")>
+
+      Public Property DisplayLongitude As Double?
+  overload: SharpValhalla.Models.Common.Location.DisplayLongitude*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: display_lon
+- uid: SharpValhalla.Models.Common.Location.SearchCutoff
+  commentId: P:SharpValhalla.Models.Common.Location.SearchCutoff
+  id: SearchCutoff
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: SearchCutoff
+  nameWithType: Location.SearchCutoff
+  fullName: SharpValhalla.Models.Common.Location.SearchCutoff
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SearchCutoff
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 40
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("search_cutoff")]
+
+      public int? SearchCutoff { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("search_cutoff")>
+
+      Public Property SearchCutoff As Integer?
+  overload: SharpValhalla.Models.Common.Location.SearchCutoff*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: search_cutoff
+- uid: SharpValhalla.Models.Common.Location.NodeSnapTolerance
+  commentId: P:SharpValhalla.Models.Common.Location.NodeSnapTolerance
+  id: NodeSnapTolerance
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: NodeSnapTolerance
+  nameWithType: Location.NodeSnapTolerance
+  fullName: SharpValhalla.Models.Common.Location.NodeSnapTolerance
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: NodeSnapTolerance
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 42
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("node_snap_tolerance")]
+
+      public int? NodeSnapTolerance { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("node_snap_tolerance")>
+
+      Public Property NodeSnapTolerance As Integer?
+  overload: SharpValhalla.Models.Common.Location.NodeSnapTolerance*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: node_snap_tolerance
+- uid: SharpValhalla.Models.Common.Location.StreetSideTolerance
+  commentId: P:SharpValhalla.Models.Common.Location.StreetSideTolerance
+  id: StreetSideTolerance
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: StreetSideTolerance
+  nameWithType: Location.StreetSideTolerance
+  fullName: SharpValhalla.Models.Common.Location.StreetSideTolerance
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: StreetSideTolerance
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 44
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("street_side_tolerance")]
+
+      public int? StreetSideTolerance { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("street_side_tolerance")>
+
+      Public Property StreetSideTolerance As Integer?
+  overload: SharpValhalla.Models.Common.Location.StreetSideTolerance*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: street_side_tolerance
+- uid: SharpValhalla.Models.Common.Location.StreetSideMaxDistance
+  commentId: P:SharpValhalla.Models.Common.Location.StreetSideMaxDistance
+  id: StreetSideMaxDistance
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: StreetSideMaxDistance
+  nameWithType: Location.StreetSideMaxDistance
+  fullName: SharpValhalla.Models.Common.Location.StreetSideMaxDistance
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: StreetSideMaxDistance
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 46
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("street_side_max_distance")]
+
+      public int? StreetSideMaxDistance { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("street_side_max_distance")>
+
+      Public Property StreetSideMaxDistance As Integer?
+  overload: SharpValhalla.Models.Common.Location.StreetSideMaxDistance*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: street_side_max_distance
+- uid: SharpValhalla.Models.Common.Location.StreetSideCutOff
+  commentId: P:SharpValhalla.Models.Common.Location.StreetSideCutOff
+  id: StreetSideCutOff
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: StreetSideCutOff
+  nameWithType: Location.StreetSideCutOff
+  fullName: SharpValhalla.Models.Common.Location.StreetSideCutOff
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: StreetSideCutOff
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 48
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("street_side_cutoff")]
+
+      public RoadClass? StreetSideCutOff { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SharpValhalla.Enums.RoadClass}
+    content.vb: >-
+      <JsonPropertyName("street_side_cutoff")>
+
+      Public Property StreetSideCutOff As RoadClass?
+  overload: SharpValhalla.Models.Common.Location.StreetSideCutOff*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: street_side_cutoff
+- uid: SharpValhalla.Models.Common.Location.SearchFilter
+  commentId: P:SharpValhalla.Models.Common.Location.SearchFilter
+  id: SearchFilter
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: SearchFilter
+  nameWithType: Location.SearchFilter
+  fullName: SharpValhalla.Models.Common.Location.SearchFilter
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SearchFilter
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 50
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("search_filter")]
+
+      public SearchFilter? SearchFilter { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Models.Request.SearchFilter
+    content.vb: >-
+      <JsonPropertyName("search_filter")>
+
+      Public Property SearchFilter As SearchFilter
+  overload: SharpValhalla.Models.Common.Location.SearchFilter*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: search_filter
+- uid: SharpValhalla.Models.Common.Location.Name
+  commentId: P:SharpValhalla.Models.Common.Location.Name
+  id: Name
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Location.Name
+  fullName: SharpValhalla.Models.Common.Location.Name
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Name
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 52
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("name")]
+
+      public string? Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("name")>
+
+      Public Property Name As String
+  overload: SharpValhalla.Models.Common.Location.Name*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: name
+- uid: SharpValhalla.Models.Common.Location.City
+  commentId: P:SharpValhalla.Models.Common.Location.City
+  id: City
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: City
+  nameWithType: Location.City
+  fullName: SharpValhalla.Models.Common.Location.City
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: City
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 54
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("city")]
+
+      public string? City { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("city")>
+
+      Public Property City As String
+  overload: SharpValhalla.Models.Common.Location.City*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: city
+- uid: SharpValhalla.Models.Common.Location.State
+  commentId: P:SharpValhalla.Models.Common.Location.State
+  id: State
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: Location.State
+  fullName: SharpValhalla.Models.Common.Location.State
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: State
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 56
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("state")]
+
+      public string? State { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("state")>
+
+      Public Property State As String
+  overload: SharpValhalla.Models.Common.Location.State*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: state
+- uid: SharpValhalla.Models.Common.Location.PostalCode
+  commentId: P:SharpValhalla.Models.Common.Location.PostalCode
+  id: PostalCode
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: PostalCode
+  nameWithType: Location.PostalCode
+  fullName: SharpValhalla.Models.Common.Location.PostalCode
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: PostalCode
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 58
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("postal_code")]
+
+      public string? PostalCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("postal_code")>
+
+      Public Property PostalCode As String
+  overload: SharpValhalla.Models.Common.Location.PostalCode*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: postal_code
+- uid: SharpValhalla.Models.Common.Location.Country
+  commentId: P:SharpValhalla.Models.Common.Location.Country
+  id: Country
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: Location.Country
+  fullName: SharpValhalla.Models.Common.Location.Country
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Country
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 60
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("country")]
+
+      public string? Country { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("country")>
+
+      Public Property Country As String
+  overload: SharpValhalla.Models.Common.Location.Country*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: country
+- uid: SharpValhalla.Models.Common.Location.Phone
+  commentId: P:SharpValhalla.Models.Common.Location.Phone
+  id: Phone
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: Phone
+  nameWithType: Location.Phone
+  fullName: SharpValhalla.Models.Common.Location.Phone
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Phone
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 62
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("phone")]
+
+      public string? Phone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("phone")>
+
+      Public Property Phone As String
+  overload: SharpValhalla.Models.Common.Location.Phone*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: phone
+- uid: SharpValhalla.Models.Common.Location.Url
+  commentId: P:SharpValhalla.Models.Common.Location.Url
+  id: Url
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: Location.Url
+  fullName: SharpValhalla.Models.Common.Location.Url
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Url
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 64
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("url")]
+
+      public string? Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("url")>
+
+      Public Property Url As String
+  overload: SharpValhalla.Models.Common.Location.Url*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: url
+- uid: SharpValhalla.Models.Common.Location.Waiting
+  commentId: P:SharpValhalla.Models.Common.Location.Waiting
+  id: Waiting
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: Waiting
+  nameWithType: Location.Waiting
+  fullName: SharpValhalla.Models.Common.Location.Waiting
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Waiting
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 66
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("waiting")]
+
+      public int? Waiting { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("waiting")>
+
+      Public Property Waiting As Integer?
+  overload: SharpValhalla.Models.Common.Location.Waiting*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: waiting
+- uid: SharpValhalla.Models.Common.Location.SideOfStreet
+  commentId: P:SharpValhalla.Models.Common.Location.SideOfStreet
+  id: SideOfStreet
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: SideOfStreet
+  nameWithType: Location.SideOfStreet
+  fullName: SharpValhalla.Models.Common.Location.SideOfStreet
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SideOfStreet
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 68
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("side_of_street")]
+
+      public SideOfStreet? SideOfStreet { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SharpValhalla.Enums.SideOfStreet}
+    content.vb: >-
+      <JsonPropertyName("side_of_street")>
+
+      Public Property SideOfStreet As SideOfStreet?
+  overload: SharpValhalla.Models.Common.Location.SideOfStreet*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: side_of_street
+- uid: SharpValhalla.Models.Common.Location.OriginalIndex
+  commentId: P:SharpValhalla.Models.Common.Location.OriginalIndex
+  id: OriginalIndex
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: OriginalIndex
+  nameWithType: Location.OriginalIndex
+  fullName: SharpValhalla.Models.Common.Location.OriginalIndex
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: OriginalIndex
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 70
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("original_index")]
+
+      public int? OriginalIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("original_index")>
+
+      Public Property OriginalIndex As Integer?
+  overload: SharpValhalla.Models.Common.Location.OriginalIndex*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: original_index
+- uid: SharpValhalla.Models.Common.Location.#ctor(System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Nullable{SharpValhalla.Enums.TraceType},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{SharpValhalla.Enums.PreferredSide},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.RoadClass},SharpValhalla.Models.Request.SearchFilter,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.SideOfStreet},System.Nullable{System.Int32})
+  commentId: M:SharpValhalla.Models.Common.Location.#ctor(System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Nullable{SharpValhalla.Enums.TraceType},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{SharpValhalla.Enums.PreferredSide},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.RoadClass},SharpValhalla.Models.Request.SearchFilter,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.SideOfStreet},System.Nullable{System.Int32})
+  id: '#ctor(System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Nullable{SharpValhalla.Enums.TraceType},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{SharpValhalla.Enums.PreferredSide},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.RoadClass},SharpValhalla.Models.Request.SearchFilter,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{SharpValhalla.Enums.SideOfStreet},System.Nullable{System.Int32})'
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: Location(double?, double?, string?, TraceType?, int?, int?, int?, int?, int?, int?, bool?, PreferredSide?, double?, double?, int?, int?, int?, int?, RoadClass?, SearchFilter?, string?, string?, string?, string?, string?, string?, string?, int?, SideOfStreet?, int?)
+  nameWithType: Location.Location(double?, double?, string?, TraceType?, int?, int?, int?, int?, int?, int?, bool?, PreferredSide?, double?, double?, int?, int?, int?, int?, RoadClass?, SearchFilter?, string?, string?, string?, string?, string?, string?, string?, int?, SideOfStreet?, int?)
+  fullName: SharpValhalla.Models.Common.Location.Location(double?, double?, string?, SharpValhalla.Enums.TraceType?, int?, int?, int?, int?, int?, int?, bool?, SharpValhalla.Enums.PreferredSide?, double?, double?, int?, int?, int?, int?, SharpValhalla.Enums.RoadClass?, SharpValhalla.Models.Request.SearchFilter?, string?, string?, string?, string?, string?, string?, string?, int?, SharpValhalla.Enums.SideOfStreet?, int?)
+  type: Constructor
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: .ctor
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 76
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  summary: Main constructor for Location.
+  example: []
+  syntax:
+    content: public Location(double? latitude = null, double? longitude = null, string? timestamp = null, TraceType? traceType = null, int? heading = null, int? headingTolerance = null, int? street = null, int? wayId = null, int? minimumReachability = null, int? radius = null, bool? rankCandidates = null, PreferredSide? preferredSide = null, double? displayLatitude = null, double? displayLongitude = null, int? searchCutoff = null, int? nodeSnapTolerance = null, int? streetSideTolerance = null, int? streetSideMaxDistance = null, RoadClass? streetSideCutOff = null, SearchFilter? searchFilter = null, string? name = null, string? city = null, string? state = null, string? postalCode = null, string? country = null, string? phone = null, string? url = null, int? waiting = null, SideOfStreet? sideOfStreet = null, int? originalIndex = null)
+    parameters:
+    - id: latitude
+      type: System.Nullable{System.Double}
+    - id: longitude
+      type: System.Nullable{System.Double}
+    - id: timestamp
+      type: System.String
+    - id: traceType
+      type: System.Nullable{SharpValhalla.Enums.TraceType}
+    - id: heading
+      type: System.Nullable{System.Int32}
+    - id: headingTolerance
+      type: System.Nullable{System.Int32}
+    - id: street
+      type: System.Nullable{System.Int32}
+    - id: wayId
+      type: System.Nullable{System.Int32}
+    - id: minimumReachability
+      type: System.Nullable{System.Int32}
+    - id: radius
+      type: System.Nullable{System.Int32}
+    - id: rankCandidates
+      type: System.Nullable{System.Boolean}
+    - id: preferredSide
+      type: System.Nullable{SharpValhalla.Enums.PreferredSide}
+    - id: displayLatitude
+      type: System.Nullable{System.Double}
+    - id: displayLongitude
+      type: System.Nullable{System.Double}
+    - id: searchCutoff
+      type: System.Nullable{System.Int32}
+    - id: nodeSnapTolerance
+      type: System.Nullable{System.Int32}
+    - id: streetSideTolerance
+      type: System.Nullable{System.Int32}
+    - id: streetSideMaxDistance
+      type: System.Nullable{System.Int32}
+    - id: streetSideCutOff
+      type: System.Nullable{SharpValhalla.Enums.RoadClass}
+    - id: searchFilter
+      type: SharpValhalla.Models.Request.SearchFilter
+    - id: name
+      type: System.String
+    - id: city
+      type: System.String
+    - id: state
+      type: System.String
+    - id: postalCode
+      type: System.String
+    - id: country
+      type: System.String
+    - id: phone
+      type: System.String
+    - id: url
+      type: System.String
+    - id: waiting
+      type: System.Nullable{System.Int32}
+    - id: sideOfStreet
+      type: System.Nullable{SharpValhalla.Enums.SideOfStreet}
+    - id: originalIndex
+      type: System.Nullable{System.Int32}
+    content.vb: Public Sub New(latitude As Double? = Nothing, longitude As Double? = Nothing, timestamp As String = Nothing, traceType As TraceType? = Nothing, heading As Integer? = Nothing, headingTolerance As Integer? = Nothing, street As Integer? = Nothing, wayId As Integer? = Nothing, minimumReachability As Integer? = Nothing, radius As Integer? = Nothing, rankCandidates As Boolean? = Nothing, preferredSide As PreferredSide? = Nothing, displayLatitude As Double? = Nothing, displayLongitude As Double? = Nothing, searchCutoff As Integer? = Nothing, nodeSnapTolerance As Integer? = Nothing, streetSideTolerance As Integer? = Nothing, streetSideMaxDistance As Integer? = Nothing, streetSideCutOff As RoadClass? = Nothing, searchFilter As SearchFilter = Nothing, name As String = Nothing, city As String = Nothing, state As String = Nothing, postalCode As String = Nothing, country As String = Nothing, phone As String = Nothing, url As String = Nothing, waiting As Integer? = Nothing, sideOfStreet As SideOfStreet? = Nothing, originalIndex As Integer? = Nothing)
+  overload: SharpValhalla.Models.Common.Location.#ctor*
+  nameWithType.vb: Location.New(Double?, Double?, String, TraceType?, Integer?, Integer?, Integer?, Integer?, Integer?, Integer?, Boolean?, PreferredSide?, Double?, Double?, Integer?, Integer?, Integer?, Integer?, RoadClass?, SearchFilter, String, String, String, String, String, String, String, Integer?, SideOfStreet?, Integer?)
+  fullName.vb: SharpValhalla.Models.Common.Location.New(Double?, Double?, String, SharpValhalla.Enums.TraceType?, Integer?, Integer?, Integer?, Integer?, Integer?, Integer?, Boolean?, SharpValhalla.Enums.PreferredSide?, Double?, Double?, Integer?, Integer?, Integer?, Integer?, SharpValhalla.Enums.RoadClass?, SharpValhalla.Models.Request.SearchFilter, String, String, String, String, String, String, String, Integer?, SharpValhalla.Enums.SideOfStreet?, Integer?)
+  name.vb: New(Double?, Double?, String, TraceType?, Integer?, Integer?, Integer?, Integer?, Integer?, Integer?, Boolean?, PreferredSide?, Double?, Double?, Integer?, Integer?, Integer?, Integer?, RoadClass?, SearchFilter, String, String, String, String, String, String, String, Integer?, SideOfStreet?, Integer?)
+- uid: SharpValhalla.Models.Common.Location.#ctor(System.Int32)
+  commentId: M:SharpValhalla.Models.Common.Location.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: SharpValhalla.Models.Common.Location
+  langs:
+  - csharp
+  - vb
+  name: Location(int)
+  nameWithType: Location.Location(int)
+  fullName: SharpValhalla.Models.Common.Location.Location(int)
+  type: Constructor
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/Location.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: .ctor
+    path: ../src/SharpValhalla/Models/Common/Location.cs
+    startLine: 143
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  summary: Convenience constructor for response-only locations that might only have originalIndex.
+  example: []
+  syntax:
+    content: public Location(int originalIndex)
+    parameters:
+    - id: originalIndex
+      type: System.Int32
+    content.vb: Public Sub New(originalIndex As Integer)
+  overload: SharpValhalla.Models.Common.Location.#ctor*
+  nameWithType.vb: Location.New(Integer)
+  fullName.vb: SharpValhalla.Models.Common.Location.New(Integer)
+  name.vb: New(Integer)
+references:
+- uid: SharpValhalla.Models.Common
+  commentId: N:SharpValhalla.Models.Common
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Common
+  nameWithType: SharpValhalla.Models.Common
+  fullName: SharpValhalla.Models.Common
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Common
+    name: Common
+    href: SharpValhalla.Models.Common.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Common
+    name: Common
+    href: SharpValhalla.Models.Common.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SharpValhalla.Models.Common.Location.Latitude*
+  commentId: Overload:SharpValhalla.Models.Common.Location.Latitude
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_Latitude
+  name: Latitude
+  nameWithType: Location.Latitude
+  fullName: SharpValhalla.Models.Common.Location.Latitude
+- uid: System.Nullable{System.Double}
+  commentId: T:System.Nullable{System.Double}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double?
+  nameWithType: double?
+  fullName: double?
+  nameWithType.vb: Double?
+  fullName.vb: Double?
+  name.vb: Double?
+  spec.csharp:
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '?'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SharpValhalla.Models.Common.Location.Longitude*
+  commentId: Overload:SharpValhalla.Models.Common.Location.Longitude
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_Longitude
+  name: Longitude
+  nameWithType: Location.Longitude
+  fullName: SharpValhalla.Models.Common.Location.Longitude
+- uid: SharpValhalla.Models.Common.Location.Timestamp*
+  commentId: Overload:SharpValhalla.Models.Common.Location.Timestamp
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_Timestamp
+  name: Timestamp
+  nameWithType: Location.Timestamp
+  fullName: SharpValhalla.Models.Common.Location.Timestamp
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SharpValhalla.Models.Common.Location.TraceType*
+  commentId: Overload:SharpValhalla.Models.Common.Location.TraceType
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_TraceType
+  name: TraceType
+  nameWithType: Location.TraceType
+  fullName: SharpValhalla.Models.Common.Location.TraceType
+- uid: System.Nullable{SharpValhalla.Enums.TraceType}
+  commentId: T:System.Nullable{SharpValhalla.Enums.TraceType}
+  parent: System
+  definition: System.Nullable`1
+  href: SharpValhalla.Enums.TraceType.html
+  name: TraceType?
+  nameWithType: TraceType?
+  fullName: SharpValhalla.Enums.TraceType?
+  spec.csharp:
+  - uid: SharpValhalla.Enums.TraceType
+    name: TraceType
+    href: SharpValhalla.Enums.TraceType.html
+  - name: '?'
+  spec.vb:
+  - uid: SharpValhalla.Enums.TraceType
+    name: TraceType
+    href: SharpValhalla.Enums.TraceType.html
+  - name: '?'
+- uid: SharpValhalla.Models.Common.Location.Heading*
+  commentId: Overload:SharpValhalla.Models.Common.Location.Heading
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_Heading
+  name: Heading
+  nameWithType: Location.Heading
+  fullName: SharpValhalla.Models.Common.Location.Heading
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: SharpValhalla.Models.Common.Location.HeadingTolerance*
+  commentId: Overload:SharpValhalla.Models.Common.Location.HeadingTolerance
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_HeadingTolerance
+  name: HeadingTolerance
+  nameWithType: Location.HeadingTolerance
+  fullName: SharpValhalla.Models.Common.Location.HeadingTolerance
+- uid: SharpValhalla.Models.Common.Location.Street*
+  commentId: Overload:SharpValhalla.Models.Common.Location.Street
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_Street
+  name: Street
+  nameWithType: Location.Street
+  fullName: SharpValhalla.Models.Common.Location.Street
+- uid: SharpValhalla.Models.Common.Location.WayId*
+  commentId: Overload:SharpValhalla.Models.Common.Location.WayId
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_WayId
+  name: WayId
+  nameWithType: Location.WayId
+  fullName: SharpValhalla.Models.Common.Location.WayId
+- uid: SharpValhalla.Models.Common.Location.MinimumReachability*
+  commentId: Overload:SharpValhalla.Models.Common.Location.MinimumReachability
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_MinimumReachability
+  name: MinimumReachability
+  nameWithType: Location.MinimumReachability
+  fullName: SharpValhalla.Models.Common.Location.MinimumReachability
+- uid: SharpValhalla.Models.Common.Location.Radius*
+  commentId: Overload:SharpValhalla.Models.Common.Location.Radius
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_Radius
+  name: Radius
+  nameWithType: Location.Radius
+  fullName: SharpValhalla.Models.Common.Location.Radius
+- uid: SharpValhalla.Models.Common.Location.RankCandidates*
+  commentId: Overload:SharpValhalla.Models.Common.Location.RankCandidates
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_RankCandidates
+  name: RankCandidates
+  nameWithType: Location.RankCandidates
+  fullName: SharpValhalla.Models.Common.Location.RankCandidates
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+- uid: SharpValhalla.Models.Common.Location.PreferredSide*
+  commentId: Overload:SharpValhalla.Models.Common.Location.PreferredSide
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_PreferredSide
+  name: PreferredSide
+  nameWithType: Location.PreferredSide
+  fullName: SharpValhalla.Models.Common.Location.PreferredSide
+- uid: System.Nullable{SharpValhalla.Enums.PreferredSide}
+  commentId: T:System.Nullable{SharpValhalla.Enums.PreferredSide}
+  parent: System
+  definition: System.Nullable`1
+  href: SharpValhalla.Enums.PreferredSide.html
+  name: PreferredSide?
+  nameWithType: PreferredSide?
+  fullName: SharpValhalla.Enums.PreferredSide?
+  spec.csharp:
+  - uid: SharpValhalla.Enums.PreferredSide
+    name: PreferredSide
+    href: SharpValhalla.Enums.PreferredSide.html
+  - name: '?'
+  spec.vb:
+  - uid: SharpValhalla.Enums.PreferredSide
+    name: PreferredSide
+    href: SharpValhalla.Enums.PreferredSide.html
+  - name: '?'
+- uid: SharpValhalla.Models.Common.Location.DisplayLatitude*
+  commentId: Overload:SharpValhalla.Models.Common.Location.DisplayLatitude
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_DisplayLatitude
+  name: DisplayLatitude
+  nameWithType: Location.DisplayLatitude
+  fullName: SharpValhalla.Models.Common.Location.DisplayLatitude
+- uid: SharpValhalla.Models.Common.Location.DisplayLongitude*
+  commentId: Overload:SharpValhalla.Models.Common.Location.DisplayLongitude
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_DisplayLongitude
+  name: DisplayLongitude
+  nameWithType: Location.DisplayLongitude
+  fullName: SharpValhalla.Models.Common.Location.DisplayLongitude
+- uid: SharpValhalla.Models.Common.Location.SearchCutoff*
+  commentId: Overload:SharpValhalla.Models.Common.Location.SearchCutoff
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_SearchCutoff
+  name: SearchCutoff
+  nameWithType: Location.SearchCutoff
+  fullName: SharpValhalla.Models.Common.Location.SearchCutoff
+- uid: SharpValhalla.Models.Common.Location.NodeSnapTolerance*
+  commentId: Overload:SharpValhalla.Models.Common.Location.NodeSnapTolerance
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_NodeSnapTolerance
+  name: NodeSnapTolerance
+  nameWithType: Location.NodeSnapTolerance
+  fullName: SharpValhalla.Models.Common.Location.NodeSnapTolerance
+- uid: SharpValhalla.Models.Common.Location.StreetSideTolerance*
+  commentId: Overload:SharpValhalla.Models.Common.Location.StreetSideTolerance
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_StreetSideTolerance
+  name: StreetSideTolerance
+  nameWithType: Location.StreetSideTolerance
+  fullName: SharpValhalla.Models.Common.Location.StreetSideTolerance
+- uid: SharpValhalla.Models.Common.Location.StreetSideMaxDistance*
+  commentId: Overload:SharpValhalla.Models.Common.Location.StreetSideMaxDistance
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_StreetSideMaxDistance
+  name: StreetSideMaxDistance
+  nameWithType: Location.StreetSideMaxDistance
+  fullName: SharpValhalla.Models.Common.Location.StreetSideMaxDistance
+- uid: SharpValhalla.Models.Common.Location.StreetSideCutOff*
+  commentId: Overload:SharpValhalla.Models.Common.Location.StreetSideCutOff
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_StreetSideCutOff
+  name: StreetSideCutOff
+  nameWithType: Location.StreetSideCutOff
+  fullName: SharpValhalla.Models.Common.Location.StreetSideCutOff
+- uid: System.Nullable{SharpValhalla.Enums.RoadClass}
+  commentId: T:System.Nullable{SharpValhalla.Enums.RoadClass}
+  parent: System
+  definition: System.Nullable`1
+  href: SharpValhalla.Enums.RoadClass.html
+  name: RoadClass?
+  nameWithType: RoadClass?
+  fullName: SharpValhalla.Enums.RoadClass?
+  spec.csharp:
+  - uid: SharpValhalla.Enums.RoadClass
+    name: RoadClass
+    href: SharpValhalla.Enums.RoadClass.html
+  - name: '?'
+  spec.vb:
+  - uid: SharpValhalla.Enums.RoadClass
+    name: RoadClass
+    href: SharpValhalla.Enums.RoadClass.html
+  - name: '?'
+- uid: SharpValhalla.Models.Common.Location.SearchFilter*
+  commentId: Overload:SharpValhalla.Models.Common.Location.SearchFilter
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_SearchFilter
+  name: SearchFilter
+  nameWithType: Location.SearchFilter
+  fullName: SharpValhalla.Models.Common.Location.SearchFilter
+- uid: SharpValhalla.Models.Request.SearchFilter
+  commentId: T:SharpValhalla.Models.Request.SearchFilter
+  parent: SharpValhalla.Models.Request
+  href: SharpValhalla.Models.Request.SearchFilter.html
+  name: SearchFilter
+  nameWithType: SearchFilter
+  fullName: SharpValhalla.Models.Request.SearchFilter
+- uid: SharpValhalla.Models.Request
+  commentId: N:SharpValhalla.Models.Request
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Request
+  nameWithType: SharpValhalla.Models.Request
+  fullName: SharpValhalla.Models.Request
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Request
+    name: Request
+    href: SharpValhalla.Models.Request.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Request
+    name: Request
+    href: SharpValhalla.Models.Request.html
+- uid: SharpValhalla.Models.Common.Location.Name*
+  commentId: Overload:SharpValhalla.Models.Common.Location.Name
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_Name
+  name: Name
+  nameWithType: Location.Name
+  fullName: SharpValhalla.Models.Common.Location.Name
+- uid: SharpValhalla.Models.Common.Location.City*
+  commentId: Overload:SharpValhalla.Models.Common.Location.City
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_City
+  name: City
+  nameWithType: Location.City
+  fullName: SharpValhalla.Models.Common.Location.City
+- uid: SharpValhalla.Models.Common.Location.State*
+  commentId: Overload:SharpValhalla.Models.Common.Location.State
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_State
+  name: State
+  nameWithType: Location.State
+  fullName: SharpValhalla.Models.Common.Location.State
+- uid: SharpValhalla.Models.Common.Location.PostalCode*
+  commentId: Overload:SharpValhalla.Models.Common.Location.PostalCode
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_PostalCode
+  name: PostalCode
+  nameWithType: Location.PostalCode
+  fullName: SharpValhalla.Models.Common.Location.PostalCode
+- uid: SharpValhalla.Models.Common.Location.Country*
+  commentId: Overload:SharpValhalla.Models.Common.Location.Country
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_Country
+  name: Country
+  nameWithType: Location.Country
+  fullName: SharpValhalla.Models.Common.Location.Country
+- uid: SharpValhalla.Models.Common.Location.Phone*
+  commentId: Overload:SharpValhalla.Models.Common.Location.Phone
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_Phone
+  name: Phone
+  nameWithType: Location.Phone
+  fullName: SharpValhalla.Models.Common.Location.Phone
+- uid: SharpValhalla.Models.Common.Location.Url*
+  commentId: Overload:SharpValhalla.Models.Common.Location.Url
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_Url
+  name: Url
+  nameWithType: Location.Url
+  fullName: SharpValhalla.Models.Common.Location.Url
+- uid: SharpValhalla.Models.Common.Location.Waiting*
+  commentId: Overload:SharpValhalla.Models.Common.Location.Waiting
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_Waiting
+  name: Waiting
+  nameWithType: Location.Waiting
+  fullName: SharpValhalla.Models.Common.Location.Waiting
+- uid: SharpValhalla.Models.Common.Location.SideOfStreet*
+  commentId: Overload:SharpValhalla.Models.Common.Location.SideOfStreet
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_SideOfStreet
+  name: SideOfStreet
+  nameWithType: Location.SideOfStreet
+  fullName: SharpValhalla.Models.Common.Location.SideOfStreet
+- uid: System.Nullable{SharpValhalla.Enums.SideOfStreet}
+  commentId: T:System.Nullable{SharpValhalla.Enums.SideOfStreet}
+  parent: System
+  definition: System.Nullable`1
+  href: SharpValhalla.Enums.SideOfStreet.html
+  name: SideOfStreet?
+  nameWithType: SideOfStreet?
+  fullName: SharpValhalla.Enums.SideOfStreet?
+  spec.csharp:
+  - uid: SharpValhalla.Enums.SideOfStreet
+    name: SideOfStreet
+    href: SharpValhalla.Enums.SideOfStreet.html
+  - name: '?'
+  spec.vb:
+  - uid: SharpValhalla.Enums.SideOfStreet
+    name: SideOfStreet
+    href: SharpValhalla.Enums.SideOfStreet.html
+  - name: '?'
+- uid: SharpValhalla.Models.Common.Location.OriginalIndex*
+  commentId: Overload:SharpValhalla.Models.Common.Location.OriginalIndex
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location_OriginalIndex
+  name: OriginalIndex
+  nameWithType: Location.OriginalIndex
+  fullName: SharpValhalla.Models.Common.Location.OriginalIndex
+- uid: SharpValhalla.Models.Common.Location.#ctor*
+  commentId: Overload:SharpValhalla.Models.Common.Location.#ctor
+  href: SharpValhalla.Models.Common.Location.html#SharpValhalla_Models_Common_Location__ctor_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Nullable_SharpValhalla_Enums_TraceType__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Boolean__System_Nullable_SharpValhalla_Enums_PreferredSide__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_SharpValhalla_Enums_RoadClass__SharpValhalla_Models_Request_SearchFilter_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_Nullable_System_Int32__System_Nullable_SharpValhalla_Enums_SideOfStreet__System_Nullable_System_Int32__
+  name: Location
+  nameWithType: Location.Location
+  fullName: SharpValhalla.Models.Common.Location.Location
+  nameWithType.vb: Location.New
+  fullName.vb: SharpValhalla.Models.Common.Location.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

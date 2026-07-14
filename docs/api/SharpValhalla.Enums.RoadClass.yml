@@ -1,0 +1,292 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.RoadClass
+  commentId: T:SharpValhalla.Enums.RoadClass
+  id: RoadClass
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.RoadClass.Motorway
+  - SharpValhalla.Enums.RoadClass.Primary
+  - SharpValhalla.Enums.RoadClass.Residential
+  - SharpValhalla.Enums.RoadClass.Secondary
+  - SharpValhalla.Enums.RoadClass.ServiceOther
+  - SharpValhalla.Enums.RoadClass.Tertiary
+  - SharpValhalla.Enums.RoadClass.Trunk
+  - SharpValhalla.Enums.RoadClass.Unclassified
+  langs:
+  - csharp
+  - vb
+  name: RoadClass
+  nameWithType: RoadClass
+  fullName: SharpValhalla.Enums.RoadClass
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/RoadClass.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: RoadClass
+    path: ../src/SharpValhalla/Enums/RoadClass.cs
+    startLine: 7
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Classification of roads by importance or hierarchy used in routing.
+  example: []
+  syntax:
+    content: public enum RoadClass
+    content.vb: Public Enum RoadClass
+- uid: SharpValhalla.Enums.RoadClass.Motorway
+  commentId: F:SharpValhalla.Enums.RoadClass.Motorway
+  id: Motorway
+  parent: SharpValhalla.Enums.RoadClass
+  langs:
+  - csharp
+  - vb
+  name: Motorway
+  nameWithType: RoadClass.Motorway
+  fullName: SharpValhalla.Enums.RoadClass.Motorway
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/RoadClass.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Motorway
+    path: ../src/SharpValhalla/Enums/RoadClass.cs
+    startLine: 9
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Motorway road class.
+  example: []
+  syntax:
+    content: Motorway = 0
+    return:
+      type: SharpValhalla.Enums.RoadClass
+- uid: SharpValhalla.Enums.RoadClass.Trunk
+  commentId: F:SharpValhalla.Enums.RoadClass.Trunk
+  id: Trunk
+  parent: SharpValhalla.Enums.RoadClass
+  langs:
+  - csharp
+  - vb
+  name: Trunk
+  nameWithType: RoadClass.Trunk
+  fullName: SharpValhalla.Enums.RoadClass.Trunk
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/RoadClass.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Trunk
+    path: ../src/SharpValhalla/Enums/RoadClass.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Trunk road class.
+  example: []
+  syntax:
+    content: Trunk = 1
+    return:
+      type: SharpValhalla.Enums.RoadClass
+- uid: SharpValhalla.Enums.RoadClass.Primary
+  commentId: F:SharpValhalla.Enums.RoadClass.Primary
+  id: Primary
+  parent: SharpValhalla.Enums.RoadClass
+  langs:
+  - csharp
+  - vb
+  name: Primary
+  nameWithType: RoadClass.Primary
+  fullName: SharpValhalla.Enums.RoadClass.Primary
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/RoadClass.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Primary
+    path: ../src/SharpValhalla/Enums/RoadClass.cs
+    startLine: 15
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Primary road class.
+  example: []
+  syntax:
+    content: Primary = 2
+    return:
+      type: SharpValhalla.Enums.RoadClass
+- uid: SharpValhalla.Enums.RoadClass.Secondary
+  commentId: F:SharpValhalla.Enums.RoadClass.Secondary
+  id: Secondary
+  parent: SharpValhalla.Enums.RoadClass
+  langs:
+  - csharp
+  - vb
+  name: Secondary
+  nameWithType: RoadClass.Secondary
+  fullName: SharpValhalla.Enums.RoadClass.Secondary
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/RoadClass.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Secondary
+    path: ../src/SharpValhalla/Enums/RoadClass.cs
+    startLine: 18
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Secondary road class.
+  example: []
+  syntax:
+    content: Secondary = 3
+    return:
+      type: SharpValhalla.Enums.RoadClass
+- uid: SharpValhalla.Enums.RoadClass.Tertiary
+  commentId: F:SharpValhalla.Enums.RoadClass.Tertiary
+  id: Tertiary
+  parent: SharpValhalla.Enums.RoadClass
+  langs:
+  - csharp
+  - vb
+  name: Tertiary
+  nameWithType: RoadClass.Tertiary
+  fullName: SharpValhalla.Enums.RoadClass.Tertiary
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/RoadClass.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Tertiary
+    path: ../src/SharpValhalla/Enums/RoadClass.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Tertiary road class.
+  example: []
+  syntax:
+    content: Tertiary = 4
+    return:
+      type: SharpValhalla.Enums.RoadClass
+- uid: SharpValhalla.Enums.RoadClass.Unclassified
+  commentId: F:SharpValhalla.Enums.RoadClass.Unclassified
+  id: Unclassified
+  parent: SharpValhalla.Enums.RoadClass
+  langs:
+  - csharp
+  - vb
+  name: Unclassified
+  nameWithType: RoadClass.Unclassified
+  fullName: SharpValhalla.Enums.RoadClass.Unclassified
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/RoadClass.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Unclassified
+    path: ../src/SharpValhalla/Enums/RoadClass.cs
+    startLine: 24
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Unclassified road class.
+  example: []
+  syntax:
+    content: Unclassified = 5
+    return:
+      type: SharpValhalla.Enums.RoadClass
+- uid: SharpValhalla.Enums.RoadClass.Residential
+  commentId: F:SharpValhalla.Enums.RoadClass.Residential
+  id: Residential
+  parent: SharpValhalla.Enums.RoadClass
+  langs:
+  - csharp
+  - vb
+  name: Residential
+  nameWithType: RoadClass.Residential
+  fullName: SharpValhalla.Enums.RoadClass.Residential
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/RoadClass.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Residential
+    path: ../src/SharpValhalla/Enums/RoadClass.cs
+    startLine: 27
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Residential road class.
+  example: []
+  syntax:
+    content: Residential = 6
+    return:
+      type: SharpValhalla.Enums.RoadClass
+- uid: SharpValhalla.Enums.RoadClass.ServiceOther
+  commentId: F:SharpValhalla.Enums.RoadClass.ServiceOther
+  id: ServiceOther
+  parent: SharpValhalla.Enums.RoadClass
+  langs:
+  - csharp
+  - vb
+  name: ServiceOther
+  nameWithType: RoadClass.ServiceOther
+  fullName: SharpValhalla.Enums.RoadClass.ServiceOther
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/RoadClass.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ServiceOther
+    path: ../src/SharpValhalla/Enums/RoadClass.cs
+    startLine: 30
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Service or other road class.
+  example: []
+  syntax:
+    content: ServiceOther = 7
+    return:
+      type: SharpValhalla.Enums.RoadClass
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.RoadClass
+  commentId: T:SharpValhalla.Enums.RoadClass
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.RoadClass.html
+  name: RoadClass
+  nameWithType: RoadClass
+  fullName: SharpValhalla.Enums.RoadClass

@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Models.Response
+  commentId: N:SharpValhalla.Models.Response
+  id: SharpValhalla.Models.Response
+  children:
+  - SharpValhalla.Models.Response.Lane
+  - SharpValhalla.Models.Response.LegResponse
+  - SharpValhalla.Models.Response.ManeuverResponse
+  - SharpValhalla.Models.Response.ManeuverSignElement
+  - SharpValhalla.Models.Response.MatrixElement
+  - SharpValhalla.Models.Response.RouteResponse
+  - SharpValhalla.Models.Response.SignResponse
+  - SharpValhalla.Models.Response.SummaryResponse
+  - SharpValhalla.Models.Response.TransitInfo
+  - SharpValhalla.Models.Response.TransitStop
+  langs:
+  - csharp
+  - vb
+  name: SharpValhalla.Models.Response
+  nameWithType: SharpValhalla.Models.Response
+  fullName: SharpValhalla.Models.Response
+  type: Namespace
+  assemblies:
+  - SharpValhalla
+references:
+- uid: SharpValhalla.Models.Response.Lane
+  commentId: T:SharpValhalla.Models.Response.Lane
+  href: SharpValhalla.Models.Response.Lane.html
+  name: Lane
+  nameWithType: Lane
+  fullName: SharpValhalla.Models.Response.Lane
+- uid: SharpValhalla.Models.Response.LegResponse
+  commentId: T:SharpValhalla.Models.Response.LegResponse
+  parent: SharpValhalla.Models.Response
+  href: SharpValhalla.Models.Response.LegResponse.html
+  name: LegResponse
+  nameWithType: LegResponse
+  fullName: SharpValhalla.Models.Response.LegResponse
+- uid: SharpValhalla.Models.Response.ManeuverResponse
+  commentId: T:SharpValhalla.Models.Response.ManeuverResponse
+  href: SharpValhalla.Models.Response.ManeuverResponse.html
+  name: ManeuverResponse
+  nameWithType: ManeuverResponse
+  fullName: SharpValhalla.Models.Response.ManeuverResponse
+- uid: SharpValhalla.Models.Response.MatrixElement
+  commentId: T:SharpValhalla.Models.Response.MatrixElement
+  href: SharpValhalla.Models.Response.MatrixElement.html
+  name: MatrixElement
+  nameWithType: MatrixElement
+  fullName: SharpValhalla.Models.Response.MatrixElement
+- uid: SharpValhalla.Models.Response.RouteResponse
+  commentId: T:SharpValhalla.Models.Response.RouteResponse
+  parent: SharpValhalla.Models.Response
+  href: SharpValhalla.Models.Response.RouteResponse.html
+  name: RouteResponse
+  nameWithType: RouteResponse
+  fullName: SharpValhalla.Models.Response.RouteResponse
+- uid: SharpValhalla.Models.Response.SignResponse
+  commentId: T:SharpValhalla.Models.Response.SignResponse
+  parent: SharpValhalla.Models.Response
+  href: SharpValhalla.Models.Response.SignResponse.html
+  name: SignResponse
+  nameWithType: SignResponse
+  fullName: SharpValhalla.Models.Response.SignResponse
+- uid: SharpValhalla.Models.Response.ManeuverSignElement
+  commentId: T:SharpValhalla.Models.Response.ManeuverSignElement
+  href: SharpValhalla.Models.Response.ManeuverSignElement.html
+  name: ManeuverSignElement
+  nameWithType: ManeuverSignElement
+  fullName: SharpValhalla.Models.Response.ManeuverSignElement
+- uid: SharpValhalla.Models.Response.SummaryResponse
+  commentId: T:SharpValhalla.Models.Response.SummaryResponse
+  parent: SharpValhalla.Models.Response
+  href: SharpValhalla.Models.Response.SummaryResponse.html
+  name: SummaryResponse
+  nameWithType: SummaryResponse
+  fullName: SharpValhalla.Models.Response.SummaryResponse
+- uid: SharpValhalla.Models.Response.TransitInfo
+  commentId: T:SharpValhalla.Models.Response.TransitInfo
+  parent: SharpValhalla.Models.Response
+  href: SharpValhalla.Models.Response.TransitInfo.html
+  name: TransitInfo
+  nameWithType: TransitInfo
+  fullName: SharpValhalla.Models.Response.TransitInfo
+- uid: SharpValhalla.Models.Response.TransitStop
+  commentId: T:SharpValhalla.Models.Response.TransitStop
+  href: SharpValhalla.Models.Response.TransitStop.html
+  name: TransitStop
+  nameWithType: TransitStop
+  fullName: SharpValhalla.Models.Response.TransitStop
+- uid: SharpValhalla.Models.Response
+  commentId: N:SharpValhalla.Models.Response
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Response
+  nameWithType: SharpValhalla.Models.Response
+  fullName: SharpValhalla.Models.Response
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Response
+    name: Response
+    href: SharpValhalla.Models.Response.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Response
+    name: Response
+    href: SharpValhalla.Models.Response.html

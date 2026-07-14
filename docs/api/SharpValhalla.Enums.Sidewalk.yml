@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.Sidewalk
+  commentId: T:SharpValhalla.Enums.Sidewalk
+  id: Sidewalk
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.Sidewalk.Both
+  - SharpValhalla.Enums.Sidewalk.Left
+  - SharpValhalla.Enums.Sidewalk.Right
+  langs:
+  - csharp
+  - vb
+  name: Sidewalk
+  nameWithType: Sidewalk
+  fullName: SharpValhalla.Enums.Sidewalk
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Sidewalk.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Sidewalk
+    path: ../src/SharpValhalla/Enums/Sidewalk.cs
+    startLine: 10
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    Represents the presence and location of sidewalks for edges in Valhalla routing.
+
+
+    Each case corresponds to the sidewalk position relative to the edge.
+
+    The raw value matches the exact key string used in Valhalla.
+  example: []
+  syntax:
+    content: public enum Sidewalk
+    content.vb: Public Enum Sidewalk
+- uid: SharpValhalla.Enums.Sidewalk.Left
+  commentId: F:SharpValhalla.Enums.Sidewalk.Left
+  id: Left
+  parent: SharpValhalla.Enums.Sidewalk
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: Sidewalk.Left
+  fullName: SharpValhalla.Enums.Sidewalk.Left
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Sidewalk.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Left
+    path: ../src/SharpValhalla/Enums/Sidewalk.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Sidewalk is on the left side of the edge.
+  example: []
+  syntax:
+    content: Left = 0
+    return:
+      type: SharpValhalla.Enums.Sidewalk
+- uid: SharpValhalla.Enums.Sidewalk.Right
+  commentId: F:SharpValhalla.Enums.Sidewalk.Right
+  id: Right
+  parent: SharpValhalla.Enums.Sidewalk
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: Sidewalk.Right
+  fullName: SharpValhalla.Enums.Sidewalk.Right
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Sidewalk.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Right
+    path: ../src/SharpValhalla/Enums/Sidewalk.cs
+    startLine: 15
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Sidewalk is on the right side of the edge.
+  example: []
+  syntax:
+    content: Right = 1
+    return:
+      type: SharpValhalla.Enums.Sidewalk
+- uid: SharpValhalla.Enums.Sidewalk.Both
+  commentId: F:SharpValhalla.Enums.Sidewalk.Both
+  id: Both
+  parent: SharpValhalla.Enums.Sidewalk
+  langs:
+  - csharp
+  - vb
+  name: Both
+  nameWithType: Sidewalk.Both
+  fullName: SharpValhalla.Enums.Sidewalk.Both
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Sidewalk.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Both
+    path: ../src/SharpValhalla/Enums/Sidewalk.cs
+    startLine: 18
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Sidewalks are present on both sides of the edge.
+  example: []
+  syntax:
+    content: Both = 2
+    return:
+      type: SharpValhalla.Enums.Sidewalk
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.Sidewalk
+  commentId: T:SharpValhalla.Enums.Sidewalk
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Sidewalk.html
+  name: Sidewalk
+  nameWithType: Sidewalk
+  fullName: SharpValhalla.Enums.Sidewalk

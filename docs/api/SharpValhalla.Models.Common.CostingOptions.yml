@@ -1,0 +1,2724 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Models.Common.CostingOptions
+  commentId: T:SharpValhalla.Models.Common.CostingOptions
+  id: CostingOptions
+  parent: SharpValhalla.Models.Common
+  children:
+  - SharpValhalla.Models.Common.CostingOptions.#ctor(System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Boolean},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Boolean},System.Collections.Generic.Dictionary{System.String,System.Object},System.Nullable{System.Double})
+  - SharpValhalla.Models.Common.CostingOptions.AlleyFactor
+  - SharpValhalla.Models.Common.CostingOptions.AvoidBadSurfaces
+  - SharpValhalla.Models.Common.CostingOptions.AvoidFerries
+  - SharpValhalla.Models.Common.CostingOptions.AvoidHighways
+  - SharpValhalla.Models.Common.CostingOptions.AvoidTolls
+  - SharpValhalla.Models.Common.CostingOptions.AxleCount
+  - SharpValhalla.Models.Common.CostingOptions.AxleLoad
+  - SharpValhalla.Models.Common.CostingOptions.BicycleLaneFactor
+  - SharpValhalla.Models.Common.CostingOptions.CountryChangingPenalty
+  - SharpValhalla.Models.Common.CostingOptions.CrossingPenalty
+  - SharpValhalla.Models.Common.CostingOptions.CyclewayFactor
+  - SharpValhalla.Models.Common.CostingOptions.CyclingSpeed
+  - SharpValhalla.Models.Common.CostingOptions.DrivewayFactor
+  - SharpValhalla.Models.Common.CostingOptions.GateAccessCost
+  - SharpValhalla.Models.Common.CostingOptions.GateCost
+  - SharpValhalla.Models.Common.CostingOptions.Hazmat
+  - SharpValhalla.Models.Common.CostingOptions.Height
+  - SharpValhalla.Models.Common.CostingOptions.Length
+  - SharpValhalla.Models.Common.CostingOptions.ManeuverPenalty
+  - SharpValhalla.Models.Common.CostingOptions.MaxGrade
+  - SharpValhalla.Models.Common.CostingOptions.MotorwayFactor
+  - SharpValhalla.Models.Common.CostingOptions.MountainBikeFactor
+  - SharpValhalla.Models.Common.CostingOptions.PrimaryFactor
+  - SharpValhalla.Models.Common.CostingOptions.ResidentialFactor
+  - SharpValhalla.Models.Common.CostingOptions.SecondaryFactor
+  - SharpValhalla.Models.Common.CostingOptions.ServiceRoadFactor
+  - SharpValhalla.Models.Common.CostingOptions.Shortcut
+  - SharpValhalla.Models.Common.CostingOptions.SidewalkFactor
+  - SharpValhalla.Models.Common.CostingOptions.SpeedFactor
+  - SharpValhalla.Models.Common.CostingOptions.TertiaryFactor
+  - SharpValhalla.Models.Common.CostingOptions.TollBoothAccessCost
+  - SharpValhalla.Models.Common.CostingOptions.TollBoothCost
+  - SharpValhalla.Models.Common.CostingOptions.TopSpeed
+  - SharpValhalla.Models.Common.CostingOptions.TransitModeFilters
+  - SharpValhalla.Models.Common.CostingOptions.TransitWalkingDistance
+  - SharpValhalla.Models.Common.CostingOptions.TrunkFactor
+  - SharpValhalla.Models.Common.CostingOptions.UnclassifiedFactor
+  - SharpValhalla.Models.Common.CostingOptions.UseTraffic
+  - SharpValhalla.Models.Common.CostingOptions.UturnPenalty
+  - SharpValhalla.Models.Common.CostingOptions.WalkingSpeed
+  - SharpValhalla.Models.Common.CostingOptions.WalkwayFactor
+  - SharpValhalla.Models.Common.CostingOptions.Weight
+  - SharpValhalla.Models.Common.CostingOptions.Width
+  langs:
+  - csharp
+  - vb
+  name: CostingOptions
+  nameWithType: CostingOptions
+  fullName: SharpValhalla.Models.Common.CostingOptions
+  type: Class
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: CostingOptions
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 13
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  summary: >-
+    Configuration options for route costing and avoidance preferences.
+
+    Use CostingOptions to specify routing preferences such as avoiding tolls, highways, or ferries,
+
+    and to control various routing parameters including vehicle specifications, road preferences, and cost factors.
+
+    All properties are optional, allowing you to specify only the preferences you need.
+
+    Different costing models support different subsets of these options.
+  example: []
+  syntax:
+    content: public class CostingOptions
+    content.vb: Public Class CostingOptions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SharpValhalla.Models.Common.CostingOptions.AvoidTolls
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.AvoidTolls
+  id: AvoidTolls
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: AvoidTolls
+  nameWithType: CostingOptions.AvoidTolls
+  fullName: SharpValhalla.Models.Common.CostingOptions.AvoidTolls
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: AvoidTolls
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 15
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("avoid_tolls")]
+
+      public bool? AvoidTolls { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <JsonPropertyName("avoid_tolls")>
+
+      Public Property AvoidTolls As Boolean?
+  overload: SharpValhalla.Models.Common.CostingOptions.AvoidTolls*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: avoid_tolls
+- uid: SharpValhalla.Models.Common.CostingOptions.AvoidHighways
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.AvoidHighways
+  id: AvoidHighways
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: AvoidHighways
+  nameWithType: CostingOptions.AvoidHighways
+  fullName: SharpValhalla.Models.Common.CostingOptions.AvoidHighways
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: AvoidHighways
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 17
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("avoid_highways")]
+
+      public bool? AvoidHighways { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <JsonPropertyName("avoid_highways")>
+
+      Public Property AvoidHighways As Boolean?
+  overload: SharpValhalla.Models.Common.CostingOptions.AvoidHighways*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: avoid_highways
+- uid: SharpValhalla.Models.Common.CostingOptions.AvoidFerries
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.AvoidFerries
+  id: AvoidFerries
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: AvoidFerries
+  nameWithType: CostingOptions.AvoidFerries
+  fullName: SharpValhalla.Models.Common.CostingOptions.AvoidFerries
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: AvoidFerries
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 19
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("avoid_ferries")]
+
+      public bool? AvoidFerries { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <JsonPropertyName("avoid_ferries")>
+
+      Public Property AvoidFerries As Boolean?
+  overload: SharpValhalla.Models.Common.CostingOptions.AvoidFerries*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: avoid_ferries
+- uid: SharpValhalla.Models.Common.CostingOptions.Shortcut
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.Shortcut
+  id: Shortcut
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: Shortcut
+  nameWithType: CostingOptions.Shortcut
+  fullName: SharpValhalla.Models.Common.CostingOptions.Shortcut
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Shortcut
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("shortest")]
+
+      public bool? Shortcut { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <JsonPropertyName("shortest")>
+
+      Public Property Shortcut As Boolean?
+  overload: SharpValhalla.Models.Common.CostingOptions.Shortcut*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: shortest
+- uid: SharpValhalla.Models.Common.CostingOptions.ManeuverPenalty
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.ManeuverPenalty
+  id: ManeuverPenalty
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: ManeuverPenalty
+  nameWithType: CostingOptions.ManeuverPenalty
+  fullName: SharpValhalla.Models.Common.CostingOptions.ManeuverPenalty
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ManeuverPenalty
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 25
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("maneuver_penalty")]
+
+      public double? ManeuverPenalty { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("maneuver_penalty")>
+
+      Public Property ManeuverPenalty As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.ManeuverPenalty*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: maneuver_penalty
+- uid: SharpValhalla.Models.Common.CostingOptions.GateCost
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.GateCost
+  id: GateCost
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: GateCost
+  nameWithType: CostingOptions.GateCost
+  fullName: SharpValhalla.Models.Common.CostingOptions.GateCost
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: GateCost
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 27
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("gate_cost")]
+
+      public double? GateCost { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("gate_cost")>
+
+      Public Property GateCost As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.GateCost*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: gate_cost
+- uid: SharpValhalla.Models.Common.CostingOptions.GateAccessCost
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.GateAccessCost
+  id: GateAccessCost
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: GateAccessCost
+  nameWithType: CostingOptions.GateAccessCost
+  fullName: SharpValhalla.Models.Common.CostingOptions.GateAccessCost
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: GateAccessCost
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 29
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("gate_access_cost")]
+
+      public double? GateAccessCost { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("gate_access_cost")>
+
+      Public Property GateAccessCost As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.GateAccessCost*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: gate_access_cost
+- uid: SharpValhalla.Models.Common.CostingOptions.TollBoothCost
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.TollBoothCost
+  id: TollBoothCost
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: TollBoothCost
+  nameWithType: CostingOptions.TollBoothCost
+  fullName: SharpValhalla.Models.Common.CostingOptions.TollBoothCost
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TollBoothCost
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 31
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("toll_booth_cost")]
+
+      public double? TollBoothCost { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("toll_booth_cost")>
+
+      Public Property TollBoothCost As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.TollBoothCost*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: toll_booth_cost
+- uid: SharpValhalla.Models.Common.CostingOptions.TollBoothAccessCost
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.TollBoothAccessCost
+  id: TollBoothAccessCost
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: TollBoothAccessCost
+  nameWithType: CostingOptions.TollBoothAccessCost
+  fullName: SharpValhalla.Models.Common.CostingOptions.TollBoothAccessCost
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TollBoothAccessCost
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 33
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("toll_booth_access_cost")]
+
+      public double? TollBoothAccessCost { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("toll_booth_access_cost")>
+
+      Public Property TollBoothAccessCost As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.TollBoothAccessCost*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: toll_booth_access_cost
+- uid: SharpValhalla.Models.Common.CostingOptions.CountryChangingPenalty
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.CountryChangingPenalty
+  id: CountryChangingPenalty
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: CountryChangingPenalty
+  nameWithType: CostingOptions.CountryChangingPenalty
+  fullName: SharpValhalla.Models.Common.CostingOptions.CountryChangingPenalty
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: CountryChangingPenalty
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 35
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("country_changing_penalty")]
+
+      public double? CountryChangingPenalty { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("country_changing_penalty")>
+
+      Public Property CountryChangingPenalty As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.CountryChangingPenalty*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: country_changing_penalty
+- uid: SharpValhalla.Models.Common.CostingOptions.Length
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.Length
+  id: Length
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: CostingOptions.Length
+  fullName: SharpValhalla.Models.Common.CostingOptions.Length
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Length
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 39
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("length")]
+
+      public double? Length { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("length")>
+
+      Public Property Length As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.Length*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: length
+- uid: SharpValhalla.Models.Common.CostingOptions.Width
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.Width
+  id: Width
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: CostingOptions.Width
+  fullName: SharpValhalla.Models.Common.CostingOptions.Width
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Width
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 41
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("width")]
+
+      public double? Width { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("width")>
+
+      Public Property Width As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.Width*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: width
+- uid: SharpValhalla.Models.Common.CostingOptions.Height
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.Height
+  id: Height
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: CostingOptions.Height
+  fullName: SharpValhalla.Models.Common.CostingOptions.Height
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Height
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 43
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("height")]
+
+      public double? Height { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("height")>
+
+      Public Property Height As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.Height*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: height
+- uid: SharpValhalla.Models.Common.CostingOptions.Weight
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.Weight
+  id: Weight
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: Weight
+  nameWithType: CostingOptions.Weight
+  fullName: SharpValhalla.Models.Common.CostingOptions.Weight
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Weight
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 45
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("weight")]
+
+      public double? Weight { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("weight")>
+
+      Public Property Weight As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.Weight*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: weight
+- uid: SharpValhalla.Models.Common.CostingOptions.AxleLoad
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.AxleLoad
+  id: AxleLoad
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: AxleLoad
+  nameWithType: CostingOptions.AxleLoad
+  fullName: SharpValhalla.Models.Common.CostingOptions.AxleLoad
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: AxleLoad
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 47
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("axle_load")]
+
+      public double? AxleLoad { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("axle_load")>
+
+      Public Property AxleLoad As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.AxleLoad*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: axle_load
+- uid: SharpValhalla.Models.Common.CostingOptions.AxleCount
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.AxleCount
+  id: AxleCount
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: AxleCount
+  nameWithType: CostingOptions.AxleCount
+  fullName: SharpValhalla.Models.Common.CostingOptions.AxleCount
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: AxleCount
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 49
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("axle_count")]
+
+      public int? AxleCount { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <JsonPropertyName("axle_count")>
+
+      Public Property AxleCount As Integer?
+  overload: SharpValhalla.Models.Common.CostingOptions.AxleCount*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: axle_count
+- uid: SharpValhalla.Models.Common.CostingOptions.Hazmat
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.Hazmat
+  id: Hazmat
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: Hazmat
+  nameWithType: CostingOptions.Hazmat
+  fullName: SharpValhalla.Models.Common.CostingOptions.Hazmat
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Hazmat
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 51
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("hazmat")]
+
+      public bool? Hazmat { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <JsonPropertyName("hazmat")>
+
+      Public Property Hazmat As Boolean?
+  overload: SharpValhalla.Models.Common.CostingOptions.Hazmat*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: hazmat
+- uid: SharpValhalla.Models.Common.CostingOptions.MotorwayFactor
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.MotorwayFactor
+  id: MotorwayFactor
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: MotorwayFactor
+  nameWithType: CostingOptions.MotorwayFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.MotorwayFactor
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MotorwayFactor
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 55
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("motorway_factor")]
+
+      public double? MotorwayFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("motorway_factor")>
+
+      Public Property MotorwayFactor As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.MotorwayFactor*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: motorway_factor
+- uid: SharpValhalla.Models.Common.CostingOptions.TrunkFactor
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.TrunkFactor
+  id: TrunkFactor
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: TrunkFactor
+  nameWithType: CostingOptions.TrunkFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.TrunkFactor
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TrunkFactor
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 57
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("trunk_factor")]
+
+      public double? TrunkFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("trunk_factor")>
+
+      Public Property TrunkFactor As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.TrunkFactor*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: trunk_factor
+- uid: SharpValhalla.Models.Common.CostingOptions.PrimaryFactor
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.PrimaryFactor
+  id: PrimaryFactor
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: PrimaryFactor
+  nameWithType: CostingOptions.PrimaryFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.PrimaryFactor
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: PrimaryFactor
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 59
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("primary_factor")]
+
+      public double? PrimaryFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("primary_factor")>
+
+      Public Property PrimaryFactor As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.PrimaryFactor*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: primary_factor
+- uid: SharpValhalla.Models.Common.CostingOptions.SecondaryFactor
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.SecondaryFactor
+  id: SecondaryFactor
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: SecondaryFactor
+  nameWithType: CostingOptions.SecondaryFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.SecondaryFactor
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SecondaryFactor
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 61
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("secondary_factor")]
+
+      public double? SecondaryFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("secondary_factor")>
+
+      Public Property SecondaryFactor As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.SecondaryFactor*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: secondary_factor
+- uid: SharpValhalla.Models.Common.CostingOptions.TertiaryFactor
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.TertiaryFactor
+  id: TertiaryFactor
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: TertiaryFactor
+  nameWithType: CostingOptions.TertiaryFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.TertiaryFactor
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TertiaryFactor
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 63
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("tertiary_factor")]
+
+      public double? TertiaryFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("tertiary_factor")>
+
+      Public Property TertiaryFactor As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.TertiaryFactor*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: tertiary_factor
+- uid: SharpValhalla.Models.Common.CostingOptions.UnclassifiedFactor
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.UnclassifiedFactor
+  id: UnclassifiedFactor
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: UnclassifiedFactor
+  nameWithType: CostingOptions.UnclassifiedFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.UnclassifiedFactor
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: UnclassifiedFactor
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 65
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("unclassified_factor")]
+
+      public double? UnclassifiedFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("unclassified_factor")>
+
+      Public Property UnclassifiedFactor As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.UnclassifiedFactor*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: unclassified_factor
+- uid: SharpValhalla.Models.Common.CostingOptions.ResidentialFactor
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.ResidentialFactor
+  id: ResidentialFactor
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: ResidentialFactor
+  nameWithType: CostingOptions.ResidentialFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.ResidentialFactor
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ResidentialFactor
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 67
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("residential_factor")]
+
+      public double? ResidentialFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("residential_factor")>
+
+      Public Property ResidentialFactor As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.ResidentialFactor*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: residential_factor
+- uid: SharpValhalla.Models.Common.CostingOptions.ServiceRoadFactor
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.ServiceRoadFactor
+  id: ServiceRoadFactor
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: ServiceRoadFactor
+  nameWithType: CostingOptions.ServiceRoadFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.ServiceRoadFactor
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ServiceRoadFactor
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 69
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("service_road_factor")]
+
+      public double? ServiceRoadFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("service_road_factor")>
+
+      Public Property ServiceRoadFactor As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.ServiceRoadFactor*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: service_road_factor
+- uid: SharpValhalla.Models.Common.CostingOptions.TopSpeed
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.TopSpeed
+  id: TopSpeed
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: TopSpeed
+  nameWithType: CostingOptions.TopSpeed
+  fullName: SharpValhalla.Models.Common.CostingOptions.TopSpeed
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TopSpeed
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 73
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("top_speed")]
+
+      public double? TopSpeed { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("top_speed")>
+
+      Public Property TopSpeed As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.TopSpeed*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: top_speed
+- uid: SharpValhalla.Models.Common.CostingOptions.SpeedFactor
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.SpeedFactor
+  id: SpeedFactor
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: SpeedFactor
+  nameWithType: CostingOptions.SpeedFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.SpeedFactor
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SpeedFactor
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 75
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("speed_factor")]
+
+      public double? SpeedFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("speed_factor")>
+
+      Public Property SpeedFactor As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.SpeedFactor*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: speed_factor
+- uid: SharpValhalla.Models.Common.CostingOptions.UturnPenalty
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.UturnPenalty
+  id: UturnPenalty
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: UturnPenalty
+  nameWithType: CostingOptions.UturnPenalty
+  fullName: SharpValhalla.Models.Common.CostingOptions.UturnPenalty
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: UturnPenalty
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 77
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("uturn_penalty")]
+
+      public double? UturnPenalty { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("uturn_penalty")>
+
+      Public Property UturnPenalty As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.UturnPenalty*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: uturn_penalty
+- uid: SharpValhalla.Models.Common.CostingOptions.UseTraffic
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.UseTraffic
+  id: UseTraffic
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: UseTraffic
+  nameWithType: CostingOptions.UseTraffic
+  fullName: SharpValhalla.Models.Common.CostingOptions.UseTraffic
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: UseTraffic
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 79
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("use_traffic")]
+
+      public bool? UseTraffic { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <JsonPropertyName("use_traffic")>
+
+      Public Property UseTraffic As Boolean?
+  overload: SharpValhalla.Models.Common.CostingOptions.UseTraffic*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: use_traffic
+- uid: SharpValhalla.Models.Common.CostingOptions.WalkingSpeed
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.WalkingSpeed
+  id: WalkingSpeed
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: WalkingSpeed
+  nameWithType: CostingOptions.WalkingSpeed
+  fullName: SharpValhalla.Models.Common.CostingOptions.WalkingSpeed
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: WalkingSpeed
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 83
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("walking_speed")]
+
+      public double? WalkingSpeed { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("walking_speed")>
+
+      Public Property WalkingSpeed As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.WalkingSpeed*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: walking_speed
+- uid: SharpValhalla.Models.Common.CostingOptions.WalkwayFactor
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.WalkwayFactor
+  id: WalkwayFactor
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: WalkwayFactor
+  nameWithType: CostingOptions.WalkwayFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.WalkwayFactor
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: WalkwayFactor
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 85
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("walkway_factor")]
+
+      public double? WalkwayFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("walkway_factor")>
+
+      Public Property WalkwayFactor As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.WalkwayFactor*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: walkway_factor
+- uid: SharpValhalla.Models.Common.CostingOptions.SidewalkFactor
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.SidewalkFactor
+  id: SidewalkFactor
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: SidewalkFactor
+  nameWithType: CostingOptions.SidewalkFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.SidewalkFactor
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SidewalkFactor
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 87
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("sidewalk_factor")]
+
+      public double? SidewalkFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("sidewalk_factor")>
+
+      Public Property SidewalkFactor As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.SidewalkFactor*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: sidewalk_factor
+- uid: SharpValhalla.Models.Common.CostingOptions.AlleyFactor
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.AlleyFactor
+  id: AlleyFactor
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: AlleyFactor
+  nameWithType: CostingOptions.AlleyFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.AlleyFactor
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: AlleyFactor
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 89
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("alley_factor")]
+
+      public double? AlleyFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("alley_factor")>
+
+      Public Property AlleyFactor As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.AlleyFactor*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: alley_factor
+- uid: SharpValhalla.Models.Common.CostingOptions.DrivewayFactor
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.DrivewayFactor
+  id: DrivewayFactor
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: DrivewayFactor
+  nameWithType: CostingOptions.DrivewayFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.DrivewayFactor
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: DrivewayFactor
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 91
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("driveway_factor")]
+
+      public double? DrivewayFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("driveway_factor")>
+
+      Public Property DrivewayFactor As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.DrivewayFactor*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: driveway_factor
+- uid: SharpValhalla.Models.Common.CostingOptions.CrossingPenalty
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.CrossingPenalty
+  id: CrossingPenalty
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: CrossingPenalty
+  nameWithType: CostingOptions.CrossingPenalty
+  fullName: SharpValhalla.Models.Common.CostingOptions.CrossingPenalty
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: CrossingPenalty
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 93
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("crossing_penalty")]
+
+      public double? CrossingPenalty { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("crossing_penalty")>
+
+      Public Property CrossingPenalty As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.CrossingPenalty*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: crossing_penalty
+- uid: SharpValhalla.Models.Common.CostingOptions.MaxGrade
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.MaxGrade
+  id: MaxGrade
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: MaxGrade
+  nameWithType: CostingOptions.MaxGrade
+  fullName: SharpValhalla.Models.Common.CostingOptions.MaxGrade
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MaxGrade
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 95
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("max_grade")]
+
+      public double? MaxGrade { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("max_grade")>
+
+      Public Property MaxGrade As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.MaxGrade*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: max_grade
+- uid: SharpValhalla.Models.Common.CostingOptions.CyclingSpeed
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.CyclingSpeed
+  id: CyclingSpeed
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: CyclingSpeed
+  nameWithType: CostingOptions.CyclingSpeed
+  fullName: SharpValhalla.Models.Common.CostingOptions.CyclingSpeed
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: CyclingSpeed
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 99
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("cycling_speed")]
+
+      public double? CyclingSpeed { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("cycling_speed")>
+
+      Public Property CyclingSpeed As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.CyclingSpeed*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: cycling_speed
+- uid: SharpValhalla.Models.Common.CostingOptions.BicycleLaneFactor
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.BicycleLaneFactor
+  id: BicycleLaneFactor
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: BicycleLaneFactor
+  nameWithType: CostingOptions.BicycleLaneFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.BicycleLaneFactor
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: BicycleLaneFactor
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 101
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("bicycle_lane_factor")]
+
+      public double? BicycleLaneFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("bicycle_lane_factor")>
+
+      Public Property BicycleLaneFactor As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.BicycleLaneFactor*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: bicycle_lane_factor
+- uid: SharpValhalla.Models.Common.CostingOptions.CyclewayFactor
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.CyclewayFactor
+  id: CyclewayFactor
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: CyclewayFactor
+  nameWithType: CostingOptions.CyclewayFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.CyclewayFactor
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: CyclewayFactor
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 103
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("cycleway_factor")]
+
+      public double? CyclewayFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("cycleway_factor")>
+
+      Public Property CyclewayFactor As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.CyclewayFactor*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: cycleway_factor
+- uid: SharpValhalla.Models.Common.CostingOptions.MountainBikeFactor
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.MountainBikeFactor
+  id: MountainBikeFactor
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: MountainBikeFactor
+  nameWithType: CostingOptions.MountainBikeFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.MountainBikeFactor
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MountainBikeFactor
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 105
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("mountain_bike_factor")]
+
+      public double? MountainBikeFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("mountain_bike_factor")>
+
+      Public Property MountainBikeFactor As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.MountainBikeFactor*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: mountain_bike_factor
+- uid: SharpValhalla.Models.Common.CostingOptions.AvoidBadSurfaces
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.AvoidBadSurfaces
+  id: AvoidBadSurfaces
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: AvoidBadSurfaces
+  nameWithType: CostingOptions.AvoidBadSurfaces
+  fullName: SharpValhalla.Models.Common.CostingOptions.AvoidBadSurfaces
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: AvoidBadSurfaces
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 107
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("avoid_bad_surfaces")]
+
+      public bool? AvoidBadSurfaces { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <JsonPropertyName("avoid_bad_surfaces")>
+
+      Public Property AvoidBadSurfaces As Boolean?
+  overload: SharpValhalla.Models.Common.CostingOptions.AvoidBadSurfaces*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: avoid_bad_surfaces
+- uid: SharpValhalla.Models.Common.CostingOptions.TransitModeFilters
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.TransitModeFilters
+  id: TransitModeFilters
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: TransitModeFilters
+  nameWithType: CostingOptions.TransitModeFilters
+  fullName: SharpValhalla.Models.Common.CostingOptions.TransitModeFilters
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TransitModeFilters
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 111
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("transit_mode_filters")]
+
+      public Dictionary<string, object>? TransitModeFilters { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    content.vb: >-
+      <JsonPropertyName("transit_mode_filters")>
+
+      Public Property TransitModeFilters As Dictionary(Of String, Object)
+  overload: SharpValhalla.Models.Common.CostingOptions.TransitModeFilters*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: transit_mode_filters
+- uid: SharpValhalla.Models.Common.CostingOptions.TransitWalkingDistance
+  commentId: P:SharpValhalla.Models.Common.CostingOptions.TransitWalkingDistance
+  id: TransitWalkingDistance
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: TransitWalkingDistance
+  nameWithType: CostingOptions.TransitWalkingDistance
+  fullName: SharpValhalla.Models.Common.CostingOptions.TransitWalkingDistance
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TransitWalkingDistance
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 113
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  syntax:
+    content: >-
+      [JsonPropertyName("transit_walking_distance")]
+
+      public double? TransitWalkingDistance { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: >-
+      <JsonPropertyName("transit_walking_distance")>
+
+      Public Property TransitWalkingDistance As Double?
+  overload: SharpValhalla.Models.Common.CostingOptions.TransitWalkingDistance*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: transit_walking_distance
+- uid: SharpValhalla.Models.Common.CostingOptions.#ctor(System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Boolean},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Boolean},System.Collections.Generic.Dictionary{System.String,System.Object},System.Nullable{System.Double})
+  commentId: M:SharpValhalla.Models.Common.CostingOptions.#ctor(System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Boolean},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Boolean},System.Collections.Generic.Dictionary{System.String,System.Object},System.Nullable{System.Double})
+  id: '#ctor(System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Boolean},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Boolean},System.Collections.Generic.Dictionary{System.String,System.Object},System.Nullable{System.Double})'
+  parent: SharpValhalla.Models.Common.CostingOptions
+  langs:
+  - csharp
+  - vb
+  name: CostingOptions(bool?, bool?, bool?, bool?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, int?, bool?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, bool?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, bool?, Dictionary<string, object>?, double?)
+  nameWithType: CostingOptions.CostingOptions(bool?, bool?, bool?, bool?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, int?, bool?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, bool?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, bool?, Dictionary<string, object>?, double?)
+  fullName: SharpValhalla.Models.Common.CostingOptions.CostingOptions(bool?, bool?, bool?, bool?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, int?, bool?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, bool?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, bool?, System.Collections.Generic.Dictionary<string, object>?, double?)
+  type: Constructor
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Common/CostingOptions.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: .ctor
+    path: ../src/SharpValhalla/Models/Common/CostingOptions.cs
+    startLine: 119
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Common
+  summary: Creates a new costing options configuration.
+  example: []
+  syntax:
+    content: public CostingOptions(bool? avoidTolls = null, bool? avoidHighways = null, bool? avoidFerries = null, bool? shortcut = null, double? maneuverPenalty = null, double? gateCost = null, double? gateAccessCost = null, double? tollBoothCost = null, double? tollBoothAccessCost = null, double? countryChangingPenalty = null, double? length = null, double? width = null, double? height = null, double? weight = null, double? axleLoad = null, int? axleCount = null, bool? hazmat = null, double? motorwayFactor = null, double? trunkFactor = null, double? primaryFactor = null, double? secondaryFactor = null, double? tertiaryFactor = null, double? unclassifiedFactor = null, double? residentialFactor = null, double? serviceRoadFactor = null, double? topSpeed = null, double? speedFactor = null, double? uturnPenalty = null, bool? useTraffic = null, double? walkingSpeed = null, double? walkwayFactor = null, double? sidewalkFactor = null, double? alleyFactor = null, double? drivewayFactor = null, double? crossingPenalty = null, double? maxGrade = null, double? cyclingSpeed = null, double? bicycleLaneFactor = null, double? cyclewayFactor = null, double? mountainBikeFactor = null, bool? avoidBadSurfaces = null, Dictionary<string, object>? transitModeFilters = null, double? transitWalkingDistance = null)
+    parameters:
+    - id: avoidTolls
+      type: System.Nullable{System.Boolean}
+    - id: avoidHighways
+      type: System.Nullable{System.Boolean}
+    - id: avoidFerries
+      type: System.Nullable{System.Boolean}
+    - id: shortcut
+      type: System.Nullable{System.Boolean}
+    - id: maneuverPenalty
+      type: System.Nullable{System.Double}
+    - id: gateCost
+      type: System.Nullable{System.Double}
+    - id: gateAccessCost
+      type: System.Nullable{System.Double}
+    - id: tollBoothCost
+      type: System.Nullable{System.Double}
+    - id: tollBoothAccessCost
+      type: System.Nullable{System.Double}
+    - id: countryChangingPenalty
+      type: System.Nullable{System.Double}
+    - id: length
+      type: System.Nullable{System.Double}
+    - id: width
+      type: System.Nullable{System.Double}
+    - id: height
+      type: System.Nullable{System.Double}
+    - id: weight
+      type: System.Nullable{System.Double}
+    - id: axleLoad
+      type: System.Nullable{System.Double}
+    - id: axleCount
+      type: System.Nullable{System.Int32}
+    - id: hazmat
+      type: System.Nullable{System.Boolean}
+    - id: motorwayFactor
+      type: System.Nullable{System.Double}
+    - id: trunkFactor
+      type: System.Nullable{System.Double}
+    - id: primaryFactor
+      type: System.Nullable{System.Double}
+    - id: secondaryFactor
+      type: System.Nullable{System.Double}
+    - id: tertiaryFactor
+      type: System.Nullable{System.Double}
+    - id: unclassifiedFactor
+      type: System.Nullable{System.Double}
+    - id: residentialFactor
+      type: System.Nullable{System.Double}
+    - id: serviceRoadFactor
+      type: System.Nullable{System.Double}
+    - id: topSpeed
+      type: System.Nullable{System.Double}
+    - id: speedFactor
+      type: System.Nullable{System.Double}
+    - id: uturnPenalty
+      type: System.Nullable{System.Double}
+    - id: useTraffic
+      type: System.Nullable{System.Boolean}
+    - id: walkingSpeed
+      type: System.Nullable{System.Double}
+    - id: walkwayFactor
+      type: System.Nullable{System.Double}
+    - id: sidewalkFactor
+      type: System.Nullable{System.Double}
+    - id: alleyFactor
+      type: System.Nullable{System.Double}
+    - id: drivewayFactor
+      type: System.Nullable{System.Double}
+    - id: crossingPenalty
+      type: System.Nullable{System.Double}
+    - id: maxGrade
+      type: System.Nullable{System.Double}
+    - id: cyclingSpeed
+      type: System.Nullable{System.Double}
+    - id: bicycleLaneFactor
+      type: System.Nullable{System.Double}
+    - id: cyclewayFactor
+      type: System.Nullable{System.Double}
+    - id: mountainBikeFactor
+      type: System.Nullable{System.Double}
+    - id: avoidBadSurfaces
+      type: System.Nullable{System.Boolean}
+    - id: transitModeFilters
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    - id: transitWalkingDistance
+      type: System.Nullable{System.Double}
+    content.vb: Public Sub New(avoidTolls As Boolean? = Nothing, avoidHighways As Boolean? = Nothing, avoidFerries As Boolean? = Nothing, shortcut As Boolean? = Nothing, maneuverPenalty As Double? = Nothing, gateCost As Double? = Nothing, gateAccessCost As Double? = Nothing, tollBoothCost As Double? = Nothing, tollBoothAccessCost As Double? = Nothing, countryChangingPenalty As Double? = Nothing, length As Double? = Nothing, width As Double? = Nothing, height As Double? = Nothing, weight As Double? = Nothing, axleLoad As Double? = Nothing, axleCount As Integer? = Nothing, hazmat As Boolean? = Nothing, motorwayFactor As Double? = Nothing, trunkFactor As Double? = Nothing, primaryFactor As Double? = Nothing, secondaryFactor As Double? = Nothing, tertiaryFactor As Double? = Nothing, unclassifiedFactor As Double? = Nothing, residentialFactor As Double? = Nothing, serviceRoadFactor As Double? = Nothing, topSpeed As Double? = Nothing, speedFactor As Double? = Nothing, uturnPenalty As Double? = Nothing, useTraffic As Boolean? = Nothing, walkingSpeed As Double? = Nothing, walkwayFactor As Double? = Nothing, sidewalkFactor As Double? = Nothing, alleyFactor As Double? = Nothing, drivewayFactor As Double? = Nothing, crossingPenalty As Double? = Nothing, maxGrade As Double? = Nothing, cyclingSpeed As Double? = Nothing, bicycleLaneFactor As Double? = Nothing, cyclewayFactor As Double? = Nothing, mountainBikeFactor As Double? = Nothing, avoidBadSurfaces As Boolean? = Nothing, transitModeFilters As Dictionary(Of String, Object) = Nothing, transitWalkingDistance As Double? = Nothing)
+  overload: SharpValhalla.Models.Common.CostingOptions.#ctor*
+  nameWithType.vb: CostingOptions.New(Boolean?, Boolean?, Boolean?, Boolean?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Integer?, Boolean?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Boolean?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Boolean?, Dictionary(Of String, Object), Double?)
+  fullName.vb: SharpValhalla.Models.Common.CostingOptions.New(Boolean?, Boolean?, Boolean?, Boolean?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Integer?, Boolean?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Boolean?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Boolean?, System.Collections.Generic.Dictionary(Of String, Object), Double?)
+  name.vb: New(Boolean?, Boolean?, Boolean?, Boolean?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Integer?, Boolean?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Boolean?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Double?, Boolean?, Dictionary(Of String, Object), Double?)
+references:
+- uid: SharpValhalla.Models.Common
+  commentId: N:SharpValhalla.Models.Common
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Common
+  nameWithType: SharpValhalla.Models.Common
+  fullName: SharpValhalla.Models.Common
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Common
+    name: Common
+    href: SharpValhalla.Models.Common.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Common
+    name: Common
+    href: SharpValhalla.Models.Common.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SharpValhalla.Models.Common.CostingOptions.AvoidTolls*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.AvoidTolls
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_AvoidTolls
+  name: AvoidTolls
+  nameWithType: CostingOptions.AvoidTolls
+  fullName: SharpValhalla.Models.Common.CostingOptions.AvoidTolls
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SharpValhalla.Models.Common.CostingOptions.AvoidHighways*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.AvoidHighways
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_AvoidHighways
+  name: AvoidHighways
+  nameWithType: CostingOptions.AvoidHighways
+  fullName: SharpValhalla.Models.Common.CostingOptions.AvoidHighways
+- uid: SharpValhalla.Models.Common.CostingOptions.AvoidFerries*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.AvoidFerries
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_AvoidFerries
+  name: AvoidFerries
+  nameWithType: CostingOptions.AvoidFerries
+  fullName: SharpValhalla.Models.Common.CostingOptions.AvoidFerries
+- uid: SharpValhalla.Models.Common.CostingOptions.Shortcut*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.Shortcut
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_Shortcut
+  name: Shortcut
+  nameWithType: CostingOptions.Shortcut
+  fullName: SharpValhalla.Models.Common.CostingOptions.Shortcut
+- uid: SharpValhalla.Models.Common.CostingOptions.ManeuverPenalty*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.ManeuverPenalty
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_ManeuverPenalty
+  name: ManeuverPenalty
+  nameWithType: CostingOptions.ManeuverPenalty
+  fullName: SharpValhalla.Models.Common.CostingOptions.ManeuverPenalty
+- uid: System.Nullable{System.Double}
+  commentId: T:System.Nullable{System.Double}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double?
+  nameWithType: double?
+  fullName: double?
+  nameWithType.vb: Double?
+  fullName.vb: Double?
+  name.vb: Double?
+  spec.csharp:
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '?'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '?'
+- uid: SharpValhalla.Models.Common.CostingOptions.GateCost*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.GateCost
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_GateCost
+  name: GateCost
+  nameWithType: CostingOptions.GateCost
+  fullName: SharpValhalla.Models.Common.CostingOptions.GateCost
+- uid: SharpValhalla.Models.Common.CostingOptions.GateAccessCost*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.GateAccessCost
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_GateAccessCost
+  name: GateAccessCost
+  nameWithType: CostingOptions.GateAccessCost
+  fullName: SharpValhalla.Models.Common.CostingOptions.GateAccessCost
+- uid: SharpValhalla.Models.Common.CostingOptions.TollBoothCost*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.TollBoothCost
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_TollBoothCost
+  name: TollBoothCost
+  nameWithType: CostingOptions.TollBoothCost
+  fullName: SharpValhalla.Models.Common.CostingOptions.TollBoothCost
+- uid: SharpValhalla.Models.Common.CostingOptions.TollBoothAccessCost*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.TollBoothAccessCost
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_TollBoothAccessCost
+  name: TollBoothAccessCost
+  nameWithType: CostingOptions.TollBoothAccessCost
+  fullName: SharpValhalla.Models.Common.CostingOptions.TollBoothAccessCost
+- uid: SharpValhalla.Models.Common.CostingOptions.CountryChangingPenalty*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.CountryChangingPenalty
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_CountryChangingPenalty
+  name: CountryChangingPenalty
+  nameWithType: CostingOptions.CountryChangingPenalty
+  fullName: SharpValhalla.Models.Common.CostingOptions.CountryChangingPenalty
+- uid: SharpValhalla.Models.Common.CostingOptions.Length*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.Length
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_Length
+  name: Length
+  nameWithType: CostingOptions.Length
+  fullName: SharpValhalla.Models.Common.CostingOptions.Length
+- uid: SharpValhalla.Models.Common.CostingOptions.Width*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.Width
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_Width
+  name: Width
+  nameWithType: CostingOptions.Width
+  fullName: SharpValhalla.Models.Common.CostingOptions.Width
+- uid: SharpValhalla.Models.Common.CostingOptions.Height*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.Height
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_Height
+  name: Height
+  nameWithType: CostingOptions.Height
+  fullName: SharpValhalla.Models.Common.CostingOptions.Height
+- uid: SharpValhalla.Models.Common.CostingOptions.Weight*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.Weight
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_Weight
+  name: Weight
+  nameWithType: CostingOptions.Weight
+  fullName: SharpValhalla.Models.Common.CostingOptions.Weight
+- uid: SharpValhalla.Models.Common.CostingOptions.AxleLoad*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.AxleLoad
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_AxleLoad
+  name: AxleLoad
+  nameWithType: CostingOptions.AxleLoad
+  fullName: SharpValhalla.Models.Common.CostingOptions.AxleLoad
+- uid: SharpValhalla.Models.Common.CostingOptions.AxleCount*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.AxleCount
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_AxleCount
+  name: AxleCount
+  nameWithType: CostingOptions.AxleCount
+  fullName: SharpValhalla.Models.Common.CostingOptions.AxleCount
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: SharpValhalla.Models.Common.CostingOptions.Hazmat*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.Hazmat
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_Hazmat
+  name: Hazmat
+  nameWithType: CostingOptions.Hazmat
+  fullName: SharpValhalla.Models.Common.CostingOptions.Hazmat
+- uid: SharpValhalla.Models.Common.CostingOptions.MotorwayFactor*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.MotorwayFactor
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_MotorwayFactor
+  name: MotorwayFactor
+  nameWithType: CostingOptions.MotorwayFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.MotorwayFactor
+- uid: SharpValhalla.Models.Common.CostingOptions.TrunkFactor*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.TrunkFactor
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_TrunkFactor
+  name: TrunkFactor
+  nameWithType: CostingOptions.TrunkFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.TrunkFactor
+- uid: SharpValhalla.Models.Common.CostingOptions.PrimaryFactor*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.PrimaryFactor
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_PrimaryFactor
+  name: PrimaryFactor
+  nameWithType: CostingOptions.PrimaryFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.PrimaryFactor
+- uid: SharpValhalla.Models.Common.CostingOptions.SecondaryFactor*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.SecondaryFactor
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_SecondaryFactor
+  name: SecondaryFactor
+  nameWithType: CostingOptions.SecondaryFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.SecondaryFactor
+- uid: SharpValhalla.Models.Common.CostingOptions.TertiaryFactor*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.TertiaryFactor
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_TertiaryFactor
+  name: TertiaryFactor
+  nameWithType: CostingOptions.TertiaryFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.TertiaryFactor
+- uid: SharpValhalla.Models.Common.CostingOptions.UnclassifiedFactor*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.UnclassifiedFactor
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_UnclassifiedFactor
+  name: UnclassifiedFactor
+  nameWithType: CostingOptions.UnclassifiedFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.UnclassifiedFactor
+- uid: SharpValhalla.Models.Common.CostingOptions.ResidentialFactor*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.ResidentialFactor
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_ResidentialFactor
+  name: ResidentialFactor
+  nameWithType: CostingOptions.ResidentialFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.ResidentialFactor
+- uid: SharpValhalla.Models.Common.CostingOptions.ServiceRoadFactor*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.ServiceRoadFactor
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_ServiceRoadFactor
+  name: ServiceRoadFactor
+  nameWithType: CostingOptions.ServiceRoadFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.ServiceRoadFactor
+- uid: SharpValhalla.Models.Common.CostingOptions.TopSpeed*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.TopSpeed
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_TopSpeed
+  name: TopSpeed
+  nameWithType: CostingOptions.TopSpeed
+  fullName: SharpValhalla.Models.Common.CostingOptions.TopSpeed
+- uid: SharpValhalla.Models.Common.CostingOptions.SpeedFactor*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.SpeedFactor
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_SpeedFactor
+  name: SpeedFactor
+  nameWithType: CostingOptions.SpeedFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.SpeedFactor
+- uid: SharpValhalla.Models.Common.CostingOptions.UturnPenalty*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.UturnPenalty
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_UturnPenalty
+  name: UturnPenalty
+  nameWithType: CostingOptions.UturnPenalty
+  fullName: SharpValhalla.Models.Common.CostingOptions.UturnPenalty
+- uid: SharpValhalla.Models.Common.CostingOptions.UseTraffic*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.UseTraffic
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_UseTraffic
+  name: UseTraffic
+  nameWithType: CostingOptions.UseTraffic
+  fullName: SharpValhalla.Models.Common.CostingOptions.UseTraffic
+- uid: SharpValhalla.Models.Common.CostingOptions.WalkingSpeed*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.WalkingSpeed
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_WalkingSpeed
+  name: WalkingSpeed
+  nameWithType: CostingOptions.WalkingSpeed
+  fullName: SharpValhalla.Models.Common.CostingOptions.WalkingSpeed
+- uid: SharpValhalla.Models.Common.CostingOptions.WalkwayFactor*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.WalkwayFactor
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_WalkwayFactor
+  name: WalkwayFactor
+  nameWithType: CostingOptions.WalkwayFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.WalkwayFactor
+- uid: SharpValhalla.Models.Common.CostingOptions.SidewalkFactor*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.SidewalkFactor
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_SidewalkFactor
+  name: SidewalkFactor
+  nameWithType: CostingOptions.SidewalkFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.SidewalkFactor
+- uid: SharpValhalla.Models.Common.CostingOptions.AlleyFactor*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.AlleyFactor
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_AlleyFactor
+  name: AlleyFactor
+  nameWithType: CostingOptions.AlleyFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.AlleyFactor
+- uid: SharpValhalla.Models.Common.CostingOptions.DrivewayFactor*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.DrivewayFactor
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_DrivewayFactor
+  name: DrivewayFactor
+  nameWithType: CostingOptions.DrivewayFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.DrivewayFactor
+- uid: SharpValhalla.Models.Common.CostingOptions.CrossingPenalty*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.CrossingPenalty
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_CrossingPenalty
+  name: CrossingPenalty
+  nameWithType: CostingOptions.CrossingPenalty
+  fullName: SharpValhalla.Models.Common.CostingOptions.CrossingPenalty
+- uid: SharpValhalla.Models.Common.CostingOptions.MaxGrade*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.MaxGrade
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_MaxGrade
+  name: MaxGrade
+  nameWithType: CostingOptions.MaxGrade
+  fullName: SharpValhalla.Models.Common.CostingOptions.MaxGrade
+- uid: SharpValhalla.Models.Common.CostingOptions.CyclingSpeed*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.CyclingSpeed
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_CyclingSpeed
+  name: CyclingSpeed
+  nameWithType: CostingOptions.CyclingSpeed
+  fullName: SharpValhalla.Models.Common.CostingOptions.CyclingSpeed
+- uid: SharpValhalla.Models.Common.CostingOptions.BicycleLaneFactor*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.BicycleLaneFactor
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_BicycleLaneFactor
+  name: BicycleLaneFactor
+  nameWithType: CostingOptions.BicycleLaneFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.BicycleLaneFactor
+- uid: SharpValhalla.Models.Common.CostingOptions.CyclewayFactor*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.CyclewayFactor
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_CyclewayFactor
+  name: CyclewayFactor
+  nameWithType: CostingOptions.CyclewayFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.CyclewayFactor
+- uid: SharpValhalla.Models.Common.CostingOptions.MountainBikeFactor*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.MountainBikeFactor
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_MountainBikeFactor
+  name: MountainBikeFactor
+  nameWithType: CostingOptions.MountainBikeFactor
+  fullName: SharpValhalla.Models.Common.CostingOptions.MountainBikeFactor
+- uid: SharpValhalla.Models.Common.CostingOptions.AvoidBadSurfaces*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.AvoidBadSurfaces
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_AvoidBadSurfaces
+  name: AvoidBadSurfaces
+  nameWithType: CostingOptions.AvoidBadSurfaces
+  fullName: SharpValhalla.Models.Common.CostingOptions.AvoidBadSurfaces
+- uid: SharpValhalla.Models.Common.CostingOptions.TransitModeFilters*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.TransitModeFilters
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_TransitModeFilters
+  name: TransitModeFilters
+  nameWithType: CostingOptions.TransitModeFilters
+  fullName: SharpValhalla.Models.Common.CostingOptions.TransitModeFilters
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, object>
+  nameWithType: Dictionary<string, object>
+  fullName: System.Collections.Generic.Dictionary<string, object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SharpValhalla.Models.Common.CostingOptions.TransitWalkingDistance*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.TransitWalkingDistance
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions_TransitWalkingDistance
+  name: TransitWalkingDistance
+  nameWithType: CostingOptions.TransitWalkingDistance
+  fullName: SharpValhalla.Models.Common.CostingOptions.TransitWalkingDistance
+- uid: SharpValhalla.Models.Common.CostingOptions.#ctor*
+  commentId: Overload:SharpValhalla.Models.Common.CostingOptions.#ctor
+  href: SharpValhalla.Models.Common.CostingOptions.html#SharpValhalla_Models_Common_CostingOptions__ctor_System_Nullable_System_Boolean__System_Nullable_System_Boolean__System_Nullable_System_Boolean__System_Nullable_System_Boolean__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Int32__System_Nullable_System_Boolean__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Boolean__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Boolean__System_Collections_Generic_Dictionary_System_String_System_Object__System_Nullable_System_Double__
+  name: CostingOptions
+  nameWithType: CostingOptions.CostingOptions
+  fullName: SharpValhalla.Models.Common.CostingOptions.CostingOptions
+  nameWithType.vb: CostingOptions.New
+  fullName.vb: SharpValhalla.Models.Common.CostingOptions.New
+  name.vb: New

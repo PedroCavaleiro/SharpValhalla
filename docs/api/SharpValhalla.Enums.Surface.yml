@@ -1,0 +1,298 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.Surface
+  commentId: T:SharpValhalla.Enums.Surface
+  id: Surface
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.Surface.Compacted
+  - SharpValhalla.Enums.Surface.Dirt
+  - SharpValhalla.Enums.Surface.Gravel
+  - SharpValhalla.Enums.Surface.Impassable
+  - SharpValhalla.Enums.Surface.Path
+  - SharpValhalla.Enums.Surface.Paved
+  - SharpValhalla.Enums.Surface.PavedRough
+  - SharpValhalla.Enums.Surface.PavedSmooth
+  langs:
+  - csharp
+  - vb
+  name: Surface
+  nameWithType: Surface
+  fullName: SharpValhalla.Enums.Surface
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Surface.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Surface
+    path: ../src/SharpValhalla/Enums/Surface.cs
+    startLine: 10
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    Represents the different surface types for edges in Valhalla routing.
+
+
+    Each case corresponds to a specific surface quality or condition.
+
+    The raw value matches the exact key string used in Valhalla.
+  example: []
+  syntax:
+    content: public enum Surface
+    content.vb: Public Enum Surface
+- uid: SharpValhalla.Enums.Surface.PavedSmooth
+  commentId: F:SharpValhalla.Enums.Surface.PavedSmooth
+  id: PavedSmooth
+  parent: SharpValhalla.Enums.Surface
+  langs:
+  - csharp
+  - vb
+  name: PavedSmooth
+  nameWithType: Surface.PavedSmooth
+  fullName: SharpValhalla.Enums.Surface.PavedSmooth
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Surface.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: PavedSmooth
+    path: ../src/SharpValhalla/Enums/Surface.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Paved smooth surface.
+  example: []
+  syntax:
+    content: PavedSmooth = 0
+    return:
+      type: SharpValhalla.Enums.Surface
+- uid: SharpValhalla.Enums.Surface.Paved
+  commentId: F:SharpValhalla.Enums.Surface.Paved
+  id: Paved
+  parent: SharpValhalla.Enums.Surface
+  langs:
+  - csharp
+  - vb
+  name: Paved
+  nameWithType: Surface.Paved
+  fullName: SharpValhalla.Enums.Surface.Paved
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Surface.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Paved
+    path: ../src/SharpValhalla/Enums/Surface.cs
+    startLine: 15
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Paved surface.
+  example: []
+  syntax:
+    content: Paved = 1
+    return:
+      type: SharpValhalla.Enums.Surface
+- uid: SharpValhalla.Enums.Surface.PavedRough
+  commentId: F:SharpValhalla.Enums.Surface.PavedRough
+  id: PavedRough
+  parent: SharpValhalla.Enums.Surface
+  langs:
+  - csharp
+  - vb
+  name: PavedRough
+  nameWithType: Surface.PavedRough
+  fullName: SharpValhalla.Enums.Surface.PavedRough
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Surface.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: PavedRough
+    path: ../src/SharpValhalla/Enums/Surface.cs
+    startLine: 18
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Paved rough surface.
+  example: []
+  syntax:
+    content: PavedRough = 2
+    return:
+      type: SharpValhalla.Enums.Surface
+- uid: SharpValhalla.Enums.Surface.Compacted
+  commentId: F:SharpValhalla.Enums.Surface.Compacted
+  id: Compacted
+  parent: SharpValhalla.Enums.Surface
+  langs:
+  - csharp
+  - vb
+  name: Compacted
+  nameWithType: Surface.Compacted
+  fullName: SharpValhalla.Enums.Surface.Compacted
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Surface.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Compacted
+    path: ../src/SharpValhalla/Enums/Surface.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Compacted surface.
+  example: []
+  syntax:
+    content: Compacted = 3
+    return:
+      type: SharpValhalla.Enums.Surface
+- uid: SharpValhalla.Enums.Surface.Dirt
+  commentId: F:SharpValhalla.Enums.Surface.Dirt
+  id: Dirt
+  parent: SharpValhalla.Enums.Surface
+  langs:
+  - csharp
+  - vb
+  name: Dirt
+  nameWithType: Surface.Dirt
+  fullName: SharpValhalla.Enums.Surface.Dirt
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Surface.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Dirt
+    path: ../src/SharpValhalla/Enums/Surface.cs
+    startLine: 24
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Dirt surface.
+  example: []
+  syntax:
+    content: Dirt = 4
+    return:
+      type: SharpValhalla.Enums.Surface
+- uid: SharpValhalla.Enums.Surface.Gravel
+  commentId: F:SharpValhalla.Enums.Surface.Gravel
+  id: Gravel
+  parent: SharpValhalla.Enums.Surface
+  langs:
+  - csharp
+  - vb
+  name: Gravel
+  nameWithType: Surface.Gravel
+  fullName: SharpValhalla.Enums.Surface.Gravel
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Surface.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Gravel
+    path: ../src/SharpValhalla/Enums/Surface.cs
+    startLine: 27
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Gravel surface.
+  example: []
+  syntax:
+    content: Gravel = 5
+    return:
+      type: SharpValhalla.Enums.Surface
+- uid: SharpValhalla.Enums.Surface.Path
+  commentId: F:SharpValhalla.Enums.Surface.Path
+  id: Path
+  parent: SharpValhalla.Enums.Surface
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: Surface.Path
+  fullName: SharpValhalla.Enums.Surface.Path
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Surface.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Path
+    path: ../src/SharpValhalla/Enums/Surface.cs
+    startLine: 30
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Path surface.
+  example: []
+  syntax:
+    content: Path = 6
+    return:
+      type: SharpValhalla.Enums.Surface
+- uid: SharpValhalla.Enums.Surface.Impassable
+  commentId: F:SharpValhalla.Enums.Surface.Impassable
+  id: Impassable
+  parent: SharpValhalla.Enums.Surface
+  langs:
+  - csharp
+  - vb
+  name: Impassable
+  nameWithType: Surface.Impassable
+  fullName: SharpValhalla.Enums.Surface.Impassable
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Surface.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Impassable
+    path: ../src/SharpValhalla/Enums/Surface.cs
+    startLine: 33
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Impassable surface.
+  example: []
+  syntax:
+    content: Impassable = 7
+    return:
+      type: SharpValhalla.Enums.Surface
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.Surface
+  commentId: T:SharpValhalla.Enums.Surface
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Surface.html
+  name: Surface
+  nameWithType: Surface
+  fullName: SharpValhalla.Enums.Surface

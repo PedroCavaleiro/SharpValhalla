@@ -1,0 +1,606 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Models.Response.SignResponse
+  commentId: T:SharpValhalla.Models.Response.SignResponse
+  id: SignResponse
+  parent: SharpValhalla.Models.Response
+  children:
+  - SharpValhalla.Models.Response.SignResponse.ExitBranchElements
+  - SharpValhalla.Models.Response.SignResponse.ExitNameElements
+  - SharpValhalla.Models.Response.SignResponse.ExitNumberElements
+  - SharpValhalla.Models.Response.SignResponse.ExitTowardElements
+  langs:
+  - csharp
+  - vb
+  name: SignResponse
+  nameWithType: SignResponse
+  fullName: SharpValhalla.Models.Response.SignResponse
+  type: Class
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/SignResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: SignResponse
+    path: ../src/SharpValhalla/Models/Response/SignResponse.cs
+    startLine: 8
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response
+  summary: Sign information attached to a maneuver, grouping different types of sign elements (exit number, branch, toward, name).
+  example: []
+  syntax:
+    content: public class SignResponse
+    content.vb: Public Class SignResponse
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SharpValhalla.Models.Response.SignResponse.ExitNumberElements
+  commentId: P:SharpValhalla.Models.Response.SignResponse.ExitNumberElements
+  id: ExitNumberElements
+  parent: SharpValhalla.Models.Response.SignResponse
+  langs:
+  - csharp
+  - vb
+  name: ExitNumberElements
+  nameWithType: SignResponse.ExitNumberElements
+  fullName: SharpValhalla.Models.Response.SignResponse.ExitNumberElements
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/SignResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ExitNumberElements
+    path: ../src/SharpValhalla/Models/Response/SignResponse.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response
+  summary: Elements representing exit numbers.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("exit_number_elements")]
+
+      public List<ManeuverSignElement>? ExitNumberElements { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SharpValhalla.Models.Response.ManeuverSignElement}
+    content.vb: >-
+      <JsonPropertyName("exit_number_elements")>
+
+      Public Property ExitNumberElements As List(Of ManeuverSignElement)
+  overload: SharpValhalla.Models.Response.SignResponse.ExitNumberElements*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: exit_number_elements
+- uid: SharpValhalla.Models.Response.SignResponse.ExitBranchElements
+  commentId: P:SharpValhalla.Models.Response.SignResponse.ExitBranchElements
+  id: ExitBranchElements
+  parent: SharpValhalla.Models.Response.SignResponse
+  langs:
+  - csharp
+  - vb
+  name: ExitBranchElements
+  nameWithType: SignResponse.ExitBranchElements
+  fullName: SharpValhalla.Models.Response.SignResponse.ExitBranchElements
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/SignResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ExitBranchElements
+    path: ../src/SharpValhalla/Models/Response/SignResponse.cs
+    startLine: 18
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response
+  summary: Elements representing exit branches.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("exit_branch_elements")]
+
+      public List<ManeuverSignElement>? ExitBranchElements { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SharpValhalla.Models.Response.ManeuverSignElement}
+    content.vb: >-
+      <JsonPropertyName("exit_branch_elements")>
+
+      Public Property ExitBranchElements As List(Of ManeuverSignElement)
+  overload: SharpValhalla.Models.Response.SignResponse.ExitBranchElements*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: exit_branch_elements
+- uid: SharpValhalla.Models.Response.SignResponse.ExitTowardElements
+  commentId: P:SharpValhalla.Models.Response.SignResponse.ExitTowardElements
+  id: ExitTowardElements
+  parent: SharpValhalla.Models.Response.SignResponse
+  langs:
+  - csharp
+  - vb
+  name: ExitTowardElements
+  nameWithType: SignResponse.ExitTowardElements
+  fullName: SharpValhalla.Models.Response.SignResponse.ExitTowardElements
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/SignResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ExitTowardElements
+    path: ../src/SharpValhalla/Models/Response/SignResponse.cs
+    startLine: 24
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response
+  summary: Elements representing exit toward indicators.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("exit_toward_elements")]
+
+      public List<ManeuverSignElement>? ExitTowardElements { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SharpValhalla.Models.Response.ManeuverSignElement}
+    content.vb: >-
+      <JsonPropertyName("exit_toward_elements")>
+
+      Public Property ExitTowardElements As List(Of ManeuverSignElement)
+  overload: SharpValhalla.Models.Response.SignResponse.ExitTowardElements*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: exit_toward_elements
+- uid: SharpValhalla.Models.Response.SignResponse.ExitNameElements
+  commentId: P:SharpValhalla.Models.Response.SignResponse.ExitNameElements
+  id: ExitNameElements
+  parent: SharpValhalla.Models.Response.SignResponse
+  langs:
+  - csharp
+  - vb
+  name: ExitNameElements
+  nameWithType: SignResponse.ExitNameElements
+  fullName: SharpValhalla.Models.Response.SignResponse.ExitNameElements
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/SignResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ExitNameElements
+    path: ../src/SharpValhalla/Models/Response/SignResponse.cs
+    startLine: 30
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response
+  summary: Elements representing exit names.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("exit_name_elements")]
+
+      public List<ManeuverSignElement>? ExitNameElements { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SharpValhalla.Models.Response.ManeuverSignElement}
+    content.vb: >-
+      <JsonPropertyName("exit_name_elements")>
+
+      Public Property ExitNameElements As List(Of ManeuverSignElement)
+  overload: SharpValhalla.Models.Response.SignResponse.ExitNameElements*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: exit_name_elements
+references:
+- uid: SharpValhalla.Models.Response
+  commentId: N:SharpValhalla.Models.Response
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Response
+  nameWithType: SharpValhalla.Models.Response
+  fullName: SharpValhalla.Models.Response
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Response
+    name: Response
+    href: SharpValhalla.Models.Response.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Response
+    name: Response
+    href: SharpValhalla.Models.Response.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SharpValhalla.Models.Response.SignResponse.ExitNumberElements*
+  commentId: Overload:SharpValhalla.Models.Response.SignResponse.ExitNumberElements
+  href: SharpValhalla.Models.Response.SignResponse.html#SharpValhalla_Models_Response_SignResponse_ExitNumberElements
+  name: ExitNumberElements
+  nameWithType: SignResponse.ExitNumberElements
+  fullName: SharpValhalla.Models.Response.SignResponse.ExitNumberElements
+- uid: System.Collections.Generic.List{SharpValhalla.Models.Response.ManeuverSignElement}
+  commentId: T:System.Collections.Generic.List{SharpValhalla.Models.Response.ManeuverSignElement}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ManeuverSignElement>
+  nameWithType: List<ManeuverSignElement>
+  fullName: System.Collections.Generic.List<SharpValhalla.Models.Response.ManeuverSignElement>
+  nameWithType.vb: List(Of ManeuverSignElement)
+  fullName.vb: System.Collections.Generic.List(Of SharpValhalla.Models.Response.ManeuverSignElement)
+  name.vb: List(Of ManeuverSignElement)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SharpValhalla.Models.Response.ManeuverSignElement
+    name: ManeuverSignElement
+    href: SharpValhalla.Models.Response.ManeuverSignElement.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SharpValhalla.Models.Response.ManeuverSignElement
+    name: ManeuverSignElement
+    href: SharpValhalla.Models.Response.ManeuverSignElement.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SharpValhalla.Models.Response.SignResponse.ExitBranchElements*
+  commentId: Overload:SharpValhalla.Models.Response.SignResponse.ExitBranchElements
+  href: SharpValhalla.Models.Response.SignResponse.html#SharpValhalla_Models_Response_SignResponse_ExitBranchElements
+  name: ExitBranchElements
+  nameWithType: SignResponse.ExitBranchElements
+  fullName: SharpValhalla.Models.Response.SignResponse.ExitBranchElements
+- uid: SharpValhalla.Models.Response.SignResponse.ExitTowardElements*
+  commentId: Overload:SharpValhalla.Models.Response.SignResponse.ExitTowardElements
+  href: SharpValhalla.Models.Response.SignResponse.html#SharpValhalla_Models_Response_SignResponse_ExitTowardElements
+  name: ExitTowardElements
+  nameWithType: SignResponse.ExitTowardElements
+  fullName: SharpValhalla.Models.Response.SignResponse.ExitTowardElements
+- uid: SharpValhalla.Models.Response.SignResponse.ExitNameElements*
+  commentId: Overload:SharpValhalla.Models.Response.SignResponse.ExitNameElements
+  href: SharpValhalla.Models.Response.SignResponse.html#SharpValhalla_Models_Response_SignResponse_ExitNameElements
+  name: ExitNameElements
+  nameWithType: SignResponse.ExitNameElements
+  fullName: SharpValhalla.Models.Response.SignResponse.ExitNameElements

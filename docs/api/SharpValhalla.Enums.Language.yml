@@ -1,0 +1,901 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.Language
+  commentId: T:SharpValhalla.Enums.Language
+  id: Language
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.Language.BokmalNorwegian
+  - SharpValhalla.Enums.Language.Bulgarian
+  - SharpValhalla.Enums.Language.Catalan
+  - SharpValhalla.Enums.Language.Czech
+  - SharpValhalla.Enums.Language.Danish
+  - SharpValhalla.Enums.Language.Dutch
+  - SharpValhalla.Enums.Language.EnglishPirate
+  - SharpValhalla.Enums.Language.EnglishUnitedKingdom
+  - SharpValhalla.Enums.Language.EnglishUnitedStates
+  - SharpValhalla.Enums.Language.Estonian
+  - SharpValhalla.Enums.Language.Finnish
+  - SharpValhalla.Enums.Language.French
+  - SharpValhalla.Enums.Language.German
+  - SharpValhalla.Enums.Language.Greek
+  - SharpValhalla.Enums.Language.Hindi
+  - SharpValhalla.Enums.Language.Hungarian
+  - SharpValhalla.Enums.Language.Italian
+  - SharpValhalla.Enums.Language.Japanese
+  - SharpValhalla.Enums.Language.Polish
+  - SharpValhalla.Enums.Language.PortugueseBrazil
+  - SharpValhalla.Enums.Language.PortuguesePortugal
+  - SharpValhalla.Enums.Language.Romanian
+  - SharpValhalla.Enums.Language.Russian
+  - SharpValhalla.Enums.Language.Slovak
+  - SharpValhalla.Enums.Language.Slovenian
+  - SharpValhalla.Enums.Language.Spanish
+  - SharpValhalla.Enums.Language.Swedish
+  - SharpValhalla.Enums.Language.Turkish
+  - SharpValhalla.Enums.Language.Ukrainian
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: Language
+  fullName: SharpValhalla.Enums.Language
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Language
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 7
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: The language of the narration instructions based on the IETF BCP 47 language tag string. If no language is specified or the specified language is unsupported, United States-based English (en-US) is used.
+  example: []
+  syntax:
+    content: public enum Language
+    content.vb: Public Enum Language
+- uid: SharpValhalla.Enums.Language.Bulgarian
+  commentId: F:SharpValhalla.Enums.Language.Bulgarian
+  id: Bulgarian
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Bulgarian
+  nameWithType: Language.Bulgarian
+  fullName: SharpValhalla.Enums.Language.Bulgarian
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Bulgarian
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 9
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Bulgarian
+  example: []
+  syntax:
+    content: Bulgarian = 0
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Catalan
+  commentId: F:SharpValhalla.Enums.Language.Catalan
+  id: Catalan
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Catalan
+  nameWithType: Language.Catalan
+  fullName: SharpValhalla.Enums.Language.Catalan
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Catalan
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Catalan
+  example: []
+  syntax:
+    content: Catalan = 1
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Czech
+  commentId: F:SharpValhalla.Enums.Language.Czech
+  id: Czech
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Czech
+  nameWithType: Language.Czech
+  fullName: SharpValhalla.Enums.Language.Czech
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Czech
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 15
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Czech
+  example: []
+  syntax:
+    content: Czech = 2
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Danish
+  commentId: F:SharpValhalla.Enums.Language.Danish
+  id: Danish
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Danish
+  nameWithType: Language.Danish
+  fullName: SharpValhalla.Enums.Language.Danish
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Danish
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 18
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Danish
+  example: []
+  syntax:
+    content: Danish = 3
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.German
+  commentId: F:SharpValhalla.Enums.Language.German
+  id: German
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: German
+  nameWithType: Language.German
+  fullName: SharpValhalla.Enums.Language.German
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: German
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: German
+  example: []
+  syntax:
+    content: German = 4
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Greek
+  commentId: F:SharpValhalla.Enums.Language.Greek
+  id: Greek
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Greek
+  nameWithType: Language.Greek
+  fullName: SharpValhalla.Enums.Language.Greek
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Greek
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 24
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Greek
+  example: []
+  syntax:
+    content: Greek = 5
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.EnglishUnitedStates
+  commentId: F:SharpValhalla.Enums.Language.EnglishUnitedStates
+  id: EnglishUnitedStates
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: EnglishUnitedStates
+  nameWithType: Language.EnglishUnitedStates
+  fullName: SharpValhalla.Enums.Language.EnglishUnitedStates
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EnglishUnitedStates
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 27
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: English (United States)
+  example: []
+  syntax:
+    content: EnglishUnitedStates = 6
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.EnglishUnitedKingdom
+  commentId: F:SharpValhalla.Enums.Language.EnglishUnitedKingdom
+  id: EnglishUnitedKingdom
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: EnglishUnitedKingdom
+  nameWithType: Language.EnglishUnitedKingdom
+  fullName: SharpValhalla.Enums.Language.EnglishUnitedKingdom
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EnglishUnitedKingdom
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 30
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: English (United Kingdom)
+  example: []
+  syntax:
+    content: EnglishUnitedKingdom = 7
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.EnglishPirate
+  commentId: F:SharpValhalla.Enums.Language.EnglishPirate
+  id: EnglishPirate
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: EnglishPirate
+  nameWithType: Language.EnglishPirate
+  fullName: SharpValhalla.Enums.Language.EnglishPirate
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EnglishPirate
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 33
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: English (Pirate)
+  example: []
+  syntax:
+    content: EnglishPirate = 8
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Spanish
+  commentId: F:SharpValhalla.Enums.Language.Spanish
+  id: Spanish
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Spanish
+  nameWithType: Language.Spanish
+  fullName: SharpValhalla.Enums.Language.Spanish
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Spanish
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 36
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Spanish
+  example: []
+  syntax:
+    content: Spanish = 9
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Estonian
+  commentId: F:SharpValhalla.Enums.Language.Estonian
+  id: Estonian
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Estonian
+  nameWithType: Language.Estonian
+  fullName: SharpValhalla.Enums.Language.Estonian
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Estonian
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 39
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Estonian
+  example: []
+  syntax:
+    content: Estonian = 10
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Finnish
+  commentId: F:SharpValhalla.Enums.Language.Finnish
+  id: Finnish
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Finnish
+  nameWithType: Language.Finnish
+  fullName: SharpValhalla.Enums.Language.Finnish
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Finnish
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 42
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Finnish
+  example: []
+  syntax:
+    content: Finnish = 11
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.French
+  commentId: F:SharpValhalla.Enums.Language.French
+  id: French
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: French
+  nameWithType: Language.French
+  fullName: SharpValhalla.Enums.Language.French
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: French
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 45
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: French
+  example: []
+  syntax:
+    content: French = 12
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Hindi
+  commentId: F:SharpValhalla.Enums.Language.Hindi
+  id: Hindi
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Hindi
+  nameWithType: Language.Hindi
+  fullName: SharpValhalla.Enums.Language.Hindi
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Hindi
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 48
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Hindi
+  example: []
+  syntax:
+    content: Hindi = 13
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Hungarian
+  commentId: F:SharpValhalla.Enums.Language.Hungarian
+  id: Hungarian
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Hungarian
+  nameWithType: Language.Hungarian
+  fullName: SharpValhalla.Enums.Language.Hungarian
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Hungarian
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 51
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Hungarian
+  example: []
+  syntax:
+    content: Hungarian = 14
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Italian
+  commentId: F:SharpValhalla.Enums.Language.Italian
+  id: Italian
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Italian
+  nameWithType: Language.Italian
+  fullName: SharpValhalla.Enums.Language.Italian
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Italian
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 54
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Italian
+  example: []
+  syntax:
+    content: Italian = 15
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Japanese
+  commentId: F:SharpValhalla.Enums.Language.Japanese
+  id: Japanese
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Japanese
+  nameWithType: Language.Japanese
+  fullName: SharpValhalla.Enums.Language.Japanese
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Japanese
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 57
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Japanese
+  example: []
+  syntax:
+    content: Japanese = 16
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.BokmalNorwegian
+  commentId: F:SharpValhalla.Enums.Language.BokmalNorwegian
+  id: BokmalNorwegian
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: BokmalNorwegian
+  nameWithType: Language.BokmalNorwegian
+  fullName: SharpValhalla.Enums.Language.BokmalNorwegian
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: BokmalNorwegian
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 60
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Bokmal Norwegian
+  example: []
+  syntax:
+    content: BokmalNorwegian = 17
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Dutch
+  commentId: F:SharpValhalla.Enums.Language.Dutch
+  id: Dutch
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Dutch
+  nameWithType: Language.Dutch
+  fullName: SharpValhalla.Enums.Language.Dutch
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Dutch
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 63
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Dutch
+  example: []
+  syntax:
+    content: Dutch = 18
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Polish
+  commentId: F:SharpValhalla.Enums.Language.Polish
+  id: Polish
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Polish
+  nameWithType: Language.Polish
+  fullName: SharpValhalla.Enums.Language.Polish
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Polish
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 66
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Polish
+  example: []
+  syntax:
+    content: Polish = 19
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.PortuguesePortugal
+  commentId: F:SharpValhalla.Enums.Language.PortuguesePortugal
+  id: PortuguesePortugal
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: PortuguesePortugal
+  nameWithType: Language.PortuguesePortugal
+  fullName: SharpValhalla.Enums.Language.PortuguesePortugal
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: PortuguesePortugal
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 69
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Portuguese (Portugal)
+  example: []
+  syntax:
+    content: PortuguesePortugal = 20
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.PortugueseBrazil
+  commentId: F:SharpValhalla.Enums.Language.PortugueseBrazil
+  id: PortugueseBrazil
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: PortugueseBrazil
+  nameWithType: Language.PortugueseBrazil
+  fullName: SharpValhalla.Enums.Language.PortugueseBrazil
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: PortugueseBrazil
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 72
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Portuguese (Brazil)
+  example: []
+  syntax:
+    content: PortugueseBrazil = 21
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Romanian
+  commentId: F:SharpValhalla.Enums.Language.Romanian
+  id: Romanian
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Romanian
+  nameWithType: Language.Romanian
+  fullName: SharpValhalla.Enums.Language.Romanian
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Romanian
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 75
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Romanian
+  example: []
+  syntax:
+    content: Romanian = 22
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Russian
+  commentId: F:SharpValhalla.Enums.Language.Russian
+  id: Russian
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Russian
+  nameWithType: Language.Russian
+  fullName: SharpValhalla.Enums.Language.Russian
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Russian
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 78
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Russian
+  example: []
+  syntax:
+    content: Russian = 23
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Slovak
+  commentId: F:SharpValhalla.Enums.Language.Slovak
+  id: Slovak
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Slovak
+  nameWithType: Language.Slovak
+  fullName: SharpValhalla.Enums.Language.Slovak
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Slovak
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 81
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Slovak
+  example: []
+  syntax:
+    content: Slovak = 24
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Slovenian
+  commentId: F:SharpValhalla.Enums.Language.Slovenian
+  id: Slovenian
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Slovenian
+  nameWithType: Language.Slovenian
+  fullName: SharpValhalla.Enums.Language.Slovenian
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Slovenian
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 84
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Slovenian
+  example: []
+  syntax:
+    content: Slovenian = 25
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Swedish
+  commentId: F:SharpValhalla.Enums.Language.Swedish
+  id: Swedish
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Swedish
+  nameWithType: Language.Swedish
+  fullName: SharpValhalla.Enums.Language.Swedish
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Swedish
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 87
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Swedish
+  example: []
+  syntax:
+    content: Swedish = 26
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Turkish
+  commentId: F:SharpValhalla.Enums.Language.Turkish
+  id: Turkish
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Turkish
+  nameWithType: Language.Turkish
+  fullName: SharpValhalla.Enums.Language.Turkish
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Turkish
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 90
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Turkish
+  example: []
+  syntax:
+    content: Turkish = 27
+    return:
+      type: SharpValhalla.Enums.Language
+- uid: SharpValhalla.Enums.Language.Ukrainian
+  commentId: F:SharpValhalla.Enums.Language.Ukrainian
+  id: Ukrainian
+  parent: SharpValhalla.Enums.Language
+  langs:
+  - csharp
+  - vb
+  name: Ukrainian
+  nameWithType: Language.Ukrainian
+  fullName: SharpValhalla.Enums.Language.Ukrainian
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Language.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Ukrainian
+    path: ../src/SharpValhalla/Enums/Language.cs
+    startLine: 93
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Ukrainian
+  example: []
+  syntax:
+    content: Ukrainian = 28
+    return:
+      type: SharpValhalla.Enums.Language
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.Language
+  commentId: T:SharpValhalla.Enums.Language
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Language.html
+  name: Language
+  nameWithType: Language
+  fullName: SharpValhalla.Enums.Language

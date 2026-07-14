@@ -1,0 +1,475 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.TravelType.Pedestrian
+  commentId: T:SharpValhalla.Enums.TravelType.Pedestrian
+  id: TravelType.Pedestrian
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.TravelType.Pedestrian.#ctor(SharpValhalla.Enums.PedestrianType)
+  - SharpValhalla.Enums.TravelType.Pedestrian.PedestrianType
+  langs:
+  - csharp
+  - vb
+  name: TravelType.Pedestrian
+  nameWithType: TravelType.Pedestrian
+  fullName: SharpValhalla.Enums.TravelType.Pedestrian
+  type: Class
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TravelType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Pedestrian
+    path: ../src/SharpValhalla/Enums/TravelType.cs
+    startLine: 16
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Pedestrian travel type with a specific pedestrian type.
+  example: []
+  syntax:
+    content: 'public sealed record TravelType.Pedestrian : TravelType, IEquatable<TravelType>, IEquatable<TravelType.Pedestrian>'
+    content.vb: Public NotInheritable Class TravelType.Pedestrian Inherits TravelType Implements IEquatable(Of TravelType), IEquatable(Of TravelType.Pedestrian)
+  inheritance:
+  - System.Object
+  - SharpValhalla.Enums.TravelType
+  implements:
+  - System.IEquatable{SharpValhalla.Enums.TravelType}
+  - System.IEquatable{SharpValhalla.Enums.TravelType.Pedestrian}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SharpValhalla.Enums.TravelType.Pedestrian.#ctor(SharpValhalla.Enums.PedestrianType)
+  commentId: M:SharpValhalla.Enums.TravelType.Pedestrian.#ctor(SharpValhalla.Enums.PedestrianType)
+  id: '#ctor(SharpValhalla.Enums.PedestrianType)'
+  parent: SharpValhalla.Enums.TravelType.Pedestrian
+  langs:
+  - csharp
+  - vb
+  name: Pedestrian(PedestrianType)
+  nameWithType: TravelType.Pedestrian.Pedestrian(PedestrianType)
+  fullName: SharpValhalla.Enums.TravelType.Pedestrian.Pedestrian(SharpValhalla.Enums.PedestrianType)
+  type: Constructor
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TravelType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: .ctor
+    path: ../src/SharpValhalla/Enums/TravelType.cs
+    startLine: 16
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Pedestrian travel type with a specific pedestrian type.
+  example: []
+  syntax:
+    content: public Pedestrian(PedestrianType PedestrianType)
+    parameters:
+    - id: PedestrianType
+      type: SharpValhalla.Enums.PedestrianType
+    content.vb: Public Sub New(PedestrianType As PedestrianType)
+  overload: SharpValhalla.Enums.TravelType.Pedestrian.#ctor*
+  nameWithType.vb: TravelType.Pedestrian.New(PedestrianType)
+  fullName.vb: SharpValhalla.Enums.TravelType.Pedestrian.New(SharpValhalla.Enums.PedestrianType)
+  name.vb: New(PedestrianType)
+- uid: SharpValhalla.Enums.TravelType.Pedestrian.PedestrianType
+  commentId: P:SharpValhalla.Enums.TravelType.Pedestrian.PedestrianType
+  id: PedestrianType
+  parent: SharpValhalla.Enums.TravelType.Pedestrian
+  langs:
+  - csharp
+  - vb
+  name: PedestrianType
+  nameWithType: TravelType.Pedestrian.PedestrianType
+  fullName: SharpValhalla.Enums.TravelType.Pedestrian.PedestrianType
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TravelType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: PedestrianType
+    path: ../src/SharpValhalla/Enums/TravelType.cs
+    startLine: 17
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  syntax:
+    content: public PedestrianType PedestrianType { get; }
+    parameters: []
+    return:
+      type: SharpValhalla.Enums.PedestrianType
+    content.vb: Public ReadOnly Property PedestrianType As PedestrianType
+  overload: SharpValhalla.Enums.TravelType.Pedestrian.PedestrianType*
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SharpValhalla.Enums.TravelType
+  commentId: T:SharpValhalla.Enums.TravelType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.TravelType.html
+  name: TravelType
+  nameWithType: TravelType
+  fullName: SharpValhalla.Enums.TravelType
+- uid: System.IEquatable{SharpValhalla.Enums.TravelType}
+  commentId: T:System.IEquatable{SharpValhalla.Enums.TravelType}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<TravelType>
+  nameWithType: IEquatable<TravelType>
+  fullName: System.IEquatable<SharpValhalla.Enums.TravelType>
+  nameWithType.vb: IEquatable(Of TravelType)
+  fullName.vb: System.IEquatable(Of SharpValhalla.Enums.TravelType)
+  name.vb: IEquatable(Of TravelType)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: SharpValhalla.Enums.TravelType
+    name: TravelType
+    href: SharpValhalla.Enums.TravelType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SharpValhalla.Enums.TravelType
+    name: TravelType
+    href: SharpValhalla.Enums.TravelType.html
+  - name: )
+- uid: System.IEquatable{SharpValhalla.Enums.TravelType.Pedestrian}
+  commentId: T:System.IEquatable{SharpValhalla.Enums.TravelType.Pedestrian}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<TravelType.Pedestrian>
+  nameWithType: IEquatable<TravelType.Pedestrian>
+  fullName: System.IEquatable<SharpValhalla.Enums.TravelType.Pedestrian>
+  nameWithType.vb: IEquatable(Of TravelType.Pedestrian)
+  fullName.vb: System.IEquatable(Of SharpValhalla.Enums.TravelType.Pedestrian)
+  name.vb: IEquatable(Of TravelType.Pedestrian)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: SharpValhalla.Enums.TravelType
+    name: TravelType
+    href: SharpValhalla.Enums.TravelType.html
+  - name: .
+  - uid: SharpValhalla.Enums.TravelType.Pedestrian
+    name: Pedestrian
+    href: SharpValhalla.Enums.TravelType.Pedestrian.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SharpValhalla.Enums.TravelType
+    name: TravelType
+    href: SharpValhalla.Enums.TravelType.html
+  - name: .
+  - uid: SharpValhalla.Enums.TravelType.Pedestrian
+    name: Pedestrian
+    href: SharpValhalla.Enums.TravelType.Pedestrian.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SharpValhalla.Enums.TravelType.Pedestrian.#ctor*
+  commentId: Overload:SharpValhalla.Enums.TravelType.Pedestrian.#ctor
+  href: SharpValhalla.Enums.TravelType.Pedestrian.html#SharpValhalla_Enums_TravelType_Pedestrian__ctor_SharpValhalla_Enums_PedestrianType_
+  name: Pedestrian
+  nameWithType: TravelType.Pedestrian.Pedestrian
+  fullName: SharpValhalla.Enums.TravelType.Pedestrian.Pedestrian
+  nameWithType.vb: TravelType.Pedestrian.New
+  fullName.vb: SharpValhalla.Enums.TravelType.Pedestrian.New
+  name.vb: New
+- uid: SharpValhalla.Enums.PedestrianType
+  commentId: T:SharpValhalla.Enums.PedestrianType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.PedestrianType.html
+  name: PedestrianType
+  nameWithType: PedestrianType
+  fullName: SharpValhalla.Enums.PedestrianType
+- uid: SharpValhalla.Enums.TravelType.Pedestrian.PedestrianType*
+  commentId: Overload:SharpValhalla.Enums.TravelType.Pedestrian.PedestrianType
+  href: SharpValhalla.Enums.TravelType.Pedestrian.html#SharpValhalla_Enums_TravelType_Pedestrian_PedestrianType
+  name: PedestrianType
+  nameWithType: TravelType.Pedestrian.PedestrianType
+  fullName: SharpValhalla.Enums.TravelType.Pedestrian.PedestrianType

@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.Traversability
+  commentId: T:SharpValhalla.Enums.Traversability
+  id: Traversability
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.Traversability.Backward
+  - SharpValhalla.Enums.Traversability.Both
+  - SharpValhalla.Enums.Traversability.Forward
+  langs:
+  - csharp
+  - vb
+  name: Traversability
+  nameWithType: Traversability
+  fullName: SharpValhalla.Enums.Traversability
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Driveability.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Traversability
+    path: ../src/SharpValhalla/Enums/Driveability.cs
+    startLine: 34
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    Aliases for Driveability to represent the allowed travel directions for different modes of movement.
+
+    Traversability: Directional access for vehicles along an edge.
+
+    Cyclability: Directional access for bicycles along an edge.
+
+    Walkability: Directional access for pedestrians along an edge.
+  example: []
+  syntax:
+    content: public enum Traversability
+    content.vb: Public Enum Traversability
+- uid: SharpValhalla.Enums.Traversability.Forward
+  commentId: F:SharpValhalla.Enums.Traversability.Forward
+  id: Forward
+  parent: SharpValhalla.Enums.Traversability
+  langs:
+  - csharp
+  - vb
+  name: Forward
+  nameWithType: Traversability.Forward
+  fullName: SharpValhalla.Enums.Traversability.Forward
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Driveability.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Forward
+    path: ../src/SharpValhalla/Enums/Driveability.cs
+    startLine: 35
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  syntax:
+    content: Forward = 0
+    return:
+      type: SharpValhalla.Enums.Traversability
+- uid: SharpValhalla.Enums.Traversability.Backward
+  commentId: F:SharpValhalla.Enums.Traversability.Backward
+  id: Backward
+  parent: SharpValhalla.Enums.Traversability
+  langs:
+  - csharp
+  - vb
+  name: Backward
+  nameWithType: Traversability.Backward
+  fullName: SharpValhalla.Enums.Traversability.Backward
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Driveability.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Backward
+    path: ../src/SharpValhalla/Enums/Driveability.cs
+    startLine: 36
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  syntax:
+    content: Backward = 1
+    return:
+      type: SharpValhalla.Enums.Traversability
+- uid: SharpValhalla.Enums.Traversability.Both
+  commentId: F:SharpValhalla.Enums.Traversability.Both
+  id: Both
+  parent: SharpValhalla.Enums.Traversability
+  langs:
+  - csharp
+  - vb
+  name: Both
+  nameWithType: Traversability.Both
+  fullName: SharpValhalla.Enums.Traversability.Both
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Driveability.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Both
+    path: ../src/SharpValhalla/Enums/Driveability.cs
+    startLine: 37
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  syntax:
+    content: Both = 2
+    return:
+      type: SharpValhalla.Enums.Traversability
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.Traversability
+  commentId: T:SharpValhalla.Enums.Traversability
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Traversability.html
+  name: Traversability
+  nameWithType: Traversability
+  fullName: SharpValhalla.Enums.Traversability

@@ -1,0 +1,240 @@
+### YamlMime:TableOfContent
+items:
+- uid: SharpValhalla
+  name: SharpValhalla
+  type: Namespace
+  items:
+  - uid: SharpValhalla.SharpValhalla
+    name: SharpValhalla
+    type: Class
+- uid: SharpValhalla.Enums
+  name: SharpValhalla.Enums
+  type: Namespace
+  items:
+  - uid: SharpValhalla.Enums.Action
+    name: Action
+    type: Enum
+  - uid: SharpValhalla.Enums.BicycleType
+    name: BicycleType
+    type: Enum
+  - uid: SharpValhalla.Enums.CostingModel
+    name: CostingModel
+    type: Enum
+  - uid: SharpValhalla.Enums.Cyclability
+    name: Cyclability
+    type: Enum
+  - uid: SharpValhalla.Enums.DirectionType
+    name: DirectionType
+    type: Enum
+  - uid: SharpValhalla.Enums.Driveability
+    name: Driveability
+    type: Enum
+  - uid: SharpValhalla.Enums.Filter
+    name: Filter
+    type: Enum
+  - uid: SharpValhalla.Enums.FlowSpeeds
+    name: FlowSpeeds
+    type: Enum
+  - uid: SharpValhalla.Enums.Format
+    name: Format
+    type: Enum
+  - uid: SharpValhalla.Enums.LaneDirection
+    name: LaneDirection
+    type: Enum
+  - uid: SharpValhalla.Enums.LaneDirectionHelper
+    name: LaneDirectionHelper
+    type: Class
+  - uid: SharpValhalla.Enums.Language
+    name: Language
+    type: Enum
+  - uid: SharpValhalla.Enums.ManeuverType
+    name: ManeuverType
+    type: Enum
+  - uid: SharpValhalla.Enums.MatchedType
+    name: MatchedType
+    type: Enum
+  - uid: SharpValhalla.Enums.NodeType
+    name: NodeType
+    type: Enum
+  - uid: SharpValhalla.Enums.PedestrianType
+    name: PedestrianType
+    type: Enum
+  - uid: SharpValhalla.Enums.PreferredSide
+    name: PreferredSide
+    type: Enum
+  - uid: SharpValhalla.Enums.PriorityType
+    name: PriorityType
+    type: Enum
+  - uid: SharpValhalla.Enums.RoadClass
+    name: RoadClass
+    type: Enum
+  - uid: SharpValhalla.Enums.SacScale
+    name: SacScale
+    type: Enum
+  - uid: SharpValhalla.Enums.ShapeFormat
+    name: ShapeFormat
+    type: Enum
+  - uid: SharpValhalla.Enums.ShapeMatch
+    name: ShapeMatch
+    type: Enum
+  - uid: SharpValhalla.Enums.SideOfStreet
+    name: SideOfStreet
+    type: Enum
+  - uid: SharpValhalla.Enums.Sidewalk
+    name: Sidewalk
+    type: Enum
+  - uid: SharpValhalla.Enums.Surface
+    name: Surface
+    type: Enum
+  - uid: SharpValhalla.Enums.TraceType
+    name: TraceType
+    type: Enum
+  - uid: SharpValhalla.Enums.TransitStopType
+    name: TransitStopType
+    type: Enum
+  - uid: SharpValhalla.Enums.TransitType
+    name: TransitType
+    type: Enum
+  - uid: SharpValhalla.Enums.TravelMode
+    name: TravelMode
+    type: Enum
+  - uid: SharpValhalla.Enums.TravelType
+    name: TravelType
+    type: Class
+  - uid: SharpValhalla.Enums.TravelType.Bicycle
+    name: TravelType.Bicycle
+    type: Class
+  - uid: SharpValhalla.Enums.TravelType.Drive
+    name: TravelType.Drive
+    type: Class
+  - uid: SharpValhalla.Enums.TravelType.Pedestrian
+    name: TravelType.Pedestrian
+    type: Class
+  - uid: SharpValhalla.Enums.TravelType.Transit
+    name: TravelType.Transit
+    type: Class
+  - uid: SharpValhalla.Enums.Traversability
+    name: Traversability
+    type: Enum
+  - uid: SharpValhalla.Enums.Unit
+    name: Unit
+    type: Enum
+  - uid: SharpValhalla.Enums.Use
+    name: Use
+    type: Enum
+  - uid: SharpValhalla.Enums.VehicleType
+    name: VehicleType
+    type: Enum
+  - uid: SharpValhalla.Enums.Walkability
+    name: Walkability
+    type: Enum
+- uid: SharpValhalla.Extensions
+  name: SharpValhalla.Extensions
+  type: Namespace
+  items:
+  - uid: SharpValhalla.Extensions.EnumExtensions
+    name: EnumExtensions
+    type: Class
+  - uid: SharpValhalla.Extensions.LaneDirectionExtensions
+    name: LaneDirectionExtensions
+    type: Class
+  - uid: SharpValhalla.Extensions.LegResponseExtensions
+    name: LegResponseExtensions
+    type: Class
+- uid: SharpValhalla.Interfaces
+  name: SharpValhalla.Interfaces
+  type: Namespace
+  items:
+  - uid: SharpValhalla.Interfaces.ILocation
+    name: ILocation
+    type: Interface
+- uid: SharpValhalla.Models.Common
+  name: SharpValhalla.Models.Common
+  type: Namespace
+  items:
+  - uid: SharpValhalla.Models.Common.CostingOptions
+    name: CostingOptions
+    type: Class
+  - uid: SharpValhalla.Models.Common.Location
+    name: Location
+    type: Class
+  - uid: SharpValhalla.Models.Common.LocationCoordinate2D
+    name: LocationCoordinate2D
+    type: Class
+- uid: SharpValhalla.Models.Request
+  name: SharpValhalla.Models.Request
+  type: Namespace
+  items:
+  - uid: SharpValhalla.Models.Request.DirectionsOptions
+    name: DirectionsOptions
+    type: Class
+  - uid: SharpValhalla.Models.Request.MapMatchingRequest
+    name: MapMatchingRequest
+    type: Class
+  - uid: SharpValhalla.Models.Request.MatrixRequest
+    name: MatrixRequest
+    type: Class
+  - uid: SharpValhalla.Models.Request.SearchFilter
+    name: SearchFilter
+    type: Class
+  - uid: SharpValhalla.Models.Request.TraceAttributesFilter
+    name: TraceAttributesFilter
+    type: Class
+  - uid: SharpValhalla.Models.Request.TraceOptions
+    name: TraceOptions
+    type: Class
+- uid: SharpValhalla.Models.Response
+  name: SharpValhalla.Models.Response
+  type: Namespace
+  items:
+  - uid: SharpValhalla.Models.Response.Lane
+    name: Lane
+    type: Class
+  - uid: SharpValhalla.Models.Response.LegResponse
+    name: LegResponse
+    type: Class
+  - uid: SharpValhalla.Models.Response.ManeuverResponse
+    name: ManeuverResponse
+    type: Class
+  - uid: SharpValhalla.Models.Response.ManeuverSignElement
+    name: ManeuverSignElement
+    type: Class
+  - uid: SharpValhalla.Models.Response.MatrixElement
+    name: MatrixElement
+    type: Class
+  - uid: SharpValhalla.Models.Response.RouteResponse
+    name: RouteResponse
+    type: Class
+  - uid: SharpValhalla.Models.Response.SignResponse
+    name: SignResponse
+    type: Class
+  - uid: SharpValhalla.Models.Response.SummaryResponse
+    name: SummaryResponse
+    type: Class
+  - uid: SharpValhalla.Models.Response.TransitInfo
+    name: TransitInfo
+    type: Class
+  - uid: SharpValhalla.Models.Response.TransitStop
+    name: TransitStop
+    type: Class
+- uid: SharpValhalla.Models.Response.BaseResponses
+  name: SharpValhalla.Models.Response.BaseResponses
+  type: Namespace
+  items:
+  - uid: SharpValhalla.Models.Response.BaseResponses.AlternateResponse
+    name: AlternateResponse
+    type: Class
+  - uid: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse
+    name: MapMatchingResponse
+    type: Class
+  - uid: SharpValhalla.Models.Response.BaseResponses.MatrixResponse
+    name: MatrixResponse
+    type: Class
+- uid: SharpValhalla.Utils
+  name: SharpValhalla.Utils
+  type: Namespace
+  items:
+  - uid: SharpValhalla.Utils.ShapeDecoding
+    name: ShapeDecoding
+    type: Class
+memberLayout: SamePage

@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ManeuverResponse | SharpValhalla </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ManeuverResponse | SharpValhalla ">
+      
+      <meta name="description" content="A single maneuver within a leg describing an instruction, timing, geometry indices, and other metadata used for routing and navigation.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/PedroCavaleiro/SharpValhalla/new/dev/apiSpec/new?filename=SharpValhalla_Models_Response_ManeuverResponse.md&amp;value=---%0Auid%3A%20SharpValhalla.Models.Response.ManeuverResponse%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SharpValhalla">
+            SharpValhalla
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SharpValhalla.Models.Response.ManeuverResponse">
+
+
+
+  <h1 id="SharpValhalla_Models_Response_ManeuverResponse" data-uid="SharpValhalla.Models.Response.ManeuverResponse" class="text-break">
+Class ManeuverResponse  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SharpValhalla.html">SharpValhalla</a>.<a class="xref" href="SharpValhalla.Models.html">Models</a>.<a class="xref" href="SharpValhalla.Models.Response.html">Response</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SharpValhalla.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A single maneuver within a leg describing an instruction, timing,
+geometry indices, and other metadata used for routing and navigation.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ManeuverResponse</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ManeuverResponse</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_ArriveInstruction_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.ArriveInstruction*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_ArriveInstruction" data-uid="SharpValhalla.Models.Response.ManeuverResponse.ArriveInstruction">
+  ArriveInstruction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;arrive_instruction&quot;)]
+public string? ArriveInstruction { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_BearingAfter_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.BearingAfter*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_BearingAfter" data-uid="SharpValhalla.Models.Response.ManeuverResponse.BearingAfter">
+  BearingAfter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;bearing_after&quot;)]
+public int? BearingAfter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_BearingBefore_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.BearingBefore*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_BearingBefore" data-uid="SharpValhalla.Models.Response.ManeuverResponse.BearingBefore">
+  BearingBefore
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;bearing_before&quot;)]
+public int? BearingBefore { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_BeginShapeIndex_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.BeginShapeIndex*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_BeginShapeIndex" data-uid="SharpValhalla.Models.Response.ManeuverResponse.BeginShapeIndex">
+  BeginShapeIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;begin_shape_index&quot;)]
+public int BeginShapeIndex { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_BeginStreetNames_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.BeginStreetNames*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_BeginStreetNames" data-uid="SharpValhalla.Models.Response.ManeuverResponse.BeginStreetNames">
+  BeginStreetNames
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;begin_street_names&quot;)]
+public List&lt;string&gt;? BeginStreetNames { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_Cost_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Cost*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_Cost" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Cost">
+  Cost
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;cost&quot;)]
+public double Cost { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_DepartInstruction_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.DepartInstruction*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_DepartInstruction" data-uid="SharpValhalla.Models.Response.ManeuverResponse.DepartInstruction">
+  DepartInstruction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;depart_instruction&quot;)]
+public string? DepartInstruction { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_EndShapeIndex_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.EndShapeIndex*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_EndShapeIndex" data-uid="SharpValhalla.Models.Response.ManeuverResponse.EndShapeIndex">
+  EndShapeIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;end_shape_index&quot;)]
+public int EndShapeIndex { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_Ferry_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Ferry*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_Ferry" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Ferry">
+  Ferry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;ferry&quot;)]
+public bool Ferry { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_Highway_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Highway*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_Highway" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Highway">
+  Highway
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;highway&quot;)]
+public bool Highway { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_Instruction_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Instruction*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_Instruction" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Instruction">
+  Instruction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;instruction&quot;)]
+public string? Instruction { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_Lanes_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Lanes*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_Lanes" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Lanes">
+  Lanes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;lanes&quot;)]
+public List&lt;Lane&gt;? Lanes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SharpValhalla.Models.Response.Lane.html">Lane</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_Length_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Length*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_Length" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Length">
+  Length
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;length&quot;)]
+public double Length { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_RoundaboutExitCount_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.RoundaboutExitCount*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_RoundaboutExitCount" data-uid="SharpValhalla.Models.Response.ManeuverResponse.RoundaboutExitCount">
+  RoundaboutExitCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;roundabout_exit_count&quot;)]
+public int? RoundaboutExitCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_Sign_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Sign*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_Sign" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Sign">
+  Sign
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;sign&quot;)]
+public SignResponse? Sign { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SharpValhalla.Models.Response.SignResponse.html">SignResponse</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_StreetNames_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.StreetNames*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_StreetNames" data-uid="SharpValhalla.Models.Response.ManeuverResponse.StreetNames">
+  StreetNames
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;street_names&quot;)]
+public List&lt;string&gt;? StreetNames { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_Time_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Time*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_Time" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Time">
+  Time
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;time&quot;)]
+public double Time { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_Toll_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Toll*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_Toll" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Toll">
+  Toll
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;toll&quot;)]
+public bool Toll { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_TransitInfo_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.TransitInfo*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_TransitInfo" data-uid="SharpValhalla.Models.Response.ManeuverResponse.TransitInfo">
+  TransitInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;transit_info&quot;)]
+public TransitInfo? TransitInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SharpValhalla.Models.Response.TransitInfo.html">TransitInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_TravelMode_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.TravelMode*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_TravelMode" data-uid="SharpValhalla.Models.Response.ManeuverResponse.TravelMode">
+  TravelMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;travel_mode&quot;)]
+public TravelMode TravelMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SharpValhalla.Enums.TravelMode.html">TravelMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_TravelType_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.TravelType*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_TravelType" data-uid="SharpValhalla.Models.Response.ManeuverResponse.TravelType">
+  TravelType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;travel_type&quot;)]
+public TravelType? TravelType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SharpValhalla.Enums.TravelType.html">TravelType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_Type_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Type*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_Type" data-uid="SharpValhalla.Models.Response.ManeuverResponse.Type">
+  Type
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;type&quot;)]
+public int Type { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_VerbalArriveInstruction_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.VerbalArriveInstruction*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_VerbalArriveInstruction" data-uid="SharpValhalla.Models.Response.ManeuverResponse.VerbalArriveInstruction">
+  VerbalArriveInstruction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;verbal_arrive_instruction&quot;)]
+public string? VerbalArriveInstruction { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_VerbalDepartInstruction_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.VerbalDepartInstruction*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_VerbalDepartInstruction" data-uid="SharpValhalla.Models.Response.ManeuverResponse.VerbalDepartInstruction">
+  VerbalDepartInstruction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;verbal_depart_instruction&quot;)]
+public string? VerbalDepartInstruction { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_VerbalMultiCue_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.VerbalMultiCue*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_VerbalMultiCue" data-uid="SharpValhalla.Models.Response.ManeuverResponse.VerbalMultiCue">
+  VerbalMultiCue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;verbal_multi_cue&quot;)]
+public bool VerbalMultiCue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_VerbalPostTransitionInstruction_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.VerbalPostTransitionInstruction*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_VerbalPostTransitionInstruction" data-uid="SharpValhalla.Models.Response.ManeuverResponse.VerbalPostTransitionInstruction">
+  VerbalPostTransitionInstruction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;verbal_post_transition_instruction&quot;)]
+public string? VerbalPostTransitionInstruction { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_VerbalPreTransitionInstruction_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.VerbalPreTransitionInstruction*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_VerbalPreTransitionInstruction" data-uid="SharpValhalla.Models.Response.ManeuverResponse.VerbalPreTransitionInstruction">
+  VerbalPreTransitionInstruction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;verbal_pre_transition_instruction&quot;)]
+public string? VerbalPreTransitionInstruction { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_VerbalSuccinctTransitionInstruction_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.VerbalSuccinctTransitionInstruction*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_VerbalSuccinctTransitionInstruction" data-uid="SharpValhalla.Models.Response.ManeuverResponse.VerbalSuccinctTransitionInstruction">
+  VerbalSuccinctTransitionInstruction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;verbal_succinct_transition_instruction&quot;)]
+public string? VerbalSuccinctTransitionInstruction { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Response_ManeuverResponse_VerbalTransitionAlertInstruction_" data-uid="SharpValhalla.Models.Response.ManeuverResponse.VerbalTransitionAlertInstruction*"></a>
+
+  <h3 id="SharpValhalla_Models_Response_ManeuverResponse_VerbalTransitionAlertInstruction" data-uid="SharpValhalla.Models.Response.ManeuverResponse.VerbalTransitionAlertInstruction">
+  VerbalTransitionAlertInstruction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;verbal_transition_alert_instruction&quot;)]
+public string? VerbalTransitionAlertInstruction { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Response/ManeuverResponse.cs/#L12" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

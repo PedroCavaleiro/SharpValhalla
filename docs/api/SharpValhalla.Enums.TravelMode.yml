@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.TravelMode
+  commentId: T:SharpValhalla.Enums.TravelMode
+  id: TravelMode
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.TravelMode.Bicycle
+  - SharpValhalla.Enums.TravelMode.Drive
+  - SharpValhalla.Enums.TravelMode.Pedestrian
+  - SharpValhalla.Enums.TravelMode.Transit
+  langs:
+  - csharp
+  - vb
+  name: TravelMode
+  nameWithType: TravelMode
+  fullName: SharpValhalla.Enums.TravelMode
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TravelMode.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TravelMode
+    path: ../src/SharpValhalla/Enums/TravelMode.cs
+    startLine: 10
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    Represents the different travel modes for edges in Valhalla routing.
+
+
+    Each case corresponds to a specific mode of transportation.
+
+    The raw value matches the exact key string used in Valhalla.
+  example: []
+  syntax:
+    content: public enum TravelMode
+    content.vb: Public Enum TravelMode
+- uid: SharpValhalla.Enums.TravelMode.Drive
+  commentId: F:SharpValhalla.Enums.TravelMode.Drive
+  id: Drive
+  parent: SharpValhalla.Enums.TravelMode
+  langs:
+  - csharp
+  - vb
+  name: Drive
+  nameWithType: TravelMode.Drive
+  fullName: SharpValhalla.Enums.TravelMode.Drive
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TravelMode.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Drive
+    path: ../src/SharpValhalla/Enums/TravelMode.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Drive mode of transportation.
+  example: []
+  syntax:
+    content: Drive = 0
+    return:
+      type: SharpValhalla.Enums.TravelMode
+- uid: SharpValhalla.Enums.TravelMode.Pedestrian
+  commentId: F:SharpValhalla.Enums.TravelMode.Pedestrian
+  id: Pedestrian
+  parent: SharpValhalla.Enums.TravelMode
+  langs:
+  - csharp
+  - vb
+  name: Pedestrian
+  nameWithType: TravelMode.Pedestrian
+  fullName: SharpValhalla.Enums.TravelMode.Pedestrian
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TravelMode.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Pedestrian
+    path: ../src/SharpValhalla/Enums/TravelMode.cs
+    startLine: 15
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Pedestrian mode of transportation.
+  example: []
+  syntax:
+    content: Pedestrian = 1
+    return:
+      type: SharpValhalla.Enums.TravelMode
+- uid: SharpValhalla.Enums.TravelMode.Bicycle
+  commentId: F:SharpValhalla.Enums.TravelMode.Bicycle
+  id: Bicycle
+  parent: SharpValhalla.Enums.TravelMode
+  langs:
+  - csharp
+  - vb
+  name: Bicycle
+  nameWithType: TravelMode.Bicycle
+  fullName: SharpValhalla.Enums.TravelMode.Bicycle
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TravelMode.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Bicycle
+    path: ../src/SharpValhalla/Enums/TravelMode.cs
+    startLine: 18
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Bicycle mode of transportation.
+  example: []
+  syntax:
+    content: Bicycle = 2
+    return:
+      type: SharpValhalla.Enums.TravelMode
+- uid: SharpValhalla.Enums.TravelMode.Transit
+  commentId: F:SharpValhalla.Enums.TravelMode.Transit
+  id: Transit
+  parent: SharpValhalla.Enums.TravelMode
+  langs:
+  - csharp
+  - vb
+  name: Transit
+  nameWithType: TravelMode.Transit
+  fullName: SharpValhalla.Enums.TravelMode.Transit
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TravelMode.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Transit
+    path: ../src/SharpValhalla/Enums/TravelMode.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Transit mode of transportation.
+  example: []
+  syntax:
+    content: Transit = 3
+    return:
+      type: SharpValhalla.Enums.TravelMode
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.TravelMode
+  commentId: T:SharpValhalla.Enums.TravelMode
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.TravelMode.html
+  name: TravelMode
+  nameWithType: TravelMode
+  fullName: SharpValhalla.Enums.TravelMode

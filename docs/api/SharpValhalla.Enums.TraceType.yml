@@ -1,0 +1,176 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.TraceType
+  commentId: T:SharpValhalla.Enums.TraceType
+  id: TraceType
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.TraceType.Break
+  - SharpValhalla.Enums.TraceType.BreakThrough
+  - SharpValhalla.Enums.TraceType.Through
+  - SharpValhalla.Enums.TraceType.Via
+  langs:
+  - csharp
+  - vb
+  name: TraceType
+  nameWithType: TraceType
+  fullName: SharpValhalla.Enums.TraceType
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TraceType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TraceType
+    path: ../src/SharpValhalla/Enums/TraceType.cs
+    startLine: 7
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: 'Each type controls two characteristics: whether or not to allow a u-turn at the location and whether or not to generate guidance/legs at the location.'
+  example: []
+  syntax:
+    content: public enum TraceType
+    content.vb: Public Enum TraceType
+- uid: SharpValhalla.Enums.TraceType.Break
+  commentId: F:SharpValhalla.Enums.TraceType.Break
+  id: Break
+  parent: SharpValhalla.Enums.TraceType
+  langs:
+  - csharp
+  - vb
+  name: Break
+  nameWithType: TraceType.Break
+  fullName: SharpValhalla.Enums.TraceType.Break
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TraceType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Break
+    path: ../src/SharpValhalla/Enums/TraceType.cs
+    startLine: 11
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: A break is a location at which we allow u-turns and generate legs and arrival/departure maneuvers.
+  example: []
+  syntax:
+    content: Break = 0
+    return:
+      type: SharpValhalla.Enums.TraceType
+- uid: SharpValhalla.Enums.TraceType.Via
+  commentId: F:SharpValhalla.Enums.TraceType.Via
+  id: Via
+  parent: SharpValhalla.Enums.TraceType
+  langs:
+  - csharp
+  - vb
+  name: Via
+  nameWithType: TraceType.Via
+  fullName: SharpValhalla.Enums.TraceType.Via
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TraceType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Via
+    path: ../src/SharpValhalla/Enums/TraceType.cs
+    startLine: 16
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: A via location is a location at which we allow u-turns but do not generate legs or arrival/departure maneuvers.
+  example: []
+  syntax:
+    content: Via = 1
+    return:
+      type: SharpValhalla.Enums.TraceType
+- uid: SharpValhalla.Enums.TraceType.Through
+  commentId: F:SharpValhalla.Enums.TraceType.Through
+  id: Through
+  parent: SharpValhalla.Enums.TraceType
+  langs:
+  - csharp
+  - vb
+  name: Through
+  nameWithType: TraceType.Through
+  fullName: SharpValhalla.Enums.TraceType.Through
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TraceType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Through
+    path: ../src/SharpValhalla/Enums/TraceType.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: A through location is a location at which we neither allow u-turns nor generate legs or arrival/departure maneuvers.
+  example: []
+  syntax:
+    content: Through = 2
+    return:
+      type: SharpValhalla.Enums.TraceType
+- uid: SharpValhalla.Enums.TraceType.BreakThrough
+  commentId: F:SharpValhalla.Enums.TraceType.BreakThrough
+  id: BreakThrough
+  parent: SharpValhalla.Enums.TraceType
+  langs:
+  - csharp
+  - vb
+  name: BreakThrough
+  nameWithType: TraceType.BreakThrough
+  fullName: SharpValhalla.Enums.TraceType.BreakThrough
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TraceType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: BreakThrough
+    path: ../src/SharpValhalla/Enums/TraceType.cs
+    startLine: 26
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: A breakThrough location is a location at which we do not allow u-turns but do generate legs and arrival/departure maneuvers.
+  example: []
+  syntax:
+    content: BreakThrough = 3
+    return:
+      type: SharpValhalla.Enums.TraceType
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.TraceType
+  commentId: T:SharpValhalla.Enums.TraceType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.TraceType.html
+  name: TraceType
+  nameWithType: TraceType
+  fullName: SharpValhalla.Enums.TraceType

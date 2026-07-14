@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Enum Filter | SharpValhalla </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Enum Filter | SharpValhalla ">
+      
+      <meta name="description" content="Represents all available filter keys that can be applied when working with Valhalla routing and map-matching data. Each case corresponds to a specific field in the Valhalla API, grouped by category (edge, node, admin, matched, etc.). The raw value matches the exact key string expected by Valhalla.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/PedroCavaleiro/SharpValhalla/new/dev/apiSpec/new?filename=SharpValhalla_Enums_Filter.md&amp;value=---%0Auid%3A%20SharpValhalla.Enums.Filter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SharpValhalla">
+            SharpValhalla
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SharpValhalla.Enums.Filter">
+
+
+
+
+  <h1 id="SharpValhalla_Enums_Filter" data-uid="SharpValhalla.Enums.Filter" class="text-break">
+Enum Filter  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Enums/Filter.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SharpValhalla.html">SharpValhalla</a>.<a class="xref" href="SharpValhalla.Enums.html">Enums</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SharpValhalla.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents all available filter keys that can be applied when working with
+Valhalla routing and map-matching data.</p>
+<p>Each case corresponds to a specific field in the Valhalla API, grouped by
+category (edge, node, admin, matched, etc.).
+The raw value matches the exact key string expected by Valhalla.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public enum Filter</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h2 id="fields">Fields
+</h2>
+  <dl class="parameters">
+    <dt id="SharpValhalla_Enums_Filter_AdminCountryCode"><code>AdminCountryCode = 66</code></dt>
+  
+  <dd><p>Country ISO 3166-1 alpha-2 code.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_AdminCountryText"><code>AdminCountryText = 67</code></dt>
+  
+  <dd><p>Country name.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_AdminStateCode"><code>AdminStateCode = 68</code></dt>
+  
+  <dd><p>State code.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_AdminStateText"><code>AdminStateText = 69</code></dt>
+  
+  <dd><p>State name.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeBeginHeading"><code>EdgeBeginHeading = 6</code></dt>
+  
+  <dd><p>The direction at the beginning of an edge. The units are degrees from north in a clockwise direction.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeBeginShapeIndex"><code>EdgeBeginShapeIndex = 8</code></dt>
+  
+  <dd><p>Index into the list of shape points for the start of the edge.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeBicycleNetwork"><code>EdgeBicycleNetwork = 38</code></dt>
+  
+  <dd><p>The bike network for this edge.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeBicycleType"><code>EdgeBicycleType = 27</code></dt>
+  
+  <dd><p>Bicycle type values</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeBridge"><code>EdgeBridge = 15</code></dt>
+  
+  <dd><p>If the edge is a bridge.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeCountryCrossing"><code>EdgeCountryCrossing = 46</code></dt>
+  
+  <dd><p>If the edge is a country crossing.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeCycleLane"><code>EdgeCycleLane = 37</code></dt>
+  
+  <dd><p>The type (if any) of bicycle lane along this edge.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeDensity"><code>EdgeDensity = 42</code></dt>
+  
+  <dd><p>The relative density along the edge.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeDriveOnRight"><code>EdgeDriveOnRight = 18</code></dt>
+  
+  <dd><p>If the flag is enabled for driving on the right side of the street.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeEndHeading"><code>EdgeEndHeading = 7</code></dt>
+  
+  <dd><p>The direction at the end of an edge. The units are degrees from north in a clockwise direction.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeEndShapeIndex"><code>EdgeEndShapeIndex = 9</code></dt>
+  
+  <dd><p>Index into the list of shape points for the end of the edge.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeForward"><code>EdgeForward = 47</code></dt>
+  
+  <dd><p>True if the edge is traversed forwards and False if it is traversed backwards with respect to the reference shape/geometry (ie. the direction in which it was digitized).</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeId"><code>EdgeId = 29</code></dt>
+  
+  <dd><p>Identifier of an edge within the tiled, hierarchical graph.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeIndoor"><code>EdgeIndoor = 30</code></dt>
+  
+  <dd><p>Whether or not the edge is inside of a building or structure or not.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeInternalIntersection"><code>EdgeInternalIntersection = 17</code></dt>
+  
+  <dd><p>If the edge is an internal intersection.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeLaneCount"><code>EdgeLaneCount = 36</code></dt>
+  
+  <dd><p>The number of lanes for this edge.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeLength"><code>EdgeLength = 1</code></dt>
+  
+  <dd><p>The matched edge length in the units specified (default is kilometers). If source_percent_along and/or target_percent_along are present, this represents the partially matched edge length, otherwise the full edge length.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeMaxDownwardGrade"><code>EdgeMaxDownwardGrade = 34</code></dt>
+  
+  <dd><p>The maximum downward slope. A value of 32768 indicates no elevation data is available for this edge.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeMaxUpwardGrade"><code>EdgeMaxUpwardGrade = 33</code></dt>
+  
+  <dd><p>The maximum upward slope. A value of 32768 indicates no elevation data is available for this edge.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeMeanElevation"><code>EdgeMeanElevation = 35</code></dt>
+  
+  <dd><p>The mean or average elevation along the edge. Units are meters by default. If the units are specified as miles, then the mean elevation is returned in feet. A value of 32768 indicates no elevation data is available for this edge.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeNames"><code>EdgeNames = 0</code></dt>
+  
+  <dd><p>List of names</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgePedestrianType"><code>EdgePedestrianType = 26</code></dt>
+  
+  <dd><p>Pedestrian type values</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeRoadClass"><code>EdgeRoadClass = 5</code></dt>
+  
+  <dd><p>Road class values</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeRoundabout"><code>EdgeRoundabout = 16</code></dt>
+  
+  <dd><p>If the edge is a roundabout.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeSacScale"><code>EdgeSacScale = 39</code></dt>
+  
+  <dd><p>Classification of hiking trails based on difficulty.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeShoulder"><code>EdgeShoulder = 40</code></dt>
+  
+  <dd><p>If the edge has a shoulder.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeSidewalk"><code>EdgeSidewalk = 41</code></dt>
+  
+  <dd><p>Sidewalk values</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeSignExitBranch"><code>EdgeSignExitBranch = 21</code></dt>
+  
+  <dd><p>List of exit branch elements. An exit branch element is the subsequent road name or route number after the sign. Element example: I 95 North</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeSignExitName"><code>EdgeSignExitName = 23</code></dt>
+  
+  <dd><p>List of exit name elements. The exit name element is the interchange identifier, although typically not used in the United States. Element example: Gettysburg Pike</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeSignExitNumber"><code>EdgeSignExitNumber = 20</code></dt>
+  
+  <dd><p>List of exit number elements. If an exit number element exists, it is typically just one value. Element example: 91B</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeSignExitToward"><code>EdgeSignExitToward = 22</code></dt>
+  
+  <dd><p>List of exit toward elements. The exit toward element is the location where the road ahead goes; the location is typically a control city, but may also be a future road name or route number. Element example: New York</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeSpeed"><code>EdgeSpeed = 2</code></dt>
+  
+  <dd><p>Edge speed in the units specified. The default is kilometers per hour.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeSpeedLimit"><code>EdgeSpeedLimit = 43</code></dt>
+  
+  <dd><p>Edge speed limit in the units specified. The default is kilometers per hour.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeSpeedsFaded"><code>EdgeSpeedsFaded = 3</code></dt>
+  
+  <dd><p>Contains all flow speeds available for that edge in the units specified (default is kilometers per hour). Note: These speeds are faded with the current flow (if available). The current_flow fades with the flow_mask that was passed to the request.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeSpeedsNonFaded"><code>EdgeSpeedsNonFaded = 4</code></dt>
+  
+  <dd><p>Contains all raw flow speeds available for that edge in the units specified (default is kilometers per hour).</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeSurface"><code>EdgeSurface = 19</code></dt>
+  
+  <dd><p>Surface values</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeToll"><code>EdgeToll = 12</code></dt>
+  
+  <dd><p>If the edge has any toll.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeTrafficSignal"><code>EdgeTrafficSignal = 48</code></dt>
+  
+  <dd><p>If the edge contains a traffic signal in its direction.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeTransitType"><code>EdgeTransitType = 28</code></dt>
+  
+  <dd><p>Transit type values</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeTravelMode"><code>EdgeTravelMode = 24</code></dt>
+  
+  <dd><p>Travel mode values</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeTraversability"><code>EdgeTraversability = 10</code></dt>
+  
+  <dd><p>Traversability values, if available</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeTruckRoute"><code>EdgeTruckRoute = 45</code></dt>
+  
+  <dd><p>If edge is part of a truck network/route.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeTruckSpeed"><code>EdgeTruckSpeed = 44</code></dt>
+  
+  <dd><p>Edge truck speed in the units specified. The default is kilometers per hour.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeTunnel"><code>EdgeTunnel = 14</code></dt>
+  
+  <dd><p>If the edge is a tunnel.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeUnpaved"><code>EdgeUnpaved = 13</code></dt>
+  
+  <dd><p>If the edge is unpaved or rough pavement.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeUse"><code>EdgeUse = 11</code></dt>
+  
+  <dd><p>Use values</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeVehicleType"><code>EdgeVehicleType = 25</code></dt>
+  
+  <dd><p>Vehicle type values</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeWayId"><code>EdgeWayId = 31</code></dt>
+  
+  <dd><p>Way identifier of the OpenStreetMap base data.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_EdgeWeightedGrade"><code>EdgeWeightedGrade = 32</code></dt>
+  
+  <dd><p>The weighted grade factor. Valhalla manufactures a weighted_grade from elevation data. It is a measure used for hill avoidance in routing - sort of a relative energy use along an edge. But since an edge in Valhalla can possibly go up and down over several hills it might not equate to what most folks think of as grade.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_MatchedBeginRouteDiscontinuity"><code>MatchedBeginRouteDiscontinuity = 73</code></dt>
+  
+  <dd><p>The boolean value is true if this match result is the begin location of a route disconnect. This value will not exist if this is false.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_MatchedDistanceAlongEdge"><code>MatchedDistanceAlongEdge = 75</code></dt>
+  
+  <dd><p>The distance along the associated edge for this matched point. For example, if the matched point is halfway along the edge then the value would be 0.5. This value will not exist if this point was unmatched.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_MatchedDistanceFromTracePoint"><code>MatchedDistanceFromTracePoint = 76</code></dt>
+  
+  <dd><p>The distance in meters from the trace point to the matched point. This value will not exist if this point was unmatched.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_MatchedEdgeIndex"><code>MatchedEdgeIndex = 72</code></dt>
+  
+  <dd><p>The index of the edge in the list of edges that this matched point is associated with. This value will not exist if this point was unmatched.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_MatchedEndRouteDiscontinuity"><code>MatchedEndRouteDiscontinuity = 74</code></dt>
+  
+  <dd><p>The boolean value is true if this match result is the end location of a route disconnect. This value will not exist if this is false.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_MatchedPoint"><code>MatchedPoint = 70</code></dt>
+  
+  <dd><p>List of match results when using the map_snap shape match algorithm. There is a one-to-one correspondence with the input set of latitude, longitude coordinates and this list of match results.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_MatchedType"><code>MatchedType = 71</code></dt>
+  
+  <dd><p>Describes the type of this match result - possible values include:</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_NodeAdminIndex"><code>NodeAdminIndex = 59</code></dt>
+  
+  <dd><p>Index value in the admin list.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_NodeElapsedTime"><code>NodeElapsedTime = 58</code></dt>
+  
+  <dd><p>Elapsed time of the path to arrive at this node.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_NodeFork"><code>NodeFork = 62</code></dt>
+  
+  <dd><p>If this node is a fork.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_NodeIntersectingEdgeBeginHeading"><code>NodeIntersectingEdgeBeginHeading = 49</code></dt>
+  
+  <dd><p>The direction at the beginning of this intersecting edge. The units are degrees from north in a clockwise direction.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_NodeIntersectingEdgeCyclability"><code>NodeIntersectingEdgeCyclability = 53</code></dt>
+  
+  <dd><p>Cyclability values, if available</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_NodeIntersectingEdgeDriveability"><code>NodeIntersectingEdgeDriveability = 52</code></dt>
+  
+  <dd><p>Driveability values, if available</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_NodeIntersectingEdgeFromEdgeNameConsistency"><code>NodeIntersectingEdgeFromEdgeNameConsistency = 50</code></dt>
+  
+  <dd><p>If this intersecting edge at the end node has consistent names with the path from edge.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_NodeIntersectingEdgeLaneCount"><code>NodeIntersectingEdgeLaneCount = 57</code></dt>
+  
+  <dd><p>The number of lanes for this edge.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_NodeIntersectingEdgeRoadClass"><code>NodeIntersectingEdgeRoadClass = 56</code></dt>
+  
+  <dd><p>Road class values</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_NodeIntersectingEdgeToEdgeNameConsistency"><code>NodeIntersectingEdgeToEdgeNameConsistency = 51</code></dt>
+  
+  <dd><p>If this intersecting edge at the end node has consistent names with the path to edge.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_NodeIntersectingEdgeUse"><code>NodeIntersectingEdgeUse = 55</code></dt>
+  
+  <dd><p>Use values</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_NodeIntersectingEdgeWalkability"><code>NodeIntersectingEdgeWalkability = 54</code></dt>
+  
+  <dd><p>Walkability values, if available</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_NodeTimeZone"><code>NodeTimeZone = 63</code></dt>
+  
+  <dd><p>Time zone string for this node.</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_NodeTrafficSignal"><code>NodeTrafficSignal = 61</code></dt>
+  
+  <dd><p>A boolean value indicating whether the node is a traffic signal (true or false)</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_NodeType"><code>NodeType = 60</code></dt>
+  
+  <dd><p>Node type values</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_OsmChangeset"><code>OsmChangeset = 64</code></dt>
+  
+  <dd><p>OSM changeset</p>
+</dd>
+    <dt id="SharpValhalla_Enums_Filter_Shape"><code>Shape = 65</code></dt>
+  
+  <dd><p>The encoded polyline of the matched path.</p>
+</dd>
+  </dl>
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Enums/Filter.cs/#L13" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

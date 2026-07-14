@@ -1,0 +1,740 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Models.Response.LegResponse
+  commentId: T:SharpValhalla.Models.Response.LegResponse
+  id: LegResponse
+  parent: SharpValhalla.Models.Response
+  children:
+  - SharpValhalla.Models.Response.LegResponse.Maneuvers
+  - SharpValhalla.Models.Response.LegResponse.Shape
+  - SharpValhalla.Models.Response.LegResponse.Summary
+  langs:
+  - csharp
+  - vb
+  name: LegResponse
+  nameWithType: LegResponse
+  fullName: SharpValhalla.Models.Response.LegResponse
+  type: Class
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/LegResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: LegResponse
+    path: ../src/SharpValhalla/Models/Response/LegResponse.cs
+    startLine: 10
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response
+  summary: >-
+    Represents a single leg within a route, containing its maneuvers,
+
+    an optional summary, and an optional encoded shape.
+  example: []
+  syntax:
+    content: public class LegResponse
+    content.vb: Public Class LegResponse
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - SharpValhalla.Models.Response.LegResponse.SharpValhalla.Extensions.LegResponseExtensions.Coordinates
+  - SharpValhalla.Models.Response.LegResponse.SharpValhalla.Extensions.LegResponseExtensions.GetCoordinates(System.Double)
+- uid: SharpValhalla.Models.Response.LegResponse.Maneuvers
+  commentId: P:SharpValhalla.Models.Response.LegResponse.Maneuvers
+  id: Maneuvers
+  parent: SharpValhalla.Models.Response.LegResponse
+  langs:
+  - csharp
+  - vb
+  name: Maneuvers
+  nameWithType: LegResponse.Maneuvers
+  fullName: SharpValhalla.Models.Response.LegResponse.Maneuvers
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/LegResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Maneuvers
+    path: ../src/SharpValhalla/Models/Response/LegResponse.cs
+    startLine: 14
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response
+  summary: An array of maneuvers for the leg, if present.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("maneuvers")]
+
+      public List<ManeuverResponse>? Maneuvers { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SharpValhalla.Models.Response.ManeuverResponse}
+    content.vb: >-
+      <JsonPropertyName("maneuvers")>
+
+      Public Property Maneuvers As List(Of ManeuverResponse)
+  overload: SharpValhalla.Models.Response.LegResponse.Maneuvers*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: maneuvers
+- uid: SharpValhalla.Models.Response.LegResponse.Summary
+  commentId: P:SharpValhalla.Models.Response.LegResponse.Summary
+  id: Summary
+  parent: SharpValhalla.Models.Response.LegResponse
+  langs:
+  - csharp
+  - vb
+  name: Summary
+  nameWithType: LegResponse.Summary
+  fullName: SharpValhalla.Models.Response.LegResponse.Summary
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/LegResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Summary
+    path: ../src/SharpValhalla/Models/Response/LegResponse.cs
+    startLine: 20
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response
+  summary: Summary information for the leg, if present.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("summary")]
+
+      public SummaryResponse? Summary { get; set; }
+    parameters: []
+    return:
+      type: SharpValhalla.Models.Response.SummaryResponse
+    content.vb: >-
+      <JsonPropertyName("summary")>
+
+      Public Property Summary As SummaryResponse
+  overload: SharpValhalla.Models.Response.LegResponse.Summary*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: summary
+- uid: SharpValhalla.Models.Response.LegResponse.Shape
+  commentId: P:SharpValhalla.Models.Response.LegResponse.Shape
+  id: Shape
+  parent: SharpValhalla.Models.Response.LegResponse
+  langs:
+  - csharp
+  - vb
+  name: Shape
+  nameWithType: LegResponse.Shape
+  fullName: SharpValhalla.Models.Response.LegResponse.Shape
+  type: Property
+  source:
+    remote:
+      path: src/SharpValhalla/Models/Response/LegResponse.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Shape
+    path: ../src/SharpValhalla/Models/Response/LegResponse.cs
+    startLine: 26
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Models.Response
+  summary: Encoded polyline/string representing the leg's geometry, if present.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("shape")]
+
+      public string? Shape { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("shape")>
+
+      Public Property Shape As String
+  overload: SharpValhalla.Models.Response.LegResponse.Shape*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: shape
+references:
+- uid: SharpValhalla.Models.Response
+  commentId: N:SharpValhalla.Models.Response
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Response
+  nameWithType: SharpValhalla.Models.Response
+  fullName: SharpValhalla.Models.Response
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Response
+    name: Response
+    href: SharpValhalla.Models.Response.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Response
+    name: Response
+    href: SharpValhalla.Models.Response.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: SharpValhalla.Models.Response.LegResponse.SharpValhalla.Extensions.LegResponseExtensions.Coordinates
+  commentId: M:SharpValhalla.Extensions.LegResponseExtensions.Coordinates(SharpValhalla.Models.Response.LegResponse)
+  parent: SharpValhalla.Extensions.LegResponseExtensions
+  definition: SharpValhalla.Extensions.LegResponseExtensions.Coordinates(SharpValhalla.Models.Response.LegResponse)
+  href: SharpValhalla.Extensions.LegResponseExtensions.html#SharpValhalla_Extensions_LegResponseExtensions_Coordinates_SharpValhalla_Models_Response_LegResponse_
+  name: Coordinates(LegResponse)
+  nameWithType: LegResponseExtensions.Coordinates(LegResponse)
+  fullName: SharpValhalla.Extensions.LegResponseExtensions.Coordinates(SharpValhalla.Models.Response.LegResponse)
+  spec.csharp:
+  - uid: SharpValhalla.Extensions.LegResponseExtensions.Coordinates(SharpValhalla.Models.Response.LegResponse)
+    name: Coordinates
+    href: SharpValhalla.Extensions.LegResponseExtensions.html#SharpValhalla_Extensions_LegResponseExtensions_Coordinates_SharpValhalla_Models_Response_LegResponse_
+  - name: (
+  - uid: SharpValhalla.Models.Response.LegResponse
+    name: LegResponse
+    href: SharpValhalla.Models.Response.LegResponse.html
+  - name: )
+  spec.vb:
+  - uid: SharpValhalla.Extensions.LegResponseExtensions.Coordinates(SharpValhalla.Models.Response.LegResponse)
+    name: Coordinates
+    href: SharpValhalla.Extensions.LegResponseExtensions.html#SharpValhalla_Extensions_LegResponseExtensions_Coordinates_SharpValhalla_Models_Response_LegResponse_
+  - name: (
+  - uid: SharpValhalla.Models.Response.LegResponse
+    name: LegResponse
+    href: SharpValhalla.Models.Response.LegResponse.html
+  - name: )
+- uid: SharpValhalla.Models.Response.LegResponse.SharpValhalla.Extensions.LegResponseExtensions.GetCoordinates(System.Double)
+  commentId: M:SharpValhalla.Extensions.LegResponseExtensions.GetCoordinates(SharpValhalla.Models.Response.LegResponse,System.Double)
+  parent: SharpValhalla.Extensions.LegResponseExtensions
+  definition: SharpValhalla.Extensions.LegResponseExtensions.GetCoordinates(SharpValhalla.Models.Response.LegResponse,System.Double)
+  href: SharpValhalla.Extensions.LegResponseExtensions.html#SharpValhalla_Extensions_LegResponseExtensions_GetCoordinates_SharpValhalla_Models_Response_LegResponse_System_Double_
+  name: GetCoordinates(LegResponse, double)
+  nameWithType: LegResponseExtensions.GetCoordinates(LegResponse, double)
+  fullName: SharpValhalla.Extensions.LegResponseExtensions.GetCoordinates(SharpValhalla.Models.Response.LegResponse, double)
+  nameWithType.vb: LegResponseExtensions.GetCoordinates(LegResponse, Double)
+  fullName.vb: SharpValhalla.Extensions.LegResponseExtensions.GetCoordinates(SharpValhalla.Models.Response.LegResponse, Double)
+  name.vb: GetCoordinates(LegResponse, Double)
+  spec.csharp:
+  - uid: SharpValhalla.Extensions.LegResponseExtensions.GetCoordinates(SharpValhalla.Models.Response.LegResponse,System.Double)
+    name: GetCoordinates
+    href: SharpValhalla.Extensions.LegResponseExtensions.html#SharpValhalla_Extensions_LegResponseExtensions_GetCoordinates_SharpValhalla_Models_Response_LegResponse_System_Double_
+  - name: (
+  - uid: SharpValhalla.Models.Response.LegResponse
+    name: LegResponse
+    href: SharpValhalla.Models.Response.LegResponse.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: SharpValhalla.Extensions.LegResponseExtensions.GetCoordinates(SharpValhalla.Models.Response.LegResponse,System.Double)
+    name: GetCoordinates
+    href: SharpValhalla.Extensions.LegResponseExtensions.html#SharpValhalla_Extensions_LegResponseExtensions_GetCoordinates_SharpValhalla_Models_Response_LegResponse_System_Double_
+  - name: (
+  - uid: SharpValhalla.Models.Response.LegResponse
+    name: LegResponse
+    href: SharpValhalla.Models.Response.LegResponse.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SharpValhalla.Extensions.LegResponseExtensions.Coordinates(SharpValhalla.Models.Response.LegResponse)
+  commentId: M:SharpValhalla.Extensions.LegResponseExtensions.Coordinates(SharpValhalla.Models.Response.LegResponse)
+  href: SharpValhalla.Extensions.LegResponseExtensions.html#SharpValhalla_Extensions_LegResponseExtensions_Coordinates_SharpValhalla_Models_Response_LegResponse_
+  name: Coordinates(LegResponse)
+  nameWithType: LegResponseExtensions.Coordinates(LegResponse)
+  fullName: SharpValhalla.Extensions.LegResponseExtensions.Coordinates(SharpValhalla.Models.Response.LegResponse)
+  spec.csharp:
+  - uid: SharpValhalla.Extensions.LegResponseExtensions.Coordinates(SharpValhalla.Models.Response.LegResponse)
+    name: Coordinates
+    href: SharpValhalla.Extensions.LegResponseExtensions.html#SharpValhalla_Extensions_LegResponseExtensions_Coordinates_SharpValhalla_Models_Response_LegResponse_
+  - name: (
+  - uid: SharpValhalla.Models.Response.LegResponse
+    name: LegResponse
+    href: SharpValhalla.Models.Response.LegResponse.html
+  - name: )
+  spec.vb:
+  - uid: SharpValhalla.Extensions.LegResponseExtensions.Coordinates(SharpValhalla.Models.Response.LegResponse)
+    name: Coordinates
+    href: SharpValhalla.Extensions.LegResponseExtensions.html#SharpValhalla_Extensions_LegResponseExtensions_Coordinates_SharpValhalla_Models_Response_LegResponse_
+  - name: (
+  - uid: SharpValhalla.Models.Response.LegResponse
+    name: LegResponse
+    href: SharpValhalla.Models.Response.LegResponse.html
+  - name: )
+- uid: SharpValhalla.Extensions.LegResponseExtensions
+  commentId: T:SharpValhalla.Extensions.LegResponseExtensions
+  parent: SharpValhalla.Extensions
+  href: SharpValhalla.Extensions.LegResponseExtensions.html
+  name: LegResponseExtensions
+  nameWithType: LegResponseExtensions
+  fullName: SharpValhalla.Extensions.LegResponseExtensions
+- uid: SharpValhalla.Extensions.LegResponseExtensions.GetCoordinates(SharpValhalla.Models.Response.LegResponse,System.Double)
+  commentId: M:SharpValhalla.Extensions.LegResponseExtensions.GetCoordinates(SharpValhalla.Models.Response.LegResponse,System.Double)
+  isExternal: true
+  href: SharpValhalla.Extensions.LegResponseExtensions.html#SharpValhalla_Extensions_LegResponseExtensions_GetCoordinates_SharpValhalla_Models_Response_LegResponse_System_Double_
+  name: GetCoordinates(LegResponse, double)
+  nameWithType: LegResponseExtensions.GetCoordinates(LegResponse, double)
+  fullName: SharpValhalla.Extensions.LegResponseExtensions.GetCoordinates(SharpValhalla.Models.Response.LegResponse, double)
+  nameWithType.vb: LegResponseExtensions.GetCoordinates(LegResponse, Double)
+  fullName.vb: SharpValhalla.Extensions.LegResponseExtensions.GetCoordinates(SharpValhalla.Models.Response.LegResponse, Double)
+  name.vb: GetCoordinates(LegResponse, Double)
+  spec.csharp:
+  - uid: SharpValhalla.Extensions.LegResponseExtensions.GetCoordinates(SharpValhalla.Models.Response.LegResponse,System.Double)
+    name: GetCoordinates
+    href: SharpValhalla.Extensions.LegResponseExtensions.html#SharpValhalla_Extensions_LegResponseExtensions_GetCoordinates_SharpValhalla_Models_Response_LegResponse_System_Double_
+  - name: (
+  - uid: SharpValhalla.Models.Response.LegResponse
+    name: LegResponse
+    href: SharpValhalla.Models.Response.LegResponse.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: SharpValhalla.Extensions.LegResponseExtensions.GetCoordinates(SharpValhalla.Models.Response.LegResponse,System.Double)
+    name: GetCoordinates
+    href: SharpValhalla.Extensions.LegResponseExtensions.html#SharpValhalla_Extensions_LegResponseExtensions_GetCoordinates_SharpValhalla_Models_Response_LegResponse_System_Double_
+  - name: (
+  - uid: SharpValhalla.Models.Response.LegResponse
+    name: LegResponse
+    href: SharpValhalla.Models.Response.LegResponse.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: SharpValhalla.Extensions
+  commentId: N:SharpValhalla.Extensions
+  href: SharpValhalla.html
+  name: SharpValhalla.Extensions
+  nameWithType: SharpValhalla.Extensions
+  fullName: SharpValhalla.Extensions
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Extensions
+    name: Extensions
+    href: SharpValhalla.Extensions.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Extensions
+    name: Extensions
+    href: SharpValhalla.Extensions.html
+- uid: SharpValhalla.Models.Response.LegResponse.Maneuvers*
+  commentId: Overload:SharpValhalla.Models.Response.LegResponse.Maneuvers
+  href: SharpValhalla.Models.Response.LegResponse.html#SharpValhalla_Models_Response_LegResponse_Maneuvers
+  name: Maneuvers
+  nameWithType: LegResponse.Maneuvers
+  fullName: SharpValhalla.Models.Response.LegResponse.Maneuvers
+- uid: System.Collections.Generic.List{SharpValhalla.Models.Response.ManeuverResponse}
+  commentId: T:System.Collections.Generic.List{SharpValhalla.Models.Response.ManeuverResponse}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ManeuverResponse>
+  nameWithType: List<ManeuverResponse>
+  fullName: System.Collections.Generic.List<SharpValhalla.Models.Response.ManeuverResponse>
+  nameWithType.vb: List(Of ManeuverResponse)
+  fullName.vb: System.Collections.Generic.List(Of SharpValhalla.Models.Response.ManeuverResponse)
+  name.vb: List(Of ManeuverResponse)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SharpValhalla.Models.Response.ManeuverResponse
+    name: ManeuverResponse
+    href: SharpValhalla.Models.Response.ManeuverResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SharpValhalla.Models.Response.ManeuverResponse
+    name: ManeuverResponse
+    href: SharpValhalla.Models.Response.ManeuverResponse.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SharpValhalla.Models.Response.LegResponse.Summary*
+  commentId: Overload:SharpValhalla.Models.Response.LegResponse.Summary
+  href: SharpValhalla.Models.Response.LegResponse.html#SharpValhalla_Models_Response_LegResponse_Summary
+  name: Summary
+  nameWithType: LegResponse.Summary
+  fullName: SharpValhalla.Models.Response.LegResponse.Summary
+- uid: SharpValhalla.Models.Response.SummaryResponse
+  commentId: T:SharpValhalla.Models.Response.SummaryResponse
+  parent: SharpValhalla.Models.Response
+  href: SharpValhalla.Models.Response.SummaryResponse.html
+  name: SummaryResponse
+  nameWithType: SummaryResponse
+  fullName: SharpValhalla.Models.Response.SummaryResponse
+- uid: SharpValhalla.Models.Response.LegResponse.Shape*
+  commentId: Overload:SharpValhalla.Models.Response.LegResponse.Shape
+  href: SharpValhalla.Models.Response.LegResponse.html#SharpValhalla_Models_Response_LegResponse_Shape
+  name: Shape
+  nameWithType: LegResponse.Shape
+  fullName: SharpValhalla.Models.Response.LegResponse.Shape
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.DirectionType
+  commentId: T:SharpValhalla.Enums.DirectionType
+  id: DirectionType
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.DirectionType.Instructions
+  - SharpValhalla.Enums.DirectionType.Maneuvers
+  - SharpValhalla.Enums.DirectionType.None
+  langs:
+  - csharp
+  - vb
+  name: DirectionType
+  nameWithType: DirectionType
+  fullName: SharpValhalla.Enums.DirectionType
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/DirectionType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: DirectionType
+    path: ../src/SharpValhalla/Enums/DirectionType.cs
+    startLine: 7
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Indicates the type of directions or instructions to be returned.
+  example: []
+  syntax:
+    content: public enum DirectionType
+    content.vb: Public Enum DirectionType
+- uid: SharpValhalla.Enums.DirectionType.None
+  commentId: F:SharpValhalla.Enums.DirectionType.None
+  id: None
+  parent: SharpValhalla.Enums.DirectionType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DirectionType.None
+  fullName: SharpValhalla.Enums.DirectionType.None
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/DirectionType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: None
+    path: ../src/SharpValhalla/Enums/DirectionType.cs
+    startLine: 11
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Indicating no maneuvers or instructions should be returned.
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: SharpValhalla.Enums.DirectionType
+- uid: SharpValhalla.Enums.DirectionType.Maneuvers
+  commentId: F:SharpValhalla.Enums.DirectionType.Maneuvers
+  id: Maneuvers
+  parent: SharpValhalla.Enums.DirectionType
+  langs:
+  - csharp
+  - vb
+  name: Maneuvers
+  nameWithType: DirectionType.Maneuvers
+  fullName: SharpValhalla.Enums.DirectionType.Maneuvers
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/DirectionType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Maneuvers
+    path: ../src/SharpValhalla/Enums/DirectionType.cs
+    startLine: 16
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Indicating that only maneuvers be returned.
+  example: []
+  syntax:
+    content: Maneuvers = 1
+    return:
+      type: SharpValhalla.Enums.DirectionType
+- uid: SharpValhalla.Enums.DirectionType.Instructions
+  commentId: F:SharpValhalla.Enums.DirectionType.Instructions
+  id: Instructions
+  parent: SharpValhalla.Enums.DirectionType
+  langs:
+  - csharp
+  - vb
+  name: Instructions
+  nameWithType: DirectionType.Instructions
+  fullName: SharpValhalla.Enums.DirectionType.Instructions
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/DirectionType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Instructions
+    path: ../src/SharpValhalla/Enums/DirectionType.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Indicating that maneuvers with instructions should be returned (this is the default if not specified).
+  example: []
+  syntax:
+    content: Instructions = 2
+    return:
+      type: SharpValhalla.Enums.DirectionType
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.DirectionType
+  commentId: T:SharpValhalla.Enums.DirectionType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.DirectionType.html
+  name: DirectionType
+  nameWithType: DirectionType
+  fullName: SharpValhalla.Enums.DirectionType

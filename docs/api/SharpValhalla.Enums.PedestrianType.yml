@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.PedestrianType
+  commentId: T:SharpValhalla.Enums.PedestrianType
+  id: PedestrianType
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.PedestrianType.Foot
+  - SharpValhalla.Enums.PedestrianType.Segway
+  - SharpValhalla.Enums.PedestrianType.Wheelchair
+  langs:
+  - csharp
+  - vb
+  name: PedestrianType
+  nameWithType: PedestrianType
+  fullName: SharpValhalla.Enums.PedestrianType
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/PedestrianType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: PedestrianType
+    path: ../src/SharpValhalla/Enums/PedestrianType.cs
+    startLine: 10
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    Represents different pedestrian types for edges in Valhalla routing.
+
+
+    Each case corresponds to a specific type of pedestrian or mobility mode.
+
+    The raw value matches the exact key string used in Valhalla.
+  example: []
+  syntax:
+    content: public enum PedestrianType
+    content.vb: Public Enum PedestrianType
+- uid: SharpValhalla.Enums.PedestrianType.Foot
+  commentId: F:SharpValhalla.Enums.PedestrianType.Foot
+  id: Foot
+  parent: SharpValhalla.Enums.PedestrianType
+  langs:
+  - csharp
+  - vb
+  name: Foot
+  nameWithType: PedestrianType.Foot
+  fullName: SharpValhalla.Enums.PedestrianType.Foot
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/PedestrianType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Foot
+    path: ../src/SharpValhalla/Enums/PedestrianType.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Standard pedestrian (foot).
+  example: []
+  syntax:
+    content: Foot = 0
+    return:
+      type: SharpValhalla.Enums.PedestrianType
+- uid: SharpValhalla.Enums.PedestrianType.Wheelchair
+  commentId: F:SharpValhalla.Enums.PedestrianType.Wheelchair
+  id: Wheelchair
+  parent: SharpValhalla.Enums.PedestrianType
+  langs:
+  - csharp
+  - vb
+  name: Wheelchair
+  nameWithType: PedestrianType.Wheelchair
+  fullName: SharpValhalla.Enums.PedestrianType.Wheelchair
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/PedestrianType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Wheelchair
+    path: ../src/SharpValhalla/Enums/PedestrianType.cs
+    startLine: 15
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Wheelchair user.
+  example: []
+  syntax:
+    content: Wheelchair = 1
+    return:
+      type: SharpValhalla.Enums.PedestrianType
+- uid: SharpValhalla.Enums.PedestrianType.Segway
+  commentId: F:SharpValhalla.Enums.PedestrianType.Segway
+  id: Segway
+  parent: SharpValhalla.Enums.PedestrianType
+  langs:
+  - csharp
+  - vb
+  name: Segway
+  nameWithType: PedestrianType.Segway
+  fullName: SharpValhalla.Enums.PedestrianType.Segway
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/PedestrianType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Segway
+    path: ../src/SharpValhalla/Enums/PedestrianType.cs
+    startLine: 18
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Segway user.
+  example: []
+  syntax:
+    content: Segway = 2
+    return:
+      type: SharpValhalla.Enums.PedestrianType
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.PedestrianType
+  commentId: T:SharpValhalla.Enums.PedestrianType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.PedestrianType.html
+  name: PedestrianType
+  nameWithType: PedestrianType
+  fullName: SharpValhalla.Enums.PedestrianType

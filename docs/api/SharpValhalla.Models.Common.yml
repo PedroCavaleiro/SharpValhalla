@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Models.Common
+  commentId: N:SharpValhalla.Models.Common
+  id: SharpValhalla.Models.Common
+  children:
+  - SharpValhalla.Models.Common.CostingOptions
+  - SharpValhalla.Models.Common.Location
+  - SharpValhalla.Models.Common.LocationCoordinate2D
+  langs:
+  - csharp
+  - vb
+  name: SharpValhalla.Models.Common
+  nameWithType: SharpValhalla.Models.Common
+  fullName: SharpValhalla.Models.Common
+  type: Namespace
+  assemblies:
+  - SharpValhalla
+references:
+- uid: SharpValhalla.Models.Common.CostingOptions
+  commentId: T:SharpValhalla.Models.Common.CostingOptions
+  parent: SharpValhalla.Models.Common
+  href: SharpValhalla.Models.Common.CostingOptions.html
+  name: CostingOptions
+  nameWithType: CostingOptions
+  fullName: SharpValhalla.Models.Common.CostingOptions
+- uid: SharpValhalla.Models.Common.Location
+  commentId: T:SharpValhalla.Models.Common.Location
+  href: SharpValhalla.Models.Common.Location.html
+  name: Location
+  nameWithType: Location
+  fullName: SharpValhalla.Models.Common.Location
+- uid: SharpValhalla.Models.Common.LocationCoordinate2D
+  commentId: T:SharpValhalla.Models.Common.LocationCoordinate2D
+  parent: SharpValhalla.Models.Common
+  href: SharpValhalla.Models.Common.LocationCoordinate2D.html
+  name: LocationCoordinate2D
+  nameWithType: LocationCoordinate2D
+  fullName: SharpValhalla.Models.Common.LocationCoordinate2D
+- uid: SharpValhalla.Models.Common
+  commentId: N:SharpValhalla.Models.Common
+  href: SharpValhalla.html
+  name: SharpValhalla.Models.Common
+  nameWithType: SharpValhalla.Models.Common
+  fullName: SharpValhalla.Models.Common
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Common
+    name: Common
+    href: SharpValhalla.Models.Common.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Models
+    name: Models
+    href: SharpValhalla.Models.html
+  - name: .
+  - uid: SharpValhalla.Models.Common
+    name: Common
+    href: SharpValhalla.Models.Common.html

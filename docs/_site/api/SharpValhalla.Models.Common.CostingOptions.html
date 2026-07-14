@@ -1,0 +1,1681 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CostingOptions | SharpValhalla </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CostingOptions | SharpValhalla ">
+      
+      <meta name="description" content="Configuration options for route costing and avoidance preferences. Use CostingOptions to specify routing preferences such as avoiding tolls, highways, or ferries, and to control various routing parameters including vehicle specifications, road preferences, and cost factors. All properties are optional, allowing you to specify only the preferences you need. Different costing models support different subsets of these options.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/PedroCavaleiro/SharpValhalla/new/dev/apiSpec/new?filename=SharpValhalla_Models_Common_CostingOptions.md&amp;value=---%0Auid%3A%20SharpValhalla.Models.Common.CostingOptions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SharpValhalla">
+            SharpValhalla
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SharpValhalla.Models.Common.CostingOptions">
+
+
+
+  <h1 id="SharpValhalla_Models_Common_CostingOptions" data-uid="SharpValhalla.Models.Common.CostingOptions" class="text-break">
+Class CostingOptions  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SharpValhalla.html">SharpValhalla</a>.<a class="xref" href="SharpValhalla.Models.html">Models</a>.<a class="xref" href="SharpValhalla.Models.Common.html">Common</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SharpValhalla.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Configuration options for route costing and avoidance preferences.
+Use CostingOptions to specify routing preferences such as avoiding tolls, highways, or ferries,
+and to control various routing parameters including vehicle specifications, road preferences, and cost factors.
+All properties are optional, allowing you to specify only the preferences you need.
+Different costing models support different subsets of these options.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CostingOptions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CostingOptions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions__ctor_" data-uid="SharpValhalla.Models.Common.CostingOptions.#ctor*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions__ctor_System_Nullable_System_Boolean__System_Nullable_System_Boolean__System_Nullable_System_Boolean__System_Nullable_System_Boolean__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Int32__System_Nullable_System_Boolean__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Boolean__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Boolean__System_Collections_Generic_Dictionary_System_String_System_Object__System_Nullable_System_Double__" data-uid="SharpValhalla.Models.Common.CostingOptions.#ctor(System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Boolean},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Boolean},System.Collections.Generic.Dictionary{System.String,System.Object},System.Nullable{System.Double})">
+  CostingOptions(bool?, bool?, bool?, bool?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, int?, bool?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, bool?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, double?, bool?, Dictionary&lt;string, object&gt;?, double?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new costing options configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CostingOptions(bool? avoidTolls = null, bool? avoidHighways = null, bool? avoidFerries = null, bool? shortcut = null, double? maneuverPenalty = null, double? gateCost = null, double? gateAccessCost = null, double? tollBoothCost = null, double? tollBoothAccessCost = null, double? countryChangingPenalty = null, double? length = null, double? width = null, double? height = null, double? weight = null, double? axleLoad = null, int? axleCount = null, bool? hazmat = null, double? motorwayFactor = null, double? trunkFactor = null, double? primaryFactor = null, double? secondaryFactor = null, double? tertiaryFactor = null, double? unclassifiedFactor = null, double? residentialFactor = null, double? serviceRoadFactor = null, double? topSpeed = null, double? speedFactor = null, double? uturnPenalty = null, bool? useTraffic = null, double? walkingSpeed = null, double? walkwayFactor = null, double? sidewalkFactor = null, double? alleyFactor = null, double? drivewayFactor = null, double? crossingPenalty = null, double? maxGrade = null, double? cyclingSpeed = null, double? bicycleLaneFactor = null, double? cyclewayFactor = null, double? mountainBikeFactor = null, bool? avoidBadSurfaces = null, Dictionary&lt;string, object&gt;? transitModeFilters = null, double? transitWalkingDistance = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>avoidTolls</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+    <dt><code>avoidHighways</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+    <dt><code>avoidFerries</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+    <dt><code>shortcut</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+    <dt><code>maneuverPenalty</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>gateCost</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>gateAccessCost</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>tollBoothCost</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>tollBoothAccessCost</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>countryChangingPenalty</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>weight</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>axleLoad</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>axleCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>hazmat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+    <dt><code>motorwayFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>trunkFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>primaryFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>secondaryFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>tertiaryFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>unclassifiedFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>residentialFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>serviceRoadFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>topSpeed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>speedFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>uturnPenalty</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>useTraffic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+    <dt><code>walkingSpeed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>walkwayFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>sidewalkFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>alleyFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>drivewayFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>crossingPenalty</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>maxGrade</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>cyclingSpeed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>bicycleLaneFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>cyclewayFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>mountainBikeFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>avoidBadSurfaces</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+    <dt><code>transitModeFilters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>transitWalkingDistance</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_AlleyFactor_" data-uid="SharpValhalla.Models.Common.CostingOptions.AlleyFactor*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_AlleyFactor" data-uid="SharpValhalla.Models.Common.CostingOptions.AlleyFactor">
+  AlleyFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;alley_factor&quot;)]
+public double? AlleyFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_AvoidBadSurfaces_" data-uid="SharpValhalla.Models.Common.CostingOptions.AvoidBadSurfaces*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_AvoidBadSurfaces" data-uid="SharpValhalla.Models.Common.CostingOptions.AvoidBadSurfaces">
+  AvoidBadSurfaces
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;avoid_bad_surfaces&quot;)]
+public bool? AvoidBadSurfaces { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_AvoidFerries_" data-uid="SharpValhalla.Models.Common.CostingOptions.AvoidFerries*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_AvoidFerries" data-uid="SharpValhalla.Models.Common.CostingOptions.AvoidFerries">
+  AvoidFerries
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;avoid_ferries&quot;)]
+public bool? AvoidFerries { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_AvoidHighways_" data-uid="SharpValhalla.Models.Common.CostingOptions.AvoidHighways*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_AvoidHighways" data-uid="SharpValhalla.Models.Common.CostingOptions.AvoidHighways">
+  AvoidHighways
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;avoid_highways&quot;)]
+public bool? AvoidHighways { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_AvoidTolls_" data-uid="SharpValhalla.Models.Common.CostingOptions.AvoidTolls*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_AvoidTolls" data-uid="SharpValhalla.Models.Common.CostingOptions.AvoidTolls">
+  AvoidTolls
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;avoid_tolls&quot;)]
+public bool? AvoidTolls { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_AxleCount_" data-uid="SharpValhalla.Models.Common.CostingOptions.AxleCount*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_AxleCount" data-uid="SharpValhalla.Models.Common.CostingOptions.AxleCount">
+  AxleCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;axle_count&quot;)]
+public int? AxleCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_AxleLoad_" data-uid="SharpValhalla.Models.Common.CostingOptions.AxleLoad*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_AxleLoad" data-uid="SharpValhalla.Models.Common.CostingOptions.AxleLoad">
+  AxleLoad
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;axle_load&quot;)]
+public double? AxleLoad { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_BicycleLaneFactor_" data-uid="SharpValhalla.Models.Common.CostingOptions.BicycleLaneFactor*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_BicycleLaneFactor" data-uid="SharpValhalla.Models.Common.CostingOptions.BicycleLaneFactor">
+  BicycleLaneFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;bicycle_lane_factor&quot;)]
+public double? BicycleLaneFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_CountryChangingPenalty_" data-uid="SharpValhalla.Models.Common.CostingOptions.CountryChangingPenalty*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_CountryChangingPenalty" data-uid="SharpValhalla.Models.Common.CostingOptions.CountryChangingPenalty">
+  CountryChangingPenalty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;country_changing_penalty&quot;)]
+public double? CountryChangingPenalty { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_CrossingPenalty_" data-uid="SharpValhalla.Models.Common.CostingOptions.CrossingPenalty*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_CrossingPenalty" data-uid="SharpValhalla.Models.Common.CostingOptions.CrossingPenalty">
+  CrossingPenalty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;crossing_penalty&quot;)]
+public double? CrossingPenalty { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_CyclewayFactor_" data-uid="SharpValhalla.Models.Common.CostingOptions.CyclewayFactor*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_CyclewayFactor" data-uid="SharpValhalla.Models.Common.CostingOptions.CyclewayFactor">
+  CyclewayFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;cycleway_factor&quot;)]
+public double? CyclewayFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_CyclingSpeed_" data-uid="SharpValhalla.Models.Common.CostingOptions.CyclingSpeed*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_CyclingSpeed" data-uid="SharpValhalla.Models.Common.CostingOptions.CyclingSpeed">
+  CyclingSpeed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;cycling_speed&quot;)]
+public double? CyclingSpeed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_DrivewayFactor_" data-uid="SharpValhalla.Models.Common.CostingOptions.DrivewayFactor*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_DrivewayFactor" data-uid="SharpValhalla.Models.Common.CostingOptions.DrivewayFactor">
+  DrivewayFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;driveway_factor&quot;)]
+public double? DrivewayFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_GateAccessCost_" data-uid="SharpValhalla.Models.Common.CostingOptions.GateAccessCost*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_GateAccessCost" data-uid="SharpValhalla.Models.Common.CostingOptions.GateAccessCost">
+  GateAccessCost
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;gate_access_cost&quot;)]
+public double? GateAccessCost { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_GateCost_" data-uid="SharpValhalla.Models.Common.CostingOptions.GateCost*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_GateCost" data-uid="SharpValhalla.Models.Common.CostingOptions.GateCost">
+  GateCost
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;gate_cost&quot;)]
+public double? GateCost { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_Hazmat_" data-uid="SharpValhalla.Models.Common.CostingOptions.Hazmat*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_Hazmat" data-uid="SharpValhalla.Models.Common.CostingOptions.Hazmat">
+  Hazmat
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;hazmat&quot;)]
+public bool? Hazmat { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_Height_" data-uid="SharpValhalla.Models.Common.CostingOptions.Height*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_Height" data-uid="SharpValhalla.Models.Common.CostingOptions.Height">
+  Height
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;height&quot;)]
+public double? Height { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_Length_" data-uid="SharpValhalla.Models.Common.CostingOptions.Length*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_Length" data-uid="SharpValhalla.Models.Common.CostingOptions.Length">
+  Length
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;length&quot;)]
+public double? Length { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_ManeuverPenalty_" data-uid="SharpValhalla.Models.Common.CostingOptions.ManeuverPenalty*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_ManeuverPenalty" data-uid="SharpValhalla.Models.Common.CostingOptions.ManeuverPenalty">
+  ManeuverPenalty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;maneuver_penalty&quot;)]
+public double? ManeuverPenalty { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_MaxGrade_" data-uid="SharpValhalla.Models.Common.CostingOptions.MaxGrade*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_MaxGrade" data-uid="SharpValhalla.Models.Common.CostingOptions.MaxGrade">
+  MaxGrade
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;max_grade&quot;)]
+public double? MaxGrade { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_MotorwayFactor_" data-uid="SharpValhalla.Models.Common.CostingOptions.MotorwayFactor*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_MotorwayFactor" data-uid="SharpValhalla.Models.Common.CostingOptions.MotorwayFactor">
+  MotorwayFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;motorway_factor&quot;)]
+public double? MotorwayFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_MountainBikeFactor_" data-uid="SharpValhalla.Models.Common.CostingOptions.MountainBikeFactor*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_MountainBikeFactor" data-uid="SharpValhalla.Models.Common.CostingOptions.MountainBikeFactor">
+  MountainBikeFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;mountain_bike_factor&quot;)]
+public double? MountainBikeFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_PrimaryFactor_" data-uid="SharpValhalla.Models.Common.CostingOptions.PrimaryFactor*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_PrimaryFactor" data-uid="SharpValhalla.Models.Common.CostingOptions.PrimaryFactor">
+  PrimaryFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;primary_factor&quot;)]
+public double? PrimaryFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_ResidentialFactor_" data-uid="SharpValhalla.Models.Common.CostingOptions.ResidentialFactor*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_ResidentialFactor" data-uid="SharpValhalla.Models.Common.CostingOptions.ResidentialFactor">
+  ResidentialFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;residential_factor&quot;)]
+public double? ResidentialFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_SecondaryFactor_" data-uid="SharpValhalla.Models.Common.CostingOptions.SecondaryFactor*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_SecondaryFactor" data-uid="SharpValhalla.Models.Common.CostingOptions.SecondaryFactor">
+  SecondaryFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;secondary_factor&quot;)]
+public double? SecondaryFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_ServiceRoadFactor_" data-uid="SharpValhalla.Models.Common.CostingOptions.ServiceRoadFactor*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_ServiceRoadFactor" data-uid="SharpValhalla.Models.Common.CostingOptions.ServiceRoadFactor">
+  ServiceRoadFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;service_road_factor&quot;)]
+public double? ServiceRoadFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_Shortcut_" data-uid="SharpValhalla.Models.Common.CostingOptions.Shortcut*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_Shortcut" data-uid="SharpValhalla.Models.Common.CostingOptions.Shortcut">
+  Shortcut
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;shortest&quot;)]
+public bool? Shortcut { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_SidewalkFactor_" data-uid="SharpValhalla.Models.Common.CostingOptions.SidewalkFactor*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_SidewalkFactor" data-uid="SharpValhalla.Models.Common.CostingOptions.SidewalkFactor">
+  SidewalkFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;sidewalk_factor&quot;)]
+public double? SidewalkFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_SpeedFactor_" data-uid="SharpValhalla.Models.Common.CostingOptions.SpeedFactor*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_SpeedFactor" data-uid="SharpValhalla.Models.Common.CostingOptions.SpeedFactor">
+  SpeedFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;speed_factor&quot;)]
+public double? SpeedFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_TertiaryFactor_" data-uid="SharpValhalla.Models.Common.CostingOptions.TertiaryFactor*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_TertiaryFactor" data-uid="SharpValhalla.Models.Common.CostingOptions.TertiaryFactor">
+  TertiaryFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;tertiary_factor&quot;)]
+public double? TertiaryFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_TollBoothAccessCost_" data-uid="SharpValhalla.Models.Common.CostingOptions.TollBoothAccessCost*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_TollBoothAccessCost" data-uid="SharpValhalla.Models.Common.CostingOptions.TollBoothAccessCost">
+  TollBoothAccessCost
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;toll_booth_access_cost&quot;)]
+public double? TollBoothAccessCost { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_TollBoothCost_" data-uid="SharpValhalla.Models.Common.CostingOptions.TollBoothCost*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_TollBoothCost" data-uid="SharpValhalla.Models.Common.CostingOptions.TollBoothCost">
+  TollBoothCost
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;toll_booth_cost&quot;)]
+public double? TollBoothCost { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_TopSpeed_" data-uid="SharpValhalla.Models.Common.CostingOptions.TopSpeed*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_TopSpeed" data-uid="SharpValhalla.Models.Common.CostingOptions.TopSpeed">
+  TopSpeed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;top_speed&quot;)]
+public double? TopSpeed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_TransitModeFilters_" data-uid="SharpValhalla.Models.Common.CostingOptions.TransitModeFilters*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_TransitModeFilters" data-uid="SharpValhalla.Models.Common.CostingOptions.TransitModeFilters">
+  TransitModeFilters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;transit_mode_filters&quot;)]
+public Dictionary&lt;string, object&gt;? TransitModeFilters { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_TransitWalkingDistance_" data-uid="SharpValhalla.Models.Common.CostingOptions.TransitWalkingDistance*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_TransitWalkingDistance" data-uid="SharpValhalla.Models.Common.CostingOptions.TransitWalkingDistance">
+  TransitWalkingDistance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;transit_walking_distance&quot;)]
+public double? TransitWalkingDistance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_TrunkFactor_" data-uid="SharpValhalla.Models.Common.CostingOptions.TrunkFactor*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_TrunkFactor" data-uid="SharpValhalla.Models.Common.CostingOptions.TrunkFactor">
+  TrunkFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;trunk_factor&quot;)]
+public double? TrunkFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_UnclassifiedFactor_" data-uid="SharpValhalla.Models.Common.CostingOptions.UnclassifiedFactor*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_UnclassifiedFactor" data-uid="SharpValhalla.Models.Common.CostingOptions.UnclassifiedFactor">
+  UnclassifiedFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;unclassified_factor&quot;)]
+public double? UnclassifiedFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_UseTraffic_" data-uid="SharpValhalla.Models.Common.CostingOptions.UseTraffic*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_UseTraffic" data-uid="SharpValhalla.Models.Common.CostingOptions.UseTraffic">
+  UseTraffic
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;use_traffic&quot;)]
+public bool? UseTraffic { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_UturnPenalty_" data-uid="SharpValhalla.Models.Common.CostingOptions.UturnPenalty*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_UturnPenalty" data-uid="SharpValhalla.Models.Common.CostingOptions.UturnPenalty">
+  UturnPenalty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;uturn_penalty&quot;)]
+public double? UturnPenalty { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_WalkingSpeed_" data-uid="SharpValhalla.Models.Common.CostingOptions.WalkingSpeed*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_WalkingSpeed" data-uid="SharpValhalla.Models.Common.CostingOptions.WalkingSpeed">
+  WalkingSpeed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;walking_speed&quot;)]
+public double? WalkingSpeed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_WalkwayFactor_" data-uid="SharpValhalla.Models.Common.CostingOptions.WalkwayFactor*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_WalkwayFactor" data-uid="SharpValhalla.Models.Common.CostingOptions.WalkwayFactor">
+  WalkwayFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;walkway_factor&quot;)]
+public double? WalkwayFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_Weight_" data-uid="SharpValhalla.Models.Common.CostingOptions.Weight*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_Weight" data-uid="SharpValhalla.Models.Common.CostingOptions.Weight">
+  Weight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;weight&quot;)]
+public double? Weight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SharpValhalla_Models_Common_CostingOptions_Width_" data-uid="SharpValhalla.Models.Common.CostingOptions.Width*"></a>
+
+  <h3 id="SharpValhalla_Models_Common_CostingOptions_Width" data-uid="SharpValhalla.Models.Common.CostingOptions.Width">
+  Width
+  <a class="header-action link-secondary" title="View source" href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;width&quot;)]
+public double? Width { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/PedroCavaleiro/SharpValhalla/blob/dev/src/SharpValhalla/Models/Common/CostingOptions.cs/#L14" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

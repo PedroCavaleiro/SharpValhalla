@@ -1,0 +1,298 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.TransitType
+  commentId: T:SharpValhalla.Enums.TransitType
+  id: TransitType
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.TransitType.Bus
+  - SharpValhalla.Enums.TransitType.CableCar
+  - SharpValhalla.Enums.TransitType.Ferry
+  - SharpValhalla.Enums.TransitType.Funicular
+  - SharpValhalla.Enums.TransitType.Gondola
+  - SharpValhalla.Enums.TransitType.Metro
+  - SharpValhalla.Enums.TransitType.Rail
+  - SharpValhalla.Enums.TransitType.Tram
+  langs:
+  - csharp
+  - vb
+  name: TransitType
+  nameWithType: TransitType
+  fullName: SharpValhalla.Enums.TransitType
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TransitType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TransitType
+    path: ../src/SharpValhalla/Enums/TransitType.cs
+    startLine: 10
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    Represents different transit types for edges in Valhalla routing.
+
+
+    Each case corresponds to a specific public transit or cable transport type.
+
+    The raw value matches the exact key string used in Valhalla.
+  example: []
+  syntax:
+    content: public enum TransitType
+    content.vb: Public Enum TransitType
+- uid: SharpValhalla.Enums.TransitType.Tram
+  commentId: F:SharpValhalla.Enums.TransitType.Tram
+  id: Tram
+  parent: SharpValhalla.Enums.TransitType
+  langs:
+  - csharp
+  - vb
+  name: Tram
+  nameWithType: TransitType.Tram
+  fullName: SharpValhalla.Enums.TransitType.Tram
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TransitType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Tram
+    path: ../src/SharpValhalla/Enums/TransitType.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Tram transit type.
+  example: []
+  syntax:
+    content: Tram = 0
+    return:
+      type: SharpValhalla.Enums.TransitType
+- uid: SharpValhalla.Enums.TransitType.Metro
+  commentId: F:SharpValhalla.Enums.TransitType.Metro
+  id: Metro
+  parent: SharpValhalla.Enums.TransitType
+  langs:
+  - csharp
+  - vb
+  name: Metro
+  nameWithType: TransitType.Metro
+  fullName: SharpValhalla.Enums.TransitType.Metro
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TransitType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Metro
+    path: ../src/SharpValhalla/Enums/TransitType.cs
+    startLine: 15
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Metro transit type.
+  example: []
+  syntax:
+    content: Metro = 1
+    return:
+      type: SharpValhalla.Enums.TransitType
+- uid: SharpValhalla.Enums.TransitType.Rail
+  commentId: F:SharpValhalla.Enums.TransitType.Rail
+  id: Rail
+  parent: SharpValhalla.Enums.TransitType
+  langs:
+  - csharp
+  - vb
+  name: Rail
+  nameWithType: TransitType.Rail
+  fullName: SharpValhalla.Enums.TransitType.Rail
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TransitType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Rail
+    path: ../src/SharpValhalla/Enums/TransitType.cs
+    startLine: 18
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Rail transit type.
+  example: []
+  syntax:
+    content: Rail = 2
+    return:
+      type: SharpValhalla.Enums.TransitType
+- uid: SharpValhalla.Enums.TransitType.Bus
+  commentId: F:SharpValhalla.Enums.TransitType.Bus
+  id: Bus
+  parent: SharpValhalla.Enums.TransitType
+  langs:
+  - csharp
+  - vb
+  name: Bus
+  nameWithType: TransitType.Bus
+  fullName: SharpValhalla.Enums.TransitType.Bus
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TransitType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Bus
+    path: ../src/SharpValhalla/Enums/TransitType.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Bus transit type.
+  example: []
+  syntax:
+    content: Bus = 3
+    return:
+      type: SharpValhalla.Enums.TransitType
+- uid: SharpValhalla.Enums.TransitType.Ferry
+  commentId: F:SharpValhalla.Enums.TransitType.Ferry
+  id: Ferry
+  parent: SharpValhalla.Enums.TransitType
+  langs:
+  - csharp
+  - vb
+  name: Ferry
+  nameWithType: TransitType.Ferry
+  fullName: SharpValhalla.Enums.TransitType.Ferry
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TransitType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Ferry
+    path: ../src/SharpValhalla/Enums/TransitType.cs
+    startLine: 24
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Ferry transit type.
+  example: []
+  syntax:
+    content: Ferry = 4
+    return:
+      type: SharpValhalla.Enums.TransitType
+- uid: SharpValhalla.Enums.TransitType.CableCar
+  commentId: F:SharpValhalla.Enums.TransitType.CableCar
+  id: CableCar
+  parent: SharpValhalla.Enums.TransitType
+  langs:
+  - csharp
+  - vb
+  name: CableCar
+  nameWithType: TransitType.CableCar
+  fullName: SharpValhalla.Enums.TransitType.CableCar
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TransitType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: CableCar
+    path: ../src/SharpValhalla/Enums/TransitType.cs
+    startLine: 27
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Cable car transit type.
+  example: []
+  syntax:
+    content: CableCar = 5
+    return:
+      type: SharpValhalla.Enums.TransitType
+- uid: SharpValhalla.Enums.TransitType.Gondola
+  commentId: F:SharpValhalla.Enums.TransitType.Gondola
+  id: Gondola
+  parent: SharpValhalla.Enums.TransitType
+  langs:
+  - csharp
+  - vb
+  name: Gondola
+  nameWithType: TransitType.Gondola
+  fullName: SharpValhalla.Enums.TransitType.Gondola
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TransitType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Gondola
+    path: ../src/SharpValhalla/Enums/TransitType.cs
+    startLine: 30
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Gondola transit type.
+  example: []
+  syntax:
+    content: Gondola = 6
+    return:
+      type: SharpValhalla.Enums.TransitType
+- uid: SharpValhalla.Enums.TransitType.Funicular
+  commentId: F:SharpValhalla.Enums.TransitType.Funicular
+  id: Funicular
+  parent: SharpValhalla.Enums.TransitType
+  langs:
+  - csharp
+  - vb
+  name: Funicular
+  nameWithType: TransitType.Funicular
+  fullName: SharpValhalla.Enums.TransitType.Funicular
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/TransitType.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Funicular
+    path: ../src/SharpValhalla/Enums/TransitType.cs
+    startLine: 33
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Funicular transit type.
+  example: []
+  syntax:
+    content: Funicular = 7
+    return:
+      type: SharpValhalla.Enums.TransitType
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.TransitType
+  commentId: T:SharpValhalla.Enums.TransitType
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.TransitType.html
+  name: TransitType
+  nameWithType: TransitType
+  fullName: SharpValhalla.Enums.TransitType

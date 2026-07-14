@@ -1,0 +1,762 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.Use
+  commentId: T:SharpValhalla.Enums.Use
+  id: Use
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.Use.Alley
+  - SharpValhalla.Enums.Use.Bus
+  - SharpValhalla.Enums.Use.Culdesac
+  - SharpValhalla.Enums.Use.Cycleway
+  - SharpValhalla.Enums.Use.DriveThrough
+  - SharpValhalla.Enums.Use.Driveway
+  - SharpValhalla.Enums.Use.EgressConnection
+  - SharpValhalla.Enums.Use.EmergencyAccess
+  - SharpValhalla.Enums.Use.Ferry
+  - SharpValhalla.Enums.Use.Footway
+  - SharpValhalla.Enums.Use.MountainBike
+  - SharpValhalla.Enums.Use.Other
+  - SharpValhalla.Enums.Use.ParkingAisle
+  - SharpValhalla.Enums.Use.PlatformConnection
+  - SharpValhalla.Enums.Use.Rail
+  - SharpValhalla.Enums.Use.RailFerry
+  - SharpValhalla.Enums.Use.Ramp
+  - SharpValhalla.Enums.Use.Road
+  - SharpValhalla.Enums.Use.Sidewalk
+  - SharpValhalla.Enums.Use.Steps
+  - SharpValhalla.Enums.Use.Track
+  - SharpValhalla.Enums.Use.Tram
+  - SharpValhalla.Enums.Use.TransitConnection
+  - SharpValhalla.Enums.Use.TurnChannel
+  langs:
+  - csharp
+  - vb
+  name: Use
+  nameWithType: Use
+  fullName: SharpValhalla.Enums.Use
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Use
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 10
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: >-
+    Represents the different use types for edges or paths in Valhalla routing.
+
+
+    Each case corresponds to a specific way or connection type (e.g., road, ramp, ferry).
+
+    The raw value matches the exact key string used in Valhalla.
+  example: []
+  syntax:
+    content: public enum Use
+    content.vb: Public Enum Use
+- uid: SharpValhalla.Enums.Use.Tram
+  commentId: F:SharpValhalla.Enums.Use.Tram
+  id: Tram
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: Tram
+  nameWithType: Use.Tram
+  fullName: SharpValhalla.Enums.Use.Tram
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Tram
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 12
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Tram use type.
+  example: []
+  syntax:
+    content: Tram = 0
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.Road
+  commentId: F:SharpValhalla.Enums.Use.Road
+  id: Road
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: Road
+  nameWithType: Use.Road
+  fullName: SharpValhalla.Enums.Use.Road
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Road
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 15
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Road use type.
+  example: []
+  syntax:
+    content: Road = 1
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.Ramp
+  commentId: F:SharpValhalla.Enums.Use.Ramp
+  id: Ramp
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: Ramp
+  nameWithType: Use.Ramp
+  fullName: SharpValhalla.Enums.Use.Ramp
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Ramp
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 18
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Ramp use type.
+  example: []
+  syntax:
+    content: Ramp = 2
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.TurnChannel
+  commentId: F:SharpValhalla.Enums.Use.TurnChannel
+  id: TurnChannel
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: TurnChannel
+  nameWithType: Use.TurnChannel
+  fullName: SharpValhalla.Enums.Use.TurnChannel
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TurnChannel
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Turn channel use type.
+  example: []
+  syntax:
+    content: TurnChannel = 3
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.Track
+  commentId: F:SharpValhalla.Enums.Use.Track
+  id: Track
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: Track
+  nameWithType: Use.Track
+  fullName: SharpValhalla.Enums.Use.Track
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Track
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 24
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Track use type.
+  example: []
+  syntax:
+    content: Track = 4
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.Driveway
+  commentId: F:SharpValhalla.Enums.Use.Driveway
+  id: Driveway
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: Driveway
+  nameWithType: Use.Driveway
+  fullName: SharpValhalla.Enums.Use.Driveway
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Driveway
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 27
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Driveway use type.
+  example: []
+  syntax:
+    content: Driveway = 5
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.Alley
+  commentId: F:SharpValhalla.Enums.Use.Alley
+  id: Alley
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: Alley
+  nameWithType: Use.Alley
+  fullName: SharpValhalla.Enums.Use.Alley
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Alley
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 30
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Alley use type.
+  example: []
+  syntax:
+    content: Alley = 6
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.ParkingAisle
+  commentId: F:SharpValhalla.Enums.Use.ParkingAisle
+  id: ParkingAisle
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: ParkingAisle
+  nameWithType: Use.ParkingAisle
+  fullName: SharpValhalla.Enums.Use.ParkingAisle
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ParkingAisle
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 33
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Parking aisle use type.
+  example: []
+  syntax:
+    content: ParkingAisle = 7
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.EmergencyAccess
+  commentId: F:SharpValhalla.Enums.Use.EmergencyAccess
+  id: EmergencyAccess
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: EmergencyAccess
+  nameWithType: Use.EmergencyAccess
+  fullName: SharpValhalla.Enums.Use.EmergencyAccess
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EmergencyAccess
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 36
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Emergency access use type.
+  example: []
+  syntax:
+    content: EmergencyAccess = 8
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.DriveThrough
+  commentId: F:SharpValhalla.Enums.Use.DriveThrough
+  id: DriveThrough
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: DriveThrough
+  nameWithType: Use.DriveThrough
+  fullName: SharpValhalla.Enums.Use.DriveThrough
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: DriveThrough
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 39
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Drive-through use type.
+  example: []
+  syntax:
+    content: DriveThrough = 9
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.Culdesac
+  commentId: F:SharpValhalla.Enums.Use.Culdesac
+  id: Culdesac
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: Culdesac
+  nameWithType: Use.Culdesac
+  fullName: SharpValhalla.Enums.Use.Culdesac
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Culdesac
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 42
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Culdesac use type.
+  example: []
+  syntax:
+    content: Culdesac = 10
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.Cycleway
+  commentId: F:SharpValhalla.Enums.Use.Cycleway
+  id: Cycleway
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: Cycleway
+  nameWithType: Use.Cycleway
+  fullName: SharpValhalla.Enums.Use.Cycleway
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Cycleway
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 45
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Cycleway use type.
+  example: []
+  syntax:
+    content: Cycleway = 11
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.MountainBike
+  commentId: F:SharpValhalla.Enums.Use.MountainBike
+  id: MountainBike
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: MountainBike
+  nameWithType: Use.MountainBike
+  fullName: SharpValhalla.Enums.Use.MountainBike
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MountainBike
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 48
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Mountain bike use type.
+  example: []
+  syntax:
+    content: MountainBike = 12
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.Sidewalk
+  commentId: F:SharpValhalla.Enums.Use.Sidewalk
+  id: Sidewalk
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: Sidewalk
+  nameWithType: Use.Sidewalk
+  fullName: SharpValhalla.Enums.Use.Sidewalk
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Sidewalk
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 51
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Sidewalk use type.
+  example: []
+  syntax:
+    content: Sidewalk = 13
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.Footway
+  commentId: F:SharpValhalla.Enums.Use.Footway
+  id: Footway
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: Footway
+  nameWithType: Use.Footway
+  fullName: SharpValhalla.Enums.Use.Footway
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Footway
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 54
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Footway use type.
+  example: []
+  syntax:
+    content: Footway = 14
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.Steps
+  commentId: F:SharpValhalla.Enums.Use.Steps
+  id: Steps
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: Steps
+  nameWithType: Use.Steps
+  fullName: SharpValhalla.Enums.Use.Steps
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Steps
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 57
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Steps use type.
+  example: []
+  syntax:
+    content: Steps = 15
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.Other
+  commentId: F:SharpValhalla.Enums.Use.Other
+  id: Other
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: Use.Other
+  fullName: SharpValhalla.Enums.Use.Other
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Other
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 60
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Other use type.
+  example: []
+  syntax:
+    content: Other = 16
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.RailFerry
+  commentId: F:SharpValhalla.Enums.Use.RailFerry
+  id: RailFerry
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: RailFerry
+  nameWithType: Use.RailFerry
+  fullName: SharpValhalla.Enums.Use.RailFerry
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: RailFerry
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 63
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Rail ferry use type.
+  example: []
+  syntax:
+    content: RailFerry = 17
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.Ferry
+  commentId: F:SharpValhalla.Enums.Use.Ferry
+  id: Ferry
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: Ferry
+  nameWithType: Use.Ferry
+  fullName: SharpValhalla.Enums.Use.Ferry
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Ferry
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 66
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Ferry use type.
+  example: []
+  syntax:
+    content: Ferry = 18
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.Rail
+  commentId: F:SharpValhalla.Enums.Use.Rail
+  id: Rail
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: Rail
+  nameWithType: Use.Rail
+  fullName: SharpValhalla.Enums.Use.Rail
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Rail
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 69
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Rail use type.
+  example: []
+  syntax:
+    content: Rail = 19
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.Bus
+  commentId: F:SharpValhalla.Enums.Use.Bus
+  id: Bus
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: Bus
+  nameWithType: Use.Bus
+  fullName: SharpValhalla.Enums.Use.Bus
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: Bus
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 72
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Bus use type.
+  example: []
+  syntax:
+    content: Bus = 20
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.EgressConnection
+  commentId: F:SharpValhalla.Enums.Use.EgressConnection
+  id: EgressConnection
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: EgressConnection
+  nameWithType: Use.EgressConnection
+  fullName: SharpValhalla.Enums.Use.EgressConnection
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EgressConnection
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 75
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Egress connection use type.
+  example: []
+  syntax:
+    content: EgressConnection = 21
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.PlatformConnection
+  commentId: F:SharpValhalla.Enums.Use.PlatformConnection
+  id: PlatformConnection
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: PlatformConnection
+  nameWithType: Use.PlatformConnection
+  fullName: SharpValhalla.Enums.Use.PlatformConnection
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: PlatformConnection
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 78
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Platform connection use type.
+  example: []
+  syntax:
+    content: PlatformConnection = 22
+    return:
+      type: SharpValhalla.Enums.Use
+- uid: SharpValhalla.Enums.Use.TransitConnection
+  commentId: F:SharpValhalla.Enums.Use.TransitConnection
+  id: TransitConnection
+  parent: SharpValhalla.Enums.Use
+  langs:
+  - csharp
+  - vb
+  name: TransitConnection
+  nameWithType: Use.TransitConnection
+  fullName: SharpValhalla.Enums.Use.TransitConnection
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/Use.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: TransitConnection
+    path: ../src/SharpValhalla/Enums/Use.cs
+    startLine: 81
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Transit connection use type.
+  example: []
+  syntax:
+    content: TransitConnection = 23
+    return:
+      type: SharpValhalla.Enums.Use
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.Use
+  commentId: T:SharpValhalla.Enums.Use
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.Use.html
+  name: Use
+  nameWithType: Use
+  fullName: SharpValhalla.Enums.Use

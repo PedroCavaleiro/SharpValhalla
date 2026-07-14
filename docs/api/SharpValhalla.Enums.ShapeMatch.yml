@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Enums.ShapeMatch
+  commentId: T:SharpValhalla.Enums.ShapeMatch
+  id: ShapeMatch
+  parent: SharpValhalla.Enums
+  children:
+  - SharpValhalla.Enums.ShapeMatch.EdgeWalk
+  - SharpValhalla.Enums.ShapeMatch.MapSnap
+  - SharpValhalla.Enums.ShapeMatch.WalkOrSnap
+  langs:
+  - csharp
+  - vb
+  name: ShapeMatch
+  nameWithType: ShapeMatch
+  fullName: SharpValhalla.Enums.ShapeMatch
+  type: Enum
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ShapeMatch.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: ShapeMatch
+    path: ../src/SharpValhalla/Enums/ShapeMatch.cs
+    startLine: 7
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: It allows some control of the matching algorithm based on the type of input.
+  example: []
+  syntax:
+    content: public enum ShapeMatch
+    content.vb: Public Enum ShapeMatch
+- uid: SharpValhalla.Enums.ShapeMatch.EdgeWalk
+  commentId: F:SharpValhalla.Enums.ShapeMatch.EdgeWalk
+  id: EdgeWalk
+  parent: SharpValhalla.Enums.ShapeMatch
+  langs:
+  - csharp
+  - vb
+  name: EdgeWalk
+  nameWithType: ShapeMatch.EdgeWalk
+  fullName: SharpValhalla.Enums.ShapeMatch.EdgeWalk
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ShapeMatch.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: EdgeWalk
+    path: ../src/SharpValhalla/Enums/ShapeMatch.cs
+    startLine: 11
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Indicates an edge walking algorithm can be used. This algorithm requires nearly exact shape matching, so it should only be used when the shape is from a prior Valhalla route.
+  example: []
+  syntax:
+    content: EdgeWalk = 0
+    return:
+      type: SharpValhalla.Enums.ShapeMatch
+- uid: SharpValhalla.Enums.ShapeMatch.MapSnap
+  commentId: F:SharpValhalla.Enums.ShapeMatch.MapSnap
+  id: MapSnap
+  parent: SharpValhalla.Enums.ShapeMatch
+  langs:
+  - csharp
+  - vb
+  name: MapSnap
+  nameWithType: ShapeMatch.MapSnap
+  fullName: SharpValhalla.Enums.ShapeMatch.MapSnap
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ShapeMatch.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: MapSnap
+    path: ../src/SharpValhalla/Enums/ShapeMatch.cs
+    startLine: 16
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Indicates that a map-matching algorithm should be used because the input shape might not closely match Valhalla edges. This algorithm is more expensive.
+  example: []
+  syntax:
+    content: MapSnap = 1
+    return:
+      type: SharpValhalla.Enums.ShapeMatch
+- uid: SharpValhalla.Enums.ShapeMatch.WalkOrSnap
+  commentId: F:SharpValhalla.Enums.ShapeMatch.WalkOrSnap
+  id: WalkOrSnap
+  parent: SharpValhalla.Enums.ShapeMatch
+  langs:
+  - csharp
+  - vb
+  name: WalkOrSnap
+  nameWithType: ShapeMatch.WalkOrSnap
+  fullName: SharpValhalla.Enums.ShapeMatch.WalkOrSnap
+  type: Field
+  source:
+    remote:
+      path: src/SharpValhalla/Enums/ShapeMatch.cs
+      branch: dev
+      repo: https://github.com/PedroCavaleiro/SharpValhalla.git
+    id: WalkOrSnap
+    path: ../src/SharpValhalla/Enums/ShapeMatch.cs
+    startLine: 21
+  assemblies:
+  - SharpValhalla
+  namespace: SharpValhalla.Enums
+  summary: Also the default option. This will try edge walking and if this does not succeed, it will fall back and use map matching.
+  example: []
+  syntax:
+    content: WalkOrSnap = 2
+    return:
+      type: SharpValhalla.Enums.ShapeMatch
+references:
+- uid: SharpValhalla.Enums
+  commentId: N:SharpValhalla.Enums
+  href: SharpValhalla.html
+  name: SharpValhalla.Enums
+  nameWithType: SharpValhalla.Enums
+  fullName: SharpValhalla.Enums
+  spec.csharp:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+  spec.vb:
+  - uid: SharpValhalla
+    name: SharpValhalla
+    href: SharpValhalla.html
+  - name: .
+  - uid: SharpValhalla.Enums
+    name: Enums
+    href: SharpValhalla.Enums.html
+- uid: SharpValhalla.Enums.ShapeMatch
+  commentId: T:SharpValhalla.Enums.ShapeMatch
+  parent: SharpValhalla.Enums
+  href: SharpValhalla.Enums.ShapeMatch.html
+  name: ShapeMatch
+  nameWithType: ShapeMatch
+  fullName: SharpValhalla.Enums.ShapeMatch

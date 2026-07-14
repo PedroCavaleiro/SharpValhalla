@@ -1,0 +1,1152 @@
+{
+  "source_base_path": "/Users/pedrocavaleiro/Repos/Personal/SharpValhalla/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.Action.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.Action",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.Action.yml\" sourcestartlinenumber=\"1\">Indicates whether an item should be included or excluded when applying\nfilters or similar operations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.BicycleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.BicycleType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.BicycleType",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.BicycleType.yml\" sourcestartlinenumber=\"1\">Represents different bicycle types for edges in Valhalla routing.</p>\n<p sourcefile=\"api/SharpValhalla.Enums.BicycleType.yml\" sourcestartlinenumber=\"3\">Each case corresponds to a specific type of bicycle or cycling preference.\nThe raw value matches the exact key string used in Valhalla.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.CostingModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.CostingModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.CostingModel",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.CostingModel.yml\" sourcestartlinenumber=\"1\">Run-time costing model for route path generation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.Cyclability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.Cyclability.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.Cyclability",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.DirectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.DirectionType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.DirectionType",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.DirectionType.yml\" sourcestartlinenumber=\"1\">Indicates the type of directions or instructions to be returned.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.Driveability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.Driveability.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.Driveability",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.Driveability.yml\" sourcestartlinenumber=\"1\">Represents the allowed driving directions for an edge in Valhalla routing.\nEach case corresponds to the permitted direction(s) of travel along an edge.</p>\n<p sourcefile=\"api/SharpValhalla.Enums.Driveability.yml\" sourcestartlinenumber=\"4\">The raw value matches the exact key string used in Valhalla.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.Filter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.Filter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.Filter",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.Filter.yml\" sourcestartlinenumber=\"1\">Represents all available filter keys that can be applied when working with\nValhalla routing and map-matching data.</p>\n<p sourcefile=\"api/SharpValhalla.Enums.Filter.yml\" sourcestartlinenumber=\"4\">Each case corresponds to a specific field in the Valhalla API, grouped by\ncategory (edge, node, admin, matched, etc.).\nThe raw value matches the exact key string expected by Valhalla.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.FlowSpeeds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.FlowSpeeds.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.FlowSpeeds",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.FlowSpeeds.yml\" sourcestartlinenumber=\"1\">Represents the different flow speed types for edges in Valhalla routing.</p>\n<p sourcefile=\"api/SharpValhalla.Enums.FlowSpeeds.yml\" sourcestartlinenumber=\"3\">Each case corresponds to a specific traffic flow condition.\nThe raw value matches the exact key string used in Valhalla.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.Format.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.Format.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.Format",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.Format.yml\" sourcestartlinenumber=\"1\">Directions response format.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.LaneDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.LaneDirection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.LaneDirection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.LaneDirectionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.LaneDirectionHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.LaneDirectionHelper",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.LaneDirectionHelper.yml\" sourcestartlinenumber=\"1\">Helper class for LaneDirection to provide all possible values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.Language.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.Language.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.Language",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.Language.yml\" sourcestartlinenumber=\"1\">The language of the narration instructions based on the IETF BCP 47 language tag string. If no language is specified or the specified language is unsupported, United States-based English (en-US) is used.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.ManeuverType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.ManeuverType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.ManeuverType",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.ManeuverType.yml\" sourcestartlinenumber=\"1\">Represents different types of navigation maneuvers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.MatchedType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.MatchedType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.MatchedType",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.MatchedType.yml\" sourcestartlinenumber=\"1\">Represents the possible states of a location when aligning a trace to the road network.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.NodeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.NodeType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.NodeType",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.NodeType.yml\" sourcestartlinenumber=\"1\">Represents different types of nodes in Valhalla routing.</p>\n<p sourcefile=\"api/SharpValhalla.Enums.NodeType.yml\" sourcestartlinenumber=\"3\">Each case corresponds to a specific type of node or intersection.\nThe raw value matches the exact key string used in Valhalla.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.PedestrianType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.PedestrianType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.PedestrianType",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.PedestrianType.yml\" sourcestartlinenumber=\"1\">Represents different pedestrian types for edges in Valhalla routing.</p>\n<p sourcefile=\"api/SharpValhalla.Enums.PedestrianType.yml\" sourcestartlinenumber=\"3\">Each case corresponds to a specific type of pedestrian or mobility mode.\nThe raw value matches the exact key string used in Valhalla.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.PreferredSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.PreferredSide.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.PreferredSide",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.PreferredSide.yml\" sourcestartlinenumber=\"1\">Indicates the preferred side relative to a reference (for example,\nwhich side of the road a route or asset prefers).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.PriorityType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.PriorityType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.PriorityType",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.PriorityType.yml\" sourcestartlinenumber=\"1\">Priority type for matrix calculations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.RoadClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.RoadClass.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.RoadClass",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.RoadClass.yml\" sourcestartlinenumber=\"1\">Classification of roads by importance or hierarchy used in routing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.SacScale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.SacScale.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.SacScale",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.SacScale.yml\" sourcestartlinenumber=\"1\">Represents the SAC (Swiss Alpine Club) scale for hiking difficulty.</p>\n<p sourcefile=\"api/SharpValhalla.Enums.SacScale.yml\" sourcestartlinenumber=\"3\">Each case corresponds to a specific level of hiking difficulty.\nThe raw value matches the numeric string used in Valhalla.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.ShapeFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.ShapeFormat.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.ShapeFormat",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.ShapeFormat.yml\" sourcestartlinenumber=\"1\">Specifies the optional format for the path shape of each connection.\nNote: Only if format is set to osrm.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.ShapeMatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.ShapeMatch.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.ShapeMatch",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.ShapeMatch.yml\" sourcestartlinenumber=\"1\">It allows some control of the matching algorithm based on the type of input.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.SideOfStreet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.SideOfStreet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.SideOfStreet",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.SideOfStreet.yml\" sourcestartlinenumber=\"1\">Alias for Sidewalk to represent the side of street, matching the Swift typealias.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.Sidewalk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.Sidewalk.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.Sidewalk",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.Sidewalk.yml\" sourcestartlinenumber=\"1\">Represents the presence and location of sidewalks for edges in Valhalla routing.</p>\n<p sourcefile=\"api/SharpValhalla.Enums.Sidewalk.yml\" sourcestartlinenumber=\"3\">Each case corresponds to the sidewalk position relative to the edge.\nThe raw value matches the exact key string used in Valhalla.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.Surface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.Surface.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.Surface",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.Surface.yml\" sourcestartlinenumber=\"1\">Represents the different surface types for edges in Valhalla routing.</p>\n<p sourcefile=\"api/SharpValhalla.Enums.Surface.yml\" sourcestartlinenumber=\"3\">Each case corresponds to a specific surface quality or condition.\nThe raw value matches the exact key string used in Valhalla.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.TraceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.TraceType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.TraceType",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.TraceType.yml\" sourcestartlinenumber=\"1\">Each type controls two characteristics: whether or not to allow a u-turn at the location and whether or not to generate guidance/legs at the location.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.TransitStopType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.TransitStopType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.TransitStopType",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.TransitStopType.yml\" sourcestartlinenumber=\"1\">Represents the kind of transit stop: a simple stop or a station.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.TransitType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.TransitType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.TransitType",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.TransitType.yml\" sourcestartlinenumber=\"1\">Represents different transit types for edges in Valhalla routing.</p>\n<p sourcefile=\"api/SharpValhalla.Enums.TransitType.yml\" sourcestartlinenumber=\"3\">Each case corresponds to a specific public transit or cable transport type.\nThe raw value matches the exact key string used in Valhalla.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.TravelMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.TravelMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.TravelMode",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.TravelMode.yml\" sourcestartlinenumber=\"1\">Represents the different travel modes for edges in Valhalla routing.</p>\n<p sourcefile=\"api/SharpValhalla.Enums.TravelMode.yml\" sourcestartlinenumber=\"3\">Each case corresponds to a specific mode of transportation.\nThe raw value matches the exact key string used in Valhalla.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.TravelType.Bicycle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.TravelType.Bicycle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.TravelType.Bicycle",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.TravelType.Bicycle.yml\" sourcestartlinenumber=\"1\">Bicycle travel type with a specific bicycle type.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.TravelType.Drive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.TravelType.Drive.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.TravelType.Drive",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.TravelType.Drive.yml\" sourcestartlinenumber=\"1\">Drive travel type with a specific vehicle type.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.TravelType.Pedestrian.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.TravelType.Pedestrian.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.TravelType.Pedestrian",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.TravelType.Pedestrian.yml\" sourcestartlinenumber=\"1\">Pedestrian travel type with a specific pedestrian type.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.TravelType.Transit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.TravelType.Transit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.TravelType.Transit",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.TravelType.Transit.yml\" sourcestartlinenumber=\"1\">Transit travel type with a specific transit type.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.TravelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.TravelType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.TravelType",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.TravelType.yml\" sourcestartlinenumber=\"1\">An enum that pairs a travel mode with a specific subtype value.\nUsed to represent the concrete travel variant for a TravelMode.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.Traversability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.Traversability.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.Traversability",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.Traversability.yml\" sourcestartlinenumber=\"1\">Aliases for Driveability to represent the allowed travel directions for different modes of movement.\nTraversability: Directional access for vehicles along an edge.\nCyclability: Directional access for bicycles along an edge.\nWalkability: Directional access for pedestrians along an edge.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.Unit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.Unit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.Unit",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.Unit.yml\" sourcestartlinenumber=\"1\">Distance units for output. Allowable unit types are miles (or mi) and kilometers (or km). If no unit type is specified, the units default to kilometers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.Use.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.Use.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.Use",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.Use.yml\" sourcestartlinenumber=\"1\">Represents the different use types for edges or paths in Valhalla routing.</p>\n<p sourcefile=\"api/SharpValhalla.Enums.Use.yml\" sourcestartlinenumber=\"3\">Each case corresponds to a specific way or connection type (e.g., road, ramp, ferry).\nThe raw value matches the exact key string used in Valhalla.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.VehicleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.VehicleType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.VehicleType",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Enums.VehicleType.yml\" sourcestartlinenumber=\"1\">Represents the different vehicle types for edges in Valhalla routing.</p>\n<p sourcefile=\"api/SharpValhalla.Enums.VehicleType.yml\" sourcestartlinenumber=\"3\">Each case corresponds to a specific type of motorized vehicle.\nThe raw value matches the exact key string used in Valhalla.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.Walkability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.Walkability.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums.Walkability",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Enums.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Enums",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Extensions.EnumExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Extensions.EnumExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Extensions.EnumExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Extensions.LaneDirectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Extensions.LaneDirectionExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Extensions.LaneDirectionExtensions",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Extensions.LaneDirectionExtensions.yml\" sourcestartlinenumber=\"1\">Utility extensions for LaneDirection providing convenience collections\nand readable descriptions for direction bitmasks used by lane models.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Extensions.LegResponseExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Extensions.LegResponseExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Extensions.LegResponseExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Interfaces.ILocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Interfaces.ILocation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Interfaces.ILocation",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Interfaces.ILocation.yml\" sourcestartlinenumber=\"1\">An interface for types that expose a geographic location.\nConforming types provide a Location property, typically representing the entity’s current or canonical position on Earth.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Interfaces.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Interfaces",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Common.CostingOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Common.CostingOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Common.CostingOptions",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Common.CostingOptions.yml\" sourcestartlinenumber=\"1\">Configuration options for route costing and avoidance preferences.\nUse CostingOptions to specify routing preferences such as avoiding tolls, highways, or ferries,\nand to control various routing parameters including vehicle specifications, road preferences, and cost factors.\nAll properties are optional, allowing you to specify only the preferences you need.\nDifferent costing models support different subsets of these options.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Common.Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Common.Location.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Common.Location",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Common.Location.yml\" sourcestartlinenumber=\"1\">This class represents the shape to be sent to the MapMatching service.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Common.LocationCoordinate2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Common.LocationCoordinate2D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Common.LocationCoordinate2D",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Common.LocationCoordinate2D.yml\" sourcestartlinenumber=\"1\">Represents a geographic coordinate with latitude and longitude.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Common.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Common",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Request.DirectionsOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Request.DirectionsOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Request.DirectionsOptions",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Request.DirectionsOptions.yml\" sourcestartlinenumber=\"1\">Directions options structure</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Request.MapMatchingRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Request.MapMatchingRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Request.MapMatchingRequest",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Request.MapMatchingRequest.yml\" sourcestartlinenumber=\"1\">The structure for the Map Matching request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Request.MatrixRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Request.MatrixRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Request.MatrixRequest",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Request.MatrixRequest.yml\" sourcestartlinenumber=\"1\">A request structure for calculating travel time and distance matrices between multiple locations.\nUse MatrixRequest to compute one-to-many, many-to-one, or many-to-many matrices that provide\ntravel times and distances between locations. Useful for route optimization, delivery planning, location analysis, and travel time calculations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Request.SearchFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Request.SearchFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Request.SearchFilter",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Request.SearchFilter.yml\" sourcestartlinenumber=\"1\">A set of optional filters to exclude candidate edges based on their attribution.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Request.TraceAttributesFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Request.TraceAttributesFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Request.TraceAttributesFilter",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Request.TraceAttributesFilter.yml\" sourcestartlinenumber=\"1\">The structure that represents the trace attributes filters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Request.TraceOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Request.TraceOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Request.TraceOptions",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Request.TraceOptions.yml\" sourcestartlinenumber=\"1\">Additional options to the trace.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Request.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Request.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Request",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Response.BaseResponses.AlternateResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Response.BaseResponses.AlternateResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Response.BaseResponses.AlternateResponse",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Response.BaseResponses.AlternateResponse.yml\" sourcestartlinenumber=\"1\">Represents an alternate route option in the map matching response.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.yml\" sourcestartlinenumber=\"1\">Represents the response for a map matching request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Response.BaseResponses.MatrixResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Response.BaseResponses.MatrixResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Response.BaseResponses.MatrixResponse",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Response.BaseResponses.MatrixResponse.yml\" sourcestartlinenumber=\"1\">Represents the response from the Valhalla Matrix API.\nThe matrix service computes time and distance between many origins and destinations,\nreturning the results in matrix format. The response includes source and target\nlocations along with the computed matrices.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Response.BaseResponses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Response.BaseResponses.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Response.BaseResponses",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Response.Lane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Response.Lane.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Response.Lane",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Response.Lane.yml\" sourcestartlinenumber=\"1\">Represents a road lane with its supported directions and metadata about\nwhether the lane is currently active or valid for a maneuver.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Response.LegResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Response.LegResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Response.LegResponse",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Response.LegResponse.yml\" sourcestartlinenumber=\"1\">Represents a single leg within a route, containing its maneuvers,\nan optional summary, and an optional encoded shape.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Response.ManeuverResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Response.ManeuverResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Response.ManeuverResponse",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Response.ManeuverResponse.yml\" sourcestartlinenumber=\"1\">A single maneuver within a leg describing an instruction, timing,\ngeometry indices, and other metadata used for routing and navigation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Response.ManeuverSignElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Response.ManeuverSignElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Response.ManeuverSignElement",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Response.ManeuverSignElement.yml\" sourcestartlinenumber=\"1\">An individual element of a maneuver sign (text and consecutive count).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Response.MatrixElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Response.MatrixElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Response.MatrixElement",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Response.MatrixElement.yml\" sourcestartlinenumber=\"1\">Represents a single element in the matrix result.\nEach matrix element contains the computed time and distance between a source and target location. If no route can be found, the element will be null in the response.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Response.RouteResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Response.RouteResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Response.RouteResponse",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Response.RouteResponse.yml\" sourcestartlinenumber=\"1\">Represents a route/trip response returned by a routing service, including status, language/units, and optional summary/legs/locations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Response.SignResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Response.SignResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Response.SignResponse",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Response.SignResponse.yml\" sourcestartlinenumber=\"1\">Sign information attached to a maneuver, grouping different types of sign elements (exit number, branch, toward, name).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Response.SummaryResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Response.SummaryResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Response.SummaryResponse",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Response.SummaryResponse.yml\" sourcestartlinenumber=\"1\">Summary information for a route or leg, including time, length,\nbounding box coordinates, and cost flags.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Response.TransitInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Response.TransitInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Response.TransitInfo",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Response.TransitInfo.yml\" sourcestartlinenumber=\"1\">Transit route information for a transit leg, including identifiers, names, colors, operator info, and stops.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Response.TransitStop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Response.TransitStop.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Response.TransitStop",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.Models.Response.TransitStop.yml\" sourcestartlinenumber=\"1\">Information about a transit stop including type, times, and location.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Models.Response.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Models.Response.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Models.Response",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.SharpValhalla.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.SharpValhalla.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.SharpValhalla",
+      "Summary": "<p sourcefile=\"api/SharpValhalla.SharpValhalla.yml\" sourcestartlinenumber=\"1\">Provides methods to interact with a Valhalla server for routing and matrix calculations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Utils.ShapeDecoding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Utils.ShapeDecoding.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Utils.ShapeDecoding",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.Utils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla.Utils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpValhalla.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpValhalla.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpValhalla",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

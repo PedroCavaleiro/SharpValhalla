@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharpValhalla.Models.Response.BaseResponses
+  commentId: N:SharpValhalla.Models.Response.BaseResponses
+  id: SharpValhalla.Models.Response.BaseResponses
+  children:
+  - SharpValhalla.Models.Response.BaseResponses.AlternateResponse
+  - SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse
+  - SharpValhalla.Models.Response.BaseResponses.MatrixResponse
+  langs:
+  - csharp
+  - vb
+  name: SharpValhalla.Models.Response.BaseResponses
+  nameWithType: SharpValhalla.Models.Response.BaseResponses
+  fullName: SharpValhalla.Models.Response.BaseResponses
+  type: Namespace
+  assemblies:
+  - SharpValhalla
+references:
+- uid: SharpValhalla.Models.Response.BaseResponses.AlternateResponse
+  commentId: T:SharpValhalla.Models.Response.BaseResponses.AlternateResponse
+  href: SharpValhalla.Models.Response.BaseResponses.AlternateResponse.html
+  name: AlternateResponse
+  nameWithType: AlternateResponse
+  fullName: SharpValhalla.Models.Response.BaseResponses.AlternateResponse
+- uid: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse
+  commentId: T:SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse
+  href: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse.html
+  name: MapMatchingResponse
+  nameWithType: MapMatchingResponse
+  fullName: SharpValhalla.Models.Response.BaseResponses.MapMatchingResponse
+- uid: SharpValhalla.Models.Response.BaseResponses.MatrixResponse
+  commentId: T:SharpValhalla.Models.Response.BaseResponses.MatrixResponse
+  href: SharpValhalla.Models.Response.BaseResponses.MatrixResponse.html
+  name: MatrixResponse
+  nameWithType: MatrixResponse
+  fullName: SharpValhalla.Models.Response.BaseResponses.MatrixResponse
